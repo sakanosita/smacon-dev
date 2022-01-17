@@ -31,7 +31,7 @@ const SEO = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | smacon.dev`}
+      titleTemplate={`%s`}
       defaultTitle={defaultTitle}
       meta={[
         {

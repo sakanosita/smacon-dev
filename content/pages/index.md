@@ -1,6 +1,6 @@
 ---
 template: "index-template"
-title: "Home"
+title: "Home | smacon.dev"
 ---
 
 # smacon.dev

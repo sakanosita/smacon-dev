@@ -9,7 +9,7 @@ const TagsTemplate = ({ pageContext, data }) => {
   const { tag } = pageContext;
   const { totalCount } = data.allMarkdownRemark;
   const posts = data.allMarkdownRemark.nodes;
-  const title = `${tag}`;
+  const title = `${tag} | smacon.dev`;
 
   return (
     <Layout title={title}>

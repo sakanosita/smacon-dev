@@ -10,7 +10,7 @@ const Motoko = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
 
   return (
-    <Layout title="Motoko">
+    <Layout title="How to Make Motoko canisters on DFINITY">
         <Intro>
             <h1>How to Make Motoko canisters on DFINITY</h1>
             <p>Build Web3 Dapps on the Internet Computer(ICP)</p>

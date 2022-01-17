@@ -61,11 +61,14 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
-            tags: { in: [
-                "Motoko",
-                "DFINITY",
-                "ICP"
-            ] } 
+            tags: {
+                in: [
+                    "Motoko",
+                    "DFINITY",
+                    "ICP"
+                ],
+                ne: "Rust"
+            } 
         }
         fields: { contentType: { eq: "posts" } }
       }

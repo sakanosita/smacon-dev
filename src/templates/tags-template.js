@@ -15,7 +15,7 @@ const TagsTemplate = ({ pageContext, data }) => {
     <Layout title={title}>
       <TagsTemplateWrapper>
         <Title>
-          {tag} Development - {totalCount} pages
+          {tag} development - {totalCount} pages
         </Title>
         <Link
           css={`

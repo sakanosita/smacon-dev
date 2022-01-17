@@ -11,15 +11,11 @@ const Solidity = ({ data }) => {
 
   return (
     <Layout title="Solidity">
-      <SolidityWrapper>
-        <Title>
-          Solidity
-        </Title>
-
-        <p>How to develop smart contracts, build Web3 Dapps on Blockchains</p>
-
+        <Intro>
+            <h1>Solidity Smart Contract Development</h1>
+            <p>How to develop smart contracts, build Web3 Dapps on Blockchains</p>
+        </Intro>
         <PostList posts={posts} />
-
         <StyledLink
           css={`
             margin-top: var(--size-400);
@@ -29,19 +25,33 @@ const Solidity = ({ data }) => {
         >
           View All tags
         </StyledLink>
-      </SolidityWrapper>
     </Layout>
   );
 };
 
 export default Solidity;
 
-const SolidityWrapper = styled.div`
-  padding-top: var(--size-900);
-`;
+const Intro = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: 60ch;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: var(--size-800);
+  margin-bottom: var(--size-900);
+  text-align: center;
 
-const Title = styled.h1`
-  font-size: var(--size-700);
+  & p {
+    text-transform: capitalize;
+    font-size: var(--size-400);
+  }
+
+  @media screen and (max-width: 700px) {
+    & h1 {
+      font-size: var(--size-700);
+    }
+  }
 `;
 
 export const pageQuery = graphql`
@@ -52,7 +62,10 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
             tags: { in: [
-                "Solidity"
+                "Solidity",
+                "Chainlink",
+                "Ethereum",
+                "Hardhat"
             ] } 
         }
         fields: { contentType: { eq: "posts" } }

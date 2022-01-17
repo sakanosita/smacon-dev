@@ -12,7 +12,7 @@ const Motoko = ({ data }) => {
   return (
     <Layout title="Motoko">
         <Intro>
-            <h1>How to Develop Motoko canisters on DFINITY</h1>
+            <h1>How to Make Motoko canisters on DFINITY</h1>
             <p>Build Web3 Dapps on the Internet Computer(ICP)</p>
         </Intro>
         <PostList posts={posts} />

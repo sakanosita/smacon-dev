@@ -12,7 +12,7 @@ const Solidity = ({ data }) => {
   return (
     <Layout title="Solidity">
         <Intro>
-            <h1>How to Write Solidity smart contracts</h1>
+            <h1>How to Write Solidity</h1>
             <p>Build Web3 Dapps on blockchains: Ethereum, Avalanche, Polygon, Binance Smart Chain, Fantom, Aurora, Moonbeam</p>
         </Intro>
         <PostList posts={posts} />

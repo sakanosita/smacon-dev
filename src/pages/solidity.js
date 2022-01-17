@@ -12,8 +12,8 @@ const Solidity = ({ data }) => {
   return (
     <Layout title="Solidity">
         <Intro>
-            <h1>Solidity Sma Con Dev</h1>
-            <p>How to develop smart contracts, build Web3 Dapps on Blockchains</p>
+            <h1>How to Write Solidity smart contracts</h1>
+            <p>Build Web3 Dapps on blockchains: Ethereum, Avalanche, Polygon, Binance Smart Chain, Fantom, Aurora, Moonbeam</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink

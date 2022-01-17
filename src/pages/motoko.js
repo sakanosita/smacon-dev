@@ -12,8 +12,8 @@ const Motoko = ({ data }) => {
   return (
     <Layout title="Motoko">
         <Intro>
-            <h1>Motoko Sma Con Dev</h1>
-            <p>How to develop smart contracts, build Web3 Dapps on Blockchains</p>
+            <h1>How to Develop Motoko canisters on DFINITY</h1>
+            <p>Build Web3 Dapps on Internet Computer Protocol</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink

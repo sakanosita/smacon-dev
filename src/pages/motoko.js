@@ -12,7 +12,7 @@ const Motoko = ({ data }) => {
   return (
     <Layout title="Motoko">
         <Intro>
-            <h1>Motoko Smart Contract Development</h1>
+            <h1>Motoko Sma Con Dev</h1>
             <p>How to develop smart contracts, build Web3 Dapps on Blockchains</p>
         </Intro>
         <PostList posts={posts} />

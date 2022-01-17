@@ -12,7 +12,7 @@ const Solidity = ({ data }) => {
   return (
     <Layout title="Solidity">
         <Intro>
-            <h1>Solidity Smart Contract Development</h1>
+            <h1>Solidity Sma Con Dev</h1>
             <p>How to develop smart contracts, build Web3 Dapps on Blockchains</p>
         </Intro>
         <PostList posts={posts} />

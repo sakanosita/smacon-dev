@@ -1,8 +1,8 @@
 ---
 template: "language-template"
-title: "Solidity"
+title: "Solidity Development"
 ---
 
-# Solidity Smart Contract Development
+# Solidity Development
 
 How to develop smart contracts, build Web3 Dapps on Blockchains

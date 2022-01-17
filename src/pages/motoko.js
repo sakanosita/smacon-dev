@@ -62,7 +62,9 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
             tags: { in: [
-                "Motoko"
+                "Motoko",
+                "DFINITY",
+                "ICP"
             ] } 
         }
         fields: { contentType: { eq: "posts" } }

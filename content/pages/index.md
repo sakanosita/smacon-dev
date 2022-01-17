@@ -1,6 +1,6 @@
 ---
-template: 'index-template'
-title: 'smacon.dev'
+template: "index-template"
+title: "Home"
 ---
 
 # smacon.dev

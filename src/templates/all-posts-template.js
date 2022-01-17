@@ -6,7 +6,6 @@ import styled from 'styled-components';
 import StyledLink from '../components/styled-link';
 
 const HomePage = ({ data }) => {
-  const pinned = data.pinnedMarkdown.nodes;
   const posts = data.allMarkdownRemark.nodes;
   const intro = data.markdownRemark.html;
   const title = data.markdownRemark.frontmatter.title;
@@ -19,20 +18,6 @@ const HomePage = ({ data }) => {
         }}
       />
       <PostList posts={posts} />
-      <PostList posts={pinned} />
-      <StyledLink
-        css={`
-          display: block;
-          margin-top: var(--size-800);
-          margin-bottom: var(--size-800);
-          margin-left: auto;
-          margin-right: auto;
-          width: fit-content;
-        `}
-        to="/all"
-      >
-        View All posts
-      </StyledLink>
     </Layout>
   );
 };
@@ -69,35 +54,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    pinnedMarkdown: allMarkdownRemark(
-      filter: {
-        frontmatter: { pinned: { ne: null }},
-        fields: { contentType: { eq: "posts" } } 
-      }
-      sort: { order: DESC, fields: frontmatter___pinned }
-      limit: 3
-    ) {
-      nodes {
-        fields {
-          slug
-        }
-        excerpt
-        timeToRead
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          description
-          title
-          tags
-        }
-      }
-    }
     allMarkdownRemark(
       filter: {
         frontmatter: { pinned: { eq: null }},
         fields: { contentType: { eq: "posts" } }
       }
       sort: { order: DESC, fields: frontmatter___date }
-      limit: 6
+      limit: 1000
     ) {
       nodes {
         fields {

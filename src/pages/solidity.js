@@ -10,9 +10,9 @@ const Solidity = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
 
   return (
-    <Layout title="How to Write Solidity">
+    <Layout title="How to Write Solidity and make Smart Contracts">
         <Intro>
-            <h1>How to Write Solidity</h1>
+            <h1>How to Write Solidity and Make Smart Contracts</h1>
             <p>Build Web3 Dapps on blockchains: Ethereum, Avalanche, Polygon, Binance Smart Chain, Fantom, Aurora, Moonbeam</p>
         </Intro>
         <PostList posts={posts} />

@@ -212,7 +212,7 @@ npx hardhat test
 
 上のように`1 passing`と表示されれば、テストが期待通りであることがわかります。
 
-## マークル木（Merkle Tree）の解説
+## Merkle Proof の解説
 
 このプログラムでは Keccak256 とマークル木いう 2 つのアルゴリズムを使います。
 

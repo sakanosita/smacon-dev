@@ -257,7 +257,13 @@ verify()関数には、4 つの引数を渡します。
 - index:
   - 2
 
-index は leaf が左から何番目かを表します。一番左の node1 は index:0 なので、node3 は index:2 です。
+index は leaf が左から何番目かを表します。一番左の node1 は 0 なので、node3 は 2 です。
+
+|       | index |
+| ----- | :---: |
+| node1 |   0   |
+| node2 |   1   |
+| node3 |   2   |
 
 ### ハッシュ関数の計算のもとになる値
 

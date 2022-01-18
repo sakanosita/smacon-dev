@@ -233,7 +233,7 @@ Keccak256 のほかによく使われるハッシュ関数は SHA-1 や MD5 な�
 
 ### verify()関数
 
-verify 関数の目的は、leaf と proof を使って計算した root が引数と一致することです。
+このページで作る MerkleProof コントラクトの verify() 関数の目的は、keccak256 によって leaf と proof から計算した root のハッシュ値が引数と一致することです。
 一致すれば true 一致しなければ false を返します。
 
 verify()関数には、4 つの引数を渡します。

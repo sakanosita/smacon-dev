@@ -272,7 +272,7 @@ index は leaf が左から何番目かを表します。一番左の node1 は 
 
 ### Keccak256 Online
 
-Keccak256 のハッシュはブラウザでも計算できます。
+Keccak256 のハッシュはブラウザで計算することができるので実際にコピペしてみると、Solidity で計算した Keccak256 と一致することがわかります。
 
 https://emn178.github.io/online-tools/keccak_256.html
 

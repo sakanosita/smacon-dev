@@ -298,7 +298,7 @@ https://emn178.github.io/online-tools/keccak_256.html
 - OUT
   - `074b43252ffb4a469154df5fb7fe4ecce30953ba8b7095fe1e006185f017ad10`
 
-node5 と node6 から計算した"0x74b4..."が root のハッシュ値です。
+node5 と node6 から計算した"074b..."が root のハッシュ値です。
 
 Solidity の keccak256() と[Keccak256 Online](https://emn178.github.io/online-tools/keccak_256.html)
 で計算したハッシュ値が一致していることを確認できました。

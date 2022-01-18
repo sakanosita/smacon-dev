@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: Merkle Proof（マークル木とKeccak256）"
+title: "Solidity入門: Merkle Proof（マークルツリーとKeccak256）"
 date: 2022-01-18 08:00
 permalink: /merkle-tree
 tags:

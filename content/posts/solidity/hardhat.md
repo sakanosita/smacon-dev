@@ -5,6 +5,7 @@ permalink: /hardhat
 tags:
   - Solidity
   - Hardhat
+  - Ropsten
   - beginner
   - jp
 description: |-

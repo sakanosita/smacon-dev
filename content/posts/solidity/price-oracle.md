@@ -5,6 +5,7 @@ permalink: /price-oracle
 tags:
   - Solidity
   - oracle
+  - Rinkeby
   - Chainlink
   - jp
 description: |-

@@ -5,6 +5,7 @@ permalink: /events
 tags:
   - Solidity
   - Ethereum
+  - Rinkeby
   - jp
 description: |-
   Ethereum/Rinkebyでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法

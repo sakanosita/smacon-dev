@@ -64,6 +64,9 @@ graph init
 - Ethereum network: `rinkeby`
 - Contract address: `0xc5BeE3DDcD7F58380Aa0CA3D01dA63a34a9C3c09`
 
+このコントラクトアドレスは筆者が Rinkeby にデプロイしたコントラクトです。
+https://rinkeby.etherscan.io/address/0xc5BeE3DDcD7F58380Aa0CA3D01dA63a34a9C3c09
+
 ```
  % graph init
 ✔ Protocol · ethereum

@@ -217,7 +217,7 @@ Build completed: /Users/sakanosita/ghq/github.com/smacon-dev/subgraphs/event001/
 
 ### Subgraph Studio で Subgraph 作成
 
-TheGraph のサイトに Subraph を作って、Deploy Key を用意します。
+Subgraph Studio で Subgraph を作って、Deploy Key を用意します。
 https://thegraph.com/studio/subgraph/
 
 [Create a Subgraph]をクリックします。

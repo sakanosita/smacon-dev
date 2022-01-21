@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: ブロックチェーンに独自に定義したイベントを記録する"
+title: "Solidity入門: 独自に定義したイベントをブロックチェーンに記録する"
 date: 2022-01-21 19:00
 permalink: /events
 tags:
@@ -7,7 +7,7 @@ tags:
   - Ethereum
   - jp
 description: |-
-  Ethereumでブロックチェーンにイベントを記録して、イベントを絞込んだりする方法
+  Ethereum/Rinkebyでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法
 ---
 
 このページはこんな人におすすめ

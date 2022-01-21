@@ -229,7 +229,7 @@ https://thegraph.com/studio/subgraph/
 
 ![Subgraph Studio](/media/subgraph/3.png)
 
-- Deploy Key を取得できました。
+これでデプロイの準備ができました。
 
 ![Subgraph Studio](/media/subgraph/4.png)
 

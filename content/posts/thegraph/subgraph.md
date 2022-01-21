@@ -245,16 +245,15 @@ graph auth --studio <Deploy Key>
 
 ### デプロイ
 
+以下のコマンドを実行するとデプロイします。
+
 ```
-
 graph deploy --studio event001
-
 ```
 
 Version Label を効かれるので`v0.0.1`を入力します。
 
 ```
-
 event001 % graph deploy --studio event001
 ✔ Version Label (e.g. v0.0.1) · v0.0.1
 Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
@@ -297,6 +296,7 @@ Subscriptions (WS): https://api.studio.thegraph.com/query/610/event001/v0.0.1
 ![Subgraph Studio](/media/subgraph/5.png)
 
 Synced になったら、Playground でクエリを実行してみましょう。
+
 GraphQL を知らなくてもデフォルトで入力されているクエリをそのまま実行すれば結果が返ってきます。
 
 ![Subgraph Studio](/media/subgraph/6.png)

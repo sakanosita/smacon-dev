@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: 独自に定義したイベントをブロックチェーンに記録する"
+title: "Solidity入門: 独自に定義したイベントをブロックチェーンに記録"
 date: 2022-01-21 19:00
 permalink: /events
 tags:

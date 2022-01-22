@@ -4,7 +4,7 @@ date: 2021-06-06 19:38
 permalink: /web3js
 tags:
   - Solidity
-  - beginner
+  - frontend
   - JavaScript
   - jp
 social_image: /media/labs.png

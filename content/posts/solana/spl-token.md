@@ -8,7 +8,7 @@ tags:
   - jp
 description: |-
   Solana Program Library(SPL)のチュートリアル
-  コマンドラインでアカウントを作り独自トークンを発行
+  コマンドラインでアカウントを作り独自トークンやNFTをmint
 ---
 
 ## SPL Token Tutorial
@@ -152,14 +152,59 @@ Token                                         Balance
 
 ```
 
-## Devnet Explorer
+### Devnet Explorer
 
 Explorer でトークンのアドレスを入力して、バランスを見てみましょう。
 2 つのアカウントが 80 対 20 になっているはずです。
 
 https://explorer.solana.com/
 
-### 注意事項
+## NFT (Non Fungible Token)の発行
 
-作業はすべて Devnet を使います。クレデンシャル情報を誤って公開された場所に保存したりするリスクに備えて、
-開発で使うアカウントは本番で使うアカウントとわけましょう。
+Solana では spl-token コマンドで NFT を作ることができます。
+
+NFT といってもアートや画像を表示するものではなく、代替不可能なトークンという本来の意味のトークンです。
+
+まず、小数点以下の桁数を 0 のトークンを作ります。
+
+```
+% spl-token create-token --decimals 0
+Creating token FoGRhV7Lh3anC64NSjgV4XSQd5CfXhAihEWG6Diz3EbP
+
+Signature: 3Byg1HmyM7xj47iEcmfB2PnrDDB15oimg7azG8igaZbGnQNeSTC3tC8t74bE5TqjKLQFk7snXSyzHnqNznjwwp3j
+```
+
+つぎにトークンアカウントを作ります。
+
+```
+% spl-token create-account FoGRhV7Lh3anC64NSjgV4XSQd5CfXhAihEWG6Diz3EbP
+Creating account HBL76s564iGVk2TMPrSEQJWpyjdZxER7QpmSbdM2GUBk
+
+Signature: 3x6eTSb1Fi4vL5TfYMexWN6Vzzeo1h5J9cghZLAFKLAUNKFTNTXz2vMTDcLSbJt2SMsknchppXiPfnYb9waNLnnN
+```
+
+トークンを 1 単位だけ mint します。
+
+```
+ % spl-token mint FoGRhV7Lh3anC64NSjgV4XSQd5CfXhAihEWG6Diz3EbP 1
+Minting 1 tokens
+  Token: FoGRhV7Lh3anC64NSjgV4XSQd5CfXhAihEWG6Diz3EbP
+  Recipient: HBL76s564iGVk2TMPrSEQJWpyjdZxER7QpmSbdM2GUBk
+
+Signature: 23LTonVsL8ntNyXasENeit2V3eZ61Gnta6gvAJSaeSKQ5LrSdTM9v4iqcEY8T4PyWttbs88CiNazyf3he8UQ5LrC
+```
+
+通常のトークンは、1 だけ発行しても、0.1 や 0.2 を送ることができますが、このトークンは decimals が 0 なので送信できるのは 1 単位です。
+
+つぎに、このトークンアドレスでこれ以上トークンを mint できないようにします。
+
+```
+% spl-token authorize FoGRhV7Lh3anC64NSjgV4XSQd5CfXhAihEWG6Diz3EbP mint --disable
+Updating FoGRhV7Lh3anC64NSjgV4XSQd5CfXhAihEWG6Diz3EbP
+  Current mint authority: 6MJgewZBJyzJseZnwWZX11RUwydLVYoVJevJDCHenKaY
+  New mint authority: disabled
+
+Signature: FZv8x2MNEjvcphb2jb3B4zYGeP8PGpmAvWey9NXE7j5HkqkiB9AXjgFZi5TCbZoirdQCYNnmbyqdd5mFouGcypN
+```
+
+このトークンは 1 つしかなく、新たに mint して増やすこともできないので、Non-fungible です。

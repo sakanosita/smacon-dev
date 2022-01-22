@@ -13,6 +13,8 @@ description: |-
 
 このページで作成したサブグラフの[ソースコード](https://github.com/smacon-dev/subgraphs/tree/main/event001)は GitHub からダウンロードできます。
 
+サブグラフをデプロイして Subgraph Studio でクエリを実行することは無料で誰でもできます。
+
 なるべく簡単な方法を紹介しています。
 GraphQL は知らなくてもこのページで作ったサブグラフを試すことはできます。（サンプルクエリつき）
 

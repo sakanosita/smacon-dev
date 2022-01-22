@@ -62,7 +62,8 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
             tags: { in: [
-                "Rust"
+                "Rust",
+                "Solana"
             ] } 
         }
         fields: { contentType: { eq: "posts" } }

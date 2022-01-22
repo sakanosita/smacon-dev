@@ -5,15 +5,15 @@ import PostList from '../components/post-list';
 import StyledLink from '../components/styled-link';
 import styled from 'styled-components';
 
-const Solidity = ({ data }) => {
+const Rust = ({ data }) => {
   const { totalCount } = data.allMarkdownRemark;
   const posts = data.allMarkdownRemark.nodes;
 
   return (
-    <Layout title="Solidity and Writing Smart Contracts">
+    <Layout title="Rust and Building Decentralized Apps">
         <Intro>
-            <h1>Solidity and Writing Smart Contracts</h1>
-            <p>Build Dapps on Ethereum, Avalanche, Polygon, Binance Smart Chain, Fantom, Aurora, Moonbeam and Astar</p>
+            <h1>Rust and Building Decentralized Apps</h1>
+            <p>Build Web3 Dapps on blockchains: Solana, NEAR, DFINITY</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink
@@ -29,7 +29,7 @@ const Solidity = ({ data }) => {
   );
 };
 
-export default Solidity;
+export default Rust;
 
 const Intro = styled.div`
   display: flex;
@@ -62,10 +62,7 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
             tags: { in: [
-                "Solidity",
-                "Chainlink",
-                "Ethereum",
-                "Hardhat"
+                "Rust"
             ] } 
         }
         fields: { contentType: { eq: "posts" } }

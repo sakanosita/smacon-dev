@@ -35,7 +35,7 @@ const Header = () => {
           </HeaderNavListItem>
 
           <HeaderNavListItem>
-            <Link to="/tags/rust">Rust</Link>
+            <Link to="/rust">Rust</Link>
           </HeaderNavListItem>
 
           {/* <HeaderNavListItem>

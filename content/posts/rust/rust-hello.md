@@ -2,6 +2,7 @@
 title: "Rust入門: DFINITYでHello, World!【初心者向け】"
 date: 2022-01-04 19:38
 permalink: /rust-hello
+pinned: 1
 tags:
   - DFINITY
   - Rust

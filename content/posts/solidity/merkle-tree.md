@@ -2,6 +2,7 @@
 title: "Solidity入門: Merkle Proof（マークルツリーとKeccak256）"
 date: 2022-01-18 08:00
 permalink: /merkle-tree
+pinned: 3
 tags:
   - Solidity
   - Merkle Tree

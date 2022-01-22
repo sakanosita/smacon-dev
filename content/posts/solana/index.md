@@ -15,6 +15,12 @@ https://docs.solana.com/developing/on-chain-programs/examples
 - [Hello World](https://github.com/solana-labs/example-helloworld)
 - [Break](https://github.com/solana-labs/break.git)
 
+## Learning
+
+#### [Figment](https://learn.figment.io/protocols/solana)
+
+#### [buildspace](https://buildspace.so/learn-solana)
+
 ## Solana Program Library (SPL)
 
 #### SPL Token

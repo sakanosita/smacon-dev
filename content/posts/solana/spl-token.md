@@ -1,5 +1,5 @@
 ---
-title: "Solana Tutorial: SPL Token"
+title: "Solana Program Library: SPL Token"
 date: 2021-01-21 22:00
 permalink: /spl-token
 tags:

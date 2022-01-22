@@ -1,11 +1,11 @@
 ---
-title: "Solana Documentation"
+title: "Solana Memo"
 date: 2021-01-01 09:00
 permalink: /solana
 tags:
   - Solana
 description: |-
-  Solanaの参考リンク
+  Solana Documentations, Blob, News, etc...
 ---
 
 ## Solana Documentation

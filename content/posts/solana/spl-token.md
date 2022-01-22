@@ -1,6 +1,6 @@
 ---
 title: "Solana Program Library: SPL Token"
-date: 2021-01-21 22:00
+date: 2022-01-21 22:00
 permalink: /spl-token
 tags:
   - Solana
@@ -8,6 +8,7 @@ tags:
   - jp
 description: |-
   Solana Program Library(SPL)のチュートリアル
+  コマンドラインでアカウントを作り独自トークンを発行
 ---
 
 ## SPL Token Tutorial

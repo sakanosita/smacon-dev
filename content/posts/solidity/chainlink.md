@@ -4,7 +4,6 @@ date: 2022-01-15 19:00
 permalink: /chainlink
 tags:
   - Ethereum
-  - oracle
   - Chainlink
   - jp
 description: |-

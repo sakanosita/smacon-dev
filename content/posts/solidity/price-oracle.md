@@ -4,7 +4,6 @@ date: 2022-01-13 21:00
 permalink: /price-oracle
 tags:
   - Solidity
-  - oracle
   - Rinkeby
   - Chainlink
   - jp

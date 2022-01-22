@@ -1,6 +1,6 @@
 ---
 title: "Solana Program Library: SPL Token"
-date: 2022-01-21 22:00
+date: 2022-01-22 21:00
 permalink: /spl-token
 tags:
   - Solana

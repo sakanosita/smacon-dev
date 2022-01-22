@@ -13,14 +13,19 @@ description: |-
 
 ## CLI のインストール
 
-https://docs.solana.com/cli/install-solana-cli-tools
+以下のようなコマンドをインストールします。
 
 - solana
 - solana-keygen
+- spl-token
+
+#### Solana Tool Suite
+
+https://docs.solana.com/cli/install-solana-cli-tools
+
+#### SPL Token CLI
 
 https://spl.solana.com/token
-
-- spl-token
 
 ## テスト用のキーペアを用意する
 

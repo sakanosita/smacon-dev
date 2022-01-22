@@ -2,6 +2,7 @@
 title: "イーサリアム入門: オラクルのしくみ（Chainlink Data Feeds）"
 date: 2022-01-15 19:00
 permalink: /chainlink
+pinned: 1
 tags:
   - Ethereum
   - Chainlink

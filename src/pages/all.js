@@ -8,7 +8,7 @@ const All = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
 
   return (
-    <Layout title="smacon.dev">
+    <Layout title="All Posts | smacon.dev">
       <HeaderWrapper>
         <h1>All Posts</h1>
 

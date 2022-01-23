@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITY/ICPプログラミング「Import library modules」の日本語解説
+  Motokoチュートリアル「Import library modules」の日本語解説
   実際に使ったコードをGitHubで公開
 ---
 

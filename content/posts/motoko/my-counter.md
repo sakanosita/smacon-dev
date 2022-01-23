@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITY/ICPプログラミング「Increment a natural number」の日本語解説
+  チュートリアル「Increment a natural number」の日本語解説
   実際に使ったコードをGitHubで公開
 ---
 

@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITY/ICPプログラミング: キャニスター間てcallを実行する
+  DFINITYプログラミング: キャニスター間てcallを実行する
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

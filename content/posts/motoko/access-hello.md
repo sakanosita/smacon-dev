@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  【DFINITY/ICPプログラミング】Motokoでユーザーによって処理を変える方法を解説
+  DFINITYチュートリアル: Motokoでユーザーによって処理を変える方法を解説
 ---
 
 このページでは DFINITY/ICP の Motoko のチュートリアルを日本語で解説しています。

@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITY/ICPプログラミング「Use multiple actors」の日本語解説
+  チュートリアル「Use multiple actors」の日本語解説
   実際に使ったコードをGitHubで公開
 ---
 

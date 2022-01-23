@@ -9,7 +9,7 @@ tags:
   - ICP
   - jp
 description: |-
-  DFINITY/ICPプログラミングでキャニスターを動かす際に必要になるCycle Cost
+  DFINITYでキャニスターを動かす際に必要になるCycle Cost
   ICPをCYCLEに変える、ウォレットにCYCLEをチャージ
 ---
 

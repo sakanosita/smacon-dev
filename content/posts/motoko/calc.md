@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITY/ICPプログラミング「Use integers in calculator functions」の日本語解説
+  チュートリアル「Use integers in calculator functions」の日本語解説
   実際に使ったコードをGitHubで公開
 ---
 

@@ -7,7 +7,7 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITY/ICPプログラミング「Pass text arguments」の日本語解説
+  チュートリアル「Pass text arguments」の日本語解説
   実際に使ったコードをGitHubで公開
 ---
 

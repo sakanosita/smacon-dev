@@ -1,5 +1,5 @@
 ---
-title: "DFINITY/Motoko入門: Increment a natural number"
+title: "Motoko入門: Increment a natural number — DFINITY(ICP)"
 date: 2021-12-29 21:38
 permalink: /motoko-my-counter
 tags:

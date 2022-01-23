@@ -1,5 +1,5 @@
 ---
-title: "DFINITY/Motoko入門: Add access control with identities"
+title: "Motoko入門: Add access control with identities — DFINITY(ICP)"
 date: 2022-01-02 20:38
 permalink: /access-hello
 tags:

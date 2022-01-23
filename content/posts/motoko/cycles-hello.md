@@ -1,5 +1,5 @@
 ---
-title: "DFINITY/Motoko入門: Accept cycles from a wallet"
+title: "Motoko入門: Accept cycles from a wallet — DFINITY(ICP)"
 date: 2022-01-03 20:38
 permalink: /cycles-hello
 tags:

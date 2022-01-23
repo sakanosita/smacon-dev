@@ -1,5 +1,5 @@
 ---
-title: "DFINITY/Motoko入門: Pass text arguments"
+title: "Motoko入門: Pass text arguments — DFINITY(ICP)"
 date: 2021-12-29 21:00
 permalink: /motoko-location-hello
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "DFINITY/Motoko入門: Query using an actor"
+title: "Motoko入門: Query using an actor — DFINITY(ICP)"
 date: 2021-12-29 20:38
 permalink: /motoko-actor-hello
 tags:

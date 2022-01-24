@@ -157,7 +157,6 @@ const FormGroup = styled.div`
 
   & label {
     margin-top: 1rem;
-    text-transform: capitalize;
     font-size: var(--size-400);
   }
 

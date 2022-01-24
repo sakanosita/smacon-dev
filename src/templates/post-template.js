@@ -164,7 +164,6 @@ const PostPagination = styled.nav`
     color: inherit;
     text-decoration: none;
     font-size: var(--size-400);
-    text-transform: capitalize;
   }
 
   & a::after {

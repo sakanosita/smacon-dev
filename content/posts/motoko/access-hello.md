@@ -10,7 +10,7 @@ description: |-
   DFINITYチュートリアル: Motokoでユーザーによって処理を変える方法を解説
 ---
 
-このページでは DFINITY/ICP の Motoko のチュートリアルを日本語で解説しています。
+このページでは DFINITY(Internet Computer)の Motoko のチュートリアルを日本語で解説しています。
 
 [Add access control with identities](https://smartcontracts.org/docs/developers-guide/tutorials/access-control.html)
 

@@ -11,7 +11,7 @@ description: |-
   実際に使ったコードをGitHubで公開
 ---
 
-このページは、DFINITY/ICP の Motoko チュートリアルを日本語で解説しています。
+このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。
 
 [Query using an actor](https://smartcontracts.org/docs/developers-guide/tutorials/define-an-actor.html)
 

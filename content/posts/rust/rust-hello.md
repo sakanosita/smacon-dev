@@ -9,15 +9,15 @@ tags:
   - beginner
   - jp
 description: |-
-  DFINITY/ICP(Internet Computer Protocol)でRustを使ってDapps開発をはじめよう！
+  DFINITY(ICP)でRustを使ってDapps開発をはじめよう！
 ---
 
 このページはこんな人におすすめ
 
 - Rust を勉強したい
-- DFINITY/ICP の開発に興味がある
+- DFINITY(ICP) の開発に興味がある
 
-このページは、以下の DFINITY/ICP の Rust のチュートリアルを日本語で解説しています。
+このページは、以下の DFINITY(Internet Computer) の Rust のチュートリアルを日本語で解説しています。
 
 [Hello, World! Rust CDK Quick Start](https://smartcontracts.org/docs/rust-guide/rust-quickstart.html)
 
@@ -35,7 +35,7 @@ description: |-
 
 ### dfx のインストール
 
-dfx コマンドは DFINITY/ICP のキャニスターをビルドしたりデプロイしたりするためのツールです。
+dfx コマンドは DFINITY のキャニスターをビルドしたりデプロイしたりするためのツールです。
 
 [dfx のインストールガイド](https://smartcontracts.org/docs/developers-guide/install-upgrade-remove.html)
 

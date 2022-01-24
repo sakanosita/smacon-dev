@@ -11,7 +11,7 @@ description: |-
   実際に使ったコードをGitHubで公開
 ---
 
-このページは、DFINITY/ICP の Motoko のチュートリアルを日本語で解説しています。
+このページは、DFINITY(Internet Computer) の Motoko のチュートリアルを日本語で解説しています。
 
 [Increment a natural number](https://smartcontracts.org/docs/developers-guide/tutorials/counter-tutorial.html)
 

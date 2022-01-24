@@ -11,7 +11,7 @@ description: |-
   Motokoの勉強をどうやって始めたらわからない人が最初にやること
 ---
 
-このページは、DFINITY/ICP の Motoko チュートリアルを日本語で解説しています。
+このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。
 
 [Explore the default project](https://smartcontracts.org/docs/developers-guide/tutorials/explore-templates.html)
 

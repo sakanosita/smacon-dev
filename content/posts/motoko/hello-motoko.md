@@ -27,7 +27,7 @@ description: |-
 
 ぼくは 2017 年ごろからブロックチェーンを触り、2021 年現在は Web 系のグローバルスタートアップで働く本業の傍らで、ブロックチェーンを使ったサービスを開発しています。
 
-DFINITY/ICP(Internet Computer Protocol)は 2021 年 5 月に開始したサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれる、革新的な技術を使っています。インターネットそのものを TCP/IP のレイヤーから見直して再設計しており、裏側ではブロックチェーンの技術を使っています。
+DFINITY(Internet Computer Protocol)は 2021 年 5 月に開始したサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれる、革新的な技術を使っています。インターネットそのものを TCP/IP のレイヤーから見直して再設計しており、裏側ではブロックチェーンの技術を使っています。
 
 誰でもパソコンさえあれば、無料で簡単に始めることができるので、まずは実際にやってみましょう。
 
@@ -208,5 +208,5 @@ ICP(Internet Computer Protocol)の世界へようこそ
 - [Add access control with identities](/access-hello)
 - [Accept cycles from a wallet](/cycles-hello)
 
-DFINITY/ICP やいろんなブロックチェーンを使った開発情報を Twitter で発信しています。
+いろんなブロックチェーンを使った最新のスマートコントラクトの開発情報を Twitter で発信しています。
 [@motosakanosita](https://twitter.com/motosakanosita)

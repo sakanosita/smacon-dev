@@ -13,7 +13,7 @@ const Rust = ({ data }) => {
     <Layout title="Rust and Building Decentralized Apps">
         <Intro>
             <h1>Rust and Building Decentralized Apps</h1>
-            <p>Build Web3 Dapps on blockchains: Solana, NEAR, DFINITY</p>
+            <p>Build Web3 Dapps on blockchains: Solana, NEAR, DFINITY and so on</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink

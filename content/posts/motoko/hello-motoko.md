@@ -21,7 +21,7 @@ description: |-
 この記事はこんな人におすすめです
 
 - Motoko でプログラミングを学びたい初心者
-- DFINITY/ICP(Internet Computer Procotol)に興味がある
+- DFINITY(Internet Computer)に興味がある
 - ブロックチェーンや Dapps 開発に興味がある
 - 将来 Web エンジニアになりたい
 
@@ -33,7 +33,7 @@ DFINITY(Internet Computer Protocol)は 2021 年 5 月に開始したサービス
 
 ## はじめに
 
-当記事で紹介する５つのステップは、DFINITY/ICP の公式ページに簡潔にまとまっています。
+当記事で紹介する５つのステップは、DFINITY の公式ページに簡潔にまとまっています。
 
 https://smartcontracts.org/
 
@@ -134,7 +134,7 @@ npm install
 
 npm を使って JavaScript のライブラリをインストールしています。
 
-フロントエンドのプログラムは Chrome などのブラウザで実行することになるので、DFINITY/ICP の場合でも、そうじゃなくても同じ JavaScript を使います。
+フロントエンドのプログラムは Chrome などのブラウザで実行することになるので、DFINITY の場合でも、そうじゃなくても同じ JavaScript を使います。
 
 続いて、Hello World プログラムをビルドしてローカル実行環境にデプロイします。
 

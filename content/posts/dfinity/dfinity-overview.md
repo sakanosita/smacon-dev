@@ -10,7 +10,7 @@ description: |-
   Disentangling DFINITY and Ethereum
 ---
 
-## DFINITY/ICP
+## DFINITY(ICP)
 
 https://dfinity.org/
 

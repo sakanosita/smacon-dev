@@ -67,7 +67,7 @@ brew install cmake
 
 ### プロジェクトの作成
 
-DFINITY/ICP のデフォルトの開発言語は Motoko です。
+DFINITY のデフォルトの開発言語は Motoko です。
 `--type=rust`をつけて Rust 用のプロジェクトを作成します。
 
 ```

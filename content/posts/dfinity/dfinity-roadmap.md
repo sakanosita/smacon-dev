@@ -1,5 +1,5 @@
 ---
-title: IC Roadmap Milestones for 2022 (Sneak Preview)
+title: DFINITY ROADMAP
 date: 2022-01-29 23:38
 permalink: /dfinity-roadmap
 tags:
@@ -8,7 +8,7 @@ description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---
 
-### [DFINITY Forum](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
+## [IC Roadmap Milestones for 2022 (Sneak Preview)](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
 
 ### Titanium (mid Q1 2022)
 

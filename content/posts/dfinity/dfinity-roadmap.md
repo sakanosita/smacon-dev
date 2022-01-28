@@ -1,5 +1,5 @@
 ---
-title: IC Roadmap Milestones for 2022
+title: IC Roadmap Milestones for 2022 (Sneak Preview)
 date: 2022-01-29 23:38
 permalink: /dfinity-roadmap
 tags:

@@ -14,17 +14,20 @@ description: |-
 
 1. Titanium Example Dapps
 2. Bitcoin Integration Developer Preview
+   - [Direct Integration with Bitcoin](https://forum.dfinity.org/t/direct-integration-with-bitcoin/6147)
 3. Merge Neurons
 4. Simple APIs for Ledger Transactions
 5. Ledger Canister Fit for Dapps
 6. People Parties for Validating Personhood
 7. Verify Candid and Motoko Stable Variable Type Safety of Canister
 8. Enable Canisters to Hold ICPs
+   - [Enable Canisters to Hold ICP](https://forum.dfinity.org/t/enable-canisters-to-hold-icp/6153)
 9. NNS Managed Node Provider Remuneration
 
 ### Chromium (end of Q1)
 
 1. ICOS Boundary Nodes
+   - [Long Term R&D: Boundary Nodes (proposal)](https://forum.dfinity.org/t/long-term-r-d-boundary-nodes-proposal/9401)
 2. Threshold ECDSA signatures: System Integration
 3. Threshold ECDSA signatures
 4. Nodes Can be Reassigned to a Different Subnet

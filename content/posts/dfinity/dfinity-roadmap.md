@@ -4,6 +4,7 @@ date: 2022-01-29 23:38
 permalink: /dfinity-roadmap
 tags:
   - DFINITY
+  - ICP
 description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---

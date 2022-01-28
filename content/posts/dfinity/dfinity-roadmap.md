@@ -32,6 +32,7 @@ description: |-
 6. Enable HTTP Requests from Canisters
 
    - https://forum.dfinity.org/t/long-term-r-d-general-integration-proposal/9383
+   - https://forum.dfinity.org/t/enable-canisters-to-make-http-s-requests/9670/30
 
 7. Network Performance with Larger Network: State Sync, Certification, and XNet
 8. Bitcoin Integration to Enable Bitcoin Smart Contracts

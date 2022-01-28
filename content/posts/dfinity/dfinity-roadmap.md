@@ -8,7 +8,7 @@ description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---
 
-## [DFINITY Forum](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
+### [DFINITY Forum](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
 
 ### Titanium (mid Q1 2022)
 
@@ -31,11 +31,17 @@ description: |-
 5. Decentralized Node Addition
 6. Enable HTTP Requests from Canisters
 
-   - https://forum.dfinity.org/t/long-term-r-d-general-integration-proposal/9383
-   - https://forum.dfinity.org/t/enable-canisters-to-make-http-s-requests/9670/30
+   - [Enable canisters to make HTTP(S) requests](https://forum.dfinity.org/t/enable-canisters-to-make-http-s-requests/9670/30)
+   - [Long Term R&D: General Integration (Proposal)](https://forum.dfinity.org/t/long-term-r-d-general-integration-proposal/9383)
 
 7. Network Performance with Larger Network: State Sync, Certification, and XNet
 8. Bitcoin Integration to Enable Bitcoin Smart Contracts
+
+   - [Direct Integration with Bitcoin](https://forum.dfinity.org/t/direct-integration-with-bitcoin/6147)
+   - [YouTube](https://www.youtube.com/watch?v=MxBIvPhPzzc)
+   - [Medium](https://medium.com/dfinity/motion-proposal-to-integrate-bitcoin-with-the-internet-computer-is-approved-95b00e1dcc9c)
+   - [Proposal](https://dashboard.internetcomputer.org/proposal/20586)
+
 9. Open Governance for Internet Services
 10. Custom Subdomains
 11. Deterministic Time Slicing
@@ -46,13 +52,6 @@ description: |-
 ### Vanadium (Q3 2022)
 
 ### Iridium (Q4 2022)
-
-## [DIRECT INTEGRATION WITH BITCOIN](https://dfinity.org/howitworks/direct-integration-with-bitcoin)
-
-- [Forum](https://forum.dfinity.org/t/direct-integration-with-bitcoin/6147)
-- [YouTube](https://www.youtube.com/watch?v=MxBIvPhPzzc)
-- [Medium](https://medium.com/dfinity/motion-proposal-to-integrate-bitcoin-with-the-internet-computer-is-approved-95b00e1dcc9c)
-- [Proposal](https://dashboard.internetcomputer.org/proposal/20586)
 
 ## Medium
 

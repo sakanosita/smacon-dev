@@ -31,6 +31,7 @@ description: |-
    - [Long Term R&D: Boundary Nodes (proposal)](https://forum.dfinity.org/t/long-term-r-d-boundary-nodes-proposal/9401)
 2. Threshold ECDSA signatures: System Integration
 3. Threshold ECDSA signatures
+   - [Threshold ECDSA Signatures](https://forum.dfinity.org/t/threshold-ecdsa-signatures/6152)
 4. Nodes Can be Reassigned to a Different Subnet
 5. Decentralized Node Addition
 6. Enable HTTP Requests from Canisters

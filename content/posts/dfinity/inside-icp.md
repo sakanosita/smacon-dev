@@ -24,6 +24,9 @@ https://dfinity.org/howitworks
 https://dfinity.org/conversations
 
 - [Threshold ECDSA Signing](https://www.youtube.com/watch?v=MulbKPwv6_s)
+- [Randomness](https://www.youtube.com/watch?v=nl5BuiWClD0)
+- [Replicated State](https://www.youtube.com/watch?v=NXPkBkzkBZo)
+- [OPTIMIZING THE MEMORY SYSTEM](https://www.youtube.com/watch?v=xxeKGqwDi_4)
 
 ## Dev Forum
 

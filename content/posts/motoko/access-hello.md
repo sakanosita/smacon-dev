@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: Add access control with identities — DFINITY(ICP)"
+title: "Motoko入門: IDごとのアクセス管理 — DFINITY(ICP)"
 date: 2022-01-02 20:38
 permalink: /access-hello
 tags:
@@ -7,7 +7,8 @@ tags:
   - tutorial
   - jp
 description: |-
-  DFINITYチュートリアル: Motokoでユーザーによって処理を変える方法を解説
+  DFINITYチュートリアル: Add access control with identities
+  Motokoでユーザーによって処理を変える方法を解説
 ---
 
 このページでは DFINITY(Internet Computer)の Motoko のチュートリアルを日本語で解説しています。

@@ -203,7 +203,7 @@ ICP(Internet Computer Protocol)の世界へようこそ
 - [Candid UI を使ってキャニスターを実行する](/motoko-my-counter)
 - [簡単な数値計算](/motoko-calc)
 - [ライブラリを使って簡単な電話帳アプリを作ろう](/motoko-phonebook)
-- [複数のアクターとキャニスター](/motoko-multiple-actors)
+- [複数のアクター&キャニスター](/motoko-multiple-actors)
 - [キャニスター間の関数呼び出し](/motoko-linkedup)
 - [ID とアクセス管理](/access-hello)
 - [CYCLE ウォレットとキャニスター](/cycles-hello)

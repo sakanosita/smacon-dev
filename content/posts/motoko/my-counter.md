@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: Candid UIを使ってキャニスターの関数を実行する — DFINITY(ICP)"
+title: "Motoko入門: Candid UIを使ってキャニスターを実行する — DFINITY(ICP)"
 date: 2021-12-29 21:38
 permalink: /motoko-my-counter
 tags:

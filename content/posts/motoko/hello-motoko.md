@@ -197,16 +197,16 @@ ICP(Internet Computer Protocol)の世界へようこそ
 
 公式のチュートリアルや Examples を日本語で解説しています。
 
-- [Explore the default project](/motoko-explore-hello)
-- [Query using an actor](/motoko-actor-hello)
-- [Pass text arguments](/motoko-location-hello)
-- [Increment a natural number](/motoko-my-counter)
-- [Use integers in calculator functions](/motoko-calc)
-- [Import library modules](/motoko-phonebook)
-- [Use multiple actors](/motoko-multiple-actors)
-- [Make inter-canister calls](/motoko-linkedup)
-- [Add access control with identities](/access-hello)
-- [Accept cycles from a wallet](/cycles-hello)
+- [DFINITY プロジェクトの始め方](/motoko-explore-hello)
+- [アクター入門](/motoko-actor-hello)
+- [パラメータを渡してキャニスターを実行する](/motoko-location-hello)
+- [Candid UI を使ってキャニスターを実行する](/motoko-my-counter)
+- [簡単な数値計算](/motoko-calc)
+- [ライブラリを使って簡単な電話帳アプリを作ろう](/motoko-phonebook)
+- [複数のアクターとキャニスター](/motoko-multiple-actors)
+- [キャニスター間の関数呼び出し](/motoko-linkedup)
+- [ID とアクセス管理](/access-hello)
+- [CYCLE ウォレットとキャニスター](/cycles-hello)
 
 いろんなブロックチェーンを使った最新のスマートコントラクトの開発情報を Twitter で発信しています。
 [@motosakanosita](https://twitter.com/motosakanosita)

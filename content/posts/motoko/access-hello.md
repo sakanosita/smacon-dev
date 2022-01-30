@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: IDごとのアクセス管理 — DFINITY(ICP)"
+title: "Motoko入門: IDとアクセス管理 — DFINITY(ICP)"
 date: 2022-01-02 20:38
 permalink: /access-hello
 tags:

@@ -10,9 +10,9 @@ const Rust = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
 
   return (
-    <Layout title="Rust and Building Decentralized Apps">
+    <Layout title="Rust and Building Decendtalized WASM">
         <Intro>
-            <h1>Rust and Building Decentralized Apps</h1>
+            <h1>Rust and Building Decendtalized WASM</h1>
             <p>Build Web3 Dapps on blockchains: Solana, NEAR, DFINITY and so on</p>
         </Intro>
         <PostList posts={posts} />

@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: 電話帳アプリでライブラリを使ってみよう — DFINITY(ICP)"
+title: "Motoko入門: ライブラリを使って簡単な電話帳アプリを作ろう — DFINITY(ICP)"
 date: 2021-12-30 06:38
 permalink: /motoko-phonebook
 tags:

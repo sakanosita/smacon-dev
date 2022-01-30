@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: DFINITYプロジェクトの始め方 — DFINITY(ICP)"
+title: "Motoko入門: DFINITYプロジェクトの始め方"
 date: 2021-12-29 19:38
 permalink: /motoko-explore-hello
 tags:

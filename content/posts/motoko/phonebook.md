@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: Import library modules — DFINITY(ICP)"
+title: "Motoko入門: 電話帳アプリでライブラリを使ってみよう — DFINITY(ICP)"
 date: 2021-12-30 06:38
 permalink: /motoko-phonebook
 tags:

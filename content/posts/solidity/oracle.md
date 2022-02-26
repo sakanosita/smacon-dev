@@ -1,6 +1,6 @@
 ---
 title: "イーサリアム入門: オラクルのしくみ（Chainlink Data Feeds）"
-date: 2022-01-15 19:00
+date: 2022-02-27 19:00
 permalink: /oracle
 pinned: 4
 tags:

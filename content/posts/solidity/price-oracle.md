@@ -1,7 +1,7 @@
 ---
 title: "Solidity入門: オラクルの基本的な使い方（Chainlink Data Feeds)"
 date: 2022-02-27 21:00
-permalink: /solidity-oracle
+permalink: /price-oracle
 tags:
   - Solidity
   - Rinkeby

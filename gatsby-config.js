@@ -182,7 +182,11 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         excludes: [
-          '/tags/**'
+          '/tags/**',
+          '/contact/',
+          '/about/',
+          '/all/',
+          '/blog/'
         ],
         query: `{
           site {

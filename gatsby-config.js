@@ -186,7 +186,8 @@ module.exports = {
           '/blog/',
           '/contact/',
           '/about/',
-          '/tags/'
+          '/tags/',
+          '/tags/*'
         ],
         query: `{
           site {

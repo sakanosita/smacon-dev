@@ -23,7 +23,6 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
@@ -178,6 +177,39 @@ module.exports = {
           "G-4Z853P3PLM",
         ]
       }
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        query: `{
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+        }`,
+        resolveSiteUrl: (data) => {
+          return data.site.siteMetadata.siteUrl
+        },
+        resolvePagePath: (page) => {
+          return page.path
+        },
+        resolvePages: (data) => {
+          return data.allSitePage.nodes
+        },
+        serialize: (page, { resolvePagePath }) => {
+          return {
+            url: resolvePagePath(page),
+            changefreq: 'daily',
+            priority: 0.7,
+          }
+        },
+      },
+    },
   ],
 };

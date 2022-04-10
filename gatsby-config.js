@@ -181,6 +181,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
+        excludes: [
+          '/tags/**'
+        ],
         query: `{
           site {
             siteMetadata {

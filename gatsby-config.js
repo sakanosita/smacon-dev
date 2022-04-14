@@ -200,24 +200,52 @@ module.exports = {
               path
             }
           }
+          allMarkdownRemark {
+            nodes {
+              frontmatter {
+                date
+              },
+              fields {
+                slug
+              }
+            }
+          }
         }`,
         resolveSiteUrl: (data) => {
           return data.site.siteMetadata.siteUrl
         },
-        resolvePagePath: (page) => {
-          return page.path
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+          allMarkdownRemark: { nodes: allPosts },
+        }) => {
+          const pathToDateMap = {};
+
+          allPosts.map(post => {
+            pathToDateMap [post.fields.slug] = { date: post.frontmatter.date };
+          });
+      
+          const pages = allPages.map(page => {
+            return { ...page, ...pathToDateMap [page.path] };
+          });
+      
+          return pages;
         },
-        resolvePages: (data) => {
-          return data.allSitePage.nodes
-        },
-        serialize: (page, { resolvePagePath }) => {
-          return {
-            url: resolvePagePath(page),
+        serialize: ({ path, date }) => {
+          let entry = {
+            url: path,
             changefreq: 'daily',
-            priority: 0.7,
+            priority: 0.5,
+          };
+      
+          if (date) {
+            entry.priority
+             = 0.7;
+            entry.lastmod = date;
           }
-        },
-      },
-    },
-  ],
+      
+          return entry;
+        }
+      }
+    }
+  ]
 };

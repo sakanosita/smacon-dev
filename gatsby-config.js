@@ -6,7 +6,7 @@ module.exports = {
       summary: `A Programmer at Edtech`,
     },
     openGraphImage: `maa-mono.png`,
-    description: `How to develop smart contracts, build Web3 Dapps on Blockchains using Solidity, Motoko and Rust on Ethereum, NEAR, Solana and DFINITY.`,
+    description: `How to develop smart contracts, build Web3 Dapps using Solidity, Motoko and Rust on Ethereum, NEAR, Solana and DFINITY.`,
     siteUrl: `https://www.smacon.dev`,
     social: {
       twitter: `smacondev`,

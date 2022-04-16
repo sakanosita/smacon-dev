@@ -13,7 +13,7 @@ const Motoko = ({ data }) => {
     <Layout title="Motoko and Making Canisters on DFINITY">
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
-            <p>Build Web3 Dapps on the Internet Computer(ICP)</p>
+            <p>ICP(Internet Computer Protocol)を使った, Web3 Dapps開発入門</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink

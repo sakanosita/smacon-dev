@@ -1,6 +1,6 @@
 ---
 title: 5ステップではじめるMotokoプログラミング入門 — DFINITY(ICP)
-date: 2022-04-15 19:38
+date: 2022-04-16 09:38
 permalink: /hello-motoko
 redirect_from:
   - /blog/hello-motoko
@@ -15,7 +15,7 @@ tags:
   - ICP
 social_image: /media/labs.png
 description: |-
-  ICP(Internet Computer Protocol)でMotokoを使ってDapps開発をはじめよう！
+  ICP(Internet Computer Protocol)でキャニスター開発をはじめよう！
 ---
 
 この記事はこんな人におすすめです

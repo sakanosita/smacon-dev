@@ -1,6 +1,6 @@
 ---
 template: "index-template"
-title: "Home | smacon.dev"
+title: "smacon.dev | はじめてのスマートコントラクト開発"
 ---
 
 # smacon.dev

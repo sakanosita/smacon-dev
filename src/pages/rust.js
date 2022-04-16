@@ -13,7 +13,7 @@ const Rust = ({ data }) => {
     <Layout title="Rust and Building Decendtalized WASM">
         <Intro>
             <h1>Rust and Building Decendtalized WASM</h1>
-            <p>Rust入門, 初心者向けのWeb3でのDapps開発についての解説 blockchains: Solana, NEAR, DFINITY</p>
+            <p>Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発について</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink

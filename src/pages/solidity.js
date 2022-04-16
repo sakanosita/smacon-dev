@@ -13,7 +13,7 @@ const Solidity = ({ data }) => {
     <Layout title="Solidity and Writing Smart Contracts">
         <Intro>
             <h1>Solidity and Writing Smart Contracts</h1>
-            <p>Ethereum, Solidity入門, EVMを使ったDapps開発の解説, EVM: Ethereum, Avalanche, Polygon, BSC, Fantom, Aurora, Astar, Moonbeam, etc</p>
+            <p>スマートコンラクト入門, SolidityやEVMを使ったWeb3のDapps開発について</p>
         </Intro>
         <PostList posts={posts} />
         <StyledLink

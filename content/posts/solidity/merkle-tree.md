@@ -5,8 +5,6 @@ permalink: /merkle-tree
 pinned: 3
 tags:
   - Solidity
-  - Merkle Tree
-  - jp
 description: |-
   Solidity by ExmaplesのMerkle Treeのコントラクトを作ります
 ---

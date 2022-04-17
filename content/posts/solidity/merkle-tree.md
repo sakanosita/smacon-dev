@@ -305,6 +305,7 @@ https://emn178.github.io/online-tools/keccak_256.html
 
 #### 1. "1bbd..." と　"948f..." をつなげて node6 のハッシュ"90ed..."を計算
 
+<!--
 - IN
   - `1bbd78ae6188015c4a6772eb1526292b5985fc3272ead4c65002240fb9ae5d13948f90037b4ea787c14540d9feb1034d4a5bc251b9b5f8e57d81e4b470027af8`
 - OUT:
@@ -315,7 +316,7 @@ https://emn178.github.io/online-tools/keccak_256.html
 - IN
   - `63ac1b92046d474f84be3aa0ee04ffe5600862228c81803cce07ac40484aee4390ed7ad0524bf73e077fe6d49abe1fb1629f9843ca60d89ebf0ca88601a19bca`
 - OUT
-  - `074b43252ffb4a469154df5fb7fe4ecce30953ba8b7095fe1e006185f017ad10`
+  - `074b43252ffb4a469154df5fb7fe4ecce30953ba8b7095fe1e006185f017ad10` -->
 
 node5 と node6 から計算した"074b..."が root のハッシュ値です。
 

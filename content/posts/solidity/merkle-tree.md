@@ -9,6 +9,8 @@ description: |-
   Solidity by ExmaplesのMerkle Treeのコントラクトを作ります
 ---
 
+![Merkle Tree](/media/merkle-tree/merkle-tree.png)
+
 このページはこんな人におすすめ
 
 - Solidity を学びたい
@@ -309,11 +311,11 @@ https://emn178.github.io/online-tools/keccak_256.html
 - IN
   - `1bbd78ae6188015c4a6772eb1526292b5985fc3272ead4c65002240fb9ae5d13948f90037b4ea787c14540d9feb1034d4a5bc251b9b5f8e57d81e4b470027af8`
 - OUT:
-  - `90ed7ad0524bf73e077fe6d49abe1fb1629f9843ca60d89ebf0ca88601a19bca`
+  - `90ed7ad0524bf73e077fe6d49abe1fb1629f9843ca60d89ebf0ca88601a19bca` -->
 
 #### 2. "63ac..."と 1 で計算した"90ed..."をつなげて root のハッシュを計算
 
-- IN
+<!-- - IN
   - `63ac1b92046d474f84be3aa0ee04ffe5600862228c81803cce07ac40484aee4390ed7ad0524bf73e077fe6d49abe1fb1629f9843ca60d89ebf0ca88601a19bca`
 - OUT
   - `074b43252ffb4a469154df5fb7fe4ecce30953ba8b7095fe1e006185f017ad10` -->

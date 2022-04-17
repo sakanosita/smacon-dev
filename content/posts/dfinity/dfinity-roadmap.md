@@ -9,21 +9,9 @@ description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---
 
-## [IC Roadmap Milestones for 2022 (Sneak Preview)](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
+## [Internet Computer Roadmap](https://dfinity.org/roadmap/)
 
-### Titanium (mid Q1 2022)
-
-1. Titanium Example Dapps
-2. Bitcoin Integration Developer Preview
-   - [Direct Integration with Bitcoin](https://forum.dfinity.org/t/direct-integration-with-bitcoin/6147)
-3. Merge Neurons
-4. Simple APIs for Ledger Transactions
-5. Ledger Canister Fit for Dapps
-6. People Parties for Validating Personhood
-7. Verify Candid and Motoko Stable Variable Type Safety of Canister
-8. Enable Canisters to Hold ICPs
-   - [Enable Canisters to Hold ICP](https://forum.dfinity.org/t/enable-canisters-to-hold-icp/6153)
-9. NNS Managed Node Provider Remuneration
+#### [IC Roadmap Milestones for 2022 (Sneak Preview)](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
 
 ### Chromium (end of Q1)
 
@@ -52,11 +40,19 @@ description: |-
 11. Deterministic Time Slicing
 12. Community Fund
 
-### Carbon (Q2 2022)
+### Titanium (mid Q1 2022)
 
-### Vanadium (Q3 2022)
-
-### Iridium (Q4 2022)
+1. Titanium Example Dapps
+2. Bitcoin Integration Developer Preview
+   - [Direct Integration with Bitcoin](https://forum.dfinity.org/t/direct-integration-with-bitcoin/6147)
+3. Merge Neurons
+4. Simple APIs for Ledger Transactions
+5. Ledger Canister Fit for Dapps
+6. People Parties for Validating Personhood
+7. Verify Candid and Motoko Stable Variable Type Safety of Canister
+8. Enable Canisters to Hold ICPs
+   - [Enable Canisters to Hold ICP](https://forum.dfinity.org/t/enable-canisters-to-hold-icp/6153)
+9. NNS Managed Node Provider Remuneration
 
 ## Medium
 

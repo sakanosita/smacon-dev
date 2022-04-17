@@ -2,6 +2,7 @@
 title: DFINITY ROADMAP
 date: 2022-01-29 23:38
 permalink: /dfinity-roadmap
+pinned: 0
 tags:
   - DFINITY
   - ICP

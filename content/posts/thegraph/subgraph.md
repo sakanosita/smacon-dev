@@ -2,7 +2,7 @@
 title: "The Graph: はじめてのSubgraph — サブグラフの自動生成"
 date: 2022-01-21 22:00
 permalink: /subgraph
-pinned: 6
+pinned: 2
 tags:
   - The Graph
   - Subgraph

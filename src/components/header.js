@@ -27,15 +27,15 @@ const Header = () => {
         <HeaderNavList>
 
           <HeaderNavListItem>
-            <Link to="/solidity">Solidity</Link>
+            <Link to="/solidity/">Solidity</Link>
           </HeaderNavListItem>
 
           <HeaderNavListItem>
-            <Link to="/rust">Rust</Link>
+            <Link to="/rust/">Rust</Link>
           </HeaderNavListItem>
 
           <HeaderNavListItem>
-            <Link to="/motoko">Motoko</Link>
+            <Link to="/motoko/">Motoko</Link>
           </HeaderNavListItem>
 
           {/* <HeaderNavListItem>

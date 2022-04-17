@@ -11,8 +11,6 @@ description: |-
   Solidity by ExmaplesのMerkle Treeのコントラクトを作ります
 ---
 
-![Merkle Tree](/media/merkle-tree/merkle-tree.png)
-
 このページはこんな人におすすめ
 
 - Solidity を学びたい

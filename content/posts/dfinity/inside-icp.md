@@ -4,6 +4,7 @@ date: 2021-12-27 19:38
 permalink: /inside-icp
 tags:
   - DFINITY
+  - ICP
 description: |-
   How The Internet Computer Works
   Describing its Technology

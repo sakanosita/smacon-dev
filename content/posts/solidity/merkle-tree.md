@@ -5,6 +5,8 @@ permalink: /merkle-tree
 pinned: 3
 tags:
   - Solidity
+  - Ethereum
+  - EVM
 description: |-
   Solidity by ExmaplesのMerkle Treeのコントラクトを作ります
 ---

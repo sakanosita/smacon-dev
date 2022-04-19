@@ -6,7 +6,8 @@ pinned: 4
 tags:
   - Ethereum
   - Chainlink
-  - jp
+  - EVM
+  - LINK
 description: |-
   Dapps開発の基本: オラクルではどのようにしてオフチェーンのデータをオンチェーンで利用できるようにしているのか？
 ---

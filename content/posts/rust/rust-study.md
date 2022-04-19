@@ -4,7 +4,7 @@ date: 2022-01-04 19:38
 permalink: /rust-learning
 tags:
   - Rust
-  - beginner
+  - WASM
 description: |-
 ---
 

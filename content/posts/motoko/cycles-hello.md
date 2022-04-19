@@ -3,11 +3,9 @@ title: "Motoko入門: CYCLEウォレットとキャニスター — DFINITY(ICP)
 date: 2022-01-03 20:38
 permalink: /cycles-hello
 tags:
-  - tutorial
   - DFINITY
   - Motoko
   - ICP
-  - jp
 description: |-
   DFINITYでキャニスターを動かす際に必要になるCycle Cost
   ICPをCYCLEに変える、ウォレットにCYCLEをチャージ

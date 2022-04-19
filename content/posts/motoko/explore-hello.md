@@ -4,8 +4,8 @@ date: 2021-12-29 19:38
 permalink: /motoko-explore-hello
 tags:
   - Motoko
-  - tutorial
-  - jp
+  - DFINITY
+  - ICP
 description: |-
   チュートリアル「Explore the default project」日本語解説
   Motokoの勉強をどうやって始めたらわからない人が最初にやること

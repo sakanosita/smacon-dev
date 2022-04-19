@@ -5,7 +5,6 @@ permalink: /solana-config
 tags:
   - Solana
   - SPL
-  - jp
 description: |-
   Solanaでスマートコントラクト開発を始めるための最初の一歩
   まずはコマンドのインストールやアカウントを準備しよう

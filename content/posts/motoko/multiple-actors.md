@@ -4,8 +4,8 @@ date: 2021-12-30 15:38
 permalink: /motoko-multiple-actors
 tags:
   - Motoko
-  - tutorial
-  - jp
+  - DFINITY
+  - ICP
 description: |-
   チュートリアル「Use multiple actors」の日本語解説
   実際に使ったコードをGitHubで公開

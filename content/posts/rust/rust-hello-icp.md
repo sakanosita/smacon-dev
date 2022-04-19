@@ -5,8 +5,6 @@ permalink: /rust-hello-icp
 tags:
   - DFINITY
   - Rust
-  - beginner
-  - jp
 description: |-
   DFINITY(ICP)でRustを使ってDapps開発をはじめよう！
 ---

@@ -5,7 +5,7 @@ permalink: /solana-hello
 tags:
   - Solana
   - Rust
-  - jp
+  - WASM
 description: |-
   SolanaでRustのスマートコントラクトを作ろう！
   Solana公式のHello Worldのチュートリアルから必要なコードだけを抜粋

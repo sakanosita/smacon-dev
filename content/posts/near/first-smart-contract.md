@@ -7,7 +7,6 @@ tags:
   - NEAR
   - Rust
   - WASM
-  - beginner
 description: |-
   NEARにRustのスマートコントラクトをデプロイしよう！
 ---

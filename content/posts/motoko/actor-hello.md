@@ -4,8 +4,8 @@ date: 2021-12-29 20:38
 permalink: /motoko-actor-hello
 tags:
   - Motoko
-  - tutorial
-  - jp
+  - DFINITY
+  - ICP
 description: |-
   DFINITYチュートリアル「Query using an actor」の日本語解説
   実際に使ったコードをGitHubで公開

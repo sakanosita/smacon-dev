@@ -5,9 +5,8 @@ permalink: /hardhat
 tags:
   - Solidity
   - Hardhat
-  - Ropsten
-  - beginner
-  - jp
+  - Ethereum
+  - EVM
 description: |-
   Hardhatのチュートリアルを日本語で解説
   スマートコントラクトをテストネット(Ropsten)にデプロイする方法

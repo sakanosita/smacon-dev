@@ -5,7 +5,6 @@ permalink: /spl-token
 tags:
   - Solana
   - SPL
-  - jp
 description: |-
   Solana Program Library(SPL)のチュートリアル
   コマンドラインでアカウントを作り独自トークンやNFTをmint

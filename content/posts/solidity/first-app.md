@@ -5,8 +5,8 @@ permalink: /first-app
 tags:
   - Solidity
   - Hardhat
-  - beginner
-  - jp
+  - EVM
+  - Ethereum
 description: |-
   スマートコントラクト開発の基本: Solidity初心者に向けた解説
   Solidity by Exampleのサンプルを使ってHardhatで開発

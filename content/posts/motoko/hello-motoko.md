@@ -11,7 +11,6 @@ pinned: 5
 tags:
   - DFINITY
   - Motoko
-  - beginner
   - ICP
 social_image: /media/labs.png
 description: |-

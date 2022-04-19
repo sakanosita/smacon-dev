@@ -4,9 +4,8 @@ date: 2022-01-07 21:00
 permalink: /original-nft
 tags:
   - Ethereum
-  - NFT
-  - Loot
   - Solidity
+  - 初心者
 description: |-
   ERC721, Loot, フルオンチェーン、ジェネラティブNFTの作り方
 ---

@@ -5,7 +5,6 @@ permalink: /original-nft
 tags:
   - Ethereum
   - Solidity
-  - 初心者
 description: |-
   ERC721, Loot, フルオンチェーン、ジェネラティブNFTの作り方
 ---

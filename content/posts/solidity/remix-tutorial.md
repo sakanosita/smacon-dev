@@ -7,9 +7,7 @@ redirect_from:
   - /build-smart-contracts/
 tags:
   - Solidity
-  - beginner
   - Remix
-  - jp
 description: |-
   ブラウザを使ってスマートコントラクトをブロックチェーンに作る方法
   初心者向け

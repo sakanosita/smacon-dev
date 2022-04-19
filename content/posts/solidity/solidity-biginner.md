@@ -5,8 +5,8 @@ permalink: /solidity-beginner
 pinned: 1
 tags:
   - Solidity
-  - beginner
-  - jp
+  - Ethereum
+  - EVM
 description: |-
   はじめてSolidity学習を始める方に向けて、無料の学習サイトを紹介
   環境構築も不要

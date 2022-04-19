@@ -7,7 +7,7 @@ tags:
   - The Graph
   - Subgraph
   - Ethereum
-  - jp
+  - EVM
 description: |-
   コード自動生成のしくみを使って自分では1行もコードを書かずにサブグラフを作ろう
 ---

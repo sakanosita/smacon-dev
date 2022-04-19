@@ -4,8 +4,8 @@ date: 2021-06-03 00:00
 permalink: /original-token
 tags:
   - Solidity
-  - beginner
-  - jp
+  - ERC20
+  - EVM
 description: |-
   コピペでOK
   非エンジニアでもできるオリジナル仮想通貨の作り方

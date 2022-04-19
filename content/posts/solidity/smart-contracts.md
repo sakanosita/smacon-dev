@@ -5,8 +5,7 @@ permalink: /smart-contracts
 tags:
   - Solidity
   - Ethereum
-  - beginner
-  - jp
+  - EVM
 description: |-
   スマートコントラクト開発の基本: Solidity初心者に向けた解説
   ブロックチェーンのDapps開発とは？

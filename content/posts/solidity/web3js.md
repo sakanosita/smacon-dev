@@ -4,13 +4,10 @@ date: 2021-06-06 19:38
 permalink: /web3js
 tags:
   - Solidity
-  - frontend
   - JavaScript
-  - jp
 social_image: /media/labs.png
 description: |-
-  JavaScriptからスマートコントラクトを実行する方法
-  初心者向け
+  初心者向けのJavaScriptからスマートコントラクトを実行する方法
 ---
 
 このページはこんな人におすすめ

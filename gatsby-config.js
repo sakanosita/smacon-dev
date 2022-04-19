@@ -6,15 +6,15 @@ module.exports = {
       summary: `A Programmer at Edtech`,
     },
     openGraphImage: `maa-mono.png`,
-    description: `How to develop smart contracts, build Web3 Dapps using Solidity, Motoko and Rust on blockchains: Ethereum, NEAR, Solana and DFINITY.`,
-    siteUrl: `https://www.smacon.dev`,
+    description: `Solidity / Rust / Motoko 初心者に向けたスマートコントラクト開発入門、イーサリアムやWASMのブロックチェーンを使ってWeb3でDapps開発`,
+    siteUrl: `https://www.smacon.dev/`,
     social: {
       twitter: `smacondev`,
     },
     socialLinks: [
       {
         name: 'GitHub',
-        url: 'https://github.com/smacon-dev',
+        url: 'https://github.com/smacon-dev/',
       },
       {
         name: 'Twitter',

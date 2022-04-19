@@ -18,8 +18,8 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
-      <PostList posts={posts} />
       <PostList posts={pinned} />
+      <PostList posts={posts} />
       <StyledLink
         css={`
           display: block;
@@ -96,7 +96,7 @@ export const pageQuery = graphql`
         fields: { contentType: { eq: "posts" } }
       }
       sort: { order: DESC, fields: frontmatter___date }
-      limit: 3
+      limit: 15
     ) {
       nodes {
         fields {

@@ -8,6 +8,7 @@ tags:
   - jp
 description: |-
   SolanaでRustのスマートコントラクトを作ろう！
+  Solana公式のHello Worldのチュートリアルから必要なコードだけを抜粋
 ---
 
 このページはこんな人におすすめ

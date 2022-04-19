@@ -2,7 +2,7 @@
 title: "NEAR Protocol: はじめてのスマートコントラクト in Rust"
 date: 2022-04-18 19:38
 permalink: /first-smart-contract-near
-pinned: 6
+pinned: 7
 tags:
   - NEAR
   - Rust

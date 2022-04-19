@@ -4,8 +4,9 @@ date: 2022-01-21 22:00
 permalink: /subgraph
 pinned: 2
 tags:
-  - The Graph
-  - Subgraph
+  - TheGraph
+  - GraphQL
+  - GRT
   - Ethereum
   - EVM
 description: |-

@@ -6,7 +6,7 @@ module.exports = {
       summary: `A Programmer at Edtech`,
     },
     openGraphImage: `maa-mono.png`,
-    description: `Solidity / Rust / Motoko 初心者に向けたスマートコントラクト開発入門、イーサリアムやWASMのブロックチェーンを使ったWeb3のDappsを作ろう！`,
+    description: `Solidity / Rust / Motoko 初心者に向けたスマートコントラクト開発入門、イーサリアムやWASMのブロックチェーンを使ったWeb3のDappsを作ろう。`,
     siteUrl: `https://www.smacon.dev`,
     social: {
       twitter: `smacondev`,

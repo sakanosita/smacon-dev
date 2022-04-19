@@ -1,7 +1,7 @@
 ---
 title: "Solana Memo"
 date: 2021-01-01 09:00
-permalink: /solana
+permalink: /solana-memo
 tags:
   - Solana
 description: |-

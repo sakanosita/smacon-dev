@@ -7,7 +7,7 @@ redirect_from:
   - /blog/hello-motoko/
   - /hello-icp
   - /hello-icp/
-pinned: 5
+pinned: 12
 tags:
   - DFINITY
   - Motoko

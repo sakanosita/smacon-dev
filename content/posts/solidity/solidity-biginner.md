@@ -2,7 +2,7 @@
 title: "Solidity入門: 無料プログラミング学習4選【初心者向け】"
 date: 2022-01-03 00:00
 permalink: /solidity-beginner
-pinned: 1
+pinned: 23
 tags:
   - Solidity
   - Ethereum

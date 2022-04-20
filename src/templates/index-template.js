@@ -73,7 +73,7 @@ export const pageQuery = graphql`
         frontmatter: { pinned: { ne: null }},
         fields: { contentType: { eq: "posts" } } 
       }
-      sort: { order: DESC, fields: frontmatter___pinned }
+      sort: { order: ASC, fields: frontmatter___pinned }
       limit: 9
     ) {
       nodes {

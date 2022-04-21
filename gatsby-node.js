@@ -25,6 +25,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
             frontmatter {
               template
+              tags
             }
           }
         }
@@ -63,6 +64,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     blogMarkdownNodes.forEach((node, index) => {
       let prevSlug = null;
       let nextSlug = null;
+      let blogTags = [];
+
+      blogTags = blogMarkdownNodes[index].frontmatter.tags;
 
       if (index > 0) {
         prevSlug = blogMarkdownNodes[index - 1].fields.slug;
@@ -79,6 +83,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           slug: `${node.fields.slug}`,
           prevSlug: prevSlug,
           nextSlug: nextSlug,
+          blogTags: blogTags,
         },
       });
     });

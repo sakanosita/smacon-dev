@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import StyledLink from '../components/styled-link';
@@ -7,7 +7,6 @@ import styled from 'styled-components';
 
 const Motoko = ({ data }) => {
 
-  const popularPosts = data.popularPosts.nodes;
   const motokoPosts = data.motokoPosts.nodes;
   const dfinityPosts = data.dfinityPosts.nodes;
 
@@ -18,10 +17,6 @@ const Motoko = ({ data }) => {
             <p>Motokoプログラミング入門, ICP(Internet Computer)を使ったキャニスター開発</p>
         </Intro>
 
-        {/* <Board>
-          <h3>人気の記事</h3>
-          <PostList posts={popularPosts} />
-        </Board> */}
         <Board>
           <h3>Motokoプログラミング学習</h3>
           <PostList posts={motokoPosts} />

@@ -8,6 +8,7 @@ const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
   const prev = data.prev;
   const next = data.next;
+  // const relatedPosts = data.relatedPosts.nodes;
 
   return (
     <Layout
@@ -23,8 +24,9 @@ const PostTemplate = ({ data }) => {
           <PostDate>{frontmatter.date}</PostDate>
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
-
         </article>
+
+        <Tags tags={frontmatter.tags} />
 
         <PostPagination>
           {prev && (
@@ -41,8 +43,6 @@ const PostTemplate = ({ data }) => {
             </div>
           )}
         </PostPagination>
-
-        <Tags tags={frontmatter.tags} />
       </PostWrapper>
     </Layout>
   );
@@ -72,6 +72,7 @@ const PostDate = styled.span`
 
 const PostContent = styled.section`
   padding-top: var(--size-800);
+  margin-bottom: var(--size-900);
 
   & > * + * {
     margin-top: var(--size-300);
@@ -132,7 +133,7 @@ const PostContent = styled.section`
 const PostPagination = styled.nav`
   display: flex;
   flex-wrap: wrap;
-  margin-top: var(--size-900);
+  margin-top: var(--size-300);
 
   & > * {
     position: relative;
@@ -177,7 +178,7 @@ const PostPagination = styled.nav`
 `;
 
 export const pageQuery = graphql`
-  query PostBySlug($slug: String!, $prevSlug: String, $nextSlug: String) {
+  query PostBySlug($slug: String!, $prevSlug: String, $nextSlug: String, $blogTags: [String]) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt(pruneLength: 160)
       html
@@ -188,6 +189,26 @@ export const pageQuery = graphql`
         description
         social_image {
           absolutePath
+        }
+      }
+    }
+
+    relatedPosts: allMarkdownRemark(
+      limit: 4
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+          tags: { in: $blogTags }
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
         }
       }
     }

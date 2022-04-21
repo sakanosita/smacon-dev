@@ -2,7 +2,6 @@
 title: "Motoko入門: IDとアクセス管理 — DFINITY(ICP)"
 date: 2022-01-02 20:38
 permalink: /access-hello
-pinned: 13
 tags:
   - Motoko
   - DFINITY

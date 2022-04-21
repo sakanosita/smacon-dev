@@ -91,8 +91,6 @@ const Board = styled.div`
   margin-bottom: var(--size-600);
   h3 {
     font-size: 120%;
-  }
-  h4 {
     text-align: center;
   }
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import { Link, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 const toKebabCase = (str) => {
   return str
@@ -17,6 +18,7 @@ const Tags = ({ data }) => {
       <h1>All Tags</h1>
 
       <ul>
+        <TagItem>
         {tags.map((tag) => (
           <li key={tag.fieldValue}>
             <Link to={`/tags/${toKebabCase(tag.fieldValue)}/`}>
@@ -24,12 +26,20 @@ const Tags = ({ data }) => {
             </Link>
           </li>
         ))}
+        </TagItem>
       </ul>
     </Layout>
   );
 };
 
 export default Tags;
+
+const TagItem = styled.div`
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
+`;
 
 export const pageQuery = graphql`
   query {

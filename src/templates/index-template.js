@@ -59,9 +59,9 @@ const HomePage = ({ data }) => {
           margin-right: auto;
           width: fit-content;
         `}
-        to="/all"
+        to="/tags/"
       >
-        View All posts
+        View All Tags
       </StyledLink>
     </Layout>
   );

@@ -107,7 +107,6 @@ export const pageQuery = graphql`
     }
     updatePosts: allMarkdownRemark(
       filter: {
-        frontmatter: { pinned: { eq: null }},
         fields: { contentType: { eq: "posts" } }
       }
       sort: { order: DESC, fields: frontmatter___date }

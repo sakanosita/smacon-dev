@@ -24,15 +24,19 @@ const Solidity = ({ data }) => {
           <h3>Solidity入門</h3>
           <PostList posts={updatePosts} />
         </Board>
-
+        
         <StyledLink
           css={`
-            margin-top: var(--size-400);
-            display: inline-block;
+            display: block;
+            margin-top: var(--size-800);
+            margin-bottom: var(--size-800);
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
           `}
-          to="/tags"
+          to="/tags/"
         >
-          View All tags
+        View All tags
         </StyledLink>
     </Layout>
   );

@@ -18,12 +18,12 @@ const Solidity = ({ data }) => {
         </Intro>
 
         <Board>
-          <h3>人気の記事</h3>
-          <PostList posts={popularPosts} />
-        </Board>
-        <Board>
           <h3>初心者向け</h3>
           <PostList posts={beginnerPosts} />
+        </Board>
+        <Board>
+          <h3>人気の記事</h3>
+          <PostList posts={popularPosts} />
         </Board>
         <Board>
           <h3>Solidity学習</h3>

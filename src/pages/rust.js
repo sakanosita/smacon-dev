@@ -21,7 +21,7 @@ const Rust = ({ data }) => {
           <PostList posts={popularPosts} />
         </Board>
         <Board>
-          <h3>Rust入門</h3>
+          <h3>最新の記事</h3>
           <PostList posts={updatePosts} />
         </Board>
 

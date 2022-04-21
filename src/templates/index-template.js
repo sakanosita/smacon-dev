@@ -8,6 +8,9 @@ import StyledLink from '../components/styled-link';
 const HomePage = ({ data }) => {
   const popularPosts = data.popularPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
+  const solidityPosts = data.solidityPosts.nodes;
+  const rustPosts = data.rustPosts.nodes;
+  const motokoPosts = data.motokoPosts.nodes;
   const intro = data.markdownRemark.html;
   const title = data.markdownRemark.frontmatter.title;
 
@@ -18,14 +21,29 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
+
       <Board>
-        <h4>人気の記事</h4>
+        <h3>人気の記事</h3>
         <PostList posts={popularPosts} />
       </Board>
       <Board>
-        <h4>最新の記事</h4>
+        <h3>最新の記事</h3>
         <PostList posts={updatePosts} />
       </Board>
+
+      <Board>
+        <h3>Solidity入門</h3>
+        <PostList posts={solidityPosts} />
+      </Board>
+      <Board>
+        <h3>Rust入門</h3>
+        <PostList posts={rustPosts} />
+      </Board>
+      <Board>
+        <h3>Motoko入門</h3>
+        <PostList posts={motokoPosts} />
+      </Board>
+
       <StyledLink
         css={`
           display: block;
@@ -70,7 +88,10 @@ const Intro = styled.div`
 const Board = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--size-900);
+  margin-bottom: var(--size-600);
+  h3 {
+    font-size: 120%;
+  }
   h4 {
     text-align: center;
   }
@@ -110,7 +131,7 @@ export const pageQuery = graphql`
         fields: { contentType: { eq: "posts" } }
       }
       sort: { order: DESC, fields: frontmatter___date }
-      limit: 9
+      limit: 6
     ) {
       nodes {
         fields {
@@ -124,6 +145,87 @@ export const pageQuery = graphql`
           title
           tags
         }
+      }
+    }
+    solidityPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+            tags: { in: [
+                "Solidity",
+                "Chainlink",
+                "Ethereum",
+                "Hardhat"
+            ] } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
+      }
+    }
+    rustPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+            tags: { in: [
+                "Rust"
+            ] } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
+      }
+    }
+    motokoPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+            tags: { in: [
+                "Motoko"
+            ] } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

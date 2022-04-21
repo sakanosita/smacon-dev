@@ -21,10 +21,10 @@ const Solidity = ({ data }) => {
           <PostList posts={popularPosts} />
         </Board>
         <Board>
-          <h3>Solidity入門</h3>
+          <h3>Solidity学習</h3>
           <PostList posts={updatePosts} />
         </Board>
-        
+
         <StyledLink
           css={`
             display: block;

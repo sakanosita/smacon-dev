@@ -23,7 +23,7 @@ const Motoko = ({ data }) => {
           <PostList posts={popularPosts} />
         </Board> */}
         <Board>
-          <h3>Motokoプログラミング入門</h3>
+          <h3>Motokoプログラミング学習</h3>
           <PostList posts={motokoPosts} />
         </Board>
         <Board>

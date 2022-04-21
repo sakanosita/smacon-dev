@@ -2,9 +2,9 @@
 title: "Motoko入門: DFINITYプロジェクトの始め方"
 date: 2021-12-29 19:38
 permalink: /motoko-explore-hello
+level: beginner
 tags:
   - Motoko
-  - beginner
 description: |-
   チュートリアル「Explore the default project」日本語解説
   Motokoの勉強をどうやって始めたらわからない人が最初にやること

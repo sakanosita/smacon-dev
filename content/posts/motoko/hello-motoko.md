@@ -8,9 +8,9 @@ redirect_from:
   - /hello-icp
   - /hello-icp/
 pinned: 12
+level: beginner
 tags:
   - Motoko
-  - beginner
 social_image: /media/labs.png
 description: |-
   ICP(Internet Computer Protocol)でキャニスター開発をはじめよう！

@@ -2,11 +2,9 @@
 title: "Ethers.jsを使ってNext.jsからスマートコントラクトを実行する"
 date: 2022-01-13 10:00
 permalink: /ethers
+level: beginner
 tags:
   - Solidity
-  - ethers.js
-  - beginner
-  - jp
 description: |-
   Ethers.jsを使ってNext.jsからスマートコントラクトを実行する
 ---

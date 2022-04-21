@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import StyledLink from '../components/styled-link';
@@ -7,6 +7,7 @@ import styled from 'styled-components';
 
 const Solidity = ({ data }) => {
   const popularPosts = data.popularPosts.nodes;
+  const beginnerPosts = data.beginnerPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
   return (
@@ -19,6 +20,10 @@ const Solidity = ({ data }) => {
         <Board>
           <h3>人気の記事</h3>
           <PostList posts={popularPosts} />
+        </Board>
+        <Board>
+          <h3>初心者向け</h3>
+          <PostList posts={beginnerPosts} />
         </Board>
         <Board>
           <h3>Solidity学習</h3>
@@ -94,6 +99,32 @@ export const pageQuery = graphql`
                 "Ethereum",
                 "Hardhat"
             ] } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      totalCount
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
+      }
+    }
+    beginnerPosts: allMarkdownRemark(
+      limit: 3
+      sort: { order: ASC, fields: frontmatter___pinned }
+      filter: {
+        frontmatter: {
+          level: { eq: "beginner" }
+          tags: { eq: "Solidity" }
         }
         fields: { contentType: { eq: "posts" } }
       }

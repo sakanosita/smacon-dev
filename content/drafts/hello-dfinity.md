@@ -5,7 +5,6 @@ permalink: /hello-dfinity
 tags:
   - DFINITY
   - ICP
-  - beginner
 description: |-
   Web3プログラマによるDFINITYの解説
 ---

@@ -6,8 +6,8 @@ import styled from 'styled-components';
 import StyledLink from '../components/styled-link';
 
 const HomePage = ({ data }) => {
-  const pinned = data.pinnedMarkdown.nodes;
-  const posts = data.allMarkdownRemark.nodes;
+  const popularPosts = data.popularPosts.nodes;
+  const updatePosts = data.updatePosts.nodes;
   const intro = data.markdownRemark.html;
   const title = data.markdownRemark.frontmatter.title;
 
@@ -18,8 +18,14 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
-      <PostList posts={pinned} />
-      <PostList posts={posts} />
+      <Board>
+        <h4>人気の記事</h4>
+        <PostList posts={popularPosts} />
+      </Board>
+      <Board>
+        <h4>最新の記事</h4>
+        <PostList posts={updatePosts} />
+      </Board>
       <StyledLink
         css={`
           display: block;
@@ -61,6 +67,15 @@ const Intro = styled.div`
   }
 `;
 
+const Board = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--size-900);
+  h4 {
+    text-align: center;
+  }
+`;
+
 export const pageQuery = graphql`
   query ($slug: String!) {
     site {
@@ -68,13 +83,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    pinnedMarkdown: allMarkdownRemark(
+    popularPosts: allMarkdownRemark(
       filter: {
         frontmatter: { pinned: { ne: null }},
         fields: { contentType: { eq: "posts" } } 
       }
       sort: { order: ASC, fields: frontmatter___pinned }
-      limit: 9
+      limit: 6
     ) {
       nodes {
         fields {
@@ -90,13 +105,13 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(
+    updatePosts: allMarkdownRemark(
       filter: {
         frontmatter: { pinned: { eq: null }},
         fields: { contentType: { eq: "posts" } }
       }
       sort: { order: DESC, fields: frontmatter___date }
-      limit: 15
+      limit: 9
     ) {
       nodes {
         fields {

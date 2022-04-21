@@ -2,6 +2,7 @@
 title: "Motoko入門: アクター入門 — DFINITY(ICP)"
 date: 2021-12-29 20:38
 permalink: /motoko-actor-hello
+pinned: 22
 tags:
   - Motoko
   - DFINITY

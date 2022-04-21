@@ -81,7 +81,7 @@ export const pageQuery = graphql`
   query {
     popularPosts: allMarkdownRemark(
       limit: 3
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { order: ASC, fields: frontmatter___pinned }
       filter: {
         frontmatter: {
             pinned: { ne: null }

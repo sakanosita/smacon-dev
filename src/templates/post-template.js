@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
+import RelatedList from '../components/related-list';
 import styled from 'styled-components';
 import Tags from '../components/tags';
 
@@ -8,7 +9,7 @@ const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
   const prev = data.prev;
   const next = data.next;
-  // const relatedPosts = data.relatedPosts.nodes;
+  const relatedPosts = data.relatedPosts.nodes;
 
   return (
     <Layout
@@ -28,7 +29,7 @@ const PostTemplate = ({ data }) => {
 
         <Tags tags={frontmatter.tags} />
 
-        <PostPagination>
+        {/* <PostPagination>
           {prev && (
             <div>
               <span>previous</span>
@@ -42,8 +43,14 @@ const PostTemplate = ({ data }) => {
               <Link to={next.fields.slug}> {next.frontmatter.title}</Link>
             </div>
           )}
-        </PostPagination>
+        </PostPagination> */}
+
+        <Board>
+          <h4>こちらもおすすめ</h4>
+          <RelatedList posts={relatedPosts} />
+        </Board>
       </PostWrapper>
+
     </Layout>
   );
 };
@@ -174,6 +181,21 @@ const PostPagination = styled.nav`
     right: 0;
     top: 0;
     bottom: 0;
+  }
+`;
+
+const Board = styled.div`
+
+  margin-top: var(--size-800);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--size-600);
+  & h4 {
+    font-size: 100%;
+    & a {
+      color: inherit;
+      text-decoration: none;
+    }
   }
 `;
 

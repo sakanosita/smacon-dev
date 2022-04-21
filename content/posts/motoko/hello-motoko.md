@@ -9,9 +9,8 @@ redirect_from:
   - /hello-icp/
 pinned: 12
 tags:
-  - DFINITY
   - Motoko
-  - ICP
+  - beginner
 social_image: /media/labs.png
 description: |-
   ICP(Internet Computer Protocol)でキャニスター開発をはじめよう！

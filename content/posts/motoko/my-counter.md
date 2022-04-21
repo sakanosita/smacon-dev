@@ -4,8 +4,6 @@ date: 2021-12-29 21:38
 permalink: /motoko-my-counter
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   チュートリアル「Increment a natural number」の日本語解説
   実際に使ったコードをGitHubで公開

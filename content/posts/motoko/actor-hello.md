@@ -5,8 +5,6 @@ permalink: /motoko-actor-hello
 pinned: 22
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   DFINITYチュートリアル「Query using an actor」の日本語解説
   実際に使ったコードをGitHubで公開

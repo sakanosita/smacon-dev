@@ -4,8 +4,6 @@ date: 2021-12-30 21:00
 permalink: /motoko-linkedup
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   DFINITYプログラミング: キャニスター間てcallを実行する
 ---

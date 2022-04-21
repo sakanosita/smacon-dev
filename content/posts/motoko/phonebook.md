@@ -4,8 +4,6 @@ date: 2021-12-30 06:38
 permalink: /motoko-phonebook
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   Motokoチュートリアル「Import library modules」の日本語解説
   実際に使ったコードをGitHubで公開

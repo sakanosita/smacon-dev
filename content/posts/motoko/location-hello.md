@@ -4,8 +4,6 @@ date: 2021-12-29 21:00
 permalink: /motoko-location-hello
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   チュートリアル「Pass text arguments」の日本語解説
   実際に使ったコードをGitHubで公開

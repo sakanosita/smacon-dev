@@ -5,8 +5,6 @@ permalink: /access-hello
 pinned: 23
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   DFINITYチュートリアル: Add access control with identities
   Motokoでユーザーによって処理を変える方法を解説

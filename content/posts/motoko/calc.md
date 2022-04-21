@@ -4,8 +4,6 @@ date: 2021-12-29 22:38
 permalink: /motoko-calc
 tags:
   - Motoko
-  - DFINITY
-  - ICP
 description: |-
   チュートリアル「Use integers in calculator functions」の日本語解説
   実際に使ったコードをGitHubで公開

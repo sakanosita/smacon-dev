@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import styled from 'styled-components';
@@ -32,15 +32,21 @@ const HomePage = ({ data }) => {
       </Board>
 
       <Board>
-        <h3>Solidity入門</h3>
+        <h3>
+          <Link to="/solidity/">Solidity入門</Link>
+        </h3>
         <PostList posts={solidityPosts} />
       </Board>
       <Board>
-        <h3>Rust入門</h3>
+        <h3>
+          <Link to="/rust/">Rust入門</Link>
+        </h3>
         <PostList posts={rustPosts} />
       </Board>
       <Board>
-        <h3>Motoko入門</h3>
+        <h3>
+          <Link to="/motoko/">Motoko入門</Link>
+        </h3>
         <PostList posts={motokoPosts} />
       </Board>
 
@@ -92,7 +98,12 @@ const Board = styled.div`
   h3 {
     font-size: 120%;
     text-align: center;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
   }
+
 `;
 
 export const pageQuery = graphql`

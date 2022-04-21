@@ -103,7 +103,6 @@ const Board = styled.div`
       text-decoration: none;
     }
   }
-
 `;
 
 export const pageQuery = graphql`

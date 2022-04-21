@@ -6,8 +6,8 @@ import StyledLink from '../components/styled-link';
 import styled from 'styled-components';
 
 const Rust = ({ data }) => {
-  const { totalCount } = data.allMarkdownRemark;
-  const posts = data.allMarkdownRemark.nodes;
+  const popularPosts = data.popularPosts.nodes;
+  const updatePosts = data.updatePosts.nodes;
 
   return (
     <Layout title="Rust and Building Decendtalized WASM">
@@ -15,7 +15,16 @@ const Rust = ({ data }) => {
             <h1>Rust and Building Decendtalized WASM</h1>
             <p>Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発</p>
         </Intro>
-        <PostList posts={posts} />
+
+        <Board>
+          <h3>人気の記事</h3>
+          <PostList posts={popularPosts} />
+        </Board>
+        <Board>
+          <h3>最新の記事</h3>
+          <PostList posts={updatePosts} />
+        </Board>
+
         <StyledLink
           css={`
             margin-top: var(--size-400);
@@ -53,10 +62,53 @@ const Intro = styled.div`
   }
 `;
 
+const Board = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--size-600);
+  & h3 {
+    font-size: 120%;
+    text-align: center;
+    & a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+`;
+
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(
-      limit: 2000
+    popularPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+            pinned: { ne: null }
+            tags: { in: [
+                "Rust",
+                "Solana"
+            ] } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      totalCount
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
+      }
+    }
+    updatePosts: allMarkdownRemark(
+      limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {

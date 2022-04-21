@@ -8,7 +8,8 @@ import styled from 'styled-components';
 const Motoko = ({ data }) => {
 
   const popularPosts = data.popularPosts.nodes;
-  const updatePosts = data.updatePosts.nodes;
+  const motokoPosts = data.motokoPosts.nodes;
+  const dfinityPosts = data.dfinityPosts.nodes;
 
   return (
     <Layout title="Motoko and Making Canisters on DFINITY">
@@ -17,13 +18,17 @@ const Motoko = ({ data }) => {
             <p>Motokoプログラミング入門, ICP(Internet Computer)を使ったキャニスター開発</p>
         </Intro>
 
-        <Board>
+        {/* <Board>
           <h3>人気の記事</h3>
           <PostList posts={popularPosts} />
+        </Board> */}
+        <Board>
+          <h3>Motokoプログラミング入門</h3>
+          <PostList posts={motokoPosts} />
         </Board>
         <Board>
-          <h3>最新の記事</h3>
-          <PostList posts={updatePosts} />
+          <h3>Internet Computer(DFINITY)入門</h3>
+          <PostList posts={dfinityPosts} />
         </Board>
 
         <StyledLink
@@ -112,14 +117,43 @@ export const pageQuery = graphql`
         excerpt
       }
     }
-    updatePosts: allMarkdownRemark(
-      limit: 1000
+    motokoPosts: allMarkdownRemark(
+      limit: 100
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
             tags: {
                 in: [
-                    "Motoko",
+                    "Motoko"
+                ],
+                ne: "Rust"
+            } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      totalCount
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
+      }
+    }
+    dfinityPosts: allMarkdownRemark(
+      limit: 6
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+            tags: {
+                in: [
                     "DFINITY",
                     "ICP"
                 ],

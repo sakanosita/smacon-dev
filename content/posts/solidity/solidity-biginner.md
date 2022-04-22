@@ -4,6 +4,8 @@ date: 2022-01-03 00:00
 permalink: /solidity-beginner
 pinned: 13
 level: beginner
+redirect_from:
+  - /solidity-beginner/
 tags:
   - Solidity
   - Ethereum

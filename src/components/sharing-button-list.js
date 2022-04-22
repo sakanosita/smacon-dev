@@ -3,8 +3,8 @@ import {
     FacebookShareButton,
     // HatenaIcon,
     // HatenaShareButton,
-    // LineIcon,
-    // LineShareButton,
+    LineIcon,
+    LineShareButton,
     TwitterIcon,
     TwitterShareButton
   } from 'react-share'
@@ -30,18 +30,18 @@ import {
           </FacebookShareButton>
         </ButtonWrapper>
   
-        {/* <ButtonWrapper>
-          <LineShareButton url={url} >
-            <LineIcon size={40} round />
-          </LineShareButton>
-        </ButtonWrapper> */}
-  
         <ButtonWrapper>
           <TwitterShareButton title={title} url={url} >
             <TwitterIcon size={36} round />
           </TwitterShareButton>
         </ButtonWrapper>
   
+        <ButtonWrapper>
+          <LineShareButton url={url} >
+            <LineIcon size={36} round />
+          </LineShareButton>
+        </ButtonWrapper>
+
         {/* <ButtonWrapper>
           <HatenaShareButton url={url} >
             <HatenaIcon size={40} round />

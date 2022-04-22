@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import RelatedList from '../components/related-list';
+import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 import Tags from '../components/tags';
 
@@ -9,6 +10,7 @@ const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
   // const prev = data.prev;
   // const next = data.next;
+  const slug = data.markdownRemark.fields.slug;
   const relatedPosts = data.relatedPosts.nodes;
 
   return (
@@ -26,7 +28,7 @@ const PostTemplate = ({ data }) => {
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
-
+        <ShareButtonList title={frontmatter.title} url={`https://www.smacon.com${slug}`} />
         <Tags tags={frontmatter.tags} />
 
         {/* <PostPagination>
@@ -204,6 +206,9 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         tags

@@ -166,9 +166,6 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
-    `gatsby-plugin-react-helmet`,
-    'gatsby-redirect-from',
-    'gatsby-plugin-meta-redirect', // make sure this is always the last one
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -245,6 +242,9 @@ module.exports = {
           return entry;
         }
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`,
+    'gatsby-redirect-from',
+    'gatsby-plugin-meta-redirect' // make sure this is always the last one
   ]
 };

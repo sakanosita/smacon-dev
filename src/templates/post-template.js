@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import RelatedList from '../components/related-list';
 import styled from 'styled-components';
@@ -7,8 +7,8 @@ import Tags from '../components/tags';
 
 const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
-  const prev = data.prev;
-  const next = data.next;
+  // const prev = data.prev;
+  // const next = data.next;
   const relatedPosts = data.relatedPosts.nodes;
 
   return (
@@ -137,52 +137,52 @@ const PostContent = styled.section`
   }
 `;
 
-const PostPagination = styled.nav`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: var(--size-300);
+// const PostPagination = styled.nav`
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-top: var(--size-300);
 
-  & > * {
-    position: relative;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    margin: 0.5rem;
-  }
+//   & > * {
+//     position: relative;
+//     flex: 1;
+//     display: flex;
+//     flex-direction: column;
+//     padding: 1rem;
+//     padding-top: 0.5rem;
+//     padding-bottom: 0.5rem;
+//     border-radius: 8px;
+//     border: 1px solid rgba(255, 255, 255, 0.5);
+//     background-color: rgba(255, 255, 255, 0.3);
+//     backdrop-filter: blur(10px);
+//     margin: 0.5rem;
+//   }
 
-  & > *:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+//   & > *:hover {
+//     background-color: rgba(255, 255, 255, 0.5);
+//   }
 
-  & span {
-    text-transform: uppercase;
-    opacity: 0.6;
-    font-size: var(--size-400);
-    padding-bottom: var(--size-500);
-  }
+//   & span {
+//     text-transform: uppercase;
+//     opacity: 0.6;
+//     font-size: var(--size-400);
+//     padding-bottom: var(--size-500);
+//   }
 
-  & a {
-    color: inherit;
-    text-decoration: none;
-    font-size: var(--size-400);
-  }
+//   & a {
+//     color: inherit;
+//     text-decoration: none;
+//     font-size: var(--size-400);
+//   }
 
-  & a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-  }
-`;
+//   & a::after {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     top: 0;
+//     bottom: 0;
+//   }
+// `;
 
 const Board = styled.div`
 

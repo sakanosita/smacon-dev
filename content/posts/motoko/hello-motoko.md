@@ -62,14 +62,14 @@ npm がわからなくてもステップ 4 までは進めらるので、実際�
 
 ターミナルソフトで以下のコマンドを実行します。
 
-```sh
+```bash
 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 ```
 
 これで SDK のインストールは完了です。
 dfx コマンドを実行できるようになります。
 
-```sh
+```bash
 $ dfx --version
 dfx 0.8.0
 ```
@@ -78,21 +78,21 @@ dfx 0.8.0
 
 自分の好きな作業用ディレクトリを作って移動します。ぼくは dfinity というディレクトリを作っています。
 
-```sh
+```bash
 mkdir dfinity
 cd dfinity
 ```
 
 dfinity ディレクトリの中に hello という名前の Hello World プロジェクトを作ります。
 
-```sh
+```bash
 dfx new hello
 cd hello
 ```
 
 ls コマンドでどんなファイルがあるか見てみましょう。
 
-```sh
+```bash
 $ ls
 README.md dfx.json dist node_modules package-lock.json package.json src webpack.config.js
 ```
@@ -101,7 +101,7 @@ README.md dfx.json dist node_modules package-lock.json package.json src webpack.
 
 hello ディレクトリにいる状態で、ローカル PC 上で実行環境を起動します。
 
-```sh
+```bash
 dfx start --background
 ```
 

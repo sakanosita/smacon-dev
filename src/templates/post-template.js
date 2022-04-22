@@ -223,11 +223,15 @@ export const pageQuery = graphql`
     relatedPosts: allMarkdownRemark(
       limit: 4
       sort: { fields: [frontmatter___date], order: DESC }
+
       filter: {
         frontmatter: {
           tags: { in: $blogTags }
         }
-        fields: { contentType: { eq: "posts" } }
+        fields: {
+          slug: { ne: $slug }
+          contentType: { eq: "posts" }
+        }
       }
     ) {
       nodes {

@@ -206,6 +206,3 @@ ICP(Internet Computer Protocol)の世界へようこそ
 - [キャニスター間の関数呼び出し](/motoko-linkedup)
 - [ID とアクセス管理](/access-hello)
 - [CYCLE ウォレットとキャニスター](/cycles-hello)
-
-いろんなブロックチェーンを使った最新のスマートコントラクトの開発情報を Twitter で発信しています。
-[@motosakanosita](https://twitter.com/motosakanosita)

@@ -1,6 +1,6 @@
 import {
-    // FacebookIcon,
-    // FacebookShareButton,
+    FacebookIcon,
+    FacebookShareButton,
     // HatenaIcon,
     // HatenaShareButton,
     // LineIcon,
@@ -24,13 +24,13 @@ import {
   const ShareButtonList = ({title, url}) => {
     return (
       <Wrapper>
-        {/* <ButtonWrapper>
+        <ButtonWrapper>
           <FacebookShareButton url={url}>
-            <FacebookIcon size={40} round />
+            <FacebookIcon size={36} round />
           </FacebookShareButton>
         </ButtonWrapper>
   
-        <ButtonWrapper>
+        {/* <ButtonWrapper>
           <LineShareButton url={url} >
             <LineIcon size={40} round />
           </LineShareButton>
@@ -38,7 +38,7 @@ import {
   
         <ButtonWrapper>
           <TwitterShareButton title={title} url={url} >
-            <TwitterIcon size={40} round />
+            <TwitterIcon size={36} round />
           </TwitterShareButton>
         </ButtonWrapper>
   

@@ -7,7 +7,6 @@ redirect_from:
   - /blog/hello-motoko/
   - /hello-icp
   - /hello-icp/
-  - /hello-motoko/
 pinned: 12
 level: beginner
 tags:

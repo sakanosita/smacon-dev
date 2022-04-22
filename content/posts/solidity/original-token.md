@@ -1,6 +1,6 @@
 ---
 title: 【コピペでOK】オジリナル仮想通貨のつくり方（ERC20）
-date: 2021-06-03 00:00
+date: 2022-04-22 10:38
 permalink: /original-token
 tags:
   - Solidity

@@ -28,7 +28,7 @@ const PostTemplate = ({ data }) => {
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
-        <ShareButtonList title={frontmatter.title} url={`https://www.smacon.com${slug}`} />
+        <ShareButtonList title={frontmatter.title} url={`https://www.smacon.dev${slug}`} />
         <Tags tags={frontmatter.tags} />
 
         {/* <PostPagination>

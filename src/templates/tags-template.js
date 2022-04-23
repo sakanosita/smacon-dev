@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import StyledLink from '../components/styled-link';
@@ -7,7 +7,6 @@ import styled from 'styled-components';
 
 const TagsTemplate = ({ pageContext, data }) => {
   const { tag } = pageContext;
-  const { totalCount } = data.allMarkdownRemark;
   const posts = data.allMarkdownRemark.nodes;
   const title = `${tag} | smacon.dev`;
 
@@ -15,27 +14,20 @@ const TagsTemplate = ({ pageContext, data }) => {
     <Layout title={title}>
       <TagsTemplateWrapper>
         <Title>
-          {tag} - {totalCount} pages
+          {tag} の検索結果
         </Title>
-        <Link
-          css={`
-            margin-top: var(--size-400);
-            display: inline-block;
-            color: inherit;
-            text-transform: uppercase;
-          `}
-          to="/tags"
-        >
-          view all tags
-        </Link>
+
         <PostList posts={posts} />
 
         <StyledLink
           css={`
             margin-top: var(--size-400);
-            display: inline-block;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
           `}
-          to="/tags"
+          to="/tags/"
         >
           View All tags
         </StyledLink>

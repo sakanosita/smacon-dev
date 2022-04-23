@@ -18,7 +18,7 @@ const All = ({ data }) => {
             color: inherit;
             text-transform: uppercase;
           `}
-          to="/tags"
+          to="/tags/"
         >
           view all tags
         </Link>

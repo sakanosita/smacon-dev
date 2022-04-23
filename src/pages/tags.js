@@ -14,25 +14,35 @@ const Tags = ({ data }) => {
   const tags = data.allMarkdownRemark.group;
 
   return (
-    <Layout title="All Tags">
-      <h1>All Tags</h1>
+    <Layout title="キーワード一覧 | smacon.dev">
+      <TagsTemplateWrapper>
+        <Title>キーワード一覧</Title>
 
-      <ul>
-        <TagItem>
-        {tags.map((tag) => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${toKebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-        </TagItem>
-      </ul>
+        <ul>
+          <TagItem>
+          {tags.map((tag) => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${toKebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+          </TagItem>
+        </ul>
+      </TagsTemplateWrapper>
     </Layout>
   );
 };
 
 export default Tags;
+
+const TagsTemplateWrapper = styled.div`
+  padding-top: var(--size-900);
+`;
+
+const Title = styled.h1`
+  font-size: var(--size-700);
+`;
 
 const TagItem = styled.div`
   & a {

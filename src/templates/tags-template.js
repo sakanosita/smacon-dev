@@ -7,6 +7,7 @@ import styled from 'styled-components';
 
 const TagsTemplate = ({ pageContext, data }) => {
   const { tag } = pageContext;
+  const { totalCount } = data.allMarkdownRemark;
   const posts = data.allMarkdownRemark.nodes;
   const title = `${tag} | smacon.dev`;
 
@@ -14,7 +15,7 @@ const TagsTemplate = ({ pageContext, data }) => {
     <Layout title={title}>
       <TagsTemplateWrapper>
         <Title>
-          {tag} の検索結果
+          '{tag}' の検索結果
         </Title>
 
         <PostList posts={posts} />

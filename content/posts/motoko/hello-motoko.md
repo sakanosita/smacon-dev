@@ -1,5 +1,5 @@
 ---
-title: "5ステップではじめるMotokoプログラミング ICP入門 — DFINITY"
+title: 5ステップではじめるMotokoプログラミング ICP入門 — DFINITY
 date: 2022-04-16 09:38
 permalink: /hello-motoko
 redirect_from:

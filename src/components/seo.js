@@ -10,7 +10,10 @@ const SEO = ({ description, lang, meta, title }) => {
         site {
           siteMetadata {
             title
-            openGraphImage
+            openGraphImage {
+              default
+              twitter
+            }
             siteUrl
             description
             social {
@@ -48,7 +51,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.openGraphImage}`
+          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.openGraphImage.default}`
         },
         {
           property: `og:type`,
@@ -72,7 +75,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:image`,
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.openGraphImage}`
+          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.openGraphImage.twitter}`
         },
       ].concat(meta)}
     />

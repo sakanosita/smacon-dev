@@ -11,7 +11,7 @@ pinned: 12
 level: beginner
 tags:
   - Motoko
-social_image: /media/labs.png
+social_image: /images/labs.png
 description: |-
   ICP(Internet Computer Protocol)でキャニスター開発をはじめよう！
 ---

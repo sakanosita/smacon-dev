@@ -5,7 +5,7 @@ module.exports = {
       name: `Moto Sakanosita`,
       summary: `A Programmer at Edtech`,
     },
-    openGraphImage: `ogp.png`,
+    openGraphImage: `images/ogp.png`,
     description: `初心者から Solidity / Rust / Motoko を学習して、イーサリアム(EVM)やWASMのブロックチェーンでスマートコントラクトを開発するための入門`,
     siteUrl: `https://www.smacon.dev`,
     social: {

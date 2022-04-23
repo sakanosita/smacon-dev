@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: パラメータを渡してキャニスターを実行する — DFINITY(ICP)"
+title: "Motoko入門: パラメータを渡してキャニスターを実行する — DFINITY"
 date: 2021-12-29 21:00
 permalink: /motoko-location-hello
 tags:

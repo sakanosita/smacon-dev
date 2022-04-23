@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: アクター入門 — DFINITY(ICP)"
+title: "Motoko入門: アクター入門 — DFINITY"
 date: 2021-12-29 20:38
 permalink: /motoko-actor-hello
 pinned: 22

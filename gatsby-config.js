@@ -5,7 +5,7 @@ module.exports = {
       name: `Moto Sakanosita`,
       summary: `A Programmer at Edtech`,
     },
-    openGraphImage: `images/og/link.png`,
+    openGraphImage: `/og/link.png`,
     description: `初心者から Solidity / Rust / Motoko を学習して、イーサリアム(EVM)やWASMのブロックチェーンでスマートコントラクトを開発するための入門`,
     siteUrl: `https://www.smacon.dev`,
     social: {
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
-        path: `${__dirname}/static/images`,
+        name: `og`,
+        path: `${__dirname}/static/images/og`,
       },
     },
     {

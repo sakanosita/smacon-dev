@@ -5,7 +5,7 @@ permalink: /web3js
 tags:
   - Solidity
   - JavaScript
-social_image: /images/og/labs.png
+social_image: /og/labs.png
 description: |-
   初心者向けのJavaScriptからスマートコントラクトを実行する方法
 ---

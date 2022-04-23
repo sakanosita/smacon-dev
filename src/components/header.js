@@ -113,7 +113,7 @@ const StyledNavListItem = styled.li`
   & a {
     color: inherit;
     text-transform: uppercase;
-    font-size: var(--size-300);
+    font-size: var(--size-400);
     text-decoration: none;
     letter-spacing: 0.1rem;
   }

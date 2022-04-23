@@ -3,7 +3,7 @@ title: "Solidity入門: Merkle Proof（マークルツリーとKeccak256）"
 date: 2022-04-18 08:00
 permalink: /merkle-tree
 social_image: /media/merkle-tree/4.png
-pinned: 21
+pinned: 1
 tags:
   - Solidity
   - Ethereum

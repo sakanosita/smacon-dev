@@ -7,9 +7,8 @@ import styled from 'styled-components';
 import Tags from '../components/tags';
 
 const PostTemplate = ({ data }) => {
+  const site = data.site;
   const { frontmatter, excerpt, html } = data.markdownRemark;
-  // const prev = data.prev;
-  // const next = data.next;
   const slug = data.markdownRemark.fields.slug;
   const relatedPosts = data.relatedPosts.nodes;
 
@@ -28,24 +27,11 @@ const PostTemplate = ({ data }) => {
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
-        <ShareButtonList title={frontmatter.title} url={`https://www.smacon.dev${slug}`} />
+
+        <ShareButtonList
+          title={frontmatter.title}
+          url={`${site.siteMetadata.siteUrl}${slug}`} />
         <Tags tags={frontmatter.tags} />
-
-        {/* <PostPagination>
-          {prev && (
-            <div>
-              <span>previous</span>
-              <Link to={prev.fields.slug}> {prev.frontmatter.title}</Link>
-            </div>
-          )}
-
-          {next && (
-            <div>
-              <span>next</span>
-              <Link to={next.fields.slug}> {next.frontmatter.title}</Link>
-            </div>
-          )}
-        </PostPagination> */}
 
         <Board>
           <h4>こちらもおすすめ</h4>
@@ -203,6 +189,13 @@ const Board = styled.div`
 
 export const pageQuery = graphql`
   query PostBySlug($slug: String!, $prevSlug: String, $nextSlug: String, $blogTags: [String]) {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+      }
+    }
+
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt(pruneLength: 160)
       html

@@ -2,6 +2,7 @@
 title: "Solidity入門: Merkle Proof（マークルツリーとKeccak256）"
 date: 2022-04-18 08:00
 permalink: /merkle-tree
+social_image: /media/merkle-tree/4.png
 pinned: 11
 tags:
   - Solidity
@@ -11,7 +12,7 @@ description: |-
   Solidity by ExmaplesのMerkle Treeのコントラクトを作ります
 ---
 
-![Merkle Tree](/media/merkle-tree/merkle-tree.png)
+![Merkle Tree](/media/merkle-tree/2.png)
 
 このページはこんな人におすすめ
 
@@ -228,7 +229,7 @@ Keccak256 のほかによく使われるハッシュ関数は SHA-1 や MD5 な�
 ### マークル木
 
 マークル木はデータ構造を表しています。
-![Merkle Tree](/media/merkle-tree/merkle-tree.png)
+![Merkle Tree](/media/merkle-tree/4.png)
 
 根(root)が上、葉(leaf)が下にあるので、実際の木とは上下が反対です。
 

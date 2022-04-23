@@ -281,10 +281,3 @@ Metamask のネットワークが BSC になっていること
 左下の Deployed Contracts で HelloWorld スマコンを選んで get をクリックします。
 
 ![remix](/media/build-smart-contracts/remix-13.png)
-
-##
-
-最新の Web3 開発情報を Twitter で発信しています。
-よかったらフォローお願いします！
-
-https://twitter.com/motosakanosita

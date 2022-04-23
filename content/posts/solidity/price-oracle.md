@@ -6,6 +6,7 @@ tags:
   - Solidity
   - Rinkeby
   - Chainlink
+  - oracle
 description: |-
   Solidity開発の基本: イーサリアムでオラクルを使う方法を解説
 ---

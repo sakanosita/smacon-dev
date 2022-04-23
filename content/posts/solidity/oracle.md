@@ -7,7 +7,7 @@ tags:
   - Ethereum
   - Chainlink
   - EVM
-  - LINK
+  - oracle
 description: |-
   Dapps開発の基本: オラクルではどのようにしてオフチェーンのデータをオンチェーンで利用できるようにしているのか？
 ---

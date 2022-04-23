@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: CYCLEウォレットとキャニスター — DFINITY"
+title: "Motoko入門: CYCLEウォレットとキャニスター | DFINITY"
 date: 2022-01-03 20:38
 permalink: /cycles-hello
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Motoko入門: Candid UIを使ってキャニスターを実行する — DFINITY"
+title: "Motoko入門: Candid UIを使ってキャニスターを実行する | DFINITY"
 date: 2021-12-29 21:38
 permalink: /motoko-my-counter
 tags:

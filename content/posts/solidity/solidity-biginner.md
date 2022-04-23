@@ -2,7 +2,7 @@
 title: "Solidity入門: 無料プログラミング学習4選【初心者向け】"
 date: 2022-04-22 00:00
 permalink: /solidity-beginner
-pinned: 13
+pinned: 1
 level: beginner
 tags:
   - Solidity

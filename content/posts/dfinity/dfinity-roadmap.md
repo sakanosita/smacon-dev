@@ -5,7 +5,7 @@ permalink: /dfinity-roadmap
 pinned: 99
 tags:
   - DFINITY
-  - ICP
+  - Internet Computer
 description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---

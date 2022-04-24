@@ -5,7 +5,7 @@ permalink: /dom-foresight
 tags:
   - DFINITY
   - Dominic Williams
-  - ICP
+  - Internet Computer
 description: |-
   Dominic is the Founder and Chief Scientist at DFINITY, responsible for building the Internet Computer.
 ---

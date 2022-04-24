@@ -11,7 +11,7 @@ pinned: 11
 level: beginner
 tags:
   - Motoko
-  - ICP
+  - Internet Computer
   - DFINITY
 social_image: /og/labs.png
 description: |-

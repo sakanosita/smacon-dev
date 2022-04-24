@@ -4,7 +4,7 @@ date: 2021-12-27 18:38
 permalink: /dfinity-overview
 tags:
   - DFINITY
-  - ICP
+  - Internet Computer
 description: |-
   A Technical Overview of the Internet Computer
   How the Internet Computer Works

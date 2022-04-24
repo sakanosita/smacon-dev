@@ -5,7 +5,7 @@ permalink: /motoko-base-library
 tags:
   - Motoko
   - DFINITY
-  - ICP
+  - Internet Computer
 description: |-
   DFINITY (Internet Computer)
   Motoko Base Library

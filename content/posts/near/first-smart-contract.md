@@ -21,13 +21,13 @@ description: |-
 
 [Building a Smart Contract in Rust](https://docs.near.org/docs/develop/contracts/rust/intro)
 
-### 事前準備
+## 事前準備
 
 NEAR のテストネット用のアカウントとテストネットの NEAR トークンが必要です。
 
 https://wallet.testnet.near.org/
 
-### 実行環境
+## 実行環境
 
 - macOS 11.5.2
 - npm 8.5.1
@@ -35,7 +35,7 @@ https://wallet.testnet.near.org/
 - rustc: 1.60.0
 - cargo: 1.60.0
 
-### near-cli のインストール
+## near-cli のインストール
 
 開発用の Mac へ NEAR の開発ツール near-cli をインストールします。
 
@@ -50,7 +50,7 @@ $ near --version
 3.2.0
 ```
 
-### 新しいプロジェクトの作成
+## 新しいプロジェクトの作成
 
 cargo コマンドで新しいプロジェクトを作ります。
 
@@ -68,7 +68,7 @@ $ cd rust-counter-tutorial
    └── main.rs
 ```
 
-### ソースコード
+## ソースコード
 
 自動生成されたファイルから以下のようにファイルを作り変えます。
 
@@ -79,7 +79,7 @@ $ cd rust-counter-tutorial
    └── lib.rs
 ```
 
-#### Cargo.toml
+### Cargo.toml
 
 ```toml
 [package]
@@ -105,7 +105,7 @@ panic = "abort"
 overflow-checks = true
 ```
 
-#### src/lib.rs
+### src/lib.rs
 
 ````rust
 
@@ -282,7 +282,7 @@ mod tests {
 }
 ````
 
-### テストとビルド
+## テストとビルド
 
 以下のコマンドでプログラムのテストを実行できます。
 
@@ -296,7 +296,7 @@ $ cargo test -- --nocapture
 $ cargo build --target wasm32-unknown-unknown --release
 ```
 
-### NEAR テストネットへのデプロイ
+## NEAR テストネットへのデプロイ
 
 テストネットにログインします。
 
@@ -317,7 +317,7 @@ e.g.
 $ near deploy --wasmFile target/wasm32-unknown-unknown/release/rust_counter_tutorial.wasm --accountId sakanosita.testnet
 ```
 
-### 実行
+## 実行
 
 デプロイしたスマートコントラクトを実行してみましょう。
 get_mum を実行すると現在のカウンタの値を表示して、increment を call するとカウンタを+1 します。

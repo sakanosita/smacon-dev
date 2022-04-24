@@ -23,7 +23,7 @@ Solidity by Example のサンプルコードを使ってスマートコントラ
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/price-oracle)からダウンロードできます。
 
-## オラクルと Chainlink について
+# オラクルと Chainlink について
 
 オラクルは、オンチェーンのスマートコントラクトがオフチェーンの情報を利用するときに使います。
 
@@ -40,7 +40,7 @@ Proxy や Aggregator は Chainlink がデプロイしたスマートコントラ
 
 Consumer は Proxy の latestRoundData() という関数を実行して、Aggregator コントラクトが保持している state を参照します。
 
-## 新しいプロジェクトを作る
+# 新しいプロジェクトを作る
 
 price-oracle というディレクトリを作り
 npm パッケージの hardhat をインストールします。
@@ -69,11 +69,11 @@ npx hardhat
 
 これで hardhat.config.js の初期設定や ether.js などプラグインを追加した状態になります。
 
-## コーディング
+# コーディング
 
 以下のファイルを作ります。
 
-#### contracts/ChainlinkPriceFeed.sol
+### contracts/ChainlinkPriceFeed.sol
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -120,13 +120,13 @@ interface AggregatorV3Interface {
 
 Solidity by Example のコードをベースに PriceFeed のコントラクトアドレスを Rinkeby のアドレスに置換しています。
 
-#### [Ethereum Data Feed](https://docs.chain.link/docs/ethereum-addresses/)
+### [Ethereum Data Feed](https://docs.chain.link/docs/ethereum-addresses/)
 
 Rinkeby Testnet (ETH / USD)
 
 - 0x8A753747A1Fa494EC906cE90E9f37563A8AF630e
 
-## デプロイ (Rinkeby テストネット)
+# デプロイ (Rinkeby テストネット)
 
 必要なもの
 
@@ -137,7 +137,7 @@ Rinkeby Testnet (ETH / USD)
 Hardhat でデプロイする方法の詳細は[こちら](/hardhat)に書かれています。
 参照先はテストネットが Ropsten になっているので、Rinkeby に読み替えてください。
 
-#### 環境変数
+### 環境変数
 
 以下の環境変数を設定します。デプロイのコマンドを実行するターミナルで実行するかログインシェル用の設定ファイルに追加してください。
 
@@ -147,7 +147,7 @@ RINKEBY_RPC_URL=<RinkebyのRPCエンドポイント>
 export RINKEBY_PRIVATE_KEY RINKEBY_RPC_URL
 ```
 
-#### hardhat.config.js
+### hardhat.config.js
 
 Hardhat の設定ファイルを作ります。
 
@@ -171,7 +171,7 @@ module.exports = {
 };
 ```
 
-#### scripts/deploy.js
+### scripts/deploy.js
 
 デプロイスクリプトを用意します。
 
@@ -213,7 +213,7 @@ Contract deployed to: 0xc701F8eaeF74f3DE1FEe8613855884d02CfE9517
 
 デプロイが成功すると上記のようにコントラクトアドレスが表示されます。
 
-## 実行
+# 実行
 
 Rinkeby の Etherscan を使って getLatestPrice 関数を実行してみましょう。
 
@@ -230,7 +230,7 @@ Rinkeby の Etherscan を使って getLatestPrice 関数を実行してみまし
 もし、自分のコントラクトがうまくいかない場合は、筆者がデプロイしたコントラクトで試してみましょう。
 https://rinkeby.etherscan.io/address/0xc701F8eaeF74f3DE1FEe8613855884d02CfE9517
 
-### 解説
+## 解説
 
 デプロイしたコントラクトの中では Chainlink の PriceFeed のコントラクトを実行しています。
 そのコントラクトは同じネットワーク(Rinkeby)上にデプロイされたコントラクトです。

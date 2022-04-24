@@ -11,45 +11,45 @@ description: |-
   Disentangling DFINITY and Ethereum
 ---
 
-## DFINITY(ICP)
+# DFINITY(ICP)
 
 https://dfinity.org/
 
-## Internet Computer Association
+# Internet Computer Association
 
 https://internetcomputer.org/
 
-## The Internet Computer Review
+# The Internet Computer Review
 
 https://medium.com/dfinity
 
-## A Technical Overview of the Internet Computer
+# A Technical Overview of the Internet Computer
 
-### INTERNET COMPUTER BLOCKCHAIN OVERVIEW
+## INTERNET COMPUTER BLOCKCHAIN OVERVIEW
 
 https://dfinity.org/howitworks/overview-of-the-internet-computer
 
-### Medium
+## Medium
 
 https://medium.com/dfinity/a-technical-overview-of-the-internet-computer-f57c62abc20f
 
-### YouTube
+## YouTube
 
 [![Technical Overview](https://img.youtube.com/vi/zHl-oVPoX88/0.jpg)](https://www.youtube.com/watch?v=zHl-oVPoX88)
 
-## Genesis Launch Event
+# Genesis Launch Event
 
 [![Genesis Launch Event](https://img.youtube.com/vi/xiupEw4MfxY/0.jpg)](https://www.youtube.com/watch?v=xiupEw4MfxY)
 
-## Education Center
+# Education Center
 
 https://internetcomputer.org/education
 
-## Dashboard
+# Dashboard
 
 https://dashboard.internetcomputer.org/
 
-### In-site Pages
+## In-site Pages
 
 - [Overview](/dfinity-overview)
 - [Technology](/inside-icp)

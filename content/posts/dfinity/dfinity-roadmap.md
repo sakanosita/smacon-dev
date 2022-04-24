@@ -10,11 +10,11 @@ description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---
 
-## [Internet Computer Roadmap](https://dfinity.org/roadmap/)
+# [Internet Computer Roadmap](https://dfinity.org/roadmap/)
 
-#### [IC Roadmap Milestones for 2022 (Sneak Preview)](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
+### [IC Roadmap Milestones for 2022 (Sneak Preview)](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
 
-### Chromium (end of Q1)
+## Chromium (end of Q1)
 
 1. ICOS Boundary Nodes
    - [Long Term R&D: Boundary Nodes (proposal)](https://forum.dfinity.org/t/long-term-r-d-boundary-nodes-proposal/9401)
@@ -41,7 +41,7 @@ description: |-
 11. Deterministic Time Slicing
 12. Community Fund
 
-### Titanium (mid Q1 2022)
+## Titanium (mid Q1 2022)
 
 1. Titanium Example Dapps
 2. Bitcoin Integration Developer Preview
@@ -55,15 +55,15 @@ description: |-
    - [Enable Canisters to Hold ICP](https://forum.dfinity.org/t/enable-canisters-to-hold-icp/6153)
 9. NNS Managed Node Provider Remuneration
 
-## Medium
+# Medium
 
 - [The Internet Computer Community Adopts 25 Proposals for Future Crypto Innovation](https://medium.com/dfinity/the-internet-computer-community-adopts-25-proposals-for-future-crypto-innovation-7465984c5ad1)
 - [Internet Computer Roadmap Guide: 25 Motion Proposals Outlining New Areas for Crypto Innovation](https://medium.com/dfinity/the-internet-computers-long-term-r-d-plans-motion-proposals-guide-dce6fdcd697d)
 - [Announcing the Internet Computer “Mainnet” and a 20-Year Roadmap](https://medium.com/dfinity/announcing-internet-computer-mainnet-and-a-20-year-roadmap-790e56cbe04a)
 
-### [Roadmap](https://dfinity.org/roadmap/)
+## [Roadmap](https://dfinity.org/roadmap/)
 
-### In-site Pages
+## In-site Pages
 
 - [Overview](/dfinity-overview)
 - [Technology](/inside-icp)

@@ -26,7 +26,7 @@ description: |-
 
 今回実行するスマートコントラクトは、以下の記事で作った Hello World プログラムです。
 
-## 必要なもの
+# 必要なもの
 
 - live-server
 - Next.js アプリケーション
@@ -34,7 +34,7 @@ description: |-
 - スマートコントラクトのアドレス
 - スマートコントラクトの ABI
 
-### live-server
+## live-server
 
 ３つの確認方法のうち、
 
@@ -43,7 +43,7 @@ HTML と JavaScript ファイルだけの web3.js の実行方法
 live-server はローカル PC 上で利用できる軽量な HTTP サーバです。
 PC 上の HTML ファイルをブラウザを通してアクセスできます。
 
-### Next.js アプリケーション
+## Next.js アプリケーション
 
 JavaScript を使ったアプリケーションを書く場合、React や Vue.js などいろんなフレームワークを使いますが、それらは基本的にサーバサイドの JavaScript 言語である Node.js を使っています。
 
@@ -54,7 +54,7 @@ Next.js の新しいプロジェクトを用意してください。
 
 https://nextjs.org/docs/getting-started
 
-### npm の web3.js
+## npm の web3.js
 
 Next.js のプロジェクトに npm を使って web3.js をインストールします。
 
@@ -64,7 +64,7 @@ Next.js のプロジェクトに npm を使って web3.js をインストール�
 npm install web3 --save
 ```
 
-### スマートコントラクトのアドレス
+## スマートコントラクトのアドレス
 
 スマートコントラクトを実行する場合にコントラクトアドレスを指定します。
 今回使うスマートコントラクトのアドレスを調べましょう。
@@ -82,7 +82,7 @@ Truffle を使って Ganache にコントラクトをデプロイした場合は
   },
 ```
 
-### スマートコントラクトの ABI
+## スマートコントラクトの ABI
 
 スマートコントラクトを実行する場合、そのコントラクトがどんなファンクションを持っているのかやどんな型の情報を返すのかといったインターフェースの情報が必要になります。
 それが ABI（Application Binary Interface）です。
@@ -109,9 +109,9 @@ Truffle でデプロイした場合は、コントラクトアドレスと同じ
   ],
 ```
 
-## HTML と JavaScript だけのシンプルな web3.js
+# HTML と JavaScript だけのシンプルな web3.js
 
-### コード
+## コード
 
 ３つのファイルを作って同じディレクトリに置きましょう。
 
@@ -119,7 +119,7 @@ Truffle でデプロイした場合は、コントラクトアドレスと同じ
 - app.js
 - helloWorld.js
 
-#### index.html
+### index.html
 
 ```html
 <!DOCTYPE html>
@@ -135,7 +135,7 @@ Truffle でデプロイした場合は、コントラクトアドレスと同じ
 </html>
 ```
 
-#### app.js
+### app.js
 
 ```js
 import helloWorld from "./helloWorld.js";
@@ -145,7 +145,7 @@ window.onload = function () {
 };
 ```
 
-#### helloWorld.js
+### helloWorld.js
 
 ```js
 export default function () {
@@ -178,7 +178,7 @@ export default function () {
 }
 ```
 
-### 確認手順
+## 確認手順
 
 配置したディレクトリで live-server を実行します。
 
@@ -188,7 +188,7 @@ live-server .
 
 live-server を実行すると、自動でブラウザが開いて index.html を表示します。
 
-### 解説
+## 解説
 
 HTML と JavaScript を使った一番シンプルなやり方です。
 
@@ -209,15 +209,15 @@ const web3 = new Web3(Web3.givenProvider || "ws://localhost:7545");
 Web3.givenProvider で取得できない場合は、”ws://localhost:7545″に接続するように書いています。
 これは Ganache に接続するときの WebSocket のエンドポイントです。
 
-## Next.js を使った web3.js（Chrome のコンソールに表示）
+# Next.js を使った web3.js（Chrome のコンソールに表示）
 
-### コード
+## コード
 
 Next.js アプリケーションの pages ディレクトリの下に hello1.js というファイルを作って、以下のコードを貼り付けます。
 
 コントラクトアドレスや ABI は自分の使うコントラクトに置き換えましょう。
 
-#### pages/hello1.js
+### pages/hello1.js
 
 ```js
 import Web3 from "web3";
@@ -257,7 +257,7 @@ function Hello1() {
 export default Hello1;
 ```
 
-### 確認手順
+## 確認手順
 
 Next.js のドキュメントに従って Next.js を起動します。インストール方法によって起動コマンドは変わります。
 
@@ -277,7 +277,7 @@ Console に”Hello World!”という文字が表示されています。これ
 
 HTML に表示させるやり方は 3 番目で紹介します。
 
-### 解説
+## 解説
 
 先ほどの 1 つ目の HTML を使った実行方法では、web3.js は CDN からダウンロードしてブラウザ上で JavaScript を実行しました。
 
@@ -295,15 +295,15 @@ return "ret: " + ret;
 
 つぎの 3 番目の方法では、Next.js で API やスマートコントラクトなど外部から取得したデータを HTML に表示するやり方で紹介します。
 
-## Next.js を使った web3.js（HTML に表示）
+# Next.js を使った web3.js（HTML に表示）
 
-### コード
+## コード
 
 Next.js アプリケーションの pages ディレクトリの下に hello2.js というファイルを作って、以下のコードを貼り付けます。
 
 コントラクトアドレスや ABI は自分の使うコントラクトに置き換えましょう。
 
-#### pages/hello2.js
+### pages/hello2.js
 
 ```js
 import Web3 from "web3";
@@ -351,7 +351,7 @@ export async function getStaticProps() {
 export default Hello2;
 ```
 
-### 確認手順
+## 確認手順
 
 Next.js のドキュメントに従って Next.js を起動します。インストール方法によって起動コマンドは変わります。
 
@@ -365,7 +365,7 @@ http://localhost:3000/hello2
 
 今度は HTML に”Hello World!”を表示できるはずです。
 
-### 解説
+## 解説
 
 2 番目と 3 番目の違いは、スマートコントラクトのように外部から取得するデータを Console に表示しているか、HTML に表示しているかの違いです。
 

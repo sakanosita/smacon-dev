@@ -19,13 +19,13 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.6.22
 - macOS: 11.5.2
 - npm version: 8.1.3
 
-### dfx 0.6.22 のインストール
+## dfx 0.6.22 のインストール
 
 執筆時の dfx の最新バージョンは 0.8.4 ですが、このプログラムは 0.8.x では動作しません。
 0.6.22 を指定してインストールします。チュートリアルが終わったら最新バージョンに戻しましょう。
@@ -34,9 +34,9 @@ description: |-
 DFX_VERSION=0.6.22 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 ```
 
-## 手順
+# 手順
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 GitHub からプロジェクトを取得します。
 
@@ -45,14 +45,14 @@ git clone https://github.com/dfinity/linkedup.git
 cd linkedup
 ```
 
-### ライブラリのインストール
+## ライブラリのインストール
 
 ```
 npm install
 npm audit fix
 ```
 
-### 実行環境の起動
+## 実行環境の起動
 
 ```
 dfx start --background
@@ -65,7 +65,7 @@ binding to: V4(0.0.0.0:8000)
 replica(s): http://localhost:50931/
 ```
 
-### キャニスターの登録
+## キャニスターの登録
 
 ```
 dfx canister create --all
@@ -81,7 +81,7 @@ Creating canister "linkedup_assets"...
 "linkedup_assets" canister created with canister id: "ryjl3-tyaaa-aaaaa-aaaba-cai"
 ```
 
-### ビルド(コンパイル)
+## ビルド(コンパイル)
 
 ```
 dfx build
@@ -93,7 +93,7 @@ Building canisters...
 Building frontend...
 ```
 
-### デプロイ（インストール）
+## デプロイ（インストール）
 
 ```
 dfx canister install --all
@@ -107,9 +107,9 @@ Installing code for canister linkedup_assets, with canister_id ryjl3-tyaaa-aaaaa
 Uploading assets to asset canister...
 ```
 
-## 実行
+# 実行
 
-### キャニスター ID
+## キャニスター ID
 
 当プロジェクトには 3 つのキャニスターを作っています。
 
@@ -140,7 +140,7 @@ linkedup % cat .dfx/local/canister_ids.json
 }%
 ```
 
-### フロントエンドキャニスター
+## フロントエンドキャニスター
 
 127.0.0.1 は自分の PC にアクセスするための IP アドレスです。
 
@@ -171,7 +171,7 @@ URL は先ほどと同じです。
 それぞれの Window で相手を検索したり、CONNECT をクリックしたり、自由に試してみましょう。
 どんな操作もだいたい 2~3 秒遅れて反応すると思います。
 
-## 実行環境の停止
+# 実行環境の停止
 
 終わったらローカル PC 上の実行環境を停止します。
 

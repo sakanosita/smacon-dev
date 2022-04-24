@@ -31,7 +31,7 @@ Hardhat を使ったことがない方はこちらからどうぞ
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/merkle-tree)からダウンロードできます。
 
-## 新しいプロジェクトを作る
+# 新しいプロジェクトを作る
 
 merkle-tree というディレクトリを作り
 npm パッケージの hardhat をインストールします。
@@ -60,12 +60,12 @@ npx hardhat
 
 これで hardhat.config.js の初期設定や ether.js などプラグインを追加した状態になります。
 
-## コーディング
+# コーディング
 
 contracts/MerkleTree.sol と hardhat.config.js を編集します。
 2 つの Solidity バージョンが一致するようにしましょう。
 
-#### contracts/MerkleTree.sol
+### contracts/MerkleTree.sol
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -152,7 +152,7 @@ contract TestMerkleProof is MerkleProof {
 
 ```
 
-#### hardhat.config.js
+### hardhat.config.js
 
 ```js
 require("@nomiclabs/hardhat-waffle");
@@ -165,12 +165,12 @@ module.exports = {
 };
 ```
 
-## Keccak256 のハッシュを検証しよう
+# Keccak256 のハッシュを検証しよう
 
 今回は、Hardhat のテスト機能で verify()関数を実行してハッシュの値を検証しながら、マークル木を理解していきましょう。
 test/merkleTree.js を以下のように編集します。
 
-#### test/merkleTree.js
+### test/merkleTree.js
 
 ```js
 const { expect } = require("chai");
@@ -215,11 +215,11 @@ npx hardhat test
 
 上のように`1 passing`と表示されれば、テストが期待通りであることがわかります。
 
-## Merkle Proof の解説
+# Merkle Proof の解説
 
 このプログラムでは Keccak256 とマークル木いう 2 つのアルゴリズムを使います。
 
-### Keccak256
+## Keccak256
 
 Keccak256 はハッシュ関数です。
 
@@ -227,14 +227,14 @@ Keccak256 のほかによく使われるハッシュ関数は SHA-1 や MD5 な�
 
 ブロックチェーンで使う Keccak256 は、スーパーコンピュータ並の計算能力を使っても任意のハッシュ値からもとの値を計算できない特徴があります。
 
-### マークル木
+## マークル木
 
 マークル木はデータ構造を表しています。
 ![Merkle Tree](/media/merkle-tree/4.png)
 
 根(root)が上、葉(leaf)が下にあるので、実際の木とは上下が反対です。
 
-### verify()関数
+## verify()関数
 
 このページで作る MerkleProof コントラクトの verify() 関数の目的は、keccak256 によって leaf と proof から計算した root のハッシュ値が引数と一致することです。
 一致すれば true 一致しなければ false を返します。
@@ -268,7 +268,7 @@ index は leaf が左から何番目かを表します。一番左の node1 は 
 | node2 |   1   |
 | node3 |   2   |
 
-### ハッシュ関数の計算のもとになる値
+## ハッシュ関数の計算のもとになる値
 
 今回は 2 つのハッシュ値をつなげて新しいハッシュ値を計算しています。
 以下の流れで 2 回のハッシュ計算を行うと、root を計算できます。
@@ -301,7 +301,7 @@ Leaf の index を 2 で割りながら root に向かっていくとうまく�
 2 回目以降は、前回の商を 2 で割った余りが奇数か偶数かを判断します。
 剰余が 0 のときは、leaf を左に、1 のときは leaf を右につなげます。
 
-### Keccak256 Online
+## Keccak256 Online
 
 Keccak256 のハッシュはブラウザで計算することができるので実際にコピペしてみると、Solidity で計算した Keccak256 と一致することがわかります。
 
@@ -309,7 +309,7 @@ https://emn178.github.io/online-tools/keccak_256.html
 
 ハッシュ値の先頭の `0x` は 16 進数を表すプレフィクスなので値を計算するときには外します。
 
-#### 1. "1bbd..." と　"948f..." をつなげて node6 のハッシュ"90ed..."を計算
+### 1. "1bbd..." と　"948f..." をつなげて node6 のハッシュ"90ed..."を計算
 
 <!--
 - IN
@@ -317,7 +317,7 @@ https://emn178.github.io/online-tools/keccak_256.html
 - OUT:
   - `90ed7ad0524bf73e077fe6d49abe1fb1629f9843ca60d89ebf0ca88601a19bca` -->
 
-#### 2. "63ac..."と 1 で計算した"90ed..."をつなげて root のハッシュを計算
+### 2. "63ac..."と 1 で計算した"90ed..."をつなげて root のハッシュを計算
 
 <!-- - IN
   - `63ac1b92046d474f84be3aa0ee04ffe5600862228c81803cce07ac40484aee4390ed7ad0524bf73e077fe6d49abe1fb1629f9843ca60d89ebf0ca88601a19bca`

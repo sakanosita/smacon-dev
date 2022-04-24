@@ -19,7 +19,7 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -31,7 +31,7 @@ description: |-
 
 はじめは Mac 標準のターミナルでよいと思います。テキストエディタは筆者は Visual Studio Code を使っています。
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -40,7 +40,7 @@ dfx new location_hello
 cd location_hello
 ```
 
-### コーディング
+## コーディング
 
 `src/location_hello/main.mo`
 
@@ -55,19 +55,19 @@ actor {
 location()という関数を定義します。
 location()は city という Text の引数を取り、Text を返します。
 
-### 実行環境の起動
+## 実行環境の起動
 
 ```
 dfx start
 ```
 
-### ビルド＆デプロイ
+## ビルド＆デプロイ
 
 ```
 dfx deploy
 ```
 
-### 実行
+## 実行
 
 ```
 dfx canister call location_hello location "San Francisco"
@@ -109,7 +109,7 @@ dfx canister call location_hello location '("San Francisco","Paris","Rome")'
 ("Hello, San Francisco!")
 ```
 
-### 実行環境の停止
+## 実行環境の停止
 
 終わったらローカル PC 上の実行環境を停止します。
 

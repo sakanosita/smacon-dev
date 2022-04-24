@@ -9,11 +9,11 @@ description: |-
   The Quick start provided a simplified introduction to the basic work flow for creating and deploying a new project without exploring the contents of the project directory or sample code.
 ---
 
-## Developer Center
+# Developer Center
 
 https://smartcontracts.org/
 
-### Motoko SDK
+## Motoko SDK
 
 https://smartcontracts.org/docs/language-guide/motoko.html
 
@@ -21,17 +21,17 @@ https://smartcontracts.org/docs/language-guide/motoko.html
 - [Overview of Motoko, the Native Language of the IC](https://www.youtube.com/watch?v=4OfarwFrPIg)
 - [Overview of Building a Dapp in Motoko](https://www.youtube.com/watch?v=fFaNLKAgoUU)
 
-### Rust SDK
+## Rust SDK
 
 https://smartcontracts.org/docs/rust-guide/rust-intro.html
 
 - [Best Practices for Canisters in Rust](https://www.youtube.com/watch?v=36L33S_DYHY)
 
-## Dev Forum
+# Dev Forum
 
 https://forum.dfinity.org/
 
-### Community Consideration
+## Community Consideration
 
 - [Non Fungible Token (NFT) Standard](https://forum.dfinity.org/t/non-fungible-token-nft-standard-community-consideration/6157)
   - [EXT Standard (Toniq Labs)](https://github.com/Toniq-Labs/extendable-token)
@@ -43,7 +43,7 @@ https://forum.dfinity.org/
   - [DFT Standard (Deland Labs)](https://dft.delandlabs.com/)
 - [DAB NFT List](https://github.com/Psychedelic/dab/blob/main/registries/nft/list.json)
 
-### Community Conversations
+## Community Conversations
 
 - [ICP on Canister / Roman Kashitsyn](https://www.youtube.com/watch?v=Hm-NWwiUQZw)
 - [How to Host a Website on the Internet Computer / Kyle Peacock](https://www.youtube.com/watch?v=JAQ1dkFvfPI)
@@ -64,13 +64,13 @@ https://forum.dfinity.org/
 - [Toniq Labs](https://www.youtube.com/watch?v=iGICt5NPADo)
 - [Departure Labs](https://www.youtube.com/watch?v=n9tU9VM-ZBs)
 
-### Links
+## Links
 
 - [Grants](https://dfinity.org/grants/)
 - [Discord](https://discord.com/invite/cA7y6ezyE2)
 - [Telegram](https://t.me/dfinity/)
 
-### In-site Pages
+## In-site Pages
 
 - [Overview](/dfinity-overview)
 - [Technology](/inside-icp)

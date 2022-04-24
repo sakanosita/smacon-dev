@@ -37,11 +37,11 @@ Metamask が使えるチェーン
 
 それではさっそく始めましょう！
 
-#### 免責事項
+### 免責事項
 
 > 当記事では、本物の仮想通貨を使用する情報を掲載していますが、当記事の情報によって起きるいかなる結果にも筆者は責任を負いません。
 
-## はじめに
+# はじめに
 
 利用する Web サービス（無料）
 https://remix.ethereum.org
@@ -65,7 +65,7 @@ https://remix.ethereum.org
 
 Binance Smart Chain 上の BNB を入手したり送金する方法は当記事では解説しません。
 
-## Remix でスマートコントラクトを作る
+# Remix でスマートコントラクトを作る
 
 ![remix](/media/original-token/remix-1.png)
 
@@ -80,7 +80,7 @@ Remix で使うのは以下の 3 箇所です。
 
 ![remix](/media/original-token/remix-2.png)
 
-### FILE EXPLORERS
+## FILE EXPLORERS
 
 最初に、FILE EXPLORERS という画面ででコードをコピペします。
 左側にはファイルツリーが表示されて、右側にファイルの編集画面が表示されています。
@@ -115,7 +115,7 @@ contract MyToken is ERC20 {
 
 次はコンパイルです。
 
-### SOLIDITY COMPILER
+## SOLIDITY COMPILER
 
 SOLIDITY COMPILER という画面を開きましょう。
 
@@ -135,7 +135,7 @@ SOLIDITY COMPILER という画面を開きましょう。
 
 Metamask が Binance Smart Chain に繋がっていることを確認しましょう。
 
-### DEPLOY & RUN TRANSACTIONS
+## DEPLOY & RUN TRANSACTIONS
 
 DEPLOY & RUN TRANSACTIONS を開きましょう。Deploy する前にいくつか確認するポイントがあります。
 
@@ -162,7 +162,7 @@ Gas 代はタイミングによって変わります。今回は 0.006244 BNB �
 問題なければ確認をクリックしましょう。
 何もエラーが出なければオリジナルトークンの完成です。
 
-### オリジナルトークンをウォレットに追加しよう
+## オリジナルトークンをウォレットに追加しよう
 
 作ったオリジナルトークンをウォレットに追加してみましょう。
 

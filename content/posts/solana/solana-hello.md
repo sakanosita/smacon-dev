@@ -23,20 +23,20 @@ https://docs.solana.com/developing/on-chain-programs/examples
 
 はじめにドキュメント通りの手順を一通り行ったあとで、後半では必要最小限のコードだけを抽出して、ラップされているビルドやデプロイのコマンドを紹介しています。
 
-### 事前準備
+## 事前準備
 
 Solana の devnet または testnet を使います。devnet や testnet のトークンが必要ですが無料で取得できます。
 はじめての方はこちらのページをご覧ください。
 
 [Solana 開発のための環境構築](/solana-config)
 
-### 実行環境
+## 実行環境
 
 - macOS 11.5.2
 - npm 8.5.1
 - solana-cli 1.8.5
 
-### ドキュメントの手順を一通りやってみる
+## ドキュメントの手順を一通りやってみる
 
 まずはドキュメントの通りに一通りやってみましょう。
 Solana Labs の example-helloworld というプロジェクトがあります。
@@ -105,7 +105,7 @@ https://explorer.solana.com/address/HLBxKXnRMaoBxWs3GxUMR78k9if1if7UPqWUJqGGAhCw
 
 続いて、ここまでの手順を分解してゼロからコードを作ってみましょう。
 
-## プロジェクトの作成
+# プロジェクトの作成
 
 新しい Cargo プロジェクトを作ります。
 
@@ -128,9 +128,9 @@ Solana Labs の example では C 言語と Rust 言語の両方のソースコ�
     └── main.rs
 ```
 
-## コーディング
+# コーディング
 
-### Cargo.toml
+## Cargo.toml
 
 ```toml
 [package]
@@ -161,7 +161,7 @@ crate-type = ["cdylib", "lib"]
 
 ```
 
-### src/lib.rs
+## src/lib.rs
 
 ```rust
 use borsh::{BorshDeserialize, BorshSerialize};
@@ -266,7 +266,7 @@ mod test {
 }
 ```
 
-## ビルド＆デプロイ
+# ビルド＆デプロイ
 
 先程は、npm でラップしてビルドしていましたが、実際にビルドで使われているのは Rust の 開発ツールの cargo コマンドです。
 
@@ -283,7 +283,7 @@ solana-cli で devnet または testnet にデプロイします。
 % solana program deploy dist/program/helloworld.so
 ```
 
-## クライアント用ディレクトリの作成
+# クライアント用ディレクトリの作成
 
 Solana のスマートコントラクトは TypeScript(JavaScript)から実行します。
 
@@ -294,7 +294,7 @@ Solana のスマートコントラクトは TypeScript(JavaScript)から実行�
 % cd client
 ```
 
-## npm ライブラリのインストール
+# npm ライブラリのインストール
 
 以下のコマンドを実行してライブラリをインストールします。
 
@@ -319,7 +319,7 @@ Solana のスマートコントラクトは TypeScript(JavaScript)から実行�
 }
 ```
 
-## コーディング（クライアント）
+# コーディング（クライアント）
 
 `client/src`ディレクトリの中に３つの TypeScript ファイルを作ります。
 
@@ -337,7 +337,7 @@ src
 └── utils.ts
 ```
 
-## 実行
+# 実行
 
 カレントディレクトリが client ディレクトリの状態で npx コマンドを使って ts-node を実行します。
 

@@ -22,7 +22,7 @@ Hardhat を使ったことがない方は[こちら](/hardhat)からどうぞ
 
 このページで[実際に使ったソースコード](https://github.com/smacon-dev/solidity-example/tree/main/events)を GitHub からダウンロードできます。
 
-## 新しいプロジェクトを作る
+# 新しいプロジェクトを作る
 
 events というディレクトリを作り
 npm パッケージの hardhat をインストールします。
@@ -51,11 +51,11 @@ npx hardhat
 
 これで hardhat.config.js の初期設定や ether.js などプラグインを追加した状態になります。
 
-## コーディング
+# コーディング
 
 以下のファイルを作ります。
 
-#### contracts/Events.sol
+### contracts/Events.sol
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -85,7 +85,7 @@ indexed をつけたパラメータでログをフィルタリングすること
 
 今回は Rinkeby というテストネットにデプロイするので、デプロイ用の設定も書いています。
 
-#### hardhat.config.js
+### hardhat.config.js
 
 ```js
 require("@nomiclabs/hardhat-waffle");
@@ -117,7 +117,7 @@ module.exports = {
 };
 ```
 
-## デプロイ
+# デプロイ
 
 テストネットへのデプロイには以下の 2 つの環境変数が必要です。
 
@@ -128,7 +128,7 @@ module.exports = {
 
 デプロイ用にスクリプトを用意します。
 
-#### scripts/deploy.js
+### scripts/deploy.js
 
 ```js
 const hre = require("hardhat");
@@ -162,13 +162,13 @@ Contract deployed to: 0xc5BeE3DDcD7F58380Aa0CA3D01dA63a34a9C3c09
 
 このときに出力するコントラクトアドレスを書き留めてください。
 
-## イベントの発行
+# イベントの発行
 
 コントラクトをデプロイしただけでは、まだイベントを発行していません。
 イベントを発行するためには、test()関数を実行する必要があります。
 スマートコントラクトの実行方法はいろいろありますが、ここでは Etherscan を使ってみましょう。
 
-### Function の実行準備
+## Function の実行準備
 
 Rinkeby の Explorer(Etherscan)を開き、デプロイしたコントラクトアドレスを検索しましょう。
 デプロイの直後はすぐに表示されないかもしれません。2, 3 分待てば表示されます。
@@ -178,7 +178,7 @@ Rinkeby の Explorer(Etherscan)を開き、デプロイしたコントラクト�
 
 [コントラクトを Etherscan で最適化しよう。](https://note.com/standenglish/n/n7680bdb2beaf)
 
-### Function の実行
+## Function の実行
 
 関数の実行には Rinkeby の ETH が少量必要です。
 テストネットの ETH は無料で入手できます。
@@ -193,7 +193,7 @@ https://rinkeby.etherscan.io/address/0xc5bee3ddcd7f58380aa0ca3d01da63a34a9c3c09#
 
 ![Etherscan](/media/events/1.png)
 
-### Event の確認
+## Event の確認
 
 test()を実行したらトランザクションが完了するまで待ちましょう。
 トランザクションが Success になったら Events タブを開くと、イベントのログを見ることができます。

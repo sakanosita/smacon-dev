@@ -19,7 +19,7 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -31,9 +31,9 @@ description: |-
 
 はじめは Mac 標準のターミナルでよいと思います。テキストエディタは筆者は Visual Studio Code を使っています。
 
-## 手順
+# 手順
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -42,7 +42,7 @@ dfx new my_counter
 cd my_counter
 ```
 
-### ソースファイル名の変更
+## ソースファイル名の変更
 
 今回は`main.mo`というソースファイルの名前を変えます。
 `dfx.json`の以下の行を変更します。
@@ -60,7 +60,7 @@ cd my_counter
 mv src/my_counter/main.mo src/my_counter/increment_counter.mo
 ```
 
-### コーディング
+## コーディング
 
 `src/my_counter/increment_counter.mo`を以下のように編集して保存します。
 
@@ -94,7 +94,7 @@ actor Counter {
 
 `increment`は`currentValue`を+1 します。
 
-### 起動
+## 起動
 
 以下のどちらかのコマンドでローカル PC で実行環境を起動します。
 
@@ -111,7 +111,7 @@ dfx start --background
 
 `--background`をつけると起動後も同じウィンドウで他のコマンドを実行できます。
 
-### ビルド＆デプロイ
+## ビルド＆デプロイ
 
 以下のコマンドでビルド&デプロイを実行します。
 
@@ -139,7 +139,7 @@ Committing batch.
 Deployed canisters.
 ```
 
-### 実行
+## 実行
 
 `get` `increment` `set` の 3 つの関数を使って実行します。
 
@@ -186,7 +186,7 @@ dfx canister call my_counter get
 
 `currentValue`は 988 になっています。
 
-### ブラウザから実行 (Candid UI)
+## ブラウザから実行 (Candid UI)
 
 このプロジェクトには、Candid UI というテスト用のキャニスターがデプロイされています。
 Candid UI のキャニスター ID を確認してみましょう。
@@ -264,7 +264,7 @@ GO をクリックすると以下のような画面表示に変わります。
 
 `QUERY`, `CALL`, `RANDOM` をクリックして自由に試してみましょう！
 
-### ローカル実行環境の停止
+## ローカル実行環境の停止
 
 終わったらローカル PC 上の実行環境を停止します。
 

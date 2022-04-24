@@ -15,7 +15,7 @@ description: |-
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/cycles_hello)からダウンロードできます。
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -30,9 +30,9 @@ dfx について知りたい方はこちらをどうぞ
 ターミナルは、なんでもよいので Mac 標準のターミナルで大丈夫です。
 テキストエディタは Visual Studio Code を筆者は使っています。
 
-## 手順
+# 手順
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -41,9 +41,9 @@ dfx new cycles_hello
 cd cycles_hello
 ```
 
-### コーディング
+## コーディング
 
-#### src/cycles_hello/main.mo
+### src/cycles_hello/main.mo
 
 ```ts
 import Nat64 "mo:base/Nat64";
@@ -87,7 +87,7 @@ shared(msg) actor class HelloCycles (
 };
 ```
 
-### 起動＆デプロイ
+## 起動＆デプロイ
 
 ローカル実行環境を起動
 
@@ -135,9 +135,9 @@ dfx canister call cycles_hello owner
 dfx identity get-principal
 ```
 
-## 動作確認
+# 動作確認
 
-### CYCLES の確認
+## CYCLES の確認
 
 CYCLE は Wallet キャニスターが管理しています。
 このプロジェクトに登場するウォレットは 2 つあります。
@@ -181,7 +181,7 @@ dfx canister call rwlgt-iiaaa-aaaaa-aaaaa-cai wallet_balance
 (record { 3_573_748_184 = 91_744_000_000_000 : nat64 })
 ```
 
-### キャニスターを実行したらどのウォレットから CYCLE が消費されるか
+## キャニスターを実行したらどのウォレットから CYCLE が消費されるか
 
 ```
 dfx canister call cycles_hello greet '("from DFINITY")'
@@ -202,7 +202,7 @@ DFINITY の Document では、このときに dfx 実行ユーザーの wallet �
 
 詳しく調べて、また後日、更新したいと思います。
 
-### 停止
+## 停止
 
 dfx.json があるディレクトリで以下のコマンドを実行して、実行環境を停止します。
 

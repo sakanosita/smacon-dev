@@ -27,33 +27,33 @@ description: |-
 
 [Solidity 入門: オラクルを使う](/price-oracle)
 
-## 構成要素の説明
+# 構成要素の説明
 
 ![chainlink](/media/chainlink/2.png)
 
-#### Consumer
+### Consumer
 
 - 一般の開発者が作るスマートコントラクト
 - オフチェーンのデータを使うときは、同じチェーン上のスマートコントラクトである Proxy の関数を実行して、Aggregator が保持する state を参照できる
 
-#### Proxy
+### Proxy
 
 - Chainlink によって各チェーン上にデプロイされたスマートコントラクト
 - Proxy は Aggregator のコントラクトアドレスを保持しており、Aggregator を変更する場合でも Proxy のコントラクトアドレスが変わらないため、Consumer は継続してオラクルを利用できる
 - 仮に Proxy の秘密鍵の保持者に悪意があれば、参照する Aggregator を変更できてしまうので Proxy の Owner を信頼しなければならない
 
-#### Aggregator
+### Aggregator
 
 - Chainlink によって各チェーン上にデプロイされたスマートコントラクト
 - Consumer が利用したいオフチェーンの情報を保持し、一定間隔で更新する
 
-#### Off Chain Node
+### Off Chain Node
 
 - Chainlink の P2P ネットワークを構成するクライアント
 - オフチェーンにあり、インターネット上の任意の API を実行できる
 - 一定間隔で Aggregator の Write 関数を実行して、ブロックチェーンにデータを送る
 
-### OCR (Off Chain Reporting)
+## OCR (Off Chain Reporting)
 
 https://docs.chain.link/docs/off-chain-reporting/
 
@@ -66,7 +66,7 @@ https://docs.chain.link/docs/off-chain-reporting/
 - Aggregator は署名を確認し、全体の中央値を選ぶ
 - リーダーやレポートを提出するノードはラウンドごとに入れ替わる
 
-## 実際の Aggregator の state を覗いてみよう
+# 実際の Aggregator の state を覗いてみよう
 
 実際に Ethereum のメインネットで Proxy や Aggregator コントラクトの関数を実行してみましょう。
 Read 関数なので Gas 代はかかりません。
@@ -79,7 +79,7 @@ Read 関数なので Gas 代はかかりません。
 
 Etherscan で見てみましょう。
 
-### Proxy
+## Proxy
 
 https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419
 
@@ -89,7 +89,7 @@ Contract Name: EACAggregatorProxy
 
 ![chainlink](/media/chainlink/3.png)
 
-### Aggregator
+## Aggregator
 
 https://etherscan.io/address/0x37bc7498f4ff12c19678ee8fe19d713b87f6a9e6#code
 
@@ -105,11 +105,11 @@ Contract Name: AccessControlledOffchainAggregator
   answeredInRound|uint80 :  17400
 ```
 
-#### ラウンド ID
+### ラウンド ID
 
 現在のラウンド、つまり Chainlink が定義する集計間隔です。
 
-#### answer
+### answer
 
 価格情報です。この Aggregator は ETH/USD の価格を持っています。
 桁数が大きいので 10 の 8 乗で割ってみましょう。
@@ -118,7 +118,7 @@ Contract Name: AccessControlledOffchainAggregator
 
 3,315 が現在の Chainlink が提供する ETH/USD の価格情報です。
 
-#### startedAt/updatedAt
+### startedAt/updatedAt
 
 これはプログラマにはおなじみの Unix タイムスタンプ形式の日時情報です。
 
@@ -126,7 +126,7 @@ Contract Name: AccessControlledOffchainAggregator
 
 2022-01-16T06:31:12+00:00
 
-## 実際のレポート提出トランザクションを見てみよう
+# 実際のレポート提出トランザクションを見てみよう
 
 Aggregator の Transactions を見ると、Off Chain Node から提出されたレポートの内容がわかります。
 

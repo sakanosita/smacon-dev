@@ -20,7 +20,7 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -32,7 +32,7 @@ description: |-
 
 はじめは Mac 標準のターミナルでよいと思います。テキストエディタは筆者は Visual Studio Code を使っています。
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -41,7 +41,7 @@ dfx new actor_hello
 cd actor_hello
 ```
 
-### 不要なコードの削除
+## 不要なコードの削除
 
 `src/actor_hello_assets`を丸ごと削除します。
 
@@ -67,7 +67,7 @@ actor_hello % rm -r src/actor_hello_assets
     }
 ```
 
-### コーディング
+## コーディング
 
 エディタを使って、`src/actor_hello/main.mo` を編集します。
 
@@ -80,7 +80,7 @@ actor HelloActor {
 };
 ```
 
-### ビルド前のチェック
+## ビルド前のチェック
 
 ビルド前にチェックしてみます。
 
@@ -111,7 +111,7 @@ actor_hello % tree .dfx/local/canisters
 
 ```
 
-### デプロイ
+## デプロイ
 
 ローカルの実行環境を起動します。
 
@@ -147,7 +147,7 @@ dfx build
 dfx canister install actor_hello
 ```
 
-### 実行
+## 実行
 
 デプロイしたキャニスターを実行しましょう。
 
@@ -163,7 +163,7 @@ dfx start を実行したウィンドウでは、以下のように出力され�
 [Canister rrkah-fqaaa-aaaaa-aaaaq-cai] Hello, World from DFINITY
 ```
 
-### 停止
+## 停止
 
 dfx.json があるディレクトリで以下のコマンドを実行して、実行環境を停止します。
 

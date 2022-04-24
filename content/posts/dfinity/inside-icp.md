@@ -10,17 +10,17 @@ description: |-
   Describing its Technology
 ---
 
-## Medium
+# Medium
 
 - [Internet Computer Technology](https://medium.com/dfinity/https-medium-com-dfinity-technology/home)
 - [Achieving Consensus on the Internet Computer](https://medium.com/dfinity/achieving-consensus-on-the-internet-computer-ee9fbfbafcbc)
 - [Chain Key Cryptography: The Scientific Breakthrough Behind the Internet Computer](https://medium.com/dfinity/chain-key-technology-one-public-key-for-the-internet-computer-6a3644901e28)
 
-## How ICP Works
+# How ICP Works
 
 https://dfinity.org/howitworks
 
-## Community Conversations
+# Community Conversations
 
 https://dfinity.org/conversations
 
@@ -29,11 +29,11 @@ https://dfinity.org/conversations
 - [Replicated State](https://www.youtube.com/watch?v=NXPkBkzkBZo)
 - [OPTIMIZING THE MEMORY SYSTEM](https://www.youtube.com/watch?v=xxeKGqwDi_4)
 
-## Dev Forum
+# Dev Forum
 
 https://forum.dfinity.org/
 
-## YouTube
+# YouTube
 
 - [Execution / Akhi Singhania](https://www.youtube.com/watch?v=UHA7W-8My_I)
 - [Ingress Message Lifecycle / Yavonne-anne Pignolet](https://www.youtube.com/watch?v=FJE1s8ZkUyg)
@@ -51,7 +51,7 @@ https://forum.dfinity.org/
 - [Chain Key Cryptography / Jan Camenisch](https://www.youtube.com/watch?v=vUcDRFC09J0)
 - [Consensus Overview / Manu Drijvers](https://www.youtube.com/watch?v=vVLRRYh3JYo)
 
-### In-site Pages
+## In-site Pages
 
 - [Overview](/dfinity-overview)
 - [Technology](/inside-icp)

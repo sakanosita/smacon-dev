@@ -19,7 +19,7 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -31,7 +31,7 @@ description: |-
 
 はじめは Mac 標準のターミナルでよいと思います。テキストエディタは筆者は Visual Studio Code を使っています。
 
-## 本プロジェクトで学ぶこと
+# 本プロジェクトで学ぶこと
 
 phonebook というプロジェクトで phonebook というキャニスターを作ります。
 phonebook では以下の機能を実装します。
@@ -39,9 +39,9 @@ phonebook では以下の機能を実装します。
 - `insert`関数では、`name`と`phone`を Key-Value として`book`変数に格納します。
 - `lookup`関数は、指定された`name`キーを入力として、関連する`phone`を検索します。
 
-## 手順
+# 手順
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -50,7 +50,7 @@ dfx new phonebook
 cd phonebook
 ```
 
-### コーディング
+## コーディング
 
 ```ts
 // Import standard library functions for lists
@@ -88,7 +88,7 @@ actor {
 };
 ```
 
-### コード解説
+## コード解説
 
 本チュートリアルのタイトルにもあるようにこのプロジェクトではライブラリを使っています。
 
@@ -120,11 +120,11 @@ Motoko のチュートリアルで最初にここで躓く人は多いかもし�
 
 1 つずつ見ていきましょう！
 
-### flexible var
+## flexible var
 
 `var`宣言では`flexible`がデフォルトなので単に`var`と書いたのと同じ意味になります。
 
-### AssocList
+## AssocList
 
 AssocList は Association List の略で連想配列です。
 
@@ -132,7 +132,7 @@ AssocList は Association List の略で連想配列です。
 
 Key-Value が複数入るようなデータ構造が連想配列です。
 
-### <Name, Phone>
+## <Name, Phone>
 
 この記法はジェネリクスと呼ばれます。TypeScript や C++でも使われています。
 
@@ -140,7 +140,7 @@ Key-Value が複数入るようなデータ構造が連想配列です。
 
 Name や Phone というオリジナルの型で AssocList を利用するため、このように書きます。
 
-### L.nil<(Name, Phone)>()
+## L.nil<(Name, Phone)>()
 
 ここでもジェネリクスが使われています。
 
@@ -148,7 +148,7 @@ nil が予約語のように思えるかもしれませんが、これは List �
 
 nil()は空のリストを返します。この例では要素の型が<Name, Phone>という連想配列です。
 
-### デプロイ
+## デプロイ
 
 ローカル実行環境を起動します。
 
@@ -165,7 +165,7 @@ dfx start --clean
 dfx deploy phonebook
 ```
 
-### 実行
+## 実行
 
 2 件の名前と電話番号情報を`insert`します。
 
@@ -211,11 +211,11 @@ phonebook % dfx canister call phonebook lookup '("Maya Garcia","Chris Lynn")'
 (opt "01 408 395 7276")
 ```
 
-### Candid UI
+## Candid UI
 
 Candid UI の使い方は、当ブログのほかの記事で解説しているので割愛します。
 
-### ローカル実行環境の停止
+## ローカル実行環境の停止
 
 終わったらローカル PC 上の実行環境を停止します。
 
@@ -223,7 +223,7 @@ Candid UI の使い方は、当ブログのほかの記事で解説している�
 dfx stop
 ```
 
-### 拡張
+## 拡張
 
 このプロジェクトでは、連想配列を DB のように扱うのでいろいろ改造してみると勉強になると思います。
 

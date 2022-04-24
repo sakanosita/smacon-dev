@@ -21,7 +21,7 @@ description: |-
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/rust-tutorial/tree/main/rust_hello)からダウンロードできます。
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -29,9 +29,9 @@ description: |-
 - rustc: 1.57.0
 - cargo: 1.57.0
 
-## インストール
+# インストール
 
-### dfx のインストール
+## dfx のインストール
 
 dfx コマンドは DFINITY のキャニスターをビルドしたりデプロイしたりするためのツールです。
 
@@ -43,7 +43,7 @@ dfx コマンドは DFINITY のキャニスターをビルドしたりデプロ�
 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 ```
 
-### rustup (Rust Toolchain)
+## rustup (Rust Toolchain)
 
 以下のコマンドによって Rust 系のツールをまとめてインストールします。
 
@@ -55,7 +55,7 @@ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 - cargo: Rust のパッケージマネージャ
 - rustup: Rust のビルドツール全体を管理
 
-### CMake のインストール
+## CMake のインストール
 
 以下のコマンドで cmake をインストールします。
 
@@ -63,7 +63,7 @@ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 brew install cmake
 ```
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 DFINITY のデフォルトの開発言語は Motoko です。
 `--type=rust`をつけて Rust 用のプロジェクトを作成します。
@@ -76,7 +76,7 @@ cd rust_hello
 dfx.json というファイルを見てみましょう。
 dfx コマンドでビルドするときにはこのファイルの設定が使われます。
 
-#### dfx.json
+### dfx.json
 
 ```js
 {
@@ -116,15 +116,15 @@ dfx コマンドでビルドするときにはこのファイルの設定が使�
 }
 ```
 
-## キャニスター(スマートコントラクト)の作成
+# キャニスター(スマートコントラクト)の作成
 
-### ソースコード
+## ソースコード
 
 cargo は Rust のビルドに使うツールです。
 Cargo.toml には、cargo で使う設定が書かれています。
 rust_hello プロジェクトには、2 つの Cargo.toml があります。
 
-#### Cargo.toml
+### Cargo.toml
 
 ```toml
 [workspace]
@@ -133,7 +133,7 @@ members = [
 ]
 ```
 
-#### src/rust_hello/Cargo.toml
+### src/rust_hello/Cargo.toml
 
 ```toml
 [package]
@@ -152,7 +152,7 @@ ic-cdk = "0.3"
 ic-cdk-macros = "0.3"
 ```
 
-#### src/rust_hello/lib.rs
+### src/rust_hello/lib.rs
 
 スマートコントラクト本体のソースコードです。
 今回は greet というシンプルな関数だけが書かれています。
@@ -164,7 +164,7 @@ fn greet(name: String) -> String {
 }
 ```
 
-#### Candid
+### Candid
 
 Candid はキャニスターのインターフェースの情報が書かれており、
 フロントエンドからキャニスターを実行するときにはこのインターフェースの情報を利用します。
@@ -177,7 +177,7 @@ service : {
 
 この場合は、greet という query があり、引数と戻りは text です。
 
-### ビルド&デプロイ
+## ビルド&デプロイ
 
 PC 上にローカル実行環境を起動します。
 
@@ -209,7 +209,7 @@ Committing batch.
 Deployed canisters.
 ```
 
-## キャニスターの実行
+# キャニスターの実行
 
 rust_hello というキャニスターの greet()という関数に world という引数を渡して実行します。
 
@@ -222,7 +222,7 @@ dfx canister call rust_hello greet world
 ("Hello, world!")
 ```
 
-### フロントエンドの起動
+## フロントエンドの起動
 
 公式手順には載っていませんが、Motoko のチュートリアルと同様に
 フロントエンドを起動して、フロントエンドからキャニスターを実行することもできます。
@@ -236,7 +236,7 @@ http://localhost:8080
 
 ![Rust](/media/rust-hello/1.png)
 
-### 停止
+## 停止
 
 ローカル実行環境を停止します。
 

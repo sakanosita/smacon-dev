@@ -21,7 +21,7 @@ description: |-
 ブロックチェーンを使った開発をまったくやったことがない方に向けて書いています。
 npm という JavaScript のパッケージ管理ツールさえあれば実行できます。
 
-## 本記事で学べること
+# 本記事で学べること
 
 Solidity という言語を使って Hello World のスマートコントラクトを作ります。
 ローカル実行環境に作るところから始めましょう。
@@ -32,7 +32,7 @@ Solidity という言語を使って Hello World のスマートコントラク�
 
 Ethereum のスマートコントラクトは EVM（Ethereum Virtual Machine）で実行されます。
 
-### EVM と WASM
+## EVM と WASM
 
 スマートコントラクトの実行形式は大まかに EVM と WASM(WebAssembly)の２つに分類できます。
 
@@ -45,13 +45,13 @@ WASM 対応のブロックチェーンは、チェーンごとにそれぞれの
 
 現在は WASM にコンパイルする開発言語は Rust が主流ですが、技術的には WASM にコンパイルできればどんな言語も使えます。
 
-### 必要なもの
+## 必要なもの
 
 - npm & npx コマンド
 - 好みのテキストエディタ
 - 好みのターミナルソフト
 
-## 新しい Hardhat プロジェクトを作る
+# 新しい Hardhat プロジェクトを作る
 
 hello というディレクトリを作り
 npm パッケージの hardhat をインストールします。
@@ -80,11 +80,11 @@ npx hardhat
 
 これで hardhat.config.js の初期設定や ether.js などプラグインを追加した状態になります。
 
-## コーディング
+# コーディング
 
 contracts/Greeter.sol を以下のように編集します。
 
-#### contracts/Greeter.sol
+### contracts/Greeter.sol
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -100,7 +100,7 @@ contract Greeter {
 }
 ```
 
-## コンパイル
+# コンパイル
 
 Solidity のソースコードを Hardhat のコンパイラでコンパイルします。
 以下のコマンドを実行します。
@@ -115,11 +115,11 @@ Compiling 1 file with 0.8.9
 Compilation finished successfully
 ```
 
-## デプロイ
+# デプロイ
 
 script/sample-script.js を以下のように編集します。
 
-#### script/sample-script.js
+### script/sample-script.js
 
 ```js
 const hre = require("hardhat");
@@ -145,7 +145,7 @@ main()
 
 このスクリプトでは、ローカル実行環境にデプロイしたあとにスマートコントラクトの hello()という関数を実行します。
 
-### 実行
+## 実行
 
 以下のコマンドで実行します。
 

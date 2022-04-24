@@ -19,7 +19,7 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -31,14 +31,14 @@ description: |-
 
 はじめは Mac 標準のターミナルでよいと思います。テキストエディタは筆者は Visual Studio Code を使っています。
 
-## 本プロジェクトで学ぶこと
+# 本プロジェクトで学ぶこと
 
 本プロジェクトでは、`assistant`, `rock_paper_scissors`, `daemon`の 3 つのキャニスターを作ります。
 それぞれのキャニスターの処理に関連性はありません。
 
-## 手順
+# 手順
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -47,7 +47,7 @@ dfx new multiple_actors
 cd multiple_actors
 ```
 
-### dfx.json の編集
+## dfx.json の編集
 
 当プロジェクトでは、3 つのキャニスターを作ります。
 dfx.json を以下のように書き換えます。
@@ -93,7 +93,7 @@ cp -r src/assistant/ src/rock_paper_scissors/
 cp -r src/assistant/ src/daemon/
 ```
 
-### コーディング
+## コーディング
 
 `src/assistant/motoko.mo`
 
@@ -225,7 +225,7 @@ actor Daemon {
 };
 ```
 
-### 実行
+## 実行
 
 `assistant`, `rock_paper_scissors`, `daemon`の 3 つのキャニスターを実行します。
 
@@ -247,7 +247,7 @@ dfx canister call daemon launch
 (""The daemon process is running"")
 ```
 
-### ローカル実行環境の停止
+## ローカル実行環境の停止
 
 終わったらローカル PC 上の実行環境を停止します。
 

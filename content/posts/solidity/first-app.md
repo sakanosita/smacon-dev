@@ -29,7 +29,7 @@ Hardhat を使ったことがない方はこちらからどうぞ
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/first-app)からダウンロードできます。
 
-## 新しい Hardhat プロジェクトを作る
+# 新しい Hardhat プロジェクトを作る
 
 first-app というディレクトリを作り
 npm パッケージの hardhat をインストールします。
@@ -58,12 +58,12 @@ npx hardhat
 
 これで hardhat.config.js の初期設定や ether.js などプラグインを追加した状態になります。
 
-## コーディング
+# コーディング
 
 contracts/Counter.sol と hardhat.config.js を編集します。
 2 つの Solidity バージョンが一致するようにしましょう。
 
-#### contracts/Counter.sol
+### contracts/Counter.sol
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -92,7 +92,7 @@ contract Counter {
 2022 年 1 月現在、サンプルコードのバージョンは 0.8.10 になっており、
 Hardhat 側は 0.8.9 まで対応中なので、0.8.9 に合わせます。
 
-#### hardhat.config.js の一部
+### hardhat.config.js の一部
 
 ```js
 module.exports = {
@@ -100,12 +100,12 @@ module.exports = {
 };
 ```
 
-## テスト
+# テスト
 
 Hardhat では JavaScript のテストツールの chai を使っています。
 sample-test.js を以下のように編集します。
 
-#### test/sample-test.js
+### test/sample-test.js
 
 ```js
 const { expect } = require("chai");
@@ -145,7 +145,7 @@ describe("Counter", function () {
 });
 ```
 
-### テスト実行
+## テスト実行
 
 以下のコマンドを実行すると test ディレクトリ配下にあるテストが実行されます。
 
@@ -166,13 +166,13 @@ npx hardhat test
 
 3 つのテストがすべて Pass(成功)となりました。
 
-## デプロイ（ローカル実行環境）
+# デプロイ（ローカル実行環境）
 
 scripts/deploy.js というファイルを作ります。
 このファイルはローカル実行環境あるいはパブリックブロックチェーンにデプロイしたり、
 スマートコントラクトの関数を実行したりする処理を記述します。
 
-#### scripts/deploy.js
+### scripts/deploy.js
 
 ```js
 const hre = require("hardhat");
@@ -208,7 +208,7 @@ Contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 
 ローカル実行県境で試したら、つぎはパブリックテストネットにデプロイしてみましょう。
 
-## デプロイ（テストネット）
+# デプロイ（テストネット）
 
 ブロックチェーンには本番用のメインネットと検証用のテストネットがあります。
 

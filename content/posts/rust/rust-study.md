@@ -8,7 +8,7 @@ tags:
 description: |-
 ---
 
-## Learn Rust
+# Learn Rust
 
 https://www.rust-lang.org/learn
 
@@ -16,27 +16,27 @@ https://www.rust-lang.org/learn
 
 - [Playground](https://play.rust-lang.org/)
 
-## Introduction to Rust
+# Introduction to Rust
 
 https://serokell.io/blog/rust-guide
 
-## Tour of Rust
+# Tour of Rust
 
 https://tourofrust.com/
 
-## Rust by Example
+# Rust by Example
 
 https://doc.rust-lang.org/rust-by-example/index.html
 
-## rustlings
+# rustlings
 
 https://github.com/rust-lang/rustlings/
 
-## exercism
+# exercism
 
 https://exercism.org/tracks/rust
 
-## A half-hour to learn Rust
+# A half-hour to learn Rust
 
 https://fasterthanli.me/articles/a-half-hour-to-learn-rust
 

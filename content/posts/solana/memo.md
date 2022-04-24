@@ -9,30 +9,30 @@ description: |-
   Solana Documentations, Blob, News, etc...
 ---
 
-## Solana Documentation
+# Solana Documentation
 
 https://docs.solana.com/developing/on-chain-programs/examples
 
 - [Hello World](https://github.com/solana-labs/example-helloworld)
 - [Break](https://github.com/solana-labs/break.git)
 
-## Learning
+# Learning
 
-#### [Figment](https://learn.figment.io/protocols/solana)
+### [Figment](https://learn.figment.io/protocols/solana)
 
-#### [buildspace](https://buildspace.so/learn-solana)
+### [buildspace](https://buildspace.so/learn-solana)
 
-## Solana Program Library (SPL)
+# Solana Program Library (SPL)
 
-#### SPL Token
+### SPL Token
 
 https://spl.solana.com/token
 
-## Blog / News
+# Blog / News
 
 - [Proof of History](https://solana.com/news/proof-of-history---a-clock-for-blockchain)
 
-## Reference
+# Reference
 
 - [ブロックチェーン知識ゼロから Solana ハッカソンに参戦するまでの学習記録](https://tomoima525.hatenablog.com/entry/2021/10/21/161644)
 

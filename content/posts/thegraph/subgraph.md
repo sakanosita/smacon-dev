@@ -25,7 +25,7 @@ GraphQL は知らなくてもこのページで作ったサブグラフを試す
 
 非常にシンプルなスマートコントラクトから自動生成されるコードを使って簡単なサブグラフを作ってみましょう。
 
-## 必要なもの
+# 必要なもの
 
 - npm
 - Metamask と アカウント
@@ -44,7 +44,7 @@ Event スマートコントラクトはこの条件を満たしています。
 - Etherscan でコードを Verify していること
 - スマートコントラクトが events を発行していること
 
-## graph-cli のインストール
+# graph-cli のインストール
 
 以下のコマンドを実行して、システムに graph-cli をインストールします。
 
@@ -59,7 +59,7 @@ npm install -g @graphprotocol/graph-cli
 0.26.0
 ```
 
-## graph init
+# graph init
 
 プロジェクト用のディレクトリを作り以下のコマンドを実行します。
 
@@ -112,13 +112,13 @@ Make sure to visit the documentation on https://thegraph.com/docs/ for further i
 
 graph init を実行したディレクトリに event001 というディレクトリができて、その中にいろんなファイルが作られます。
 
-## ブロック番号の指定
+# ブロック番号の指定
 
 このまま 1 行も変えずにデプロイすることもできますが、時間短縮のために 1 箇所だけ変えましょう。
 
 どのブロックからデータの取得を開始するかを指定します。
 
-#### subgraph.yaml
+### subgraph.yaml
 
 dataSources -> source -> startBlock
 
@@ -130,7 +130,7 @@ dataSources -> source -> startBlock
 
 追加後の subgraph.yaml は以下のようになります。
 
-#### subgraph.yaml
+### subgraph.yaml
 
 ```yaml
 specVersion: 0.0.2
@@ -162,7 +162,7 @@ dataSources:
       file: ./src/mapping.ts
 ```
 
-## コードの自動生成＆ビルド
+# コードの自動生成＆ビルド
 
 ここから先の作業はサブディレクトリで行います。（subgraph.yaml があるディレクトリ）
 
@@ -225,9 +225,9 @@ Write subgraph manifest build/subgraph.yaml
 Build completed: /Users/sakanosita/ghq/github.com/smacon-dev/subgraphs/event001/build/subgraph.yaml
 ```
 
-## Subgraph のデプロイ
+# Subgraph のデプロイ
 
-### Subgraph Studio で Subgraph 作成
+## Subgraph Studio で Subgraph 作成
 
 Subgraph Studio で Subgraph を作って、Deploy Key を用意します。
 https://thegraph.com/studio/subgraph/
@@ -245,7 +245,7 @@ https://thegraph.com/studio/subgraph/
 
 ![Subgraph Studio](/media/subgraph/4.png)
 
-### ローカルの graph コマンドの認証
+## ローカルの graph コマンドの認証
 
 以下のコマンドでローカルの graph コマンドを認証します
 
@@ -255,7 +255,7 @@ graph auth --studio <Deploy Key>
 
 ```
 
-### デプロイ
+## デプロイ
 
 以下のコマンドを実行するとデプロイします。
 
@@ -301,7 +301,7 @@ Subscriptions (WS): https://api.studio.thegraph.com/query/610/event001/v0.0.1
 
 これでサブグラフをデプロイできました。
 
-## クエリ実行
+# クエリ実行
 
 デプロイしてしばらくするとサブグラフのステータスが Synced になりクエリを実行できる状態になります。
 
@@ -313,7 +313,7 @@ GraphQL を知らなくてもデフォルトで入力されているクエリを
 
 ![Subgraph Studio](/media/subgraph/6.png)
 
-#### サンプルクエリ
+### サンプルクエリ
 
 ```graphql
 {
@@ -324,7 +324,7 @@ GraphQL を知らなくてもデフォルトで入力されているクエリを
 }
 ```
 
-#### 実行結果
+### 実行結果
 
 ```json
 {

@@ -29,7 +29,7 @@ description: |-
 
 最初におすすめするのは定番の CryptoZombies です。
 
-## CryptoZombies
+# CryptoZombies
 
 ![CryptoZombies](/media/solidity-beginner/1.png)
 
@@ -58,7 +58,7 @@ CryptoZombies のイマイチなところ
 
 そこで、次はいろんなコードサンプルから自分が気になるものを選んで実際に動かしてみましょう。
 
-## Solidity by Example
+# Solidity by Example
 
 https://solidity-by-example.org/
 
@@ -79,7 +79,7 @@ Solidty をある程度学んだら、次にやるべきことは自分でコン
 - Remix
 - Hardhat
 
-### Remix
+## Remix
 
 https://remix.ethereum.org/
 
@@ -90,7 +90,7 @@ Remix の使い方はこちらのページにまとめてあります。（画�
 
 [Solidity 入門: Remix の使い方](/build-smart-contracts)
 
-### Hardhat
+## Hardhat
 
 https://hardhat.org/
 
@@ -110,7 +110,7 @@ Hardhat を使ったデプロイ方法はこちら
 
 つぎに紹介するイーサリアム navi はそんな人たちが集まるコミュニティです。
 
-## イーサリアム navi
+# イーサリアム navi
 
 https://ethereumnavi.com/
 
@@ -122,7 +122,7 @@ https://ethereumnavi.com/
 
 日本の Solidity エンジニアはまだ数が少ないので、結構すごい人が勉強会に参加することもあるかも？
 
-## Ethernaut
+# Ethernaut
 
 ![Ethernaut](/media/solidity-beginner/3.png)
 

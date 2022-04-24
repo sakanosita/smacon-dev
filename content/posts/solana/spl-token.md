@@ -10,20 +10,20 @@ description: |-
   コマンドラインでアカウントを作り独自トークンやNFTをmint
 ---
 
-## SPL Token Tutorial
+# SPL Token Tutorial
 
 https://spl.solana.com/token
 
-### このページの作業に必要なもの
+## このページの作業に必要なもの
 
 - solana-keygen コマンド
 - spl-token コマンド
 - Devnet のアカウント 2 つ
 - Phantom ウォレット
 
-#### [Solana 開発のための環境構築](/solana-config)
+### [Solana 開発のための環境構築](/solana-config)
 
-## 独自トークンの作成
+# 独自トークンの作成
 
 はじめに Devnet 用の SOL トークンを入手します。
 
@@ -92,14 +92,14 @@ Token                                         Balance
 
 ```
 
-### Devnet Explorer
+## Devnet Explorer
 
 Explorer でトークンのアドレスを入力して、バランスを見てみましょう。
 2 つのアカウントが 80 対 20 になっているはずです。
 
 https://explorer.solana.com/
 
-## NFT (Non Fungible Token)の発行
+# NFT (Non Fungible Token)の発行
 
 Solana では spl-token コマンドで NFT を作ることができます。
 

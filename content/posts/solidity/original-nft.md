@@ -23,7 +23,7 @@ NFT は ERC721 や ERC1155 というインターフェースの仕様があり�
 
 おまけでノーコードのサービスも載せておきます。エンジニアじゃなくても画面をポチポチするだけで ERC721 や ERC1155 のスマートコントラクトをメインネットにデプロイできます。
 
-## なぜ独自コントラクトで作るの？
+# なぜ独自コントラクトで作るの？
 
 2022 年 1 月現在、NFT を作る場合の、デファクトスタンダードは、OpenSea から発行する方法です。
 
@@ -35,7 +35,7 @@ OpenSea で作る場合は、スマートコントラクトの所有者は OpenS
 
 独自コントラクトでも ERC721 や ERC1155 のフォーマットに合わせていれば OpenSea や他のマーケットプレイスで売買することができます。
 
-## どのブロックチェーンがいいの？
+# どのブロックチェーンがいいの？
 
 どのブロックチェーンを使うか決まっていないのなら、まずは EVM(Ethereum Virtual Machine)から取り組むのが良いでしょう。
 
@@ -45,23 +45,23 @@ EVM のチェーンはたくさんありますが、学習目的の場合にオ�
 
 テスト用の OpenSea があるため、発行した NFT を OpenSea で見ることができます。
 
-### OpenSea (Testnet)
+## OpenSea (Testnet)
 
 https://testnets.opensea.io/
 
 テストネット用の ETH は無料で入手できますが、不安定なので動いているときと動いていないときがあります。
 
-#### Faucet (Rinkeby)
+### Faucet (Rinkeby)
 
 https://faucet.rinkeby.io/
 
 Chainlink の Faucet からでも Rinkeby の ETH をもらうことができます。
 
-#### Faucet Chainlink
+### Faucet Chainlink
 
 https://faucets.chain.link/rinkeby
 
-## NFT の分類
+# NFT の分類
 
 NFT の種類は無数に存在しますが、ここでは 2021~2022 年に開発が活発になっている NFT について紹介します。
 
@@ -70,7 +70,7 @@ NFT の種類は無数に存在しますが、ここでは 2021~2022 年に開�
 - Loot
 - フルオンチェーン(SVG/Bitmap/オリジナル）
 
-### ERC721/1155
+## ERC721/1155
 
 まずはもっとも基本的な ERC721 や ERC1155 の作り方の紹介です。
 
@@ -78,25 +78,25 @@ EVM で発行される NFT は、ERC721 または ERC1155 のスマートコン�
 
 あとから紹介するジェネラティブ, Loot, フルオンチェーンも ERC721 または ERC1155 に従っています。
 
-#### [【2021 年版】NFT を発行してほしいという問い合わせが多いので発行方法とサンプルコードを公開します](https://www.blockchainengineer.tokyo/entry/2021-issue-nft-code)
+### [【2021 年版】NFT を発行してほしいという問い合わせが多いので発行方法とサンプルコードを公開します](https://www.blockchainengineer.tokyo/entry/2021-issue-nft-code)
 
-#### [NFT 完全に理解した！！になるために独自コントラクトで NFT を発行してみる方法の解説](https://zenn.dev/razokulover/articles/7db2340f14c2cd)
+### [NFT 完全に理解した！！になるために独自コントラクトで NFT を発行してみる方法の解説](https://zenn.dev/razokulover/articles/7db2340f14c2cd)
 
-### ジェネラティブ NFT
+## ジェネラティブ NFT
 
 画像を組み合わせてユニークな画像を 10,000 枚使った NFT の作り方の紹介です。
 
-#### [（保存版）10,000 種類のジェネレイティブ NFT の作り方](https://note.com/standenglish/n/nf6931087b3bb)
+### [（保存版）10,000 種類のジェネレイティブ NFT の作り方](https://note.com/standenglish/n/nf6931087b3bb)
 
-### Loot
+## Loot
 
 Loot は画像の代わりに文字情報を持った NFT です。
 発行する NFT の Token ID ごとに異なるパラメータを持たせることができます。
 創造力次第で可能性が広がる NFT ですね。
 
-#### [【Solidity】Loot 型の NFT をつくってみよう！](https://ethereumnavi.com/2021/11/10/how-to-create-loot-nft/)
+### [【Solidity】Loot 型の NFT をつくってみよう！](https://ethereumnavi.com/2021/11/10/how-to-create-loot-nft/)
 
-### フルオンチェーン（SVG）
+## フルオンチェーン（SVG）
 
 フルオンチェーンは名前のとおり、データをオンチェーンに載せています。
 
@@ -106,33 +106,33 @@ PNG や JPEG などの画像を使った NFT の場合は、画像ファイル�
 SVG というフォーマットの画像を動的に生成する特性を活かしてスマートコントラクトで SVG を生成します。
 その結果、外部のファイルを使うことなくすべてのデータをオンチェーンに載せたフルオンチェーン NFT となります。
 
-#### [【保存版】フルオンチェーン NFT の作り方\_完全版（入門レベル）](https://note.com/standenglish/n/ne2f5f684faae)
+### [【保存版】フルオンチェーン NFT の作り方\_完全版（入門レベル）](https://note.com/standenglish/n/ne2f5f684faae)
 
-#### [【保存版】SVG 徹底解説！アニメーション・フルオンチェーン NFT を作ろう！](https://note.com/standenglish/n/nc2b326cd07ba)
+### [【保存版】SVG 徹底解説！アニメーション・フルオンチェーン NFT を作ろう！](https://note.com/standenglish/n/nc2b326cd07ba)
 
-### フルオンチェーン（Bitmap）
+## フルオンチェーン（Bitmap）
 
 Bitmap は画像の 1 ドットごとに色情報を持つ原始的な画像フォーマットです。
 高精細な画像の場合はデータが大きくなりますが、あえて Bitmap で画素数の少ないドット絵を表現しています。
 原始的な手法ゆえに、いかに容量を節約したり表現を豊かにしたりするかプログラマの腕の見せ所です。
 
-#### [full-on-chain pixel art NFT](https://qiita.com/h2ueno/items/4a51d95ed3712a2ec639)
+### [full-on-chain pixel art NFT](https://qiita.com/h2ueno/items/4a51d95ed3712a2ec639)
 
-### フルオンチェーン（オリジナル）
+## フルオンチェーン（オリジナル）
 
 最後にスマートコントラクトの特徴を活かした遊び心のある NFT の記事を紹介します。
 
-#### [おみくじ NFT を作りました](https://nawoo.hateblo.jp/entry/2021/10/05/121859)
+### [おみくじ NFT を作りました](https://nawoo.hateblo.jp/entry/2021/10/05/121859)
 
-#### [100 時間後に死ぬ NFT を作りました](https://nawoo.hateblo.jp/entry/die-after-100hrs)
+### [100 時間後に死ぬ NFT を作りました](https://nawoo.hateblo.jp/entry/die-after-100hrs)
 
-### ノーコード(おまけ)
+## ノーコード(おまけ)
 
 thirdweb を使うと ERC20, ERC721, ERC1155 など汎用的なスマートコントラクトをノーコードでデプロイできます。
 
-#### [thirdweb](https://thirdweb.com/)
+### [thirdweb](https://thirdweb.com/)
 
-### おわりに
+## おわりに
 
 ここで紹介しているページは、プロの自分から見た信頼できる技術者の情報を選んでいます。
 

@@ -31,7 +31,7 @@ https://hardhat.org/tutorial/
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/hardhat-tutorial)からダウンロードできます。
 
-## インストール
+# インストール
 
 Hardhat の Document にしたがいインストールを進めます。
 
@@ -41,7 +41,7 @@ Hardhat を使うには、Nodejs のパッケージマネージャ npm を使い
 
 Hardhat はプロジェクトごとにインストールするので、この時点では PC のターミナルで npm コマンドを実行できれば環境構築は完了です。
 
-### Hardhat プロジェクトの作成
+## Hardhat プロジェクトの作成
 
 hardhat-tutorial という npm 用のプロジェクトを作り、hardhat をインストールします。
 
@@ -77,7 +77,7 @@ npm でインストールしたコマンドをそのまま入力しても見つ�
 
 ここではプロジェクトの構成を理解するために、1 つ 1 つ自分で作っていきましょう。
 
-### プラグインの追加
+## プラグインの追加
 
 ether.js や waffle といった Hardhat のプラグインを追加します。
 
@@ -85,13 +85,13 @@ ether.js や waffle といった Hardhat のプラグインを追加します。
 npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
 ```
 
-## スマートコントラクトの作成
+# スマートコントラクトの作成
 
-### コーディング
+## コーディング
 
 hardhat.config.js を以下のように編集します。
 
-#### hardhat.config.js
+### hardhat.config.js
 
 ```js
 require("@nomiclabs/hardhat-waffle");
@@ -110,7 +110,7 @@ Solidity のバージョンが少し古いので、バージョン番号は適�
 プロジェクトに contracts というディレクトリを作りましょう。
 contracts ディレクトリの中に Token.sol というファイルを作り、下のコードを書きます。
 
-#### contracts/Token.sol
+### contracts/Token.sol
 
 ```solidity
 // Solidity files have to start with this pragma.
@@ -175,7 +175,7 @@ contract Token {
 }
 ```
 
-### コンパイル
+## コンパイル
 
 hardhat コマンドを実行します。
 
@@ -193,12 +193,12 @@ Compilation finished successfully
 
 ```
 
-### テスト
+## テスト
 
 プロジェクトの直下に test というディレクトリを作ります。
 test ディレクトリの中に Token.js というファイルを作り、以下のコードを書きます。
 
-#### test/Token.js
+### test/Token.js
 
 ```js
 const { expect } = require("chai");
@@ -231,7 +231,7 @@ npx hardhat test
   1 passing (569ms)
 ```
 
-## テストネット(Ropsten)へのデプロイ
+# テストネット(Ropsten)へのデプロイ
 
 Ethereum のテストネット(Ropsten)にデプロイします。
 チュートリアルでオススメされている Ropsten を使って説明します。
@@ -241,17 +241,17 @@ Ethereum のテストネット(Ropsten)にデプロイします。
 - Ropsten の ETH トークン
 - RPC エンドポイントの URL
 
-#### Ropsten のアカウントの秘密鍵
+### Ropsten のアカウントの秘密鍵
 
 Metamask でアカウントを作って Private Key をエクスポートすれば取得できます。
 念のため、本番で使っているアカウントと分けることをおすすめします。
 
-#### Ropsten の ETH トークン
+### Ropsten の ETH トークン
 
 0.01ETH ぐらいあればデプロイには足りると思います。
 テストネットは Faucet という無料でトークンをもらえるサイトが存在するのでググって入手してください。
 
-#### RPC エンドポイントの URL
+### RPC エンドポイントの URL
 
 ブロックチェーンのネットワークにアクセスするためのエンドポイントです。
 代表的なノードプロバイダーを紹介します。
@@ -267,7 +267,7 @@ Alchemy にユーザー登録すれば、RPC サーバの URL を取得できま
 Metamask に指定されている RPC エンドポイントは INFURA というノードプロバイダーの RPC サーバです。(2022 年 1 月現在)
 Metamask の Network の設定を開くと Ropsten のエンドポイントの設定内容がみれます。
 
-### 環境変数
+## 環境変数
 
 秘密鍵や API Key などのクレデンシャルは Git に commit しないようにする必要があります。
 そこで、以下の 2 つの環境変数をエクスポートして hardhat 実行時に使えるようにします。
@@ -277,7 +277,7 @@ Metamask の Network の設定を開くと Ropsten のエンドポイントの�
 
 hatdhat.config.js を以下のように編集します。
 
-#### hardhat.config.js
+### hardhat.config.js
 
 ```js
 require("@nomiclabs/hardhat-waffle");
@@ -330,7 +330,7 @@ Etherscan(Ropsten)でコントラクトアドレスやトランザクション�
 
 https://ropsten.etherscan.io/address/0xfa9D0729c104841668E0DDeb433Cbc6107AB59C1
 
-### Metamask で確認
+## Metamask で確認
 
 Hardhat のチュートリアルには載っていませんが、せっかくトークンを作ったので Metamask に登録してみましょう。
 

@@ -10,7 +10,7 @@ description: |-
   まずはコマンドのインストールやアカウントを準備しよう
 ---
 
-## CLI のインストール
+# CLI のインストール
 
 以下のようなコマンドをインストールします。
 
@@ -18,15 +18,15 @@ description: |-
 - solana-keygen
 - spl-token
 
-#### Solana Tool Suite
+### Solana Tool Suite
 
 https://docs.solana.com/cli/install-solana-cli-tools
 
-#### SPL Token CLI
+### SPL Token CLI
 
 https://spl.solana.com/token
 
-## テスト用のキーペアを用意する
+# テスト用のキーペアを用意する
 
 [Solana Docmentation - Keypair conventions](https://docs.solana.com/cli/conventions#keypair-conventions)
 
@@ -65,7 +65,7 @@ mv ~/.config/solana/id.json ~/.config/solana/carol.json
 
 ```
 
-### Phantom ウォレットのインポート
+## Phantom ウォレットのインポート
 
 3 つのアカウントを Phantom ウォレットにインポートします。
 
@@ -77,15 +77,15 @@ pbcopy < ~/.config/solana/bob.json
 pbcopy < ~/.config/solana/carol.json
 ```
 
-## Config 設定
+# Config 設定
 
-#### API (Devnet)
+### API (Devnet)
 
 ```
 solana config set --url https://api.devnet.solana.com
 ```
 
-#### Alice/Bob/Carol の Key を設定
+### Alice/Bob/Carol の Key を設定
 
 ```
 solana config set --keypair ${HOME}/.config/solana/alice.json
@@ -93,7 +93,7 @@ solana config set --keypair ${HOME}/.config/solana/bob.json
 solana config set --keypair ${HOME}/.config/solana/carol.json
 ```
 
-## SOL を入手
+# SOL を入手
 
 Config 設定で Devnet と Alice が設定されていれば、Devnet の Alice のウォレットに 1SOL 入ります。
 

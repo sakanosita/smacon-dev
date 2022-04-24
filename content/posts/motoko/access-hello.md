@@ -20,7 +20,7 @@ description: |-
 
 [5 ステップではじめる Motoko プログラミング入門](/hello-motoko)
 
-### 実行環境
+## 実行環境
 
 - dfx: 0.8.4
 - macOS: 11.5.2
@@ -32,7 +32,7 @@ description: |-
 
 はじめは Mac 標準のターミナルでよいと思います。テキストエディタは筆者は Visual Studio Code を使っています。
 
-## 本プロジェクトで学ぶこと
+# 本プロジェクトで学ぶこと
 
 ユーザーごとに権限を割り当てて、処理を変える方法を実現します。
 いろんなユースケースで使える実用的なチュートリアルです。
@@ -45,9 +45,9 @@ identity は、秘密鍵と Principal ID のペアです。
 秘密鍵は dfx コマンドを実行するローカル側に持ちます。
 キャニスター側では、Principal ID で識別します。
 
-## 手順
+# 手順
 
-### プロジェクトの作成
+## プロジェクトの作成
 
 新しいプロジェクトを作ります。
 
@@ -56,7 +56,7 @@ dfx new access_hello
 cd access_hello
 ```
 
-### コーディング
+## コーディング
 
 エディタを使って、`src/access_hello/main.mo` を編集します。
 
@@ -171,7 +171,7 @@ shared({ caller = initializer }) actor class() {
 };
 ```
 
-### デプロイ
+## デプロイ
 
 ローカルの実行環境を起動します。
 
@@ -197,7 +197,7 @@ Installing code for canister access_hello, with canister_id rwlgt-iiaaa-aaaaa-aa
 Deployed canisters.
 ```
 
-## 実行
+# 実行
 
 これから 4 つの identity を使ってキャニスターの動作を検証します。
 各 identity はそれぞれ別の role を割り当てます。
@@ -209,7 +209,7 @@ Deployed canisters.
 | alice_auth   | authorized |
 | bob_standard | none       |
 
-### キャニスターをデプロイした identity は owner
+## キャニスターをデプロイした identity は owner
 
 dfx が使っている現在の identity を確認
 
@@ -238,7 +238,7 @@ dfx canister --wallet=$(dfx identity get-wallet) call access_hello my_role
 
 このキャニスターをデプロイした`default`の identity は`owner`ロールになっています。
 
-### ic_admin
+## ic_admin
 
 `ic_admin`という新しい identity を作ります。
 新しい秘密鍵と Principal ID のペアが作られます。
@@ -282,7 +282,7 @@ access_hello % dfx canister call access_hello callerPrincipal
 
 `ic_admin`の Principal ID でキャニスターを実行していることが確認できました。
 
-### ロールのアサイン
+## ロールのアサイン
 
 `ic_admin`に`admin`ロールをアサインするために、いったん`owner`である`default`に戻しましょう
 
@@ -321,7 +321,7 @@ dfx --identity ic_admin canister call access_hello greet "Internet Computer Admi
 
 greet 関数はロールによってメッセージが変わります。興味があれば main.mo を見てみましょう！
 
-### alice_auth に authorized ロールをアサイン
+## alice_auth に authorized ロールをアサイン
 
 新しく`alice_auth`という identity を作ります。
 
@@ -380,7 +380,7 @@ dfx canister call access_hello greet "Alice"
 )
 ```
 
-### bob_standard
+## bob_standard
 
 今使っている identity がわからなくなってしまったら、whoami で表示させたり use で切り替えたりしてください。
 また切り替えなくても--identity オプションで実行する identity を指定することもできるので好きに使い分けてください。
@@ -438,7 +438,7 @@ dfx --identity bob_standard canister --no-wallet call access_hello greet "Bob"
 
 このように与えられたロールによって実行できる関数と実行できない関数をできました。
 
-### 停止
+## 停止
 
 dfx.json があるディレクトリで以下のコマンドを実行して、実行環境を停止します。
 

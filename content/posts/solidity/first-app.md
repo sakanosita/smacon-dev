@@ -6,6 +6,7 @@ level: beginner
 tags:
   - Solidity
   - Hardhat
+  - Rinkeby
   - EVM
   - Ethereum
 description: |-

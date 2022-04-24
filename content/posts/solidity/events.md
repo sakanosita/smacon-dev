@@ -10,6 +10,7 @@ tags:
   - Ethereum
   - Hardhat
   - EVM
+  - Rinkeby
 description: |-
   Ethereumでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法
 ---

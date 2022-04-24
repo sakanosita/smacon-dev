@@ -8,6 +8,7 @@ tags:
   - Solidity
   - NFT
   - ERC721
+  - Rinkeby
 description: |-
   EVMにおけるいろいろなNFTの実装方法のまとめ
   ERC721, Loot, ノーコード、フルオンチェーン、ジェネラティブNFT

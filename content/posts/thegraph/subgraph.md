@@ -9,7 +9,7 @@ pinned: 3
 tags:
   - The Graph
   - GraphQL
-  - GRT
+  - Rinkeby
   - Ethereum
   - EVM
 description: |-

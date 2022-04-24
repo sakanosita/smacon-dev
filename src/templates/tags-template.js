@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 const TagsTemplate = ({ pageContext, data }) => {
   const { tag } = pageContext;
-  const { totalCount } = data.allMarkdownRemark;
+  // const { totalCount } = data.allMarkdownRemark;
   const posts = data.allMarkdownRemark.nodes;
   const title = `${tag} | smacon.dev`;
 

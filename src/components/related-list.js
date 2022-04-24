@@ -110,4 +110,3 @@ const PostListTitle = styled.h2`
     right: 0;
   }
 `;
-

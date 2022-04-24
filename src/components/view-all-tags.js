@@ -14,7 +14,7 @@ const ViewAllTags = () => {
         `}
         to="/tags/"
     >
-        View All tags
+    キーワードをすべて見る
     </StyledLink>
   );
 };

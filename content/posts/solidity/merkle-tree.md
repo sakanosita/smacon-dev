@@ -9,7 +9,8 @@ tags:
   - Ethereum
   - EVM
 description: |-
-  Solidity by ExmaplesのMerkle Treeのコントラクトを作ります
+  ブロックチェーンのスマートコントラクトで使うマークルツリーとは？
+  Keccak256のサンプルコードを使ってツリー構造データのハッシュを計算してみよう
 ---
 
 ![Merkle Tree](/media/merkle-tree/2.png)

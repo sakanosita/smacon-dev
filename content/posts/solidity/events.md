@@ -7,7 +7,7 @@ tags:
   - Ethereum
   - EVM
 description: |-
-  Ethereum/Rinkebyでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法
+  Ethereumでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法
 ---
 
 このページはこんな人におすすめ

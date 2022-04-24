@@ -7,8 +7,7 @@ tags:
   - ERC20
   - EVM
 description: |-
-  コピペでOK
-  非エンジニアでもできるオリジナル仮想通貨の作り方
+  EVM(Ethereum Virtual Machine)におけるERC20仕様の暗号通貨トークンの実装方法を紹介
 ---
 
 この記事はこんな人におすすめ

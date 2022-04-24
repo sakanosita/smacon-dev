@@ -7,7 +7,8 @@ tags:
   - JavaScript
 social_image: /og/labs.png
 description: |-
-  初心者向けのJavaScriptからスマートコントラクトを実行する方法
+  初心者向けにSolidityのスマートコントラクトを実行する方法を3つ紹介
+  ReactやNext.jsからweb3jsを使ったり、HTMLで直接JavaScriptを実行
 ---
 
 このページはこんな人におすすめ

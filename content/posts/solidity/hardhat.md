@@ -9,8 +9,8 @@ tags:
   - Ethereum
   - EVM
 description: |-
+  Hardhatを使ってスマートコントラクトをテストネット(Ropsten)にデプロイする方法を紹介
   Hardhatのチュートリアルを日本語で解説
-  スマートコントラクトをテストネット(Ropsten)にデプロイする方法
 ---
 
 このページはこんな人におすすめ

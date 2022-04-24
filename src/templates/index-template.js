@@ -33,19 +33,19 @@ const HomePage = ({ data }) => {
 
       <Board>
         <h3>
-          <Link to="/solidity/">Solidity入門</Link>
+          <Link to="/solidity/">Solidityプログラミング入門</Link>
         </h3>
         <PostList posts={solidityPosts} />
       </Board>
       <Board>
         <h3>
-          <Link to="/rust/">Rust入門</Link>
+          <Link to="/rust/">Rustプログラミング入門</Link>
         </h3>
         <PostList posts={rustPosts} />
       </Board>
       <Board>
         <h3>
-          <Link to="/motoko/">Motoko入門</Link>
+          <Link to="/motoko/">Motokoプログラミング入門</Link>
         </h3>
         <PostList posts={motokoPosts} />
       </Board>

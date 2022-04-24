@@ -62,7 +62,7 @@ const TagItem = styled.span`
   margin-top: 0.6rem;
   margin-right: 0.6rem;
   margin-bottom: 0.6rem;
-  font-size: var(--size-500);
+  font-size: var(--size-400);
   white-space: nowrap;
 
   & a {

@@ -38,7 +38,7 @@ const FooterWrapper = styled(Container)`
 
   & a {
     color: inherit;
-    font-size: var(--size-300);
+    font-size: var(--size-400);
     text-decoration: none;
   }
 `;

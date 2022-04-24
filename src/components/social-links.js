@@ -37,7 +37,7 @@ const SocialLinkList = styled.ul`
 
 const SocialLinkItem = styled.li`
   margin-right: var(--size-400);
-  text-transform: uppercase;
+  // text-transform: uppercase;
 
   & a {
     color: inherit;

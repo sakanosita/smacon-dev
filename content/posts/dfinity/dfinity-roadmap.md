@@ -65,7 +65,7 @@ description: |-
 
 ## In-site Pages
 
-- [Overview](/dfinity-overview)
-- [Technology](/inside-icp)
-- [Development](/dfinity-coding)
-- [Roadmap](/dfinity-roadmap)
+- [Overview](/posts/dfinity-overview)
+- [Technology](/posts/inside-icp)
+- [Development](/posts/dfinity-coding)
+- [Roadmap](/posts/dfinity-roadmap)

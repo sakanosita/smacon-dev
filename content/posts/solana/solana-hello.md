@@ -2,6 +2,9 @@
 title: "はじめてのSolana: RustでHello World!"
 date: 2022-04-19 21:00
 permalink: /solana-hello
+redirect_from:
+  - /solana-hello
+  - /solana-hello/
 pinned: 23
 tags:
   - Solana

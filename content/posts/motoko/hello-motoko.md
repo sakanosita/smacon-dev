@@ -3,8 +3,8 @@ title: 5ステップではじめるMotokoプログラミング ICP入門 | DFINI
 date: 2022-04-16 09:38
 permalink: /hello-motoko
 redirect_from:
-  - /blog/hello-motoko
-  - /blog/hello-motoko/
+  - /hello-motoko
+  - /hello-motoko/
   - /hello-icp
   - /hello-icp/
 pinned: 11
@@ -196,13 +196,13 @@ Internet Computer の世界へようこそ
 
 公式のチュートリアルや Examples を日本語で解説しています。
 
-- [DFINITY プロジェクトの始め方](/motoko-explore-hello)
-- [はじめてのアクター](/motoko-actor-hello)
-- [パラメータを渡してキャニスターを実行する](/motoko-location-hello)
-- [Candid UI を使ってキャニスターを実行する](/motoko-my-counter)
-- [簡単な数値計算](/motoko-calc)
-- [ライブラリを使って簡単な電話帳アプリを作ろう](/motoko-phonebook)
-- [複数のアクター&キャニスター](/motoko-multiple-actors)
-- [キャニスター間の関数呼び出し](/motoko-linkedup)
-- [ID とアクセス管理](/access-hello)
-- [CYCLE ウォレットとキャニスター](/cycles-hello)
+- [DFINITY プロジェクトの始め方](/posts/motoko-explore-hello)
+- [はじめてのアクター](/posts/motoko-actor-hello)
+- [パラメータを渡してキャニスターを実行する](/posts/motoko-location-hello)
+- [Candid UI を使ってキャニスターを実行する](/posts/motoko-my-counter)
+- [簡単な数値計算](/posts/motoko-calc)
+- [ライブラリを使って簡単な電話帳アプリを作ろう](/posts/motoko-phonebook)
+- [複数のアクター&キャニスター](/posts/motoko-multiple-actors)
+- [キャニスター間の関数呼び出し](/posts/motoko-linkedup)
+- [ID とアクセス管理](/posts/access-hello)
+- [CYCLE ウォレットとキャニスター](/posts/cycles-hello)

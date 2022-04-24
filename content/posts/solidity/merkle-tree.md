@@ -2,6 +2,8 @@
 title: "Solidity入門: Merkle Proof（マークルツリーとKeccak256）"
 date: 2022-04-18 08:00
 permalink: /merkle-tree
+redirect_from:
+  - /merkle-tree
 social_image: /media/merkle-tree/4.png
 pinned: 1
 tags:
@@ -28,7 +30,7 @@ Solidity by Example のサンプルコードを使ってスマートコントラ
 
 Hardhat を使ったことがない方はこちらからどうぞ
 
-[Hardhat でスマートコントラクトを作ろう！](/hardhat)
+[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/merkle-tree)からダウンロードできます。
 

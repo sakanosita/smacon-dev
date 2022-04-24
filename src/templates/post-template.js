@@ -172,6 +172,7 @@ export const pageQuery = graphql`
 
       filter: {
         frontmatter: {
+          unlisted: { ne: true }
           tags: { in: $blogTags }
         }
         fields: {

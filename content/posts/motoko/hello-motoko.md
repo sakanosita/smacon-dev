@@ -11,6 +11,8 @@ pinned: 11
 level: beginner
 tags:
   - Motoko
+  - ICP
+  - DFINITY
 social_image: /og/labs.png
 description: |-
   ICP(Internet Computer Protocol)でキャニスター開発をはじめよう！

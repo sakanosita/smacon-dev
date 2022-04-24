@@ -55,7 +55,7 @@ const PostWrapper = styled.div`
 `;
 
 const PostTitle = styled.h1`
-  font-size: var(--size-700);
+  font-size: var(--size-600);
 `;
 
 const PostDate = styled.span`
@@ -84,15 +84,15 @@ const PostContent = styled.section`
   }
 
   h1 {
-    font-size: var(--size-700);
-  }
-
-  h2 {
     font-size: var(--size-600);
   }
 
-  h3 {
+  h2 {
     font-size: var(--size-500);
+  }
+
+  h3 {
+    font-size: var(--size-400);
   }
 
   b,

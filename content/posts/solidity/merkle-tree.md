@@ -4,6 +4,7 @@ date: 2022-04-18 08:00
 permalink: /merkle-tree
 redirect_from:
   - /merkle-tree
+  - /merkle-tree/
 social_image: /media/merkle-tree/4.png
 pinned: 1
 tags:

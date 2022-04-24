@@ -3,6 +3,8 @@ title: "Solidity入門: Remixの使い方 ~ ブラウザだけでスマートコ
 date: 2021-11-01 10:38
 permalink: /remix-tutorial
 redirect_from:
+  - /remix-tutorial
+  - /remix-tutorial/
   - /build-smart-contracts
   - /build-smart-contracts/
 tags:

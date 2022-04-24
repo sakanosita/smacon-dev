@@ -31,7 +31,7 @@ Solidity by Example のサンプルコードを使ってスマートコントラ
 
 そこで Chainlink では以下のようなしくみで、オフチェーンのデータをオンチェーンで使えるようにしています。
 
-[イーサリアム入門: オラクルのしくみ](/oracle)
+[イーサリアム入門: オラクルのしくみ](/posts/oracle)
 ![chainlink](/media/chainlink/2.png)
 
 上図の Consumer がこのページで作るスマートコントラクトです。

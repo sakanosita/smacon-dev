@@ -2,6 +2,9 @@
 title: 【コピペでOK】オジリナル仮想通貨のつくり方（ERC20）
 date: 2021-04-22 10:38
 permalink: /original-token
+redirect_from:
+  - /original-token
+  - /original-token/
 tags:
   - Solidity
   - ERC20
@@ -34,7 +37,7 @@ Metamask が使えるチェーン
 
 エンジニアの方にはこちらの記事がオススメです。
 
-[Solidity 入門: Hardhat でスマートコントラクトを作ろう！](/hardhat)
+[Solidity 入門: Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
 
 それではさっそく始めましょう！
 

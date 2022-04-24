@@ -2,6 +2,9 @@
 title: "イーサリアム入門: オラクルのしくみ（Chainlink Data Feeds）"
 date: 2022-02-27 19:00
 permalink: /oracle
+redirect_from:
+  - /oracle
+  - /oracle/
 pinned: 3
 tags:
   - Ethereum
@@ -25,7 +28,7 @@ description: |-
 
 もし、Solidity における実装方法を知りたい場合はこちらをどうぞ。
 
-[Solidity 入門: オラクルを使う](/price-oracle)
+[Solidity 入門: オラクルを使う](/posts/price-oracle)
 
 # 構成要素の説明
 

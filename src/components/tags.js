@@ -11,22 +11,26 @@ const toKebabCase = (str) => {
 
 const Tags = ({ tags }) => {
   return (
-    <div>
+    <TagsList>
       {tags &&
         tags.map((tag) => {
           return (
-            <Tag key={tag}>
+            <TagItem key={tag}>
               <Link to={`/tags/${tag}`}>{tag}</Link>
-            </Tag>
+            </TagItem>
           );
         })}
-    </div>
+    </TagsList>
   );
 };
 
 export default Tags;
 
-const Tag = styled.span`
+const TagsList = styled.div`
+  margin-top: 2rem;
+`
+
+const TagItem = styled.span`
   display: inline-block;
   margin-right: 0.6rem;
   margin-bottom: 0.6rem;

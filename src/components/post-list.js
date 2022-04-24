@@ -43,7 +43,10 @@ const PostListItem = ({
         <Link to={slug}>{title}</Link>
       </PostListTitle>
 
-      <Tags tags={tags} />
+      <PostListMeta>
+        <span>{date}</span>
+        <span>{timeToRead} mins</span>
+      </PostListMeta>
 
       <PostListExcerpt
         dangerouslySetInnerHTML={{
@@ -51,12 +54,7 @@ const PostListItem = ({
         }}
       />
 
-      <PostListMeta>
-        <span>{date}</span>
-
-        <span>{timeToRead} mins</span>
-      </PostListMeta>
-
+      <Tags tags={tags} />
     </StyledPostListItem>
   );
 };
@@ -126,8 +124,6 @@ const PostListExcerpt = styled.p`
 `;
 
 const PostListMeta = styled.div`
-  margin-top: 2rem;
-
   font-size: var(--size-300);
   display: flex;
   justify-content: space-between;

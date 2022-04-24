@@ -104,6 +104,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
+            unlisted: { ne: true }
             tags: { in: [
                 "Rust",
                 "Solana"

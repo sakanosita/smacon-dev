@@ -8,6 +8,7 @@ tags:
   - Solidity
   - Ethereum
   - EVM
+  - Merkle Tree
 description: |-
   ブロックチェーンのスマートコントラクトで使うマークルツリーとは？
   Keccak256のサンプルコードを使ってツリー構造データのハッシュを計算してみよう

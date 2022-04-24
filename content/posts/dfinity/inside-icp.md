@@ -2,6 +2,9 @@
 title: Inside the Internet Computer
 date: 2021-12-27 19:38
 permalink: /inside-icp
+redirect_from:
+  - /inside-icp
+  - /inside-icp/
 tags:
   - DFINITY
   - Internet Computer

@@ -2,6 +2,9 @@
 title: DFINITY ROADMAP
 date: 2022-01-29 23:38
 permalink: /dfinity-roadmap
+redirect_from:
+  - /dfinity-roadmap
+  - /dfinity-roadmap/
 pinned: 99
 tags:
   - DFINITY

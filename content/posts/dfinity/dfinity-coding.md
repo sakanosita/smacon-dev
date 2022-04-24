@@ -2,6 +2,9 @@
 title: Start Coding for DFINITY
 date: 2021-12-28 18:38
 permalink: /dfinity-coding
+redirect_from:
+  - /dfinity-coding
+  - /dfinity-coding/
 tags:
   - DFINITY
   - Internet Computer

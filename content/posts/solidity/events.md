@@ -125,7 +125,7 @@ module.exports = {
 - RINKEBY_PRIVATE_KEY
 - RINKEBY_RPC_URL
 
-詳細は[こちら](/hardhat)
+詳細は[こちら](/posts/hardhat)
 
 デプロイ用にスクリプトを用意します。
 

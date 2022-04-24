@@ -10,6 +10,8 @@ redirect_from:
 tags:
   - Solidity
   - Remix
+  - Ethereum
+  - Ropsten
 description: |-
   ブラウザを使ってスマートコントラクトをブロックチェーンに作る方法
   初心者向け

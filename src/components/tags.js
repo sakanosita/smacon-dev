@@ -16,7 +16,7 @@ const Tags = ({ tags }) => {
         tags.map((tag) => {
           return (
             <Tag key={tag}>
-              <Link to={`/tags/${toKebabCase(tag)}`}>{tag}</Link>
+              <Link to={`/tags/${tag}`}>{tag}</Link>
             </Tag>
           );
         })}
@@ -29,7 +29,7 @@ export default Tags;
 const Tag = styled.span`
   margin-right: 0.6rem;
   margin-bottom: 0.6rem;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-size: var(--size-300);
   white-space: nowrap;
 

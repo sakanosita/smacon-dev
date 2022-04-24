@@ -7,7 +7,7 @@ tags:
   - Ethereum
   - Chainlink
   - EVM
-  - oracle
+  - オラクル
 description: |-
   ブロックチェーンではどのようにしてオフチェーンのデータを利用しているのか？
   スマートコントラクトやDapps開発で使われるオラクルのしくみを理解しよう！

@@ -6,7 +6,7 @@ tags:
   - Solidity
   - Rinkeby
   - Chainlink
-  - oracle
+  - オラクル
 description: |-
   スマートコントラクト開発でオフチェーンのデータを利用するためにオラクル(Chainlink)を使ってみよう
 ---

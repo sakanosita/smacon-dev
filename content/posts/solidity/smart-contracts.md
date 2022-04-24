@@ -8,6 +8,7 @@ tags:
   - Solidity
   - Ethereum
   - EVM
+  - Hardhat
 description: |-
   スマートコントラクトをローカル環境で作って実行してみよう！
   npmが実行できるPCがあればOK ウォレットも不要

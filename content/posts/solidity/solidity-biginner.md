@@ -7,6 +7,7 @@ tags:
   - Solidity
   - Ethereum
   - EVM
+  - Hardhat
 description: |-
   Solidity学習を始める初心者に向けて
   定番のCryptoZombies以外にも無料で学べるサイトを紹介

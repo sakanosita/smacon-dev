@@ -5,6 +5,7 @@ permalink: /solidity-events
 tags:
   - Solidity
   - Ethereum
+  - Hardhat
   - EVM
 description: |-
   Ethereumでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法

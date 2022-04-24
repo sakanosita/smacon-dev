@@ -4,6 +4,7 @@ date: 2022-01-21 22:00
 permalink: /subgraph
 redirect_from:
   - /subgraph
+  - /subgraph/
 pinned: 3
 tags:
   - The Graph
@@ -38,7 +39,7 @@ Metamask は Subgraph Studio を使うときに使いますが、ETH は不要(�
 Event スマートコントラクトは以下のページで作った非常にシンプルなスマートコントラクトです。
 もし、サブグラフだけ作りたいときは、筆者の作ったスマートコントラクトを使って進められます。
 
-[Solidity 入門: 定義したイベントを発行してブロックチェーンに記録](/solidity-events)
+[Solidity 入門: 定義したイベントを発行してブロックチェーンに記録](/posts/solidity-events)
 
 サブグラフを自動生成するためにスマートコントラクトが以下の条件を満たす必要があります。
 Event スマートコントラクトはこの条件を満たしています。

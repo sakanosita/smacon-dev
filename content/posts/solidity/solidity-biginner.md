@@ -91,7 +91,7 @@ Remix はブラウザでコードを編集したり、Metamask ウォレット�
 
 Remix の使い方はこちらのページにまとめてあります。（画像多め）
 
-[Solidity 入門: Remix の使い方](/build-smart-contracts)
+[Solidity 入門: Remix の使い方](/posts/build-smart-contracts)
 
 ## Hardhat
 

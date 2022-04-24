@@ -167,4 +167,4 @@ Chainlink の Off Chain Node がこのアカウントを使ってレポートを
 
 Solidity におけるオラクルの使い方を知りたい場合はこちらをどうぞ。
 
-[Solidity 入門: オラクルを使う](/price-oracle)
+[Solidity 入門: オラクルを使う](/posts/price-oracle)

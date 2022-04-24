@@ -31,6 +31,7 @@ const Tag = styled.span`
   margin-bottom: 0.6rem;
   text-transform: uppercase;
   font-size: var(--size-300);
+  white-space: nowrap;
 
   & a {
     position: relative;

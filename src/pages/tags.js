@@ -18,17 +18,15 @@ const Tags = ({ data }) => {
       <TagsTemplateWrapper>
         <Title>キーワード一覧</Title>
 
-        <ul>
-          <TagItem>
+        <TagsList>
           {tags.map((tag) => (
-            <li key={tag.fieldValue}>
+            <TagItem>
               <Link to={`/tags/${toKebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} ({tag.totalCount})
+                {tag.fieldValue}
               </Link>
-            </li>
+            </TagItem>
           ))}
-          </TagItem>
-        </ul>
+        </TagsList>
       </TagsTemplateWrapper>
     </Layout>
   );
@@ -44,10 +42,42 @@ const Title = styled.h1`
   font-size: var(--size-700);
 `;
 
-const TagItem = styled.div`
+// const TagItem = styled.div`
+//   & a {
+//     color: inherit;
+//     text-decoration: none;
+//   }
+// `;
+
+const TagsList = styled.div`
+  padding-top: var(--size-900);
+  padding-bottom: var(--size-900);
+  margin-right: auto;
+  margin-top: auto;
+  max-width: 80ch;
+  word-wrap: break-word;
+`
+const TagItem = styled.span`
+  display: inline-block;
+  margin-top: 0.6rem;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-size: var(--size-500);
+  white-space: nowrap;
+
   & a {
-    color: inherit;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
+    color: inherit;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+  }
+
+  & a:hover {
+    background-color: rgba(255, 255, 255, 0.9);
   }
 `;
 

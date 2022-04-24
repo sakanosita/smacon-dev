@@ -7,7 +7,7 @@ tags:
   - Motoko
 description: |-
   キャニスター側からユーザーIDを識別して処理を変えてみよう！
-  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミング学習
+  Internet Computer(ICP/DFINITY)を使った初心者向けの開発
 ---
 
 このページでは DFINITY(Internet Computer)の Motoko のチュートリアルを日本語で解説しています。

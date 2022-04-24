@@ -5,8 +5,8 @@ permalink: /motoko-calc
 tags:
   - Motoko
 description: |-
-  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
-  チュートリアル「Use integers in calculator functions」の解説
+  Motokoを使って四則演算をやってみよう！
+  Internet Computer(ICP/DFINITY)を使った初心者向けの開発
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

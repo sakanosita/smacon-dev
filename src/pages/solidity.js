@@ -108,7 +108,7 @@ export const pageQuery = graphql`
     }
     beginnerPosts: allMarkdownRemark(
       limit: 3
-      sort: { order: ASC, fields: frontmatter___pinned }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
           level: { eq: "beginner" }

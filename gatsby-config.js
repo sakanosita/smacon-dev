@@ -10,7 +10,7 @@ module.exports = {
       twitter: `/og/link.png`
     },
     description: `初心者から Solidity / Rust / Motoko を学習して、イーサリアム(EVM)やWASMのブロックチェーンでスマートコントラクトを開発するための入門`,
-    siteUrl: `https://smacon.dev`,
+    siteUrl: `https://www.smacon.dev`,
     social: {
       twitter: `smacondev`,
     },

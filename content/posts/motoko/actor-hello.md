@@ -1,13 +1,13 @@
 ---
-title: "Motoko入門: アクター入門 | DFINITY"
+title: "Motokoプログラミング入門: はじめてのアクター"
 date: 2021-12-29 20:38
 permalink: /motoko-actor-hello
 pinned: 22
 tags:
   - Motoko
 description: |-
-  DFINITYチュートリアル「Query using an actor」の日本語解説
-  実際に使ったコードをGitHubで公開
+  プログラミングにおけるアクターを理解しよう
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミング学習
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。

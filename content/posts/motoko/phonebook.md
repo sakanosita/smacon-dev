@@ -1,12 +1,12 @@
 ---
-title: "Motoko入門: ライブラリを使って簡単な電話帳アプリを作ろう | DFINITY"
+title: "Motokoプログラミング入門: ライブラリを使って簡単な電話帳アプリを作ろう"
 date: 2021-12-30 06:38
 permalink: /motoko-phonebook
 tags:
   - Motoko
 description: |-
-  Motokoチュートリアル「Import library modules」の日本語解説
-  実際に使ったコードをGitHubで公開
+  キャニスターを実行してデータをInsertしたり検索してみよう
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
 ---
 
 このページでは DFINITY の Motoko のチュートリアルを日本語で解説しています。

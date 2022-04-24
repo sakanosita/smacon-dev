@@ -1,12 +1,12 @@
 ---
-title: "Motoko入門: 簡単な数値計算 | DFINITY"
+title: "Motokoプログラミング入門: 簡単な数値計算をやってみよう"
 date: 2021-12-29 22:38
 permalink: /motoko-calc
 tags:
   - Motoko
 description: |-
-  チュートリアル「Use integers in calculator functions」の日本語解説
-  実際に使ったコードをGitHubで公開
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
+  チュートリアル「Use integers in calculator functions」の解説
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

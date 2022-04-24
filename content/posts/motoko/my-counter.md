@@ -1,12 +1,12 @@
 ---
-title: "Motoko入門: Candid UIを使ってキャニスターを実行する | DFINITY"
+title: "Motokoプログラミング入門: Candid UIを使ってキャニスターを実行する"
 date: 2021-12-29 21:38
 permalink: /motoko-my-counter
 tags:
   - Motoko
 description: |-
-  チュートリアル「Increment a natural number」の日本語解説
-  実際に使ったコードをGitHubで公開
+  簡単なカウンタープログラムやデバッグ用実行ツールCandid UIの紹介
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko のチュートリアルを日本語で解説しています。

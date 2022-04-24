@@ -1,12 +1,12 @@
 ---
-title: "Motoko入門: 複数のアクター&キャニスター | DFINITY"
+title: "Motokoプログラミング入門: 複数のアクター&キャニスター"
 date: 2021-12-30 15:38
 permalink: /motoko-multiple-actors
 tags:
   - Motoko
 description: |-
-  チュートリアル「Use multiple actors」の日本語解説
-  実際に使ったコードをGitHubで公開
+  1つのプロジェクトで複数のアクターやキャニスターを開発する方法をやってみよう！
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

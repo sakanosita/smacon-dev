@@ -15,7 +15,8 @@ tags:
   - DFINITY
 social_image: /og/labs.png
 description: |-
-  ICP(Internet Computer Protocol)でキャニスター開発をはじめよう！
+  Internet Computerを使ったキャニスター開発をはじめよう！
+  初心者向けのMotokoプログラミングの学習
 ---
 
 この記事はこんな人におすすめです
@@ -196,7 +197,7 @@ Internet Computer の世界へようこそ
 公式のチュートリアルや Examples を日本語で解説しています。
 
 - [DFINITY プロジェクトの始め方](/motoko-explore-hello)
-- [アクター入門](/motoko-actor-hello)
+- [はじめてのアクター](/motoko-actor-hello)
 - [パラメータを渡してキャニスターを実行する](/motoko-location-hello)
 - [Candid UI を使ってキャニスターを実行する](/motoko-my-counter)
 - [簡単な数値計算](/motoko-calc)

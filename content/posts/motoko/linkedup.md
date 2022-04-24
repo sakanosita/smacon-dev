@@ -1,11 +1,12 @@
 ---
-title: "Motoko入門: キャニスター間の関数呼び出し | DFINITY"
+title: "Motokoプログラミング入門: キャニスター間の関数呼び出し"
 date: 2021-12-30 21:00
 permalink: /motoko-linkedup
 tags:
   - Motoko
 description: |-
-  DFINITYプログラミング: キャニスター間てcallを実行する
+  あるキャニスターから別のキャニスターを呼び出して実行する方法を紹介
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

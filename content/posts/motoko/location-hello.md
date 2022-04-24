@@ -1,12 +1,12 @@
 ---
-title: "Motoko入門: パラメータを渡してキャニスターを実行する | DFINITY"
+title: "Motokoプログラミング入門: パラメータを渡してキャニスターを実行する"
 date: 2021-12-29 21:00
 permalink: /motoko-location-hello
 tags:
   - Motoko
 description: |-
-  チュートリアル「Pass text arguments」の日本語解説
-  実際に使ったコードをGitHubで公開
+  キャニスターを実行するときにパラメータを渡して処理を変える方法を紹介
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

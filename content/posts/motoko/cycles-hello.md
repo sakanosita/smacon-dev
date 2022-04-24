@@ -1,12 +1,12 @@
 ---
-title: "Motoko入門: CYCLEウォレットとキャニスター | DFINITY"
+title: "Motokoプログラミング入門: CYCLEウォレットとキャニスター"
 date: 2022-01-03 20:38
 permalink: /cycles-hello
 tags:
   - Motoko
 description: |-
-  DFINITYでキャニスターを動かす際に必要になるCycle Cost
-  ICPをCYCLEに変える、ウォレットにCYCLEをチャージ
+  キャニスターを動かす際に必要になるCYCLEをチャージ
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミングの学習
 ---
 
 このページは、DFINITY のチュートリアルを日本語で解説しています。

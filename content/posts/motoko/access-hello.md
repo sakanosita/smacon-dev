@@ -1,13 +1,13 @@
 ---
-title: "Motoko入門: IDとアクセス管理 | DFINITY"
+title: "Motokoプログラミング入門: IDとアクセス管理"
 date: 2022-01-02 20:38
 permalink: /access-hello
 pinned: 23
 tags:
   - Motoko
 description: |-
-  DFINITYチュートリアル: Add access control with identities
-  Motokoでユーザーによって処理を変える方法を解説
+  キャニスター側からユーザーIDを識別して処理を変えてみよう！
+  Internet Computer(ICP/DFINITY)を使ったMotokoプログラミング学習
 ---
 
 このページでは DFINITY(Internet Computer)の Motoko のチュートリアルを日本語で解説しています。

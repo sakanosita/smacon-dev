@@ -1,13 +1,13 @@
 ---
-title: "Motoko入門: DFINITYプロジェクトの始め方"
+title: "DFINITYプロジェクトの始め方"
 date: 2021-12-29 19:38
 permalink: /motoko-explore-hello
 level: beginner
 tags:
   - Motoko
 description: |-
-  チュートリアル「Explore the default project」日本語解説
-  Motokoの勉強をどうやって始めたらわからない人が最初にやること
+  Internet Computer(ICP/DFINITY)を使ったキャニスター開発の最初の一歩
+  チュートリアル「Explore the default project」の解説
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。

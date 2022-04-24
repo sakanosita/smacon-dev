@@ -1,5 +1,5 @@
 ---
-title: "イーサリアム入門: はじめてのスマートコントラクト開発【Solidity】"
+title: "ウォレットいらずのスマートコントラクト開発　最初の一歩"
 date: 2022-01-09 21:00
 permalink: /smart-contracts
 level: beginner
@@ -8,8 +8,8 @@ tags:
   - Ethereum
   - EVM
 description: |-
-  スマートコントラクト開発の基本: Solidity初心者に向けた解説
-  ブロックチェーンのDapps開発とは？
+  スマートコントラクトをローカル環境で作って実行してみよう！
+  npmが実行できればウォレットも不要です
 ---
 
 このページはこんな人におすすめ

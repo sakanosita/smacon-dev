@@ -9,8 +9,8 @@ tags:
   - EVM
   - Ethereum
 description: |-
-  スマートコントラクト開発の基本: Solidity初心者に向けた解説
-  Solidity by Exampleのサンプルを使ってHardhatで開発
+  Solidityのサンプルコード集「Solidity by Exampl」の中の
+  一番簡単なスマートコントラクトの実装とデプロイを紹介
 ---
 
 このページはこんな人におすすめ

@@ -81,7 +81,7 @@ export const pageQuery = graphql`
                 in: [
                     "Motoko",
                     "DFINITY",
-                    "ICP"
+                    "Internet Computer"
                 ],
                 ne: "Rust"
             } 
@@ -135,14 +135,15 @@ export const pageQuery = graphql`
       }
     }
     dfinityPosts: allMarkdownRemark(
-      limit: 6
+      limit: 100
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
+            unlisted: { ne: true }
             tags: {
                 in: [
                     "DFINITY",
-                    "ICP"
+                    "Internet Computer"
                 ],
                 ne: "Rust"
             } 

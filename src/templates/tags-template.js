@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
-import StyledLink from '../components/styled-link';
+import ViewAllTags from '../components/view-all-tags';
 import styled from 'styled-components';
 
 const TagsTemplate = ({ pageContext, data }) => {
@@ -20,18 +20,7 @@ const TagsTemplate = ({ pageContext, data }) => {
 
         <PostList posts={posts} />
 
-        <StyledLink
-          css={`
-            margin-top: var(--size-400);
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: fit-content;
-          `}
-          to="/tags/"
-        >
-          View All tags
-        </StyledLink>
+        <ViewAllTags/>
       </TagsTemplateWrapper>
     </Layout>
   );

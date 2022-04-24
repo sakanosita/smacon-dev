@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import styled from 'styled-components';
-import StyledLink from '../components/styled-link';
+import ViewAllTags from '../components/view-all-tags';
 
 const HomePage = ({ data }) => {
   const popularPosts = data.popularPosts.nodes;
@@ -50,19 +50,7 @@ const HomePage = ({ data }) => {
         <PostList posts={motokoPosts} />
       </Board>
 
-      <StyledLink
-        css={`
-          display: block;
-          margin-top: var(--size-800);
-          margin-bottom: var(--size-800);
-          margin-left: auto;
-          margin-right: auto;
-          width: fit-content;
-        `}
-        to="/tags/"
-      >
-        View All Tags
-      </StyledLink>
+      <ViewAllTags/>
     </Layout>
   );
 };

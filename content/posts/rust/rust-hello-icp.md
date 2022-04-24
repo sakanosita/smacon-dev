@@ -6,6 +6,7 @@ pinned: 28
 tags:
   - DFINITY
   - Rust
+  - Internet Computer
 description: |-
   DFINITY(ICP)でRustを使ってDapps開発をはじめよう！
 ---

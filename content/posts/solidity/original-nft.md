@@ -2,6 +2,7 @@
 title: "NFTプログラミング入門: いろんなNFTの実装方法の分類"
 date: 2022-01-07 21:00
 permalink: /original-nft
+pinned: 13
 tags:
   - Ethereum
   - Solidity

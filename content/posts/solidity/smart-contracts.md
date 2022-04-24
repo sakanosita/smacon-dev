@@ -3,6 +3,7 @@ title: "ウォレットいらずのスマートコントラクト開発　最初
 date: 2022-04-20 21:00
 permalink: /smart-contracts
 level: beginner
+pinned: 12
 tags:
   - Solidity
   - Ethereum

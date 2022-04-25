@@ -12,8 +12,8 @@ const Motoko = ({ data }) => {
 
   return (
     <Layout
-      title="Motokoではじめてのキャニスター開発 | Internet Computerプログラミング"
-      description="Motokoプログラミング入門, Internet Computer(ICP)を使ったキャニスター開発">
+      title="Motoko ではじめてのキャニスター開発 | Internet Computer プログラミング"
+      description="Motoko プログラミング入門, Internet Computer (ICP)を使ったキャニスター開発">
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
             <p>Motokoプログラミング入門, Internet Computer(ICP)を使ったキャニスター開発</p>

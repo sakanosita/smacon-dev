@@ -1,14 +1,14 @@
 ---
-title: "Rust 入門: DFINITY で Hello, World!【初心者向け】"
+title: "Rust ではじめてのキャニスター開発 ICP 入門 | DFINITY"
 date: 2022-01-04 19:38
-permalink: /rust-hello-icp
+permalink: /hello-icp-rust
 pinned: 28
 tags:
   - DFINITY
   - Rust
   - Internet Computer
 description: |-
-  DFINITY (ICP) で Rust を使って Dapps 開発をはじめよう！
+  DFINITY の Internet Computer (ICP) で Rust を使ってキャニスター開発をはじめよう！初心者向けの Rust 学習
 ---
 
 このページはこんな人におすすめ

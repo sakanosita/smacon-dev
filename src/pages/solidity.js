@@ -13,7 +13,7 @@ const Solidity = ({ data }) => {
   const beginnerPosts = data.beginnerPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
-  const title = "Solidity ではじめてのスマートコントラクト開発 | Web3 プログラミング入門"
+  const title = "Solidity ではじめてのスマートコントラクト入門 | Web3 プログラミング教室"
   const description = "イーサリアム (EVM) を使った Web3 の Dapps 開発、初心者向けののスマートコンラクト学習"
 
   return (

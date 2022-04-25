@@ -1,5 +1,5 @@
 ---
-title: web3.jsを使ってスマートコントラクトを実行する3つの方法【Solidity入門】
+title: web3.js を使ってスマートコントラクトを実行する3つの方法【Solidity 入門】
 date: 2022-01-22 10:38
 permalink: /web3js
 redirect_from:
@@ -10,8 +10,8 @@ tags:
   - JavaScript
 social_image: /og/labs.png
 description: |-
-  初心者向けにSolidityのスマートコントラクトを実行する方法を3つ紹介
-  ReactやNext.jsからweb3jsを使ったり、HTMLで直接JavaScriptを実行
+  初心者向けに Solidity のスマートコントラクトを実行する方法を3つ紹介
+  React や Next.js から web3js を使ったり、HTML で直接 JavaScript を実行
 ---
 
 このページはこんな人におすすめ

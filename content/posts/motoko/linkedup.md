@@ -1,5 +1,5 @@
 ---
-title: "Motokoプログラミング入門: キャニスター間の関数呼び出し"
+title: "Motoko プログラミング入門: キャニスター間の関数呼び出し"
 date: 2021-12-30 21:00
 permalink: /motoko-linkedup
 tags:

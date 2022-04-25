@@ -1,5 +1,5 @@
 ---
-title: "Motokoプログラミング入門: IDとアクセス管理"
+title: "Motoko プログラミング入門: ID とアクセス管理"
 date: 2022-01-02 20:38
 permalink: /access-hello
 pinned: 23

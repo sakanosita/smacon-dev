@@ -1,5 +1,5 @@
 ---
-title: "Motokoプログラミング入門: 複数のアクター&キャニスター"
+title: "Motoko プログラミング入門: 複数のアクター&キャニスター"
 date: 2021-12-30 15:38
 permalink: /motoko-multiple-actors
 tags:

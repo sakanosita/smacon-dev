@@ -1,5 +1,5 @@
 ---
-title: "Motokoプログラミング入門: ライブラリを使って簡単な電話帳アプリを作ろう"
+title: "Motoko プログラミング入門: ライブラリを使って簡単な電話帳アプリを作ろう"
 date: 2021-12-30 06:38
 permalink: /motoko-phonebook
 tags:

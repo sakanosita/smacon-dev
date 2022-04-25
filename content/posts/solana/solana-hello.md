@@ -1,5 +1,5 @@
 ---
-title: "はじめてのSolana: RustでHello World!"
+title: "はじめての Solana: Rust で Hello World!"
 date: 2022-04-19 21:00
 permalink: /solana-hello
 redirect_from:
@@ -11,8 +11,8 @@ tags:
   - Rust
   - WASM
 description: |-
-  SolanaでRustのスマートコントラクトを作ろう！
-  Solana公式のHello Worldのチュートリアルから必要なコードだけを抜粋
+  Solana で Rust のスマートコントラクトを作ろう！
+  Solana 公式の Hello World のチュートリアルから必要なコードだけを抜粋
 ---
 
 このページはこんな人におすすめ

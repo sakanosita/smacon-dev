@@ -1,5 +1,5 @@
 ---
-title: "Solana開発のための環境構築"
+title: "Solana 開発のための環境構築"
 date: 2022-01-22 20:00
 permalink: /solana-config
 redirect_from:
@@ -9,7 +9,7 @@ tags:
   - Solana
   - SPL
 description: |-
-  Solanaでスマートコントラクト開発を始めるための最初の一歩
+  Solana でスマートコントラクト開発を始めるための最初の一歩
   まずはコマンドのインストールやアカウントを準備しよう
 ---
 

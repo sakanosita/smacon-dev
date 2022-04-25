@@ -6,8 +6,8 @@ tags:
   - Solana
   - SPL
 description: |-
-  Solana Program Library(SPL)のチュートリアル
-  コマンドラインでアカウントを作り独自トークンやNFTをmint
+  Solana Program Library (SPL) のチュートリアル
+  コマンドラインでアカウントを作り独自トークンや NFT を mint
 ---
 
 # SPL Token Tutorial

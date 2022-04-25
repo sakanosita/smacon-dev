@@ -1,5 +1,5 @@
 ---
-title: "Rust入門: DFINITYでHello, World!【初心者向け】"
+title: "Rust 入門: DFINITY で Hello, World!【初心者向け】"
 date: 2022-01-04 19:38
 permalink: /rust-hello-icp
 pinned: 28
@@ -8,7 +8,7 @@ tags:
   - Rust
   - Internet Computer
 description: |-
-  DFINITY(ICP)でRustを使ってDapps開発をはじめよう！
+  DFINITY (ICP) で Rust を使って Dapps 開発をはじめよう！
 ---
 
 このページはこんな人におすすめ

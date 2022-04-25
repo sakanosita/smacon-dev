@@ -5,8 +5,8 @@ permalink: /motoko-phonebook
 tags:
   - Motoko
 description: |-
-  キャニスターを実行してデータをInsertしたり検索してみよう
-  Internet Computer(ICP/DFINITY)を使った初心者向けの開発
+  キャニスターを実行してデータをインサートしたり検索してみよう
+  Internet Computer (ICP / DFINITY) を使った初心者向けの開発
 ---
 
 このページでは DFINITY の Motoko のチュートリアルを日本語で解説しています。

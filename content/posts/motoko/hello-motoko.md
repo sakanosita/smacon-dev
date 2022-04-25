@@ -15,8 +15,8 @@ tags:
   - DFINITY
 social_image: /og/labs.png
 description: |-
-  DFINITYのInternet Computerを使ったキャニスター開発をはじめよう！
-  初心者向けのMotokoプログラミングの学習
+  DFINITY の Internet Computer を使ったキャニスター開発をはじめよう！
+  初心者向けの Motoko プログラミングの学習
 ---
 
 この記事はこんな人におすすめです

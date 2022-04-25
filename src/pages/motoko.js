@@ -16,7 +16,7 @@ const Motoko = ({ data }) => {
       description="Motoko プログラミング, DFINITY の Internet Computer (ICP) を使ったキャニスター開発">
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
-            <p>Motoko プログラミング, DFINITY の Internet Computer (ICP) を使ったキャニスター開発</p>
+            <p>DFINITY の Internet Computer (ICP) を使ったキャニスター開発</p>
         </Intro>
 
         <Board>

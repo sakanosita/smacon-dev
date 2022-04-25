@@ -12,7 +12,7 @@ const Solidity = ({ data }) => {
 
   return (
     <Layout
-      title="Solidity入門: じめてのスマートコントラクト開発"
+      title="Solidity入門: はじめてのスマートコントラクト開発"
       description="スマートコンラクト入門, イーサリアム(EVM)を使ったWeb3のDapps開発">
         <Intro>
             <h1>Solidity and Writing Smart Contracts</h1>

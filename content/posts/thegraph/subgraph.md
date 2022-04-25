@@ -1,5 +1,5 @@
 ---
-title: "The Graph: はじめてのSubgraph — サブグラフの自動生成"
+title: "The Graph: はじめての Subgraph — サブグラフの自動生成"
 date: 2022-01-21 22:00
 permalink: /subgraph
 redirect_from:
@@ -13,7 +13,7 @@ tags:
   - Ethereum
   - EVM
 description: |-
-  GraphQLを使ってブロックチェーンのオンチェーンデータを分析することができるサブグラフ
+  GraphQL を使ってブロックチェーンのオンチェーンデータを分析することができるサブグラフ
   自動生成を使ってコードを書かずにサブグラフを作ろう
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Rust ではじめてのキャニスター開発 ICP 入門 | DFINITY"
-date: 2022-01-04 19:38
+date: 2022-04-04 19:38
 permalink: /hello-icp-rust
 pinned: 28
 tags:

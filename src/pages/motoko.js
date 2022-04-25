@@ -12,7 +12,7 @@ const Motoko = ({ data }) => {
 
   return (
     <Layout
-      title="Motoko ではじめてのキャニスター開発 | ICP / DFINITY プログラミング"
+      title="Motoko ではじめてのキャニスター開発 | ICP プログラミング"
       description="Motoko プログラミング, DFINITY の Internet Computer (ICP) を使ったキャニスター開発">
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>

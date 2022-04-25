@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: 無料プログラミング学習4選【初心者向け】"
+title: "Solidity 入門: 無料プログラミング学習4選【初心者向け】"
 date: 2022-01-22 00:00
 permalink: /solidity-beginner
 redirect_from:
@@ -11,8 +11,8 @@ tags:
   - EVM
   - Hardhat
 description: |-
-  Solidity学習を始める初心者に向けて
-  定番のCryptoZombies以外にも無料で学べるサイトを紹介
+  Solidity 学習を始める初心者に向けて
+  定番の CryptoZombies 以外にも無料で学べるサイトを紹介
 ---
 
 この記事はこんな人におすすめ

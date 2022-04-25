@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: Merkle Proof（マークルツリーとKeccak256）"
+title: "Solidity 入門: Merkle Proof（マークルツリーと Keccak256）"
 date: 2022-04-18 08:00
 permalink: /merkle-tree
 redirect_from:
@@ -14,7 +14,7 @@ tags:
   - Merkle Tree
 description: |-
   ブロックチェーンのスマートコントラクトで使うマークルツリーとは？
-  Keccak256のサンプルコードを使ってツリー構造データのハッシュを計算してみよう
+  Keccak256 のサンプルコードを使ってツリー構造データのハッシュを計算してみよう
 ---
 
 ![Merkle Tree](/media/merkle-tree/2.png)

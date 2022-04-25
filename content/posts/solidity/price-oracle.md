@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: オラクルの基本的な使い方（Chainlink Data Feeds)"
+title: "Solidity 入門: オラクルの基本的な使い方（Chainlink Data Feeds)"
 date: 2022-02-27 21:00
 permalink: /price-oracle
 redirect_from:
@@ -11,7 +11,7 @@ tags:
   - Chainlink
   - オラクル
 description: |-
-  スマートコントラクト開発でオフチェーンのデータを利用するためにオラクル(Chainlink)を使ってみよう
+  スマートコントラクト開発でオフチェーンのデータを利用するためにオラクル (Chainlink) を使ってみよう
 ---
 
 このページはこんな人におすすめ

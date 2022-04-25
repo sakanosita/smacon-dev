@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: Remixの使い方 ~ ブラウザだけでスマートコントラクトをデプロイ"
+title: "Solidity 入門: Remix の使い方 ~ ブラウザだけでスマートコントラクトをデプロイ"
 date: 2021-11-01 10:38
 permalink: /remix-tutorial
 redirect_from:
@@ -13,8 +13,8 @@ tags:
   - Ethereum
   - Ropsten
 description: |-
-  ブラウザを使ってスマートコントラクトをブロックチェーンに作る方法
-  初心者向け
+  Remix を使って Solidity のスマートコントラクトをブロックチェーンにデプロイ
+  初心者向けの Web3 開発入門
 ---
 
 この記事はこんな人におすすめ

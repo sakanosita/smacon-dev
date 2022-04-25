@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: はじめてのイーサリアムDapps開発"
+title: "Solidity 入門: はじめてのイーサリアム Dapps 開発"
 date: 2022-01-05 21:00
 permalink: /first-app
 level: beginner
@@ -10,8 +10,7 @@ tags:
   - EVM
   - Ethereum
 description: |-
-  Solidityのサンプルコード集「Solidity by Exampl」の中の
-  一番簡単なスマートコントラクトの実装とデプロイを紹介
+  Solidity のサンプルコード集 'Solidity by Example' の中で一番簡単なスマートコントラクトの実装とデプロイを紹介
 ---
 
 このページはこんな人におすすめ

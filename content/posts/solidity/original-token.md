@@ -1,5 +1,5 @@
 ---
-title: 【コピペでOK】オジリナル仮想通貨のつくり方（ERC20）
+title: 【コピペで OK】オジリナル仮想通貨のつくり方（ERC20）
 date: 2021-04-22 10:38
 permalink: /original-token
 redirect_from:
@@ -11,7 +11,7 @@ tags:
   - EVM
   - Hardhat
 description: |-
-  EVM(Ethereum Virtual Machine)におけるERC20仕様の暗号通貨トークンの実装方法を紹介
+  EVM (Ethereum Virtual Machine) における ERC20 仕様の暗号通貨トークンの実装方法を紹介
 ---
 
 この記事はこんな人におすすめ

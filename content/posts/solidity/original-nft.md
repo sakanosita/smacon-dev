@@ -1,5 +1,5 @@
 ---
-title: "NFTプログラミング入門: いろんなNFTの実装方法の分類"
+title: "NFT プログラミング入門: いろんな NFT の実装方法の分類"
 date: 2022-04-24 21:00
 permalink: /original-nft
 pinned: 13
@@ -10,8 +10,8 @@ tags:
   - ERC721
   - Rinkeby
 description: |-
-  EVMにおけるいろいろなNFTの実装方法のまとめ
-  ERC721, Loot, ノーコード、フルオンチェーン、ジェネラティブNFT
+  イーサリアム (EVM) におけるいろいろな NFT の実装方法のまとめ
+  ERC721, Loot, ノーコード、フルオンチェーン、ジェネラティブ NFT
 ---
 
 このページはこんな人におすすめ

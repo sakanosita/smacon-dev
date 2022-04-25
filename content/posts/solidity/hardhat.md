@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: Hardhatでスマートコントラクトを作ろう！"
+title: "Solidity 入門: Hardhat でスマートコントラクトを作ろう！"
 date: 2022-01-04 22:00
 permalink: /hardhat
 redirect_from:
@@ -12,8 +12,8 @@ tags:
   - Ethereum
   - EVM
 description: |-
-  Hardhatを使ってスマートコントラクトをテストネット(Ropsten)にデプロイする方法を紹介
-  Hardhatのチュートリアルを日本語で解説
+  Hardhat を使ってスマートコントラクトをテストネット (Ropsten) にデプロイする方法を紹介
+  Hardhat のチュートリアルを日本語で解説
 ---
 
 このページはこんな人におすすめ

@@ -1,5 +1,5 @@
 ---
-title: "Solidity入門: 定義したイベントを発行してブロックチェーンに記録"
+title: "Solidity 入門: 定義したイベントを発行してブロックチェーンに記録"
 date: 2022-01-21 19:00
 permalink: /solidity-events
 redirect_from:
@@ -12,7 +12,7 @@ tags:
   - EVM
   - Rinkeby
 description: |-
-  Ethereumでブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法
+  Ethereum でブロックチェーンにイベントを記録したり、イベントを絞込んだりする方法
 ---
 
 このページはこんな人におすすめ

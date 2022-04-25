@@ -1,5 +1,5 @@
 ---
-title: 5ステップではじめるMotokoプログラミング ICP入門 | DFINITY
+title: 5ステップではじめるMotokoプログラミング ICP入門
 date: 2022-04-16 09:38
 permalink: /hello-motoko
 redirect_from:
@@ -15,7 +15,7 @@ tags:
   - DFINITY
 social_image: /og/labs.png
 description: |-
-  Internet Computerを使ったキャニスター開発をはじめよう！
+  DFINITYのInternet Computerを使ったキャニスター開発をはじめよう！
   初心者向けのMotokoプログラミングの学習
 ---
 

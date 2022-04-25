@@ -8,7 +8,7 @@ tags:
   - Rust
   - Internet Computer
 description: |-
-  DFINITY の Internet Computer (ICP) で Rust を使ってキャニスター開発をはじめよう！初心者向けの Rust 学習
+  DFINITY の Internet Computer (ICP) で Rust を使ってキャニスター開発をはじめよう！初心者向けの Rust 学習に最適
 ---
 
 このページはこんな人におすすめ

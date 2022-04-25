@@ -11,7 +11,9 @@ const Motoko = ({ data }) => {
   const dfinityPosts = data.dfinityPosts.nodes;
 
   return (
-    <Layout title="Motoko and Making Canisters on DFINITY">
+    <Layout
+      title="Motokoではじめてのキャニスター開発 | smacon.dev"
+      description="Motokoプログラミング入門, Internet Computer(ICP)を使ったキャニスター開発">
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
             <p>Motokoプログラミング入門, Internet Computer(ICP)を使ったキャニスター開発</p>

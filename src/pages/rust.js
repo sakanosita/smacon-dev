@@ -10,7 +10,9 @@ const Rust = ({ data }) => {
   const updatePosts = data.updatePosts.nodes;
 
   return (
-    <Layout title="Rust and Building Decendtalized WASM">
+    <Layout
+      title="Rustではじめてのスマートコントラクト開発 | smacon.dev"
+      descriptoin="Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発">
         <Intro>
             <h1>Rust and Building Decendtalized WASM</h1>
             <p>Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発</p>

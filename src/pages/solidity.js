@@ -11,7 +11,9 @@ const Solidity = ({ data }) => {
   const updatePosts = data.updatePosts.nodes;
 
   return (
-    <Layout title="Solidity and Writing Smart Contracts">
+    <Layout
+      title="Solidityではじめてのスマートコントラクト開発 | smacon.dev"
+      description="スマートコンラクト入門, SolidityやEVMを使ったWeb3のDapps開発">
         <Intro>
             <h1>Solidity and Writing Smart Contracts</h1>
             <p>スマートコンラクト入門, SolidityやEVMを使ったWeb3のDapps開発</p>

@@ -4,8 +4,10 @@ import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import styled from 'styled-components';
 import ViewAllTags from '../components/view-all-tags';
+import ShareButtonList from '../components/sharing-button-list';
 
 const HomePage = ({ data }) => {
+  const site = data.site;
   const popularPosts = data.popularPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
   const solidityPosts = data.solidityPosts.nodes;
@@ -54,6 +56,11 @@ const HomePage = ({ data }) => {
       </Board>
 
       <ViewAllTags/>
+
+      <ShareButtonList
+          title={title}
+          url={`${site.siteMetadata.siteUrl}`}
+        />
     </Layout>
   );
 };
@@ -102,6 +109,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     popularPosts: allMarkdownRemark(

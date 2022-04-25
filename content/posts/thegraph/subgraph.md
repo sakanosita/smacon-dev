@@ -1,5 +1,5 @@
 ---
-title: "The Graph: はじめての Subgraph — サブグラフの自動生成"
+title: "The Graph: はじめてのサブグラフ – Subgraph の自動生成"
 date: 2022-01-21 22:00
 permalink: /subgraph
 redirect_from:

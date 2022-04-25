@@ -13,9 +13,12 @@ const HomePage = ({ data }) => {
   const motokoPosts = data.motokoPosts.nodes;
   const intro = data.markdownRemark.html;
   const title = data.markdownRemark.frontmatter.title;
+  const description = data.markdownRemark.frontmatter.description;
 
   return (
-    <Layout title={title}>
+    <Layout
+      title={title}
+      description={description}>
       <Intro
         dangerouslySetInnerHTML={{
           __html: intro,
@@ -229,6 +232,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
       }
     }
   }

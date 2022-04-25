@@ -11,8 +11,8 @@ tags:
   - Rust
   - WASM
 description: |-
-  RustのスマートコントラクトをNEARにデプロイしよう！
-  はじめてNEAR Protocolで開発する方の最初の一歩
+  Rust のスマートコントラクトを NEAR にデプロイしよう！
+  はじめて NEAR Protocol で開発する方の最初の一歩
 ---
 
 このページはこんな人におすすめ

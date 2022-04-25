@@ -3,16 +3,20 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import ViewAllTags from '../components/view-all-tags';
+import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 
 const Rust = ({ data }) => {
+  const site = data.site;
   const popularPosts = data.popularPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
+  const title = "Rust ではじめてのスマートコントラクト開発 | Web3 プログラミング入門"
+  const description = "WASM のブロックチェーンを使った Dapps 開発, 初心者向けの Solana, NEAR, DFINITY 学習"
+
   return (
-    <Layout
-      title="Rust ではじめてのスマートコントラクト開発 | Web3 プログラミング入門"
-      description="WASM のブロックチェーンを使った Dapps 開発, 初心者向けの Solana, NEAR, DFINITY 学習">
+    <Layout title={title} description={description}>
+        
         <Intro>
             <h1>Rust and Building Decendtalized WASM</h1>
             <p>WASM のブロックチェーンを使ったスマートコントラクト開発</p>
@@ -28,6 +32,11 @@ const Rust = ({ data }) => {
         </Board>
 
         <ViewAllTags/>
+
+        <ShareButtonList
+          title={title}
+          url={`${site.siteMetadata.siteUrl}/rust/`}
+        />
     </Layout>
   );
 };
@@ -72,6 +81,11 @@ const Board = styled.div`
 
 export const pageQuery = graphql`
   query {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     popularPosts: allMarkdownRemark(
       limit: 3
       sort: { order: ASC, fields: frontmatter___pinned }

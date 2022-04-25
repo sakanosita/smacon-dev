@@ -3,17 +3,21 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import ViewAllTags from '../components/view-all-tags';
+import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 
 const Solidity = ({ data }) => {
+  const site = data.site;
+
   const popularPosts = data.popularPosts.nodes;
   const beginnerPosts = data.beginnerPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
+  const title = "Solidity ではじめてのスマートコントラクト開発 | Web3 プログラミング入門"
+  const description = "イーサリアム (EVM) を使った Web3 の Dapps 開発、初心者向けののスマートコンラクト学習"
+
   return (
-    <Layout
-      title="Solidity ではじめてのスマートコントラクト開発 | Web3 プログラミング入門"
-      description="イーサリアム (EVM) を使った Web3 の Dapps 開発、初心者向けののスマートコンラクト学習">
+    <Layout title={title} description={description}>
         <Intro>
             <h1>Solidity and Writing Smart Contracts</h1>
             <p>スマートコントラクト入門、イーサリアム (EVM) を使った Web3 の Dapps 開発</p>
@@ -33,6 +37,11 @@ const Solidity = ({ data }) => {
         </Board>
 
         <ViewAllTags/>
+
+        <ShareButtonList
+          title={title}
+          url={`${site.siteMetadata.siteUrl}/solidity/`}
+        />
     </Layout>
   );
 };
@@ -77,6 +86,11 @@ const Board = styled.div`
 
 export const pageQuery = graphql`
   query {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     popularPosts: allMarkdownRemark(
       limit: 3
       sort: { order: ASC, fields: frontmatter___pinned }

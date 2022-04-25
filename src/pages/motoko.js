@@ -3,17 +3,19 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import ViewAllTags from '../components/view-all-tags';
+import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 
 const Motoko = ({ data }) => {
-
+  const site = data.site;
   const motokoPosts = data.motokoPosts.nodes;
   const dfinityPosts = data.dfinityPosts.nodes;
 
+  const title = "Motoko ではじめてのキャニスター開発 | ICP プログラミング入門"
+  const description = "DFINITY の Internet Computer (ICP) を使ったキャニスター開発、初心者向けの Motoko 学習"
+
   return (
-    <Layout
-      title="Motoko ではじめてのキャニスター開発 | ICP プログラミング入門"
-      description="DFINITY の Internet Computer (ICP) を使ったキャニスター開発、初心者向けの Motoko 学習">
+    <Layout title={title} description={description}>
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
             <p>DFINITY の Internet Computer (ICP) を使ったキャニスター開発</p>
@@ -29,6 +31,11 @@ const Motoko = ({ data }) => {
         </Board>
 
         <ViewAllTags/>
+
+        <ShareButtonList
+          title={title}
+          url={`${site.siteMetadata.siteUrl}/motoko/`}
+        />
     </Layout>
   );
 };
@@ -73,6 +80,11 @@ const Board = styled.div`
 
 export const pageQuery = graphql`
   query {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     popularPosts: allMarkdownRemark(
       limit: 3
       sort: { order: ASC, fields: frontmatter___pinned }

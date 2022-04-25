@@ -12,7 +12,7 @@ const Rust = ({ data }) => {
   return (
     <Layout
       title="Rustではじめてのスマートコントラクト開発 | smacon.dev"
-      descriptoin="Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発">
+      description="Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発">
         <Intro>
             <h1>Rust and Building Decendtalized WASM</h1>
             <p>Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発</p>

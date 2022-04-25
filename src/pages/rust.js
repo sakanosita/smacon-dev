@@ -15,7 +15,7 @@ const Rust = ({ data }) => {
       description="WASM のブロックチェーンを使ったスマートコントラクト開発, Solana, NEAR, DFINITY">
         <Intro>
             <h1>Rust and Building Decendtalized WASM</h1>
-            <p>Rust入門, WASMのブロックチェーンを使ったスマートコントラクト開発</p>
+            <p>WASM のブロックチェーンを使ったスマートコントラクト開発</p>
         </Intro>
 
         <Board>

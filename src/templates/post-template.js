@@ -55,7 +55,7 @@ const PostWrapper = styled.div`
 `;
 
 const PostTitle = styled.h1`
-  font-size: var(--size-600);
+  font-size: var(--size-700);
 `;
 
 const PostDate = styled.span`

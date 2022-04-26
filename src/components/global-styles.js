@@ -95,7 +95,7 @@ body::-webkit-scrollbar-track {
   --size-400: 1rem;
   --size-500: 1.33rem;
   --size-600: 1.77rem;
-  --size-700: 2.36rem;
+  --size-700: 2.03rem;
   --size-800: 3.15rem;
   --size-900: 4.2rem;
 }

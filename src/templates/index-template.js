@@ -26,7 +26,6 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
-
       <Board>
         <h3>人気の記事</h3>
         <PostList posts={popularPosts} />

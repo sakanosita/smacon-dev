@@ -11,7 +11,7 @@ const Motoko = ({ data }) => {
   const motokoPosts = data.motokoPosts.nodes;
   const dfinityPosts = data.dfinityPosts.nodes;
 
-  const title = "Motoko ではじめてのキャニスター開発 | ICP プログラミング入門"
+  const title = "Motoko ではじめるキャニスター開発 | ICP プログラミング入門"
   const description = "DFINITY の Internet Computer (ICP) を使ったキャニスター開発、初心者向けの Motoko 学習"
 
   return (

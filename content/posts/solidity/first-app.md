@@ -10,7 +10,8 @@ tags:
   - EVM
   - Ethereum
 description: |-
-  Solidity のサンプルコード集 'Solidity by Example' の中で一番簡単なスマートコントラクトの実装とデプロイを紹介
+  Solidity のサンプルコード集 'Solidity by Example' の中で
+  一番簡単なスマートコントラクトの実装とデプロイを紹介
 ---
 
 このページはこんな人におすすめ

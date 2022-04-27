@@ -11,7 +11,8 @@ tags:
   - EVM
   - Hardhat
 description: |-
-  初心者向けおすすめの Solidity 学習方法
+  初心者向けおすすめの Solidity 勉強法、
+  イーサリアムでスマートコントラクト開発、
   CryptoZombies のほかにも無料で学べるサイトを紹介
 ---
 

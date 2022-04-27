@@ -135,6 +135,7 @@ export const pageQuery = graphql`
     }
     updatePosts: allMarkdownRemark(
       filter: {
+        frontmatter: { unlisted: { ne: true }},
         fields: { contentType: { eq: "posts" } }
       }
       sort: { order: DESC, fields: frontmatter___date }

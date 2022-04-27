@@ -198,7 +198,7 @@ main()
 以下のコマンドでデプロイを実行します。
 
 ```
-npx run scripts/deploy.js
+npx hardhat run scripts/deploy.js
 ```
 
 ```

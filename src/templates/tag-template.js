@@ -6,7 +6,7 @@ import ViewAllTags from '../components/view-all-tags';
 import styled from 'styled-components';
 import ShareButtonList from '../components/sharing-button-list';
 
-const TagsTemplate = ({ pageContext, data }) => {
+const TagsTemplate = ({ path, pageContext, data }) => {
   const site = data.site;
   const { tag } = pageContext;
   // const { totalCount } = data.allMarkdownRemark;
@@ -26,7 +26,7 @@ const TagsTemplate = ({ pageContext, data }) => {
       <ViewAllTags/>
       <ShareButtonList
           title={title}
-          url={`${site.siteMetadata.siteUrl}/tags/${tag}`}
+          url={`${site.siteMetadata.siteUrl}${path}`}
         />
     </Layout>
   );
@@ -48,7 +48,6 @@ export const pageQuery = graphql`
   query($tag: String) {
     site {
       siteMetadata {
-        title
         siteUrl
       }
     }

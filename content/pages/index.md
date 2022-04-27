@@ -6,8 +6,8 @@ redirect_from:
   - /posts/
 description: |-
   Solidity, Rust, Motoko を使ってイーサリアム (EVM) や WASM のブロックチェーンで Dapps 開発、
-  初心者向けの Web3 プログラミング学習教室、
-  ゼロ知識証明やオラクル、マークルツリーのしくみを理解して使いこなそう
+  ゼロ知識証明やオラクル、マークルツリーのしくみを学習して使いこなそう、
+  初心者向けの Web3 プログラミング教室、
 ---
 
 # smacon.dev

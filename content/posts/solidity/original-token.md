@@ -11,7 +11,8 @@ tags:
   - EVM
   - Hardhat
 description: |-
-  EVM (Ethereum Virtual Machine) における ERC20 仕様の暗号通貨トークンの実装方法を紹介
+  EVM (Ethereum Virtual Machine) における ERC20 仕様の暗号通貨トークンの実装方法
+  Solidity のスマートコントラクトの開発を学ぼう！
 ---
 
 この記事はこんな人におすすめ

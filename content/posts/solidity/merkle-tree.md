@@ -15,6 +15,7 @@ tags:
 description: |-
   ブロックチェーンのスマートコントラクトで使うマークルツリーとは？
   Keccak256 のサンプルコードを使ってツリー構造データのハッシュを計算してみよう
+  初心者向けの Web3 プログラミング学習
 ---
 
 ![Merkle Tree](/media/merkle-tree/2.png)

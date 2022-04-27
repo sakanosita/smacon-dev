@@ -13,7 +13,7 @@ const Rust = ({ data }) => {
 
   const title = "Rust ではじめるスマートコントラクト入門 | Web3 プログラミング教室"
   const description = `WASM のブロックチェーンを使った Dapps 開発、
-                      初心者向けの Solana, NEAR, DFINITY 学習
+                      初心者の Solana, NEAR, DFINITY 学習
                       DID の使い方を学んで Web3 プログラミング`
 
   return (

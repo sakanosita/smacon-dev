@@ -16,7 +16,7 @@ const Solidity = ({ data }) => {
   const title = "Solidity ではじめるスマートコントラクト入門 | Web3 プログラミング教室"
   const description = `イーサリアム (EVM) を使った Web3 の Dapps 開発、
                       初心者向けのスマートコンラクト学習、
-                      ゼロ知識証明やオラクル、マークルツリーのしくみを理解して使いこなそう`
+                      ゼロ知識証明やオラクル、マークルツリーのしくみを理解しよう`
 
   return (
     <Layout title={title} description={description}>

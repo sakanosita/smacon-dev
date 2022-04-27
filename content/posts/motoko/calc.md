@@ -6,7 +6,8 @@ tags:
   - Motoko
 description: |-
   Motokoを使って四則演算をやってみよう！
-  Internet Computer (ICP / DFINITY) を使った初心者向けの開発
+  DFINITY の Internet Computer (ICP) を使った
+  初心者向けの Motoko プログラミング学習
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

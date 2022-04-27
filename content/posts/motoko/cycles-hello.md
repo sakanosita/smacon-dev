@@ -6,7 +6,8 @@ tags:
   - Motoko
 description: |-
   キャニスターを動かす際に必要になるCYCLEをチャージ
-  Internet Computer (ICP / DFINITY) を使った初心者向けの開発
+  DFINITY の Internet Computer (ICP) を使った
+  初心者向けの Motoko プログラミング学習
 ---
 
 このページは、DFINITY のチュートリアルを日本語で解説しています。

@@ -190,10 +190,7 @@ module.exports = {
       options: {
         excludes: [
           '/all/',
-          '/blog/',
-          '/contact/',
-          '/about/',
-          '/tags/'
+          '/blog/'
         ],
         query: `{
           site {

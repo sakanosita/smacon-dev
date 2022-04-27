@@ -8,6 +8,7 @@ tags:
 description: |-
   Solana Program Library (SPL) のチュートリアル
   コマンドラインでアカウントを作り独自トークンや NFT を mint
+  DeFi の Dapps 開発
 ---
 
 # SPL Token Tutorial

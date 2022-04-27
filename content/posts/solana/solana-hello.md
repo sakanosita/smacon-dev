@@ -13,6 +13,7 @@ tags:
 description: |-
   Solana で Rust のスマートコントラクトを作ろう！
   Solana 公式の Hello World のチュートリアルから必要なコードだけを抜粋
+  初心者の Web3 プログラミング学習
 ---
 
 このページはこんな人におすすめ

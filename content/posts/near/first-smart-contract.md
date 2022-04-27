@@ -12,7 +12,7 @@ tags:
   - WASM
 description: |-
   Rust のスマートコントラクトを NEAR にデプロイしよう！
-  はじめて NEAR Protocol で開発する方の最初の一歩
+  初心者の Web3 プログラミング学習
 ---
 
 このページはこんな人におすすめ

@@ -1,5 +1,5 @@
 ---
-title: "ウォレットいらずのスマートコントラクト開発　最初の一歩"
+title: "ウォレットいらずのスマートコントラクト開発 | はじめてのイーサリアム開発"
 date: 2022-04-20 21:00
 permalink: /smart-contracts
 level: beginner
@@ -10,7 +10,7 @@ tags:
   - EVM
   - Hardhat
 description: |-
-  スマートコントラクトをローカル環境で作って実行してみよう！
+  ローカル PC 環境でスマートコントラクトを開発しよう！
   JavaScript の npm を実行できれば OK、ウォレットも不要、
   初心者向けの Web3 プログラミング学習
 ---

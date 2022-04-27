@@ -67,7 +67,8 @@ const Intro = styled.div`
 const Board = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--size-900);
+  margin-top: var(--size-900);
+  margin-bottom: var(--size-600);
   & h3 {
     font-size: 120%;
     text-align: center;

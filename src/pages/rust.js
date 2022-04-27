@@ -12,7 +12,8 @@ const Rust = ({ data }) => {
   const updatePosts = data.updatePosts.nodes;
 
   const title = "Rust ではじめるスマートコントラクト入門 | Web3 プログラミング教室"
-  const description = "WASM のブロックチェーンを使った Dapps 開発, 初心者向けの Solana, NEAR, DFINITY 学習"
+  const description = `WASM のブロックチェーンを使った Dapps 開発、
+                      初心者向けの Solana, NEAR, DFINITY 学習`
 
   return (
     <Layout title={title} description={description}>

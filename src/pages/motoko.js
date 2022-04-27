@@ -13,7 +13,8 @@ const Motoko = ({ data }) => {
 
   const title = "Motoko ではじめるキャニスター開発 | ICP プログラミング入門"
   const description = `DFINITY の Internet Computer (ICP) を使ったキャニスター開発、
-                      初心者向けの Motoko 学習`
+                      初心者向けの Motoko プログラミング学習、
+                      dfxやCandid UIなど開発ツールやライブラリの使い方を紹介`
 
   return (
     <Layout title={title} description={description}>

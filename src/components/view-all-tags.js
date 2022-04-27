@@ -7,6 +7,7 @@ const ViewAllTags = () => {
     <StyledLink
         css={`
         margin-top: var(--size-400);
+        margin-bottom: var(--size-400);
         display: block;
         margin-left: auto;
         margin-right: auto;

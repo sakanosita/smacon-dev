@@ -26,7 +26,7 @@ const TagsTemplate = ({ pageContext, data }) => {
       <ViewAllTags/>
       <ShareButtonList
           title={title}
-          url={`${site.siteMetadata.siteUrl}`}
+          url={`${site.siteMetadata.siteUrl}/tags/${tag}`}
         />
     </Layout>
   );

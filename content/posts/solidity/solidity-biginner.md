@@ -11,8 +11,8 @@ tags:
   - EVM
   - Hardhat
 description: |-
-  初心者に向けのおすすめの Solidity 学習サイトを紹介
-  定番の CryptoZombies 以外にも無料で学べるいろんなサービス
+  初心者向けおすすめの Solidity 学習方法
+  CryptoZombies のほかにも無料で学べるサイトを紹介
 ---
 
 この記事はこんな人におすすめ

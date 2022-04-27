@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import styled from 'styled-components';
+import ViewAllTags from '../components/view-all-tags';
 
 const All = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
@@ -11,20 +12,11 @@ const All = ({ data }) => {
     <Layout title="All Posts | smacon.dev">
       <HeaderWrapper>
         <h1>All Posts</h1>
-
-        <Link
-          css={`
-            margin-top: var(--size-400);
-            color: inherit;
-            text-transform: uppercase;
-          `}
-          to="/tags/"
-        >
-          view all tags
-        </Link>
       </HeaderWrapper>
 
       <PostList posts={posts} />
+
+      <ViewAllTags/>
     </Layout>
   );
 };

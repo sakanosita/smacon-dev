@@ -3,9 +3,9 @@ module.exports = {
     title: {
       header: `smacon.dev`,
       default: `はじめてのスマートコントラクト開発 | Web3 プログラミング教室`,
-      solidity: ``,
-      rust: ``,
-      motoko: ``
+      solidity: `Solidity ではじめるスマートコントラクト入門 | Web3 プログラミング教室`,
+      rust: `Rust ではじめるスマートコントラクト入門 | Web3 プログラミング教室`,
+      motoko: `Motoko ではじめるキャニスター開発 | ICP プログラミング入門`
     },
     author: {
       name: `Moto Sakanosita`,

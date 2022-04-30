@@ -11,7 +11,7 @@ const Rust = ({ data }) => {
   const popularPosts = data.popularPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
-  const title = "Rust ではじめるスマートコントラクト入門 | Web3 プログラミング教室"
+  const title = site.siteMetadata.title.rust;
   const description = site.siteMetadata.description.rust;
 
   return (
@@ -85,6 +85,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteUrl
+        title {
+          rust
+        }
         description {
           rust
         }

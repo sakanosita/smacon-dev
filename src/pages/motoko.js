@@ -11,7 +11,7 @@ const Motoko = ({ data }) => {
   const motokoPosts = data.motokoPosts.nodes;
   const dfinityPosts = data.dfinityPosts.nodes;
 
-  const title = "Motoko ではじめるキャニスター開発 | ICP プログラミング入門"
+  const title = site.siteMetadata.title.motoko;
   const description = site.siteMetadata.description.motoko;
 
   return (
@@ -84,6 +84,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteUrl
+        title {
+          motoko
+        }
         description {
           motoko
         }

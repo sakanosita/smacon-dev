@@ -13,7 +13,7 @@ const Solidity = ({ data }) => {
   const beginnerPosts = data.beginnerPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
-  const title = "Solidity ではじめるスマートコントラクト入門 | Web3 プログラミング教室"
+  const title = site.siteMetadata.title.solidity;
   const description = site.siteMetadata.description.solidity;
 
   return (
@@ -90,6 +90,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteUrl
+        title {
+          solidity
+        }
         description {
           solidity
         }

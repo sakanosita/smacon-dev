@@ -10,7 +10,9 @@ const Header = () => {
       query {
         site {
           siteMetadata {
-            title
+            title {
+              header
+            }
           }
         }
       }
@@ -21,7 +23,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <HeaderTitle>
-          <Link to="/">{site.siteMetadata.title}</Link>
+          <Link to="/">{site.siteMetadata.title.header}</Link>
         </HeaderTitle>
 
         <HeaderNavList>

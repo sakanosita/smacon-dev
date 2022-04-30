@@ -12,7 +12,7 @@ const Motoko = ({ data }) => {
   const dfinityPosts = data.dfinityPosts.nodes;
 
   const title = "Motoko ではじめるキャニスター開発 | ICP プログラミング入門"
-  const description = `DFINITY Internet Computer (ICP) を使ってキャニスター開発。初心者向け Motoko プログラミング学習。dfx や Candid UI の使い方。`
+  const description = site.siteMetadata.description.motoko;
 
   return (
     <Layout title={title} description={description}>
@@ -84,6 +84,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteUrl
+        description {
+          motoko
+        }
       }
     }
     popularPosts: allMarkdownRemark(

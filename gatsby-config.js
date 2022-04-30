@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `smacon.dev`,
+    title: {
+      header: `smacon.dev`,
+      default: `はじめてのスマートコントラクト開発 | Web3 プログラミング教室`,
+      solidity: ``,
+      rust: ``,
+      motoko ``
+    },
     author: {
       name: `Moto Sakanosita`,
       summary: `A Programmer at Edtech`,
@@ -9,7 +15,12 @@ module.exports = {
       default: `/og/link-500-260.png`,
       twitter: `/og/link.png`
     },
-    description: `Solidity, Rust, Motoko を使ってイーサリアム (EVM) や WASM のブロックチェーンでスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けの Web3 プログラミング学習。`,
+    description: {
+      default: `Solidity, Rust, Motoko を使ってイーサリアム (EVM) や WASM のブロックチェーンでスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けの Web3 プログラミング学習。`,
+      solidity: `イーサリアム (EVM) を使ったスマートコントラクトや Dapps 開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けのプログラミング学習。`,
+      rust: `WASM のブロックチェーン (Solana, NEAR, DFINITY...) でスマートコントラクト開発。初心者向けの Rust プログラミング学習。`,
+      motoko: `DFINITY Internet Computer (ICP) を使ってキャニスター開発。初心者向け Motoko プログラミング学習。dfx や Candid UI の使い方。`
+    },
     siteUrl: `https://www.smacon.dev`,
     social: {
       twitter: `smacondev`,

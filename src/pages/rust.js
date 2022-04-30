@@ -12,7 +12,7 @@ const Rust = ({ data }) => {
   const updatePosts = data.updatePosts.nodes;
 
   const title = "Rust ではじめるスマートコントラクト入門 | Web3 プログラミング教室"
-  const description = `WASM のブロックチェーン (Solana, NEAR, DFINITY...) でスマートコントラクト開発。初心者向けの Rust プログラミング学習。`
+  const description = site.siteMetadata.description.rust;
 
   return (
     <Layout title={title} description={description}>
@@ -85,6 +85,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteUrl
+        description {
+          rust
+        }
       }
     }
     popularPosts: allMarkdownRemark(

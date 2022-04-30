@@ -7,9 +7,10 @@ import ViewAllTags from '../components/view-all-tags';
 
 const All = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
+  const title = data.site.siteMetadata.title.default;
 
   return (
-    <Layout title="All Posts | smacon.dev">
+    <Layout title={title}>
       <HeaderWrapper>
         <h1>All Posts</h1>
       </HeaderWrapper>
@@ -38,7 +39,9 @@ export const homePageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
+        title {
+          default
+        }
       }
     }
     allMarkdownRemark(

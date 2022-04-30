@@ -9,13 +9,17 @@ const SEO = ({ description, lang, meta, title }) => {
       query {
         site {
           siteMetadata {
-            title
             openGraphImage {
               default
               twitter
             }
             siteUrl
-            description
+            description {
+              default
+              solidity
+              rust
+              motoko
+            }
             social {
               twitter
             }
@@ -25,7 +29,7 @@ const SEO = ({ description, lang, meta, title }) => {
     `
   );
 
-  const metaDescription = description || site.siteMetadata.description;
+  const metaDescription = description || site.siteMetadata.description.default;
   const defaultTitle = site.siteMetadata?.title;
 
   return (

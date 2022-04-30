@@ -107,7 +107,6 @@ export const pageQuery = graphql`
   query ($slug: String!) {
     site {
       siteMetadata {
-        title
         siteUrl
       }
     }

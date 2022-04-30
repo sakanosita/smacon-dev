@@ -144,7 +144,6 @@ export const pageQuery = graphql`
   query PostBySlug($slug: String!, $blogTags: [String]) {
     site {
       siteMetadata {
-        title
         siteUrl
       }
     }

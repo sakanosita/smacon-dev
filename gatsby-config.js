@@ -17,7 +17,7 @@ module.exports = {
     },
     description: {
       default: `Solidity, Rust, Motoko を使ってイーサリアム (EVM) や WASM のブロックチェーンでスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けの Web3 プログラミング学習。`,
-      solidity: `イーサリアム (EVM) を使ったスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けのプログラミング学習。`,
+      solidity: `Ethereum (EVM) を使ったスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けのプログラミング学習。`,
       rust: `WASM のブロックチェーン (Solana, NEAR, DFINITY...) でスマートコントラクト開発。初心者向けの Rust プログラミング学習。`,
       motoko: `DFINITY Internet Computer (ICP) を使ってキャニスター開発。初心者向け Motoko プログラミング学習。dfx や Candid UI の使い方。`
     },

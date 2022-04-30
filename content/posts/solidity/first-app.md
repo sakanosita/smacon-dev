@@ -1,6 +1,6 @@
 ---
 title: "Solidity Examples: はじめてのイーサリアム Dapps 開発"
-date: 2022-01-05 21:00
+date: 2022-04-29 21:00
 permalink: /first-app
 level: beginner
 tags:
@@ -223,8 +223,5 @@ Ethereum には複数のテストネットがあり、誰でもトークンを�
 
 スマートコントラクトをテストネットやメインネットにデプロイする方法を 2 つ紹介します。
 
-- [Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+- [テストネットにスマートコントラクトをデプロイしよう！](/posts/deploy-testnet)
 - [Remix の使い方](/posts/remix-tutorial)
-
-メインネットとテストネットのデプロイ方法は基本的に同じです。
-接続先のエンドポイントと使うトークンが変わります。

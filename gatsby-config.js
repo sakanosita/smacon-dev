@@ -5,7 +5,7 @@ module.exports = {
       default: `はじめてのスマートコントラクト開発 | Web3 プログラミング教室`,
       solidity: ``,
       rust: ``,
-      motoko:```
+      motoko: ``
     },
     author: {
       name: `Moto Sakanosita`,

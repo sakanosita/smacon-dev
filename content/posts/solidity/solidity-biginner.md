@@ -1,5 +1,5 @@
 ---
-title: "Solidity 入門: 無料プログラミング学習4選【初心者向け】"
+title: "Solidity 学習: 初心者向けプログラミング入門サイト 4選"
 date: 2022-01-22 00:00
 permalink: /solidity-beginner
 redirect_from:

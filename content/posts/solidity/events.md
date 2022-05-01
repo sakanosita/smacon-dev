@@ -1,5 +1,5 @@
 ---
-title: "Solidity Examples: 定義したイベントを発行してブロックチェーンに記録"
+title: "Solidity 入門: 定義したイベントを発行してブロックチェーンに記録"
 date: 2022-01-21 19:00
 permalink: /solidity-events
 redirect_from:

@@ -23,87 +23,22 @@ Hardhat を使ったことがない方はこちらからどうぞ
 
 [Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
 
-# 新しい Hardhat プロジェクトを作る
+# 事前準備
 
-deploy-testnet というディレクトリを作り
-npm パッケージの hardhat をインストールします。
+テストネットにデプロイするために以下のものを準備します。
 
-```
-mkdir deploy-testnet
-cd deploy-testnet
-npm init -y
-npm i --save-dev hardhat
-```
+- スマートコントラクトをデプロイする EOA（Externally Owned Account）の秘密鍵
+- Ropsten または Rinkeby の ETH トークン
+- Ropsten または Rinkeby の RPC エンドポイントの URL
 
-Hardhat のサンプルプロジェクトを作ります。
+### EOA の秘密鍵
 
-```
-npx hardhat
-```
+Ethereum のテストネットではスマートコントラクトをデプロイするためのアカウントとして EOA を使います。
 
-`Create a sample project`を選択して、すべて Yes で回答します。
-
-```
-? What do you want to do? …
-❯ Create a sample project
-  Create an empty hardhat.config.js
-  Quit
-```
-
-これで hardhat.config.js の初期設定や ether.js などプラグインを追加した状態になります。
-
-# スマートコントラクトの作成
-
-## コーディング
-
-### contracts/Helloworld.sol
-
-```solidity
-// SPDX-License-Identifier: MIT
-// compiler version must be greater than or equal to 0.8.10 and less than 0.9.0
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-    string public greet = "Hello World!";
-}
-```
-
-### hardhat.config.js
-
-hardhat.config.js を以下のように編集します。
-
-```js
-require("@nomiclabs/hardhat-waffle");
-
-/**
- * @type import('hardhat/config').HardhatUserConfig
- */
-module.exports = {
-  solidity: "0.8.10",
-};
-```
-
-## コンパイル
-
-hardhat コマンドを実行します。
-
-```
-npx hardhat compile
-```
-
-# テストネット(Ropsten)へのデプロイ
-
-Ethereum のテストネット(Ropsten)にデプロイします。
-チュートリアルでオススメされている Ropsten を使って説明します。
-テストネットのデプロイには以下の 3 つが必要です。
-
-- Ropsten のアカウントの秘密鍵
-- Ropsten の ETH トークン
-- RPC エンドポイントの URL
-
-### Ropsten のアカウントの秘密鍵
+EOA（Externally Owned Account）とは ユーザーが使うアカウントのことで、Metamask で作るウォレット用のアカウントです。
 
 Metamask でアカウントを作って Private Key をエクスポートすれば取得できます。
+
 念のため、本番で使っているアカウントと分けることをおすすめします。
 
 ### Ropsten の ETH トークン

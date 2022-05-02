@@ -1,6 +1,6 @@
 ---
-title: "NFT プログラミング入門: OpenZeppelin の ERC721 コントラクトの実装"
-date: 2022-04-27 19:00
+title: "NFT プログラミング入門: OpenZeppelin の ERC721 コントラクト"
+date: 2022-05-02 20:00
 permalink: /open-zeppelin-erc721
 unlisted: true
 tags:

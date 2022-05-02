@@ -2,7 +2,6 @@
 title: "Ethereum 入門: Hardhat でテストネットにスマートコントラクトをデプロイしよう！"
 date: 2022-04-30 22:00
 permalink: /deploy-testnet
-unlisted: true
 level: beginner
 tags:
   - Solidity

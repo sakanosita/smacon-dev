@@ -1,5 +1,5 @@
 ---
-title: "Hardhat で Solidity のスマートコントラクトを開発"
+title: "Ethereum 入門: Hardhat で Solidity のスマートコントラクトを開発"
 date: 2022-04-30 22:00
 permalink: /hardhat
 redirect_from:

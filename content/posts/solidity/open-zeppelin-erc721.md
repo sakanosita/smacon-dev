@@ -16,12 +16,9 @@ description: |-
 
 このページはこんな人におすすめ
 
-- NFT のプログラミングを学習したい
 - Solidity を学びたい
+- NFT のプログラミングを学習したい
 - 簡単なスマートコントラクトの作り方を知りたい
-- Web3 エンジニアになりたい
-
-[OpenZeppelin (ERC721)](https://docs.openzeppelin.com/contracts/4.x/erc721)
 
 # 新しい Hardhat プロジェクトを作る
 
@@ -58,7 +55,9 @@ npm install -D hardhat @openzeppelin/contracts
 
 # コーディング
 
-### contracts/GateItem.sol
+[OpenZeppelin (ERC721)](https://docs.openzeppelin.com/contracts/4.x/erc721)
+
+### contracts/GameItem.sol
 
 ```solidity
 // contracts/GameItem.sol

@@ -159,6 +159,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
+            unlisted: { ne: true }
             tags: { in: [
                 "Solidity",
                 "Chainlink",
@@ -188,6 +189,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
+            unlisted: { ne: true }
             tags: { in: [
                 "Rust"
             ] } 
@@ -214,6 +216,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
+            unlisted: { ne: true }
             tags: { in: [
                 "Motoko"
             ] } 

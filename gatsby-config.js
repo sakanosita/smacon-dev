@@ -207,7 +207,8 @@ module.exports = {
       options: {
         excludes: [
           '/blog/',
-          '/contact/'
+          '/contact/',
+          '/unlisted/'
         ],
         query: `{
           site {

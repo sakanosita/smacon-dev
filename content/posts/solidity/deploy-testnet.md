@@ -1,5 +1,5 @@
 ---
-title: "イーサリアム入門: テストネットにスマートコントラクトをデプロイしよう！(Ropsten / Rinkeby)"
+title: "Ethereum 入門: Hardhat でテストネットにスマートコントラクトをデプロイしよう！"
 date: 2022-04-30 22:00
 permalink: /deploy-testnet
 unlisted: true
@@ -19,20 +19,40 @@ description: |-
 
 - Solidity を学習したい
 - テストネットにスマートコントラクトを作りたい
+- Hardhat の使い方を知りたい
 
-Hardhat を使ったことがない方はこちらからどうぞ
+Hardhat 自体を使ったことがない場合は先に以下の記事をご覧ください。
 
-[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+[Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)
+
+# Ethereum のテストネットについて
+
+[Ethereum Networks](https://ethereum.org/en/developers/docs/networks/)
+
+- Gorli
+- Kovan
+- Kintsugi
+- Rinkeby
+- Ropsten
+
+Ethereum には複数のテストネットが用意されています。
+
+スマートコントラクトを開発するにあたっては、トークンや RPC エンドポイントを入手できるものであれば
+どのネットワークを使っても構いません。
+
+NFT を使った開発が目的であれば、Opensea が対応している Rinkeby がオススメです。
 
 # 事前準備
 
 テストネットにデプロイするために以下のものを準備します。
 
-- スマートコントラクトをデプロイする EOA（Externally Owned Account）の秘密鍵
-- Ropsten または Rinkeby の ETH トークン
-- Ropsten または Rinkeby の RPC エンドポイントの URL
+- EOA（Externally Owned Account）の秘密鍵（Metamask ウォレットで使う秘密鍵)
+- テストネットの ETH トークン
+- テストネットの RPC エンドポイントの URL
 
-### EOA の秘密鍵
+１つずつ解説していきます。
+
+## EOA の秘密鍵
 
 Ethereum のテストネットではスマートコントラクトをデプロイするためのアカウントとして EOA を使います。
 
@@ -42,38 +62,80 @@ Metamask でアカウントを作って Private Key をエクスポートすれ�
 
 念のため、本番で使っているアカウントと分けることをおすすめします。
 
-### Ropsten の ETH トークン
+## テストネット の ETH トークン
 
-0.01ETH ぐらいあればデプロイには足りると思います。
-テストネットは Faucet という無料でトークンをもらえるサイトが存在するのでググって入手してください。
+0.1ETH ぐらいあればデプロイには足りると思います。
+
+テストネット用のトークンは、テストネットのノードを運営している団体が無料で配布したりしています。
+
+以下のように Google 検索してみてください。
+
+「Rinkeby Faucet」
+「Ropsten Faucet」
+
+Faucet は蛇口という意味ですが、ブロックチェーンの開発においてテストネット用のトークンをもらうためのキーワードです。
+Ethereum 以外でも Faucet で検索すればテストネット用のトークンを入手することができます。
+
+Faucet では自分のアドレスを入力するだけで送られてくるものもあれば、SNS でシェアした URL を入力するともらえる場合などもあります。
+
+Faucet でパスワードやシードフレーズを聞かれることはありません。もし聞かれたら偽物の詐欺サイトです。
 
 ### RPC エンドポイントの URL
 
 ブロックチェーンのネットワークにアクセスするためのエンドポイントです。
-代表的なノードプロバイダーを紹介します。
+
+エンドポイントを使うということはブロックチェーンのノードにアクセスするということです。
+
+Ethereum では PC やサーバを使って自分でノードを建てることができますが、ノードプロバイダーと呼ばれるを有名なサービスがいくつかあり、メインネットやテストネットのノードを無料で借りることができます。
 
 - INFURA
 - Alchemy
 - QuickNode
 
-Alchemy はある程度まで無料プランで利用できるのでオススメです。
-Alchemy にユーザー登録すれば、RPC サーバの URL を取得できます。
+じつは Metamask で使われている RPC エンドポイントは INFURA というノードプロバイダーの RPC サーバです。
 
-もう 1 つの簡単な方法は Metamask で使われている RPC エンドポイントです。
-Metamask に指定されている RPC エンドポイントは INFURA というノードプロバイダーの RPC サーバです。(2022 年 1 月現在)
-Metamask の Network の設定を開くと Ropsten のエンドポイントの設定内容がみれます。
+Metamask の Network の設定を開けば設定内容が見れるのでそれを使っても構いません。
 
-## 環境変数
+筆者のおすすめは Alchemy です。
+ユーザー登録すれば、RPC サーバの URL を取得できて、ある程度まで無料プランで利用できます。
+
+# 環境変数の設定
+
+以下のような環境変数を設定します。
+
+- Ropsten の場合
+
+  - `ROPSTEN_PRIVATE_KEY`
+  - `ROPSTEN_RPC_URL`
+
+- Rinkeby の場合
+
+  - `RINKEBY_PRIVATE_KEY`
+  - `RINKEBY_RPC_URL`
+
+### env.txt
 
 秘密鍵や API Key などのクレデンシャルは Git に commit しないようにする必要があります。
-そこで、以下の 2 つの環境変数をエクスポートして hardhat 実行時に使えるようにします。
 
-- `ROPSTEN_PRIVATE_KEY`
-- `ROPSTEN_RPC_URL`
+そこで環境変数の中身は、env.txt というファイルに書いて Git プロジェクトの外に置いたり、.gitignore を使って Git に commit しないようにしましょう。
 
-hatdhat.config.js を以下のように編集します。
+```
+export ROPSTEN_PRIVATE_KEY="<EOA の秘密鍵>"
+export ROPSTEN_RPC_URL="https://ropsten.infura.io/v3/xxxxxxxx"
+
+export RINKEBY_PRIVATE_KEY="<EOA の秘密鍵>"
+export RINKEBY_RPC_URL="xhttps://eth-rinkeby.alchemyapi.io/v2/xxxxx"
+```
+
+ターミナルで以下のコマンドを実行すれば、環境変数の値を読み込んだ状態になります。
+
+```
+source env.txt
+```
 
 ### hardhat.config.js
+
+hatdhat.config.js を以下のように編集します。
 
 ```js
 require("@nomiclabs/hardhat-waffle");
@@ -81,62 +143,46 @@ require("@nomiclabs/hardhat-waffle");
 const ROPSTEN_PRIVATE_KEY = process.env.ROPSTEN_PRIVATE_KEY;
 const ROPSTEN_RPC_URL = process.env.ROPSTEN_RPC_URL;
 
+const RINKEBY_PRIVATE_KEY = process.env.RINKEBY_PRIVATE_KEY;
+const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL;
+
 module.exports = {
-  solidity: "0.7.3",
+  solidity: "0.x.x",
   networks: {
     ropsten: {
       url: `${ROPSTEN_RPC_URL}`,
       accounts: [`${ROPSTEN_PRIVATE_KEY}`],
     },
+    rinkeby: {
+      url: `${RINKEBY_RPC_URL}`,
+      accounts: [`${RINKEBY_PRIVATE_KEY}`],
+    },
   },
 };
 ```
 
-ターミナルで以下のコマンドを実行します。
-
-```
-export ROPSTEN_PRIVATE_KEY="<RopstenのアカウントのPrivate Key>"
-export ROPSTEN_RPC_URL="https://ropsten.infura.io/v3/xxxxxxxx"
-```
-
-設定した値を確認してみましょう。
-
-```
-echo "ROPSTEN_PRIVATE_KEY: $ROPSTEN_PRIVATE_KEY"
-echo "ROPSTEN_RPC_URL: $ROPSTEN_RPC_URL"
-```
-
-このときにエクスポートした環境変数は、このコマンドを実行したターミナルウィンドウだけ使えるようになります。
+# デプロイ
 
 環境変数を設定したターミナルウィンドウで以下のコマンドを実行します。
 
 ```
+# 環境変数を読み込む
+source env.txt
+```
+
+```
+# Ropsten にデプロイ
 npx hardhat run scripts/deploy.js --network ropsten
+
+# Rinkeby にデプロイ
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
-```
-Deploying contracts with the account: 0x470815ee5b366755284C9e85f0D636F1e046d013
-Account balance: 1288845007486614009
-Token address: 0xfa9D0729c104841668E0DDeb433Cbc6107AB59C1
-```
+デプロイするには`scripts/deploy.js`といったデプロイ用のスクリプトを用意する必要があります。
 
-このようなログが表示されたらテストネットへのデプロイが正常に実行されています。
+デプロイスクリプトの内容はスマートコントラクトによって変わります。
 
-Etherscan(Ropsten)でコントラクトアドレスやトランザクションを確認してみましょう。
+具体的なスクリプトが見たい場合はこれらのページをご覧ください。
 
-https://ropsten.etherscan.io/address/0xfa9D0729c104841668E0DDeb433Cbc6107AB59C1
-
-## Metamask で確認
-
-Hardhat のチュートリアルには載っていませんが、せっかくトークンを作ったので Metamask に登録してみましょう。
-
-deploy.js を実行した際に出力された`Token address`を Metamask に登録します。
-![Metamask](/media/hardhat/1.png)
-
-これで 1,000,000 MHT が見えるようになります。
-
-これは Token.sol というサンプルコードであなたが作った'My Hardhat Token'です。
-
-ほかのアドレスに送ることもできます。自由に試してください。
-
-メインネット用の ETH と RPC を使えば同じやり方でメインネットにデプロイすることもできます。
+- [はじめてのイーサリアム Dapps 開発](/posts/first-app)
+- [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)

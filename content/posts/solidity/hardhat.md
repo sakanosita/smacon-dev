@@ -1,5 +1,5 @@
 ---
-title: "Ethereum 入門: Hardhat で Solidity のスマートコントラクトを開発"
+title: "Ethereum 入門: Hardhat で Solidity のスマートコントラクトを開発しよう！"
 date: 2022-04-30 22:00
 permalink: /hardhat
 redirect_from:
@@ -237,6 +237,86 @@ npx hardhat test
 
 # テストネットへのデプロイ
 
-Rinkeby や Ropsten といった Ethereum のテストネットにデプロイする方法はこちらをどうぞ
+Ethereum のテストネットにデプロイする方法はこちらをどうぞ
 
-[テストネットにスマートコントラクトをデプロイしよう](/posts/deploy-testnet)
+[Hatdhat でテストネットにスマートコントラクトをデプロイしよう](/posts/deploy-testnet)
+
+### scripts/deploy.js
+
+デプロイ用のスクリプトを用意します。
+
+```js
+async function main() {
+  const [deployer] = await ethers.getSigners();
+
+  console.log("Deploying contracts with the account:", deployer.address);
+
+  console.log("Account balance:", (await deployer.getBalance()).toString());
+
+  const Token = await ethers.getContractFactory("Token");
+  const token = await Token.deploy();
+
+  console.log("Token address:", token.address);
+}
+
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+```
+
+### hardhat.config.js
+
+hardhat.config.js を書き換えます。
+
+```js
+require("@nomiclabs/hardhat-waffle");
+
+const ROPSTEN_PRIVATE_KEY = process.env.ROPSTEN_PRIVATE_KEY;
+const ROPSTEN_RPC_URL = process.env.ROPSTEN_RPC_URL;
+
+module.exports = {
+  solidity: "0.7.3",
+  networks: {
+    ropsten: {
+      url: `${ROPSTEN_RPC_URL}`,
+      accounts: [`${ROPSTEN_PRIVATE_KEY}`],
+    },
+  },
+};
+```
+
+### Ropsten にデプロイ
+
+```
+npx hardhat run scripts/deploy.js --network ropsten
+```
+
+```
+Deploying contracts with the account: 0x470815ee5b366755284C9e85f0D636F1e046d013
+Account balance: 1288845007486614009
+Token address: 0xfa9D0729c104841668E0DDeb433Cbc6107AB59C1
+```
+
+このようなログが表示されたらテストネットへのデプロイが正常に実行されています。
+
+Etherscan(Ropsten)でコントラクトアドレスやトランザクションを確認してみましょう。
+
+https://ropsten.etherscan.io/address/0xfa9D0729c104841668E0DDeb433Cbc6107AB59C1
+
+## Metamask で確認
+
+Hardhat のチュートリアルには載っていませんが、せっかくトークンを作ったので Metamask に登録してみましょう。
+
+deploy.js を実行した際に出力された`Token address`を Metamask に登録します。
+![Metamask](/media/hardhat/1.png)
+
+これで 1,000,000 MHT が見えるようになります。
+
+これは Token.sol というサンプルコードであなたが作った'My Hardhat Token'です。
+
+ほかのアドレスに送ることもできます。自由に試してください。
+
+メインネット用の ETH と RPC を使えば同じやり方でメインネットにデプロイすることもできます。

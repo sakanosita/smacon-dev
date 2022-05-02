@@ -8,9 +8,13 @@ import ViewAllTags from '../components/view-all-tags';
 const All = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
   const title = data.site.siteMetadata.title.default;
-
+  const description = data.markdownRemark.frontmatter.description;
+  
   return (
-    <Layout title={title}>
+    <Layout
+      title={title}
+      description={description}>
+
       <HeaderWrapper>
         <h1>All Posts</h1>
       </HeaderWrapper>
@@ -36,12 +40,19 @@ const HeaderWrapper = styled.div`
 `;
 
 export const homePageQuery = graphql`
-  query {
+  query ($slug: String!) {
     site {
       siteMetadata {
         title {
           default
         }
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        description
       }
     }
     allMarkdownRemark(

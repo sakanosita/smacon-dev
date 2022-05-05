@@ -13,9 +13,10 @@ const Motoko = ({ data }) => {
 
   const title = data.markdownRemark.frontmatter.title;
   const description = data.markdownRemark.frontmatter.description;
-
+  const socialImage = data.markdownRemark.frontmatter.social_image ? `/og/${data.markdownRemark.frontmatter.social_image.relativePath}` : ''
+  
   return (
-    <Layout title={title} description={description}>
+    <Layout title={title} description={description} socialImage={socialImage}>
         <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
             <p>DFINITY の Internet Computer (ICP) を使ったキャニスター開発</p>
@@ -187,6 +188,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        social_image {
+          relativePath
+        }
       }
     }
   }

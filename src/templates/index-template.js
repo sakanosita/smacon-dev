@@ -118,7 +118,7 @@ export const pageQuery = graphql`
         fields: { contentType: { eq: "posts" } } 
       }
       sort: { order: ASC, fields: frontmatter___pinned }
-      limit: 6
+      limit: 3
     ) {
       nodes {
         fields {

@@ -193,7 +193,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       date: Date @dateformat
       template: String
       level: String
-      social_image: String
+      twitter_image: String
       unlisted: Boolean
       tags: [String!]
     }

@@ -8,7 +8,6 @@ redirect_from:
 tags:
   - Solidity
   - JavaScript
-social_image: /og/labs.png
 description: |-
   初心者向けに Solidity のスマートコントラクトを実行する方法を3つ紹介
   React や Next.js から web3js を使ったり、HTML で直接 JavaScript を実行します。

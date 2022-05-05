@@ -12,11 +12,13 @@ const PostTemplate = ({ data }) => {
   const slug = data.markdownRemark.fields.slug;
   const relatedPosts = data.relatedPosts.nodes;
 
+  console.log(frontmatter.twitter_image)
+
   return (
     <Layout
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
-      socialImage={frontmatter.social_image || ''}
+      socialImage={frontmatter.twitter_image || ''}
     >
       <PostWrapper>
         <article>
@@ -157,7 +159,7 @@ export const pageQuery = graphql`
         tags
         date(formatString: "MMM DD, YYYY")
         description
-        social_image
+        twitter_image
       }
     }
 

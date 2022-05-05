@@ -137,7 +137,7 @@ Rinkeby Testnet (ETH / USD)
 - Rinkeby の RPC エンドポイント（Alchemy を利用）
 - Rinkeby の ETH 少量
 
-Hardhat でデプロイする方法の詳細は[こちら](/posts/hardhat)に書かれています。
+Hardhat でデプロイする方法の詳細は[こちら](/posts/hardhat/)に書かれています。
 参照先はテストネットが Ropsten になっているので、Rinkeby に読み替えてください。
 
 ### 環境変数

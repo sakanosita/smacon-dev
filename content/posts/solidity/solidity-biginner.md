@@ -1,10 +1,9 @@
 ---
 title: "Solidity 学習: 初心者向けプログラミング入門サイト 4選"
 date: 2022-01-22 00:00
-permalink: /solidity-beginner
+permalink: /solidity-beginner/
 redirect_from:
-  - /solidity-beginner
-  - /posts/solidity-beginner/
+  - /solidity-beginner/
 level: beginner
 tags:
   - Solidity

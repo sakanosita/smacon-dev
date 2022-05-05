@@ -1,9 +1,8 @@
 ---
 title: "The Graph 入門: はじめてのサブグラフ – Subgraph の自動生成"
 date: 2022-01-21 22:00
-permalink: /subgraph
+permalink: /subgraph/
 redirect_from:
-  - /subgraph
   - /subgraph/
 pinned: 3
 tags:

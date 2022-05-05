@@ -1,9 +1,8 @@
 ---
 title: "Solana 開発のための環境構築"
 date: 2022-01-22 20:00
-permalink: /solana-config
+permalink: /solana-config/
 redirect_from:
-  - /solana-config
   - /solana-config/
 tags:
   - Solana

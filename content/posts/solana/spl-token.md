@@ -1,7 +1,7 @@
 ---
 title: "Solana Program Library: SPL Token"
 date: 2022-01-22 21:00
-permalink: /spl-token
+permalink: /spl-token/
 tags:
   - Solana
   - SPL

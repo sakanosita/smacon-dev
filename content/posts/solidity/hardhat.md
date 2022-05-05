@@ -1,9 +1,8 @@
 ---
 title: "Ethereum 入門: Hardhat で Solidity のスマートコントラクトを開発しよう！"
 date: 2022-04-30 22:00
-permalink: /hardhat
+permalink: /hardhat/
 redirect_from:
-  - /hardhat
   - /hardhat/
 level: beginner
 tags:

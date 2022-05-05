@@ -183,5 +183,5 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 具体的なスクリプトが見たい場合はこれらのページをご覧ください。
 
-- [はじめてのイーサリアム Dapps 開発](/posts/first-app)
+- [はじめてのイーサリアム Dapps 開発](/posts/first-app/)
 - [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat/)

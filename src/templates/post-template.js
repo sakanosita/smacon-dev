@@ -157,10 +157,7 @@ export const pageQuery = graphql`
         tags
         date(formatString: "MMM DD, YYYY")
         description
-        social_image {
-          absolutePath
-        }
-      }
+        social_image
     }
 
     relatedPosts: allMarkdownRemark(

@@ -194,6 +194,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       template: String
       level: String
       unlisted: Boolean
+      social_image: String
       tags: [String!]
     }
 

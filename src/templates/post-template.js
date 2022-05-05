@@ -5,6 +5,7 @@ import RelatedList from '../components/related-list';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 import Tags from '../components/tags';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const PostTemplate = ({ data }) => {
   const site = data.site;
@@ -16,7 +17,7 @@ const PostTemplate = ({ data }) => {
     <Layout
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
-      socialImage={frontmatter.social_image || ''}
+      socialImage={frontmatter.social_image ? getImage(frontmatter.social_image) : ''}
     >
       <PostWrapper>
         <article>

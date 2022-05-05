@@ -6,8 +6,9 @@ level: beginner
 tags:
   - Motoko
 description: |-
-  Internet Computer (ICP / DFINITY) を使ったキャニスター開発の最初の一歩
-  チュートリアル 'Explore the default project' の解説
+  Internet Computer (ICP / DFINITY) を使ったキャニスター開発の最初の一歩,
+  チュートリアル 'Explore the default project' を日本語で解説,
+  初心者向けの Motoko プログラミングの学習。
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。

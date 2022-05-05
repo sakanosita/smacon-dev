@@ -6,8 +6,7 @@ tags:
   - Motoko
 description: |-
   1つのプロジェクトで複数のアクターやキャニスターを開発する方法をやってみよう！
-  DFINITY の Internet Computer (ICP) を使った
-  初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
 ---
 
 このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。

@@ -7,8 +7,7 @@ tags:
   - Motoko
 description: |-
   プログラミングにおけるアクターを理解しよう
-  DFINITY の Internet Computer (ICP) を使った
-  初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。

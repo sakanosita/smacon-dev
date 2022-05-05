@@ -6,8 +6,7 @@ tags:
   - Motoko
 description: |-
   簡単なカウンタープログラムやデバッグ用実行ツール Candid UI の紹介
-  DFINITY の Internet Computer (ICP) を使った
-  初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko のチュートリアルを日本語で解説しています。

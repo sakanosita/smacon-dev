@@ -14,7 +14,7 @@ const Tags = ({ data }) => {
         <TagsList>
           {tags.map((tag) => (
             <TagItem>
-              <Link to={`/tags/${tag.fieldValue}`}>
+              <Link to={`/tags/${tag.fieldValue}/`}>
                 {tag.fieldValue}
               </Link>
             </TagItem>

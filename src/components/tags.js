@@ -9,7 +9,7 @@ const Tags = ({ tags }) => {
         tags.map((tag) => {
           return (
             <TagItem key={tag}>
-              <Link to={`/tags/${tag}`}>{tag}</Link>
+              <Link to={`/tags/${tag}/`}>{tag}</Link>
             </TagItem>
           );
         })}

@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: {
       header: `smacon.dev`,
-      default: `はじめてのスマートコントラクト開発 | Web3 プログラミング教室`,
-      solidity: `Solidity ではじめるスマートコントラクト入門 | Web3 プログラミング教室`,
-      rust: `Rust ではじめるスマートコントラクト入門 | Web3 プログラミング教室`,
-      motoko: `Motoko ではじめるキャニスター開発 | ICP プログラミング入門`
+      default: `はじめてのスマートコントラクト開発 | Web3 プログラミング学習`,
+      solidity: `Solidity ではじめるスマートコントラクト入門 | Web3 プログラミング学習`,
+      rust: `Rust ではじめるスマートコントラクト入門 | Web3 プログラミング学習`,
+      motoko: `Motoko ではじめるキャニスター開発 | ICP プログラミング学習`
     },
     author: {
       name: `Moto Sakanosita`,

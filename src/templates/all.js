@@ -7,7 +7,7 @@ import ViewAllTags from '../components/view-all-tags';
 
 const All = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
-  const title = data.site.siteMetadata.title.default;
+  const title = data.site.siteMetadata.title;
   const description = data.markdownRemark.frontmatter.description;
   
   return (
@@ -43,9 +43,7 @@ export const homePageQuery = graphql`
   query ($slug: String!) {
     site {
       siteMetadata {
-        title {
-          default
-        }
+        title
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

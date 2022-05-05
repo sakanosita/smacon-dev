@@ -157,20 +157,11 @@ exports.createSchemaCustomization = ({ actions }) => {
 
   createTypes(`
     type SiteSiteMetadata {
-      title: Title
+      title: String
+      description: String
       author: Author
       siteUrl: String
       social: Social
-      description: Description
-    }
-
-    type Title {
-      default: String
-      header: String
-    }
-
-    type Description {
-      default: String
     }
 
     type Author {

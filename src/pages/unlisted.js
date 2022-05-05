@@ -7,8 +7,8 @@ import ViewAllTags from '../components/view-all-tags';
 
 const Unlisted = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
-  const title = data.site.siteMetadata.title.default;
-  const description = data.site.siteMetadata.description.default;
+  const title = data.site.siteMetadata.title;
+  const description = data.site.siteMetadata.description;
   
   return (
     <Layout
@@ -43,12 +43,8 @@ export const homePageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title {
-            default
-        }
-        description {
-            default
-        }
+        title
+        description
       }
     }
     allMarkdownRemark(

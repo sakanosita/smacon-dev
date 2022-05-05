@@ -9,16 +9,10 @@ const SEO = ({ title, description, lang, meta, socialImage }) => {
       query {
         site {
           siteMetadata {
-            openGraphImage {
-              default
-            }
-            twitterImage {
-              default
-            }
+            openGraphImage
+            twitterImage
             siteUrl
-            description {
-              default
-            }
+            description
             social {
               twitter
             }
@@ -28,9 +22,9 @@ const SEO = ({ title, description, lang, meta, socialImage }) => {
     `
   );
 
-  const metaDescription = description || site.siteMetadata.description.default;
-  const openGraphImage = socialImage || site.siteMetadata.openGraphImage.default;
-  const twitterImage = socialImage || site.siteMetadata.twitterImage.default;
+  const metaDescription = description || site.siteMetadata.description;
+  const openGraphImage = socialImage || site.siteMetadata.openGraphImage;
+  const twitterImage = socialImage || site.siteMetadata.twitterImage;
   const defaultTitle = site.siteMetadata?.title;
 
   return (

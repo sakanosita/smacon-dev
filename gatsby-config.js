@@ -1,28 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: {
-      header: `smacon.dev`,
-      default: `はじめてのスマートコントラクト開発 | Web3 プログラミング学習`
-    },
-    description: {
-      default: `Solidity, Rust, Motoko を使ってイーサリアム (EVM) や WASM のブロックチェーンでスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けの Web3 プログラミング学習。`
-    },
+    title: `はじめてのスマートコントラクト開発 | Web3 プログラミング学習`,
+    description: `Solidity, Rust, Motoko を使ってイーサリアム (EVM) や WASM のブロックチェーンでスマートコントラクト開発。ゼロ知識証明やオラクル、マークルツリーのしくみや使い方。初心者向けの Web3 プログラミング学習。`,
     author: {
       name: `Moto Sakanosita`,
       summary: `A Programmer at Edtech`,
     },
-    openGraphImage: {
-      default: `/og/link-500-260.png`,
-      solidity: `/og/link-500-260.png`,
-      rust: `/og/link-500-260.png`,
-      motoko: `/og/link-500-260.png`
-    },
-    twitterImage: {
-      default: `/og/link.png`,
-      solidity: `/og/link.png`,
-      rust: `/og/link.png`,
-      motoko: `/og/link.png`
-    },
+    openGraphImage: `/og/link-500-260.png`,
+    twitterImage: `/og/link.png`,
     siteUrl: `https://www.smacon.dev`,
     social: {
       twitter: `smacondev`,

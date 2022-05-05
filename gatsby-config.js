@@ -53,6 +53,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: `og`,
+        path: `${__dirname}/static/og`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'pages',
         path: `${__dirname}/content/pages`,
       },

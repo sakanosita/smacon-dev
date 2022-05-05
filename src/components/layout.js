@@ -6,7 +6,7 @@ import Container from './container';
 import GlobalStyle from './global-styles';
 import styled from 'styled-components';
 
-const Layout = ({ children, title, description, socialImage = '' }) => {
+const Layout = ({ children, title, description, socialImage }) => {
   return (
     <Fragment>
       <GlobalStyle />

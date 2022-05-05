@@ -16,7 +16,7 @@ const PostTemplate = ({ data }) => {
     <Layout
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
-      meta={
+      socialImage={
         frontmatter.social_image ? frontmatter.social_image.absolutePath : ''
       }
     >

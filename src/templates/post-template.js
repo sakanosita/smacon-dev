@@ -12,8 +12,6 @@ const PostTemplate = ({ data }) => {
   const slug = data.markdownRemark.fields.slug;
   const relatedPosts = data.relatedPosts.nodes;
 
-  console.log(frontmatter.twitter_image)
-
   return (
     <Layout
       title={frontmatter.title}

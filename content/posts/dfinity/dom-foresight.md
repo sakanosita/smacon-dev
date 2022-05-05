@@ -1,7 +1,7 @@
 ---
 title: Dom's Foresight
 date: 2021-12-26 19:38
-permalink: /dom-foresight
+permalink: /dom-foresight/
 unlisted: true
 tags:
   - DFINITY

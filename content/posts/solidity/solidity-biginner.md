@@ -4,6 +4,7 @@ date: 2022-01-22 00:00
 permalink: /solidity-beginner
 redirect_from:
   - /solidity-beginner
+  - /posts/solidity-beginner/
 level: beginner
 tags:
   - Solidity

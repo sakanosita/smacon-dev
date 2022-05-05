@@ -1,7 +1,7 @@
 ---
 title: "DFINITY プロジェクトの始め方"
 date: 2021-12-29 19:38
-permalink: /motoko-explore-hello
+permalink: /motoko-explore-hello/
 level: beginner
 tags:
   - Motoko
@@ -19,7 +19,7 @@ description: |-
 
 はじめての方は先にこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ## 実行環境
 

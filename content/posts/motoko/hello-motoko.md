@@ -1,12 +1,9 @@
 ---
 title: 5ステップではじめる Motoko プログラミング ICP 入門 | DFINITY
 date: 2022-04-16 09:38
-permalink: /hello-motoko
+permalink: /hello-motoko/
 redirect_from:
-  - /hello-motoko
   - /hello-motoko/
-  - /hello-icp
-  - /hello-icp/
 pinned: 11
 level: beginner
 tags:

@@ -4,7 +4,7 @@ date: 2022-01-22 10:38
 permalink: /web3js
 redirect_from:
   - /web3js
-  - /web3js/
+  - /posts/web3js/
 tags:
   - Solidity
   - JavaScript

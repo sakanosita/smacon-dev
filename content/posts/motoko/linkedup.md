@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: キャニスター間の関数呼び出し"
 date: 2021-12-30 21:00
-permalink: /motoko-linkedup
+permalink: /motoko-linkedup/
 tags:
   - Motoko
 description: |-
@@ -17,7 +17,7 @@ description: |-
 
 はじめての方はこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ## 実行環境
 

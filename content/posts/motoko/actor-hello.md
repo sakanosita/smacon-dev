@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: はじめてのアクター"
 date: 2021-12-29 20:38
-permalink: /motoko-actor-hello
+permalink: /motoko-actor-hello/
 pinned: 22
 tags:
   - Motoko
@@ -19,7 +19,7 @@ description: |-
 
 はじめての方は先にこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ## 実行環境
 

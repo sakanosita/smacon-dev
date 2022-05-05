@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: ライブラリを使って簡単な電話帳アプリを作ろう"
 date: 2021-12-30 06:38
-permalink: /motoko-phonebook
+permalink: /motoko-phonebook/
 tags:
   - Motoko
 description: |-
@@ -17,7 +17,7 @@ description: |-
 
 はじめての方は先にこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ## 実行環境
 

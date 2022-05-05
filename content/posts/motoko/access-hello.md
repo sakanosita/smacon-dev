@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: ID とアクセス管理"
 date: 2022-01-02 20:38
-permalink: /access-hello
+permalink: /access-hello/
 redirect_from:
   - /access-hello
   - /access-hello/
@@ -22,7 +22,7 @@ description: |-
 
 はじめての方はこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ## 実行環境
 

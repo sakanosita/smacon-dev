@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: CYCLE ウォレットとキャニスター"
 date: 2022-01-03 20:38
-permalink: /cycles-hello
+permalink: /cycles-hello/
 tags:
   - Motoko
 description: |-
@@ -25,7 +25,7 @@ description: |-
 
 dfx について知りたい方はこちらをどうぞ
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ターミナルは、なんでもよいので Mac 標準のターミナルで大丈夫です。
 テキストエディタは Visual Studio Code を筆者は使っています。

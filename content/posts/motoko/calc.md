@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: 簡単な数値計算をやってみよう"
 date: 2021-12-29 22:38
-permalink: /motoko-calc
+permalink: /motoko-calc/
 tags:
   - Motoko
 description: |-
@@ -17,7 +17,7 @@ description: |-
 
 はじめての方は先にこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
 
 ## 実行環境
 

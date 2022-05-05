@@ -8,6 +8,7 @@ import ShareButtonList from '../components/sharing-button-list';
 
 const HomePage = ({ data }) => {
   const site = data.site;
+  const updatePosts = data.updatePosts.nodes;
   const popularPosts = data.popularPosts.nodes;
   const solidityPosts = data.solidityPosts.nodes;
   const rustPosts = data.rustPosts.nodes;
@@ -25,14 +26,11 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
+
       <Board>
         <h3>人気の記事</h3>
         <PostList posts={popularPosts} />
       </Board>
-      {/* <Board>
-        <h3>最新の記事</h3>
-        <PostList posts={updatePosts} />
-      </Board> */}
 
       <Board>
         <h3>
@@ -51,6 +49,11 @@ const HomePage = ({ data }) => {
           <Link to="/motoko/">Motoko プログラミング入門</Link>
         </h3>
         <PostList posts={motokoPosts} />
+      </Board>
+
+      <Board>
+        <h3>最新の記事</h3>
+        <PostList posts={updatePosts} />
       </Board>
 
       <ViewAllTags/>

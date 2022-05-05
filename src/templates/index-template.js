@@ -30,10 +30,10 @@ const HomePage = ({ data }) => {
         <h3>人気の記事</h3>
         <PostList posts={popularPosts} />
       </Board>
-      <Board>
+      {/* <Board>
         <h3>最新の記事</h3>
         <PostList posts={updatePosts} />
-      </Board>
+      </Board> */}
 
       <Board>
         <h3>

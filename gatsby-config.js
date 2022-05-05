@@ -7,7 +7,12 @@ module.exports = {
       summary: `A Programmer at Edtech`,
     },
     openGraphImage: `/og/link-500-260.png`,
-    twitterImage: `/og/link.png`,
+    twitterImage: {
+      default: `/og/link.png`,
+      solidity: `/og/solidity-3.png`,
+      rust: `/og/link.png`,
+      motoko: `/og/internet-computer.png`
+    },
     siteUrl: `https://www.smacon.dev`,
     social: {
       twitter: `smacondev`,

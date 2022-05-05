@@ -10,7 +10,9 @@ const SEO = ({ title, description, lang, meta, socialImage }) => {
         site {
           siteMetadata {
             openGraphImage
-            twitterImage
+            twitterImage {
+              default
+            }
             siteUrl
             description
             social {
@@ -24,7 +26,7 @@ const SEO = ({ title, description, lang, meta, socialImage }) => {
 
   const metaDescription = description || site.siteMetadata.description;
   const openGraphImage = socialImage || site.siteMetadata.openGraphImage;
-  const twitterImage = socialImage || site.siteMetadata.twitterImage;
+  const twitterImage = socialImage || site.siteMetadata.twitterImage.default;
   const defaultTitle = site.siteMetadata?.title;
 
   return (

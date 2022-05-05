@@ -8,6 +8,7 @@ redirect_from:
 pinned: 23
 tags:
   - Motoko
+social_image: /og/internet-computer.png
 description: |-
   キャニスター側からユーザーIDを識別して処理を変えてみよう！
   DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習

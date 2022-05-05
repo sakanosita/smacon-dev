@@ -5,7 +5,7 @@ import RelatedList from '../components/related-list';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 import Tags from '../components/tags';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { getImage } from 'gatsby-plugin-image';
 
 const PostTemplate = ({ data }) => {
   const site = data.site;

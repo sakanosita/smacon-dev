@@ -51,7 +51,7 @@ https://dashboard.internetcomputer.org/
 
 ## In-site Pages
 
-- [Overview](/posts/dfinity-overview)
-- [Technology](/posts/inside-icp)
-- [Development](/posts/dfinity-coding)
-- [Roadmap](/posts/dfinity-roadmap)
+- [Overview](/posts/dfinity-overview/)
+- [Technology](/posts/inside-icp/)
+- [Development](/posts/dfinity-coding/)
+- [Roadmap](/posts/dfinity-roadmap/)

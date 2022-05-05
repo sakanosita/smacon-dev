@@ -18,9 +18,6 @@ const SEO = ({ description, lang, meta, title }) => {
             siteUrl
             description {
               default
-              solidity
-              rust
-              motoko
             }
             social {
               twitter

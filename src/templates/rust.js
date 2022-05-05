@@ -6,41 +6,42 @@ import ViewAllTags from '../components/view-all-tags';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 
-const Motoko = ({ data }) => {
+const Rust = ({ data }) => {
   const site = data.site;
-  const motokoPosts = data.motokoPosts.nodes;
-  const dfinityPosts = data.dfinityPosts.nodes;
+  const popularPosts = data.popularPosts.nodes;
+  const updatePosts = data.updatePosts.nodes;
 
-  const title = site.siteMetadata.title.motoko;
-  const description = site.siteMetadata.description.motoko;
+  const title = data.markdownRemark.frontmatter.title;
+  const description = data.markdownRemark.frontmatter.description;
 
   return (
     <Layout title={title} description={description}>
+        
         <Intro>
-            <h1>Motoko and Making Canisters on DFINITY</h1>
-            <p>DFINITY の Internet Computer (ICP) を使ったキャニスター開発</p>
+            <h1>Rust and Building Decendtalized WASM</h1>
+            <p>WASM のブロックチェーンを使ったスマートコントラクト開発</p>
         </Intro>
 
         <Board>
-          <h3>Motoko プログラミング学習</h3>
-          <PostList posts={motokoPosts} />
+          <h3>人気の記事</h3>
+          <PostList posts={popularPosts} />
         </Board>
         <Board>
-          <h3>Internet Computer 入門</h3>
-          <PostList posts={dfinityPosts} />
+          <h3>最新の記事</h3>
+          <PostList posts={updatePosts} />
         </Board>
 
         <ViewAllTags/>
 
         <ShareButtonList
           title={title}
-          url={`${site.siteMetadata.siteUrl}/motoko/`}
+          url={`${site.siteMetadata.siteUrl}/rust/`}
         />
     </Layout>
   );
 };
 
-export default Motoko;
+export default Rust;
 
 const Intro = styled.div`
   display: flex;
@@ -80,16 +81,10 @@ const Board = styled.div`
 `;
 
 export const pageQuery = graphql`
-  query {
+  query ($slug: String!) {
     site {
       siteMetadata {
         siteUrl
-        title {
-          motoko
-        }
-        description {
-          motoko
-        }
       }
     }
     popularPosts: allMarkdownRemark(
@@ -98,14 +93,10 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
             pinned: { ne: null }
-            tags: {
-                in: [
-                    "Motoko",
-                    "DFINITY",
-                    "Internet Computer"
-                ],
-                ne: "Rust"
-            } 
+            tags: { in: [
+                "Rust",
+                "Solana"
+            ] } 
         }
         fields: { contentType: { eq: "posts" } }
       }
@@ -125,18 +116,16 @@ export const pageQuery = graphql`
         excerpt
       }
     }
-    motokoPosts: allMarkdownRemark(
-      limit: 100
+    updatePosts: allMarkdownRemark(
+      limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
             unlisted: { ne: true }
-            tags: {
-                in: [
-                    "Motoko"
-                ],
-                ne: "Rust"
-            } 
+            tags: { in: [
+                "Rust",
+                "Solana"
+            ] } 
         }
         fields: { contentType: { eq: "posts" } }
       }
@@ -156,36 +145,11 @@ export const pageQuery = graphql`
         excerpt
       }
     }
-    dfinityPosts: allMarkdownRemark(
-      limit: 100
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: {
-        frontmatter: {
-            unlisted: { ne: true }
-            tags: {
-                in: [
-                    "DFINITY",
-                    "Internet Computer"
-                ],
-                ne: "Rust"
-            } 
-        }
-        fields: { contentType: { eq: "posts" } }
-      }
-    ) {
-      totalCount
-      nodes {
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          description
-          tags
-          title
-        }
-        timeToRead
-        excerpt
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        description
       }
     }
   }

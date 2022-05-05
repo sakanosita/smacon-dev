@@ -1,6 +1,6 @@
 ---
 title: "Moto Sakanosita | smacon.dev"
-template: about-template
+template: about
 profile_image: /media/profile/profile.jpg
 description: Hi, I'm Moto, Web3 programmer and working at Edtech. Also I enjoy making smart contracts and building Dapps.
 ---

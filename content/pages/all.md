@@ -1,5 +1,5 @@
 ---
-template: "all-template"
+template: "all"
 redirect_from:
   - /posts
   - /posts/

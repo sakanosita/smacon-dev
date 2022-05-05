@@ -9,7 +9,6 @@ import ShareButtonList from '../components/sharing-button-list';
 const HomePage = ({ data }) => {
   const site = data.site;
   const popularPosts = data.popularPosts.nodes;
-  const updatePosts = data.updatePosts.nodes;
   const solidityPosts = data.solidityPosts.nodes;
   const rustPosts = data.rustPosts.nodes;
   const motokoPosts = data.motokoPosts.nodes;

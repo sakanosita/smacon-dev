@@ -6,28 +6,33 @@ import ViewAllTags from '../components/view-all-tags';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 
-const Rust = ({ data }) => {
+const Solidity = ({ data }) => {
   const site = data.site;
+
   const popularPosts = data.popularPosts.nodes;
+  const beginnerPosts = data.beginnerPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
 
-  const title = site.siteMetadata.title.rust;
-  const description = site.siteMetadata.description.rust;
+  const title = data.markdownRemark.frontmatter.title;
+  const description = data.markdownRemark.frontmatter.description;
 
   return (
     <Layout title={title} description={description}>
-        
         <Intro>
-            <h1>Rust and Building Decendtalized WASM</h1>
-            <p>WASM のブロックチェーンを使ったスマートコントラクト開発</p>
+            <h1>Solidity and Writing Smart Contracts</h1>
+            <p>イーサリアム (EVM) を使った Web3 の Dapps 開発</p>
         </Intro>
 
+        <Board>
+          <h3>初心者向け</h3>
+          <PostList posts={beginnerPosts} />
+        </Board>
         <Board>
           <h3>人気の記事</h3>
           <PostList posts={popularPosts} />
         </Board>
         <Board>
-          <h3>最新の記事</h3>
+          <h3>Solidity 学習</h3>
           <PostList posts={updatePosts} />
         </Board>
 
@@ -35,13 +40,13 @@ const Rust = ({ data }) => {
 
         <ShareButtonList
           title={title}
-          url={`${site.siteMetadata.siteUrl}/rust/`}
+          url={`${site.siteMetadata.siteUrl}/solidity/`}
         />
     </Layout>
   );
 };
 
-export default Rust;
+export default Solidity;
 
 const Intro = styled.div`
   display: flex;
@@ -81,16 +86,10 @@ const Board = styled.div`
 `;
 
 export const pageQuery = graphql`
-  query {
+  query ($slug: String!) {
     site {
       siteMetadata {
         siteUrl
-        title {
-          rust
-        }
-        description {
-          rust
-        }
       }
     }
     popularPosts: allMarkdownRemark(
@@ -100,9 +99,37 @@ export const pageQuery = graphql`
         frontmatter: {
             pinned: { ne: null }
             tags: { in: [
-                "Rust",
-                "Solana"
+                "Solidity",
+                "Chainlink",
+                "Ethereum",
+                "Hardhat"
             ] } 
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
+    ) {
+      totalCount
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          description
+          tags
+          title
+        }
+        timeToRead
+        excerpt
+      }
+    }
+    beginnerPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: {
+          level: { eq: "beginner" }
+          tags: { eq: "Solidity" }
         }
         fields: { contentType: { eq: "posts" } }
       }
@@ -129,8 +156,10 @@ export const pageQuery = graphql`
         frontmatter: {
             unlisted: { ne: true }
             tags: { in: [
-                "Rust",
-                "Solana"
+                "Solidity",
+                "Chainlink",
+                "Ethereum",
+                "Hardhat"
             ] } 
         }
         fields: { contentType: { eq: "posts" } }
@@ -149,6 +178,13 @@ export const pageQuery = graphql`
         }
         timeToRead
         excerpt
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        description
       }
     }
   }

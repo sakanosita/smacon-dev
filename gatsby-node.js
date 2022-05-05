@@ -167,16 +167,10 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Title {
       default: String
       header: String
-      solidity: String
-      rust: String
-      motoko: String
     }
 
     type Description {
       default: String
-      solidity: String
-      rust: String
-      motoko: String
     }
 
     type Author {

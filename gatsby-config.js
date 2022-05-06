@@ -11,7 +11,7 @@ module.exports = {
       default: `/og/link.png`,
       solidity: `/og/solidity-3.png`,
       rust: `/og/link.png`,
-      motoko: `/og/internet-computer.png`
+      motoko: `/og/internet-computer-2.png`
     },
     siteUrl: `https://www.smacon.dev`,
     social: {

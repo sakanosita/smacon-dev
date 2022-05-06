@@ -5,7 +5,7 @@ permalink: /motoko-actor-hello/
 pinned: 22
 tags:
   - Motoko
-social_image: /og/internet-computer.png
+social_image: /og/internet-computer-2.png
 description: |-
   プログラミングにおけるアクターを理解しよう
   DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習

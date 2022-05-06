@@ -10,7 +10,7 @@ tags:
   - Motoko
   - Internet Computer
   - DFINITY
-social_image: /og/internet-computer.png
+social_image: /og/internet-computer-2.png
 description: |-
   Internet Computer を使ったキャニスター開発をはじめよう！
   初心者向けの Motoko プログラミングの学習, DFINITY 公式のチュートリアルを日本語で解説。

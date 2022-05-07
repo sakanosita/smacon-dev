@@ -4,6 +4,7 @@ date: 2021-04-22 10:38
 permalink: /original-token/
 redirect_from:
   - /original-token/
+  - /blog/original-token/
 tags:
   - Solidity
   - ERC20

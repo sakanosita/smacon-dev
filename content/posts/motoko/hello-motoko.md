@@ -4,6 +4,7 @@ date: 2022-04-16 09:38
 permalink: /hello-motoko/
 redirect_from:
   - /hello-motoko/
+  - /blog/hello-motoko/
 pinned: 11
 level: beginner
 tags:

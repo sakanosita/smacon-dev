@@ -13,7 +13,7 @@ module.exports = {
       rust: `/og/link.png`,
       motoko: `/og/internet-computer-2.png`
     },
-    siteUrl: `https://www.smacon.dev`,
+    siteUrl: `https://smacon.dev`,
     social: {
       twitter: `smacondev`,
     },

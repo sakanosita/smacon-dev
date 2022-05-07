@@ -143,7 +143,7 @@ description = "Example template program written in Rust"
 authors = ["Solana Maintainers <maintainers@solana.com>"]
 repository = "https://github.com/smacon-dev/solana"
 license = "Apache-2.0"
-homepage = "https://www.smacon.dev/"
+homepage = "https://smacon.dev/"
 edition = "2022"
 
 [features]

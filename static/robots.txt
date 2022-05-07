@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /admin/
 
-Sitemap: https://www.smacon.dev/sitemap/sitemap-index.xml
-Sitemap: https://www.smacon.dev/sitemap/sitemap-0.xml
+Sitemap: https://smacon.dev/sitemap/sitemap-index.xml
+Sitemap: https://smacon.dev/sitemap/sitemap-0.xml

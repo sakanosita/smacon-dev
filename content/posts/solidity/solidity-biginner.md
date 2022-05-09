@@ -1,6 +1,6 @@
 ---
-title: "Solidity 学習: 初心者向けプログラミング入門サイト 4選"
-date: 2022-01-22 00:00
+title: "Solidity 学習: 初心者向けプログラミング入門"
+date: 2022-05-09 10:00
 permalink: /solidity-beginner/
 redirect_from:
   - /solidity-beginner/
@@ -22,6 +22,15 @@ description: |-
 - Solidity の本を買ったけど、次に何をしたら良いかわからない人
 - 開発環境の構築でつまずいた人
 - Web3/Dapps 開発に興味がある人
+
+この記事で紹介するサイトやサービスの一覧
+
+- CryptoZombies
+- Remix
+- Hardhat
+- Solidity by Examples
+- イーサリアム navi
+- Ethernaut
 
 プログラミング初学者には、環境構築の途中で挫折してしまう人がたくさんいます。
 

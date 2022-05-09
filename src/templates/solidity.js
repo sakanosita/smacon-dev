@@ -21,7 +21,7 @@ const Solidity = ({ data }) => {
     <Layout title={title} description={description} socialImage={socialImage}>
         <Intro>
             <h1>Solidity and Writing Smart Contracts</h1>
-            <p>イーサリアム (EVM) を使った Web3 の Dapps 開発</p>
+            <p>イーサリアム (EVM) を使った Web3 の Dapps 開発入門</p>
         </Intro>
 
         <Board>

@@ -31,7 +31,7 @@ Solidity by Example のサンプルコードを使ってスマートコントラ
 
 Hardhat を使ったことがない方はこちらからどうぞ
 
-[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat/)
+[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/merkle-tree)からダウンロードできます。
 

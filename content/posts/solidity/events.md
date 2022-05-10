@@ -23,7 +23,7 @@ description: |-
 
 Solidity by Example の[サンプルコード](https://solidity-by-example.org/events/)を使ってスマートコントラクトを作る方法を解説します。
 
-Hardhat を使ったことがない方は[こちら](/posts/hardhat/)からどうぞ
+Hardhat を使ったことがない方は[こちら](/posts/hardhat)からどうぞ
 
 このページで[実際に使ったソースコード](https://github.com/smacon-dev/solidity-example/tree/main/events)を GitHub からダウンロードできます。
 
@@ -129,7 +129,7 @@ module.exports = {
 - RINKEBY_PRIVATE_KEY
 - RINKEBY_RPC_URL
 
-詳細は[こちら](/posts/hardhat/)
+詳細は[こちら](/posts/hardhat)
 
 デプロイ用にスクリプトを用意します。
 

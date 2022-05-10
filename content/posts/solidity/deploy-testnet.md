@@ -22,7 +22,7 @@ description: |-
 
 Hardhat 自体を使ったことがない場合は先に以下の記事をご覧ください。
 
-[Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat/)
+[Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)
 
 # Ethereum のテストネットについて
 
@@ -183,5 +183,5 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 具体的なスクリプトが見たい場合はこれらのページをご覧ください。
 
-- [はじめてのイーサリアム Dapps 開発](/posts/first-app/)
-- [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat/)
+- [はじめてのイーサリアム Dapps 開発](/posts/first-app)
+- [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)

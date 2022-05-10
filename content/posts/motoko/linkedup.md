@@ -17,7 +17,7 @@ description: |-
 
 はじめての方はこちらをご覧ください。
 
-[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko/)
+[5 ステップではじめる Motoko プログラミング入門](/posts/hello-motoko)
 
 ## 実行環境
 

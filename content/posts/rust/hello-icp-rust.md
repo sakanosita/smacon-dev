@@ -1,7 +1,7 @@
 ---
 title: "ICP プログラミング入門: Rust ではじめてのキャニスター開発"
 date: 2022-04-24 19:38
-permalink: /hello-icp-rust/
+permalink: /hello-icp-rust
 pinned: 28
 tags:
   - DFINITY

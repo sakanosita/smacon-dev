@@ -1,7 +1,7 @@
 ---
 title: "はじめての Solana: Rust で Hello World!"
 date: 2022-04-19 21:00
-permalink: /solana-hello/
+permalink: /solana-hello
 redirect_from:
   - /solana-hello/
 pinned: 23

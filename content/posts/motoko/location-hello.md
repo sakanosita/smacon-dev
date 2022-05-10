@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: パラメータを渡してキャニスターを実行する"
 date: 2021-12-29 21:00
-permalink: /motoko-location-hello/
+permalink: /motoko-location-hello
 tags:
   - Motoko
 description: |-

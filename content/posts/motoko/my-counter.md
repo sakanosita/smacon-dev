@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: Candid UI を使ってキャニスターを実行する"
 date: 2021-12-29 21:38
-permalink: /motoko-my-counter/
+permalink: /motoko-my-counter
 tags:
   - Motoko
 description: |-

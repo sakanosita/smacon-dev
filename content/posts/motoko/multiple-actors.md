@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: 複数のアクター&キャニスター"
 date: 2021-12-30 15:38
-permalink: /motoko-multiple-actors/
+permalink: /motoko-multiple-actors
 tags:
   - Motoko
 description: |-

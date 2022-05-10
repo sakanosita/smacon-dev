@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: CYCLE ウォレットとキャニスター"
 date: 2022-01-03 20:38
-permalink: /cycles-hello/
+permalink: /cycles-hello
 tags:
   - Motoko
 description: |-

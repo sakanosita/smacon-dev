@@ -1,7 +1,7 @@
 ---
 title: "Motoko プログラミング入門: ID とアクセス管理"
 date: 2022-01-02 20:38
-permalink: /access-hello/
+permalink: /access-hello
 redirect_from:
   - /access-hello/
 pinned: 23

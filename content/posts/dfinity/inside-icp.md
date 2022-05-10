@@ -1,7 +1,7 @@
 ---
 title: Inside the Internet Computer
 date: 2021-12-27 19:38
-permalink: /inside-icp/
+permalink: /inside-icp
 redirect_from:
   - /inside-icp/
 tags:
@@ -55,7 +55,7 @@ https://forum.dfinity.org/
 
 ## In-site Pages
 
-- [Overview](/posts/dfinity-overview/)
-- [Technology](/posts/inside-icp/)
-- [Development](/posts/dfinity-coding/)
-- [Roadmap](/posts/dfinity-roadmap/)
+- [Overview](/posts/dfinity-overview)
+- [Technology](/posts/inside-icp)
+- [Development](/posts/dfinity-coding)
+- [Roadmap](/posts/dfinity-roadmap)

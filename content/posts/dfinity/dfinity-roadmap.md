@@ -1,7 +1,7 @@
 ---
 title: DFINITY ROADMAP
 date: 2022-01-29 23:38
-permalink: /dfinity-roadmap/
+permalink: /dfinity-roadmap
 redirect_from:
   - /dfinity-roadmap/
 pinned: 99
@@ -67,7 +67,7 @@ description: |-
 
 ## In-site Pages
 
-- [Overview](/posts/dfinity-overview/)
-- [Technology](/posts/inside-icp/)
-- [Development](/posts/dfinity-coding/)
-- [Roadmap](/posts/dfinity-roadmap/)
+- [Overview](/posts/dfinity-overview)
+- [Technology](/posts/inside-icp)
+- [Development](/posts/dfinity-coding)
+- [Roadmap](/posts/dfinity-roadmap)

@@ -1,7 +1,7 @@
 ---
 title: Start Coding for DFINITY
 date: 2021-12-28 18:38
-permalink: /dfinity-coding/
+permalink: /dfinity-coding
 redirect_from:
   - /dfinity-coding/
 tags:
@@ -74,7 +74,7 @@ https://forum.dfinity.org/
 
 ## In-site Pages
 
-- [Overview](/posts/dfinity-overview/)
-- [Technology](/posts/inside-icp/)
-- [Development](/posts/dfinity-coding/)
-- [Roadmap](/posts/dfinity-roadmap/)
+- [Overview](/posts/dfinity-overview)
+- [Technology](/posts/inside-icp)
+- [Development](/posts/dfinity-coding)
+- [Roadmap](/posts/dfinity-roadmap)

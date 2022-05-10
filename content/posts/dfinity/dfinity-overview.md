@@ -1,7 +1,7 @@
 ---
 title: Overview of DFINITY (Internet Computer)
 date: 2021-12-27 18:38
-permalink: /dfinity-overview/
+permalink: /dfinity-overview
 tags:
   - DFINITY
   - Internet Computer
@@ -51,7 +51,7 @@ https://dashboard.internetcomputer.org/
 
 ## In-site Pages
 
-- [Overview](/posts/dfinity-overview/)
-- [Technology](/posts/inside-icp/)
-- [Development](/posts/dfinity-coding/)
-- [Roadmap](/posts/dfinity-roadmap/)
+- [Overview](/posts/dfinity-overview)
+- [Technology](/posts/inside-icp)
+- [Development](/posts/dfinity-coding)
+- [Roadmap](/posts/dfinity-roadmap)

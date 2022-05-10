@@ -1,7 +1,7 @@
 ---
 title: "NFT プログラミング入門: いろんな NFT の実装方法の分類"
 date: 2022-04-24 21:00
-permalink: /original-nft/
+permalink: /original-nft
 pinned: 13
 tags:
   - Ethereum

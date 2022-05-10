@@ -1,7 +1,7 @@
 ---
 title: "スマートコントラクト学習の始め方 | ブロックチェーン入門"
 date: 2022-05-10 10:00
-permalink: /smart-contracts-study/
+permalink: /smart-contracts-study
 level: beginner
 unlisted: true
 tags:

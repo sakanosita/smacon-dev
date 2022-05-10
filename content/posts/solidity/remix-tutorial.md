@@ -1,7 +1,7 @@
 ---
 title: Remix を使って Solidity のスマートコントラクトを簡単デプロイ
 date: 2021-11-01 10:38
-permalink: /remix-tutorial/
+permalink: /remix-tutorial
 redirect_from:
   - /remix-tutorial/
   - /build-smart-contracts/

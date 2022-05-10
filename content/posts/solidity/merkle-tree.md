@@ -1,7 +1,7 @@
 ---
 title: "Solidity 入門: Merkle Proof（マークルツリーと Keccak256）"
 date: 2022-04-18 08:00
-permalink: /merkle-tree/
+permalink: /merkle-tree
 redirect_from:
   - /merkle-tree/
 social_image: /media/merkle-tree/4.png

@@ -1,7 +1,7 @@
 ---
 title: "NFT プログラミング入門: OpenZeppelin ライブラリを使った ERC721 コントラクト"
 date: 2022-05-02 21:00
-permalink: /open-zeppelin-erc721/
+permalink: /open-zeppelin-erc721
 tags:
   - Solidity
   - EVM

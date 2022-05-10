@@ -11,7 +11,7 @@ const TagsTemplate = ({ path, pageContext, data }) => {
   const { tag } = pageContext;
   // const { totalCount } = data.allMarkdownRemark;
   const posts = data.allMarkdownRemark.nodes;
-  const title = `はじめてのスマートコントラクト開発 – '${tag}' の検索結果`;
+  const title = `'${tag}' の検索結果 – はじめてのスマートコントラクト開発`;
 
   return (
     <Layout title={title}>

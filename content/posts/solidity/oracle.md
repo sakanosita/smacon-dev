@@ -28,7 +28,7 @@ description: |-
 
 もし、Solidity における実装方法を知りたい場合はこちらをどうぞ。
 
-[Solidity 入門: オラクルを使う](/posts/price-oracle/)
+[Solidity 入門: オラクルを使う](/posts/price-oracle)
 
 # 構成要素の説明
 
@@ -167,4 +167,4 @@ Chainlink の Off Chain Node がこのアカウントを使ってレポートを
 
 Solidity におけるオラクルの使い方を知りたい場合はこちらをどうぞ。
 
-[Solidity 入門: オラクルを使う](/posts/price-oracle/)
+[Solidity 入門: オラクルを使う](/posts/price-oracle)

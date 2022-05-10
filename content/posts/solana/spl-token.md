@@ -22,7 +22,7 @@ https://spl.solana.com/token
 - Devnet のアカウント 2 つ
 - Phantom ウォレット
 
-### [Solana 開発のための環境構築](/posts/solana-config/)
+### [Solana 開発のための環境構築](/posts/solana-config)
 
 # 独自トークンの作成
 

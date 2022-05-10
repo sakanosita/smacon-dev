@@ -31,7 +31,7 @@ https://docs.solana.com/developing/on-chain-programs/examples
 Solana の devnet または testnet を使います。devnet や testnet のトークンが必要ですが無料で取得できます。
 はじめての方はこちらのページをご覧ください。
 
-[Solana 開発のための環境構築](/posts/solana-config/)
+[Solana 開発のための環境構築](/posts/solana-config)
 
 ## 実行環境
 

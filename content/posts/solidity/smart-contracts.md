@@ -172,4 +172,4 @@ hello()関数を実行して、受け取った文字列`Hello World!`をログ�
 自分にあったやり方を見つけてください。
 
 - [Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
-- [Remix の使い方](/posts/remix-tutorial/)
+- [Remix の使い方](/posts/remix-tutorial)

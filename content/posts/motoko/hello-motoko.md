@@ -194,13 +194,13 @@ Internet Computer の世界へようこそ
 
 公式のチュートリアルや Examples を日本語で解説しています。
 
-- [DFINITY プロジェクトの始め方](/posts/motoko-explore-hello/)
-- [はじめてのアクター](/posts/motoko-actor-hello/)
-- [パラメータを渡してキャニスターを実行する](/posts/motoko-location-hello/)
-- [Candid UI を使ってキャニスターを実行する](/posts/motoko-my-counter/)
-- [簡単な数値計算](/posts/motoko-calc/)
-- [ライブラリを使って簡単な電話帳アプリを作ろう](/posts/motoko-phonebook/)
-- [複数のアクター&キャニスター](/posts/motoko-multiple-actors/)
-- [キャニスター間の関数呼び出し](/posts/motoko-linkedup/)
-- [ID とアクセス管理](/posts/access-hello/)
-- [CYCLE ウォレットとキャニスター](/posts/cycles-hello/)
+- [DFINITY プロジェクトの始め方](/posts/motoko-explore-hello)
+- [はじめてのアクター](/posts/motoko-actor-hello)
+- [パラメータを渡してキャニスターを実行する](/posts/motoko-location-hello)
+- [Candid UI を使ってキャニスターを実行する](/posts/motoko-my-counter)
+- [簡単な数値計算](/posts/motoko-calc)
+- [ライブラリを使って簡単な電話帳アプリを作ろう](/posts/motoko-phonebook)
+- [複数のアクター&キャニスター](/posts/motoko-multiple-actors)
+- [キャニスター間の関数呼び出し](/posts/motoko-linkedup)
+- [ID とアクセス管理](/posts/access-hello)
+- [CYCLE ウォレットとキャニスター](/posts/cycles-hello)

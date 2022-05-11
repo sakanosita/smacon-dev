@@ -98,6 +98,7 @@ export const pageQuery = graphql`
       sort: { order: ASC, fields: frontmatter___pinned }
       filter: {
         frontmatter: {
+            unlisted: { ne: true }
             pinned: { ne: null }
             tags: { in: [
                 "Solidity",
@@ -129,6 +130,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
+          unlisted: { ne: true }
           level: { eq: "beginner" }
           tags: { eq: "Solidity" }
         }

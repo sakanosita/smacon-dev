@@ -23,12 +23,12 @@ description: |-
 - 開発環境の構築でつまずいた人
 - Web3/Dapps 開発に興味がある人
 
-この記事で紹介するサイトやサービスの一覧
+この記事で紹介するサイトやツールの一覧
 
-- CryptoZombies
-- Remix
-- Hardhat
+- CryptoZombies (クリプトゾンビ)
 - Solidity by Examples
+  - Remix
+  - Hardhat
 - イーサリアム navi
 - Ethernaut
 

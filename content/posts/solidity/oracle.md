@@ -4,6 +4,7 @@ date: 2022-02-27 19:00
 permalink: /oracle
 redirect_from:
   - /oracle/
+  - /chainlink/
 pinned: 3
 tags:
   - Ethereum

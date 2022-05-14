@@ -121,7 +121,7 @@ h4 {
 h1,
 h2,
 h3 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h1 {

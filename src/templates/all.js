@@ -54,7 +54,12 @@ export const homePageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "posts" } } }
+      filter: {
+        frontmatter: {
+          unlisted: { ne: true }
+        }
+        fields: { contentType: { eq: "posts" } }
+      }
       sort: { order: DESC, fields: frontmatter___date }
     ) {
       nodes {

@@ -92,12 +92,12 @@ body::-webkit-scrollbar-track {
 :root {
   scroll-behavior: smooth;
   --size-300: 0.92rem;
-  --size-400: 1.1rem;
-  --size-500: 1.33rem;
-  --size-600: 1.77rem;
-  --size-700: 2.03rem;
-  --size-800: 3.15rem;
-  --size-900: 4.2rem;
+  --size-400: 1.05rem;
+  --size-500: 1.2rem;
+  --size-600: 1.3rem;
+  --size-700: 1.4rem;
+  --size-800: 1.83rem;
+  --size-900: 2.85rem;
 }
 
 body {
@@ -115,25 +115,25 @@ h1,
 h2,
 h3,
 h4 {
-  line-height: 1.125;
+  line-height: 1.1;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h1 {
-  font-size: var(--size-800);
-}
-
-h2 {
   font-size: var(--size-700);
 }
 
-h3 {
+h2 {
   font-size: var(--size-600);
+}
+
+h3 {
+  font-size: var(--size-500);
 }
 
 p {

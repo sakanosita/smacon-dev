@@ -53,13 +53,25 @@ const PostWrapper = styled.div`
 `;
 
 const PostTitle = styled.h1`
-  font-size: var(--size-600);
+
+  font-size: var(--size-800);
+
+  margin-top: var(--size-600);
+  margin-bottom: var(--size-900);
+  
+  @media screen and (max-width: 700px) {
+    font-size: var(--size-700);
+  }
 `;
 
 const PostDate = styled.span`
   font-size: var(--size-400);
-  padding-top: 1rem;
-  float: right;
+
+  margin-top: var(--size-600);
+  
+  display: flex;
+  justify-content: flex-end;
+
   text-transform: uppercase;
 `;
 
@@ -79,18 +91,6 @@ const PostContent = styled.section`
   * + h2,
   * + h3 {
     margin-top: var(--size-900);
-  }
-
-  h1 {
-    font-size: var(--size-600);
-  }
-
-  h2 {
-    font-size: var(--size-500);
-  }
-
-  h3 {
-    font-size: var(--size-400);
   }
 
   b,

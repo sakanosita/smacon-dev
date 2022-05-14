@@ -79,13 +79,17 @@ const Intro = styled.div`
   margin-bottom: var(--size-900);
   text-align: center;
 
+  & h1 {
+    font-size: var(--size-900);
+  }
+
   & p {
     font-size: var(--size-400);
   }
 
   @media screen and (max-width: 700px) {
     & h1 {
-      font-size: var(--size-700);
+      font-size: var(--size-800);
     }
   }
 `;

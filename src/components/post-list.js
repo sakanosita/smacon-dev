@@ -64,7 +64,7 @@ const StyledPostList = styled.ul`
   list-style: none;
   display: grid;
   justify-items: center;
-  grid-gap: var(--size-600);
+  grid-gap: var(--size-400);
   grid-template-columns: repeat(auto-fit, minmax(35ch, 1fr));
 
   @media screen and (max-width: 500px) {
@@ -100,7 +100,7 @@ const PostListTitle = styled.h2`
   line-height: 1.2;
   margin-top: 0rem;
   margin-bottom: 1rem;
-  font-size: var(--size-600);
+  font-size: var(--size-700);
   font-weight: 700;
 
   & a {

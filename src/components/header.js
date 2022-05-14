@@ -114,13 +114,13 @@ const StyledNavListItem = styled.li`
     color: inherit;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: var(--size-300);
     text-decoration: none;
     letter-spacing: 0.1rem;
   }
   @media screen and (max-width: 700px) {
     & a {
-      font-size: 0.7rem;
+      font-size: var(--size-300);
     }
   }
 `;

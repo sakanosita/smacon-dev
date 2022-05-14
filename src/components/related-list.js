@@ -94,7 +94,7 @@ const PostListTitle = styled.h2`
   margin-top: 0rem;
   margin-bottom: 0rem;
   font-size: var(--size-400);
-  font-weight: 600;
+  font-weight: 700;
 
   & a {
     text-decoration: none;

@@ -71,7 +71,7 @@ const Board = styled.div`
   margin-top: var(--size-900);
   margin-bottom: var(--size-600);
   & h3 {
-    font-size: 120%;
+    font-size: var(--size-400);
     text-align: center;
     & a {
       color: inherit;

@@ -31,10 +31,10 @@ const PostTemplate = ({ data }) => {
           url={`${site.siteMetadata.siteUrl}${slug}`} />
         <Tags tags={frontmatter.tags} />
 
-        <Board>
+        <Related>
           <h4>こちらもおすすめ</h4>
           <RelatedList posts={relatedPosts} />
-        </Board>
+        </Related>
       </PostWrapper>
 
     </Layout>
@@ -68,7 +68,7 @@ const PostDate = styled.span`
   font-size: var(--size-400);
 
   margin-top: var(--size-600);
-  
+
   display: flex;
   justify-content: flex-end;
 
@@ -123,14 +123,14 @@ const PostContent = styled.section`
   }
 `;
 
-const Board = styled.div`
+const Related = styled.div`
 
   margin-top: var(--size-800);
   display: flex;
   flex-direction: column;
   margin-bottom: var(--size-600);
   & h4 {
-    font-size: 100%;
+    font-size: var(--size-500);
     & a {
       color: inherit;
       text-decoration: none;

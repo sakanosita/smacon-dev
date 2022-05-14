@@ -92,7 +92,7 @@ const StyledPostListItem = styled.li`
 const PostListTitle = styled.h2`
   line-height: 1.2;
   margin-top: 0rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   font-size: var(--size-400);
   font-weight: 600;
 

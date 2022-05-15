@@ -115,6 +115,7 @@ module.exports = {
           {
             site {
               siteMetadata {
+                title
                 siteUrl
                 site_url: siteUrl
               }
@@ -154,6 +155,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
+            title: 'smacon.dev'
           },
         ],
       },

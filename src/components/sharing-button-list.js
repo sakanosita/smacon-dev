@@ -16,15 +16,15 @@ const ShareButtonList = ({title, url}) => {
   return (
     <Wrapper>
       <ButtonWrapper>
-        <FacebookShareButton url={url}>
-          <FacebookIcon size={36} round />
-        </FacebookShareButton>
-      </ButtonWrapper>
-
-      <ButtonWrapper>
         <TwitterShareButton title={title} url={url} >
           <TwitterIcon size={36} round />
         </TwitterShareButton>
+      </ButtonWrapper>
+
+      <ButtonWrapper>
+        <FacebookShareButton url={url}>
+          <FacebookIcon size={36} round />
+        </FacebookShareButton>
       </ButtonWrapper>
 
       <ButtonWrapper>

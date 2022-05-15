@@ -49,7 +49,9 @@ const AboutImageWrapper = styled(GatsbyImage)`
 
 const AboutCopy = styled.div`
   max-width: 60ch;
-
+  h1 {
+    font-size: var(--size-800);
+  }
   & p {
     font-size: var(--size-400);
   }

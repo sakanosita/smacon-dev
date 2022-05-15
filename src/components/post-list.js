@@ -120,7 +120,7 @@ const PostListTitle = styled.h2`
 
 const PostListExcerpt = styled.p`
   margin-top: 1rem;
-  font-size: var(--size-400);
+  font-size: var(--size-300);
 `;
 
 const PostListMeta = styled.div`

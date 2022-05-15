@@ -2,6 +2,8 @@
 title: "Solidity 入門: はじめてのイーサリアム Dapps 開発"
 date: 2022-04-29 21:00
 permalink: /first-app
+redirect_from:
+  - /first-app/
 level: beginner
 tags:
   - Solidity

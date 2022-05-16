@@ -119,7 +119,7 @@ const StyledNavListItem = styled.li`
       margin-left: 0.7rem;
     }
     & a {
-      font-size: var(--size-200);
+      font-size: 85%;
     }
   }
 `;

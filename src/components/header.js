@@ -97,8 +97,8 @@ const StyledNavList = styled.ul`
   padding: 0;
   list-style-type: none;
   @media screen and (max-width: 700px) {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
   }
 `;
 

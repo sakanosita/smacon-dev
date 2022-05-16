@@ -21,7 +21,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <Link to="/">
-          <img src="/media/smacondev-logo2.png" height="45"></img>
+          <img src="/media/smacondev-logo3.png" height="45"></img>
         </Link>
 
         <HeaderNavList>

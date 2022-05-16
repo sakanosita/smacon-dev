@@ -66,7 +66,7 @@ const HeaderNavListItem = ({ children }) => {
 };
 
 const StyledHeader = styled.header`
-  padding-top: 0.1rem;
+  padding-top: 0.3rem;
   background-color:  rgba(255, 255, 255, 0.6);
 
 `;
@@ -97,8 +97,8 @@ const StyledNavList = styled.ul`
   padding: 0;
   list-style-type: none;
   @media screen and (max-width: 700px) {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 `;
 

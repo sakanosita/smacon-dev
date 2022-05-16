@@ -51,8 +51,8 @@ const Intro = styled.div`
   align-items: center;
   margin-right: auto;
   margin-left: auto;
-  margin-top: var(--size-800);
-  margin-bottom: var(--size-900);
+  margin-top: 7rem;
+  margin-bottom: 5rem;
   text-align: center;
 
   & h1 {

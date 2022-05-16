@@ -20,9 +20,9 @@ const Header = () => {
   return (
     <StyledHeader>
       <HeaderWrapper>
-        <HeaderTitle>
-          <Link to="/">smacon.dev</Link>
-        </HeaderTitle>
+        <Link to="/">
+          <img src="/media/smacondev-logo2.png" height="45"></img>
+        </Link>
 
         <HeaderNavList>
 

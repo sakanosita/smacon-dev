@@ -68,21 +68,17 @@ const HeaderNavListItem = ({ children }) => {
 const StyledHeader = styled.header`
   padding-top: 0.1rem;
   background-color:  rgba(255, 255, 255, 0.6);
+
 `;
 
 const HeaderWrapper = styled(Container)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-`;
 
-const HeaderTitle = styled.div`
-  & a {
-    font-weight: bold;
-    text-decoration: none;
-    font-size: var(--size-400);
-    margin-right: 20px;
-    color: inherit;
+  @media screen and (max-width: 700px) {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
   }
 `;
 
@@ -100,6 +96,10 @@ const StyledNavList = styled.ul`
   justify-content: space-around;
   padding: 0;
   list-style-type: none;
+  @media screen and (max-width: 700px) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 `;
 
 const StyledNavListItem = styled.li`

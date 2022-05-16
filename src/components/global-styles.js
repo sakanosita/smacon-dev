@@ -91,6 +91,7 @@ body::-webkit-scrollbar-track {
 
 :root {
   scroll-behavior: smooth;
+  --size-200: 0.72rem;
   --size-300: 0.92rem;
   --size-400: 1.05rem;
   --size-500: 1.2rem;

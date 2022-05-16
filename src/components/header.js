@@ -116,10 +116,10 @@ const StyledNavListItem = styled.li`
   }
   @media screen and (max-width: 700px) {
     &:not(:first-of-type) {
-      margin-left: 0.5rem;
+      margin-left: 0.7rem;
     }
     & a {
-      font-size: var(--size-300);
+      font-size: var(--size-200);
     }
   }
 `;

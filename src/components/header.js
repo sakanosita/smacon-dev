@@ -66,7 +66,8 @@ const HeaderNavListItem = ({ children }) => {
 };
 
 const StyledHeader = styled.header`
-  padding-top: var(--size-300);
+  padding-top: 0.1rem;
+  background-color:  rgba(255, 255, 255, 0.9);
 `;
 
 const HeaderWrapper = styled(Container)`
@@ -102,13 +103,8 @@ const StyledNavList = styled.ul`
 `;
 
 const StyledNavListItem = styled.li`
-  &:not(:last-of-type) {
-    margin-right: 2rem;
-  }
-  @media screen and (max-width: 700px) {
-    &:not(:last-of-type) {
-      margin-right: 1rem;
-    }
+  &:not(:first-of-type) {
+    margin-left: 2rem;
   }
   & a {
     color: inherit;
@@ -119,6 +115,9 @@ const StyledNavListItem = styled.li`
     letter-spacing: 0.1rem;
   }
   @media screen and (max-width: 700px) {
+    &:not(:first-of-type) {
+      margin-left: 0.5rem;
+    }
     & a {
       font-size: var(--size-300);
     }

@@ -85,7 +85,6 @@ const StyledNavList = styled.ul`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: start;
   padding: 0;
   list-style-type: none;
   
@@ -114,8 +113,5 @@ const StyledNavListItem = styled.li`
   @media screen and (max-width: 700px) {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    & a {
-      font-size: 80%;
-    }
   }
 `;

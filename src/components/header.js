@@ -47,7 +47,7 @@ const HeaderNavListItem = ({ children }) => {
 
 const StyledHeader = styled.header`
   padding-top: 0.3rem;
-  background-color:  rgba(255, 255, 255, 0.6);
+  background-color:  rgba(255, 255, 255, 0.8);
 
 `;
 

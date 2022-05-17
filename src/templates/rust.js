@@ -32,8 +32,6 @@ const Rust = ({ data }) => {
           <PostList posts={updatePosts} />
         </Board>
 
-        <ViewAllTags/>
-
         <ShareButtonList
           title={title}
           url={`${site.siteMetadata.siteUrl}/rust/`}

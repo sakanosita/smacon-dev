@@ -31,8 +31,6 @@ const Motoko = ({ data }) => {
           <PostList posts={dfinityPosts} />
         </Board>
 
-        <ViewAllTags/>
-
         <ShareButtonList
           title={title}
           url={`${site.siteMetadata.siteUrl}/motoko/`}

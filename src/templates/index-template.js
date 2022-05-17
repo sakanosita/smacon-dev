@@ -56,8 +56,6 @@ const HomePage = ({ data }) => {
         <PostList posts={updatePosts} />
       </Board>
 
-      <ViewAllTags/>
-
       <ShareButtonList
           title={title}
           url={`${site.siteMetadata.siteUrl}`}

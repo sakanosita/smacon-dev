@@ -11,6 +11,9 @@ const Header = () => {
         <Link to="/">
           <img src="/media/smacondev-logo3.png" height="45"></img>
         </Link>
+        <Link to="/tags/">
+          <SearchIcon src="/media/search.png"></SearchIcon>
+        </Link>
       </HeaderWrapper>
       <HeaderNavWrapper>
         <HeaderNavList>
@@ -62,6 +65,11 @@ const HeaderWrapper = styled(Container)`
     padding-left: 0.4rem;
     padding-right: 0.4rem;
   }
+`;
+const SearchIcon = styled.img`
+  padding-top: 0.4rem;
+  padding-right: 1rem;
+  height: 2rem;
 `;
 
 const HeaderNavWrapper = styled(Container)`

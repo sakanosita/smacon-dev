@@ -97,8 +97,8 @@ const Intro = styled.div`
 const Board = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: var(--size-900);
-  margin-bottom: var(--size-600);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   & h3 {
     font-size: var(--size-600);
     padding-left: 1rem;

@@ -114,6 +114,9 @@ const PostContent = styled.section`
     // font-family: 'Source Sans Pro', monospace;
     overflow-x: auto;
     white-space: pre-wrap;
+    @media screen and (max-width: 700px) {
+      font-size: 85%;
+    }
   }
 
   pre {

@@ -21,11 +21,11 @@ const HomePage = ({ data }) => {
     <Layout
       title={title}
       description={description}>
-      <Intro
+      {/* <Intro
         dangerouslySetInnerHTML={{
           __html: intro,
         }}
-      />
+      /> */}
 
       <Board>
         <h3>人気の記事</h3>
@@ -100,8 +100,8 @@ const Board = styled.div`
   margin-top: var(--size-900);
   margin-bottom: var(--size-600);
   & h3 {
-    font-size: var(--size-500);
-    text-align: center;
+    font-size: var(--size-600);
+    padding-left: 1rem;
     & a {
       color: inherit;
       text-decoration: none;

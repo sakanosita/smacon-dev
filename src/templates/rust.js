@@ -18,10 +18,10 @@ const Rust = ({ data }) => {
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
         
-        <Intro>
+        {/* <Intro>
             <h1>Rust and Building Decendtalized WASM</h1>
             <p>WASM のブロックチェーンを使ったスマートコントラクト開発</p>
-        </Intro>
+        </Intro> */}
 
         <Board>
           <h3>人気の記事</h3>
@@ -76,8 +76,8 @@ const Board = styled.div`
   margin-top: var(--size-900);
   margin-bottom: var(--size-600);
   & h3 {
-    font-size: var(--size-500);
-    text-align: center;
+    font-size: var(--size-600);
+    padding-left: 1rem;
     & a {
       color: inherit;
       text-decoration: none;

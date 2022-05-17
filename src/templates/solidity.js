@@ -19,10 +19,10 @@ const Solidity = ({ data }) => {
   
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
-        <Intro>
+        {/* <Intro>
             <h1>Solidity and Writing Smart Contracts</h1>
             <p>イーサリアム (EVM) を使った Web3 の Dapps 開発入門</p>
-        </Intro>
+        </Intro> */}
 
         <Board>
           <h3>初心者向け</h3>
@@ -81,8 +81,8 @@ const Board = styled.div`
   margin-top: var(--size-900);
   margin-bottom: var(--size-600);
   & h3 {
-    font-size: var(--size-500);
-    text-align: center;
+    font-size: var(--size-600);
+    padding-left: 1rem;
     & a {
       color: inherit;
       text-decoration: none;

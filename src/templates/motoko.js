@@ -17,10 +17,10 @@ const Motoko = ({ data }) => {
   
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
-        <Intro>
+        {/* <Intro>
             <h1>Motoko and Making Canisters on DFINITY</h1>
             <p>DFINITY の Internet Computer (ICP) を使ったキャニスター開発</p>
-        </Intro>
+        </Intro> */}
 
         <Board>
           <h3>Motoko プログラミング学習</h3>
@@ -75,8 +75,8 @@ const Board = styled.div`
   margin-top: var(--size-900);
   margin-bottom: var(--size-600);
   & h3 {
-    font-size: var(--size-500);
-    text-align: center;
+    font-size: var(--size-600);
+    padding-left: 1rem;
     & a {
       color: inherit;
       text-decoration: none;

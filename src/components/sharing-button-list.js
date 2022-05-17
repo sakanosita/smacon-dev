@@ -47,8 +47,8 @@ export default ShareButtonList
    
 const Wrapper = styled.div`
   display: flex;
-  margin-top: var(--size-600);
-  margin-left: var(--size-400);
+  margin-top: 3rem;
+  margin-left: 1rem;
   padding-bottom: 24px;
 `
 

@@ -10,8 +10,8 @@ const Container = styled.div`
 
   @media screen and (max-width: 1000px) {
     & {
-      padding-left: var(--size-400);
-      padding-right: var(--size-400);
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
 `;

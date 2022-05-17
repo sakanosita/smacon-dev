@@ -2,20 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Container from './container';
-// import { useStaticQuery, graphql } from 'gatsby';
 
 const Header = () => {
-  // const { site } = useStaticQuery(
-  //   graphql`
-  //     query {
-  //       site {
-  //         siteMetadata {
-  //           title
-  //         }
-  //       }
-  //     }
-  //   `
-  // );
 
   return (
     <StyledHeader>
@@ -23,9 +11,9 @@ const Header = () => {
         <Link to="/">
           <img src="/media/smacondev-logo3.png" height="45"></img>
         </Link>
-
+      </HeaderWrapper>
+      <HeaderNavWrapper>
         <HeaderNavList>
-
           <HeaderNavListItem>
             <Link to="/solidity/">Solidity</Link>
           </HeaderNavListItem>
@@ -37,16 +25,8 @@ const Header = () => {
           <HeaderNavListItem>
             <Link to="/motoko/">Motoko</Link>
           </HeaderNavListItem>
-
-          {/* <HeaderNavListItem>
-            <Link to="/about">About</Link>
-          </HeaderNavListItem> */}
-
-          {/* <HeaderNavListItem>
-            <Link to="/contact">Contact</Link>
-          </HeaderNavListItem> */}
         </HeaderNavList>
-      </HeaderWrapper>
+      </HeaderNavWrapper>
     </StyledHeader>
   );
 };
@@ -73,7 +53,16 @@ const StyledHeader = styled.header`
 
 const HeaderWrapper = styled(Container)`
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 700px) {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+`;
+
+const HeaderNavWrapper = styled(Container)`
+  display: flex;
   justify-content: space-between;
 
   @media screen and (max-width: 700px) {
@@ -93,9 +82,13 @@ const StyledNavList = styled.ul`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: start;
   padding: 0;
   list-style-type: none;
+  
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+
   @media screen and (max-width: 700px) {
     margin-top: 0;
     margin-bottom: 0;
@@ -103,9 +96,7 @@ const StyledNavList = styled.ul`
 `;
 
 const StyledNavListItem = styled.li`
-  &:not(:first-of-type) {
-    margin-left: 2rem;
-  }
+
   & a {
     color: inherit;
     font-weight: bold;
@@ -114,10 +105,12 @@ const StyledNavListItem = styled.li`
     text-decoration: none;
     letter-spacing: 0.1rem;
   }
+
+  padding-left: 1rem;
+  padding-right: 1rem;
   @media screen and (max-width: 700px) {
-    &:not(:first-of-type) {
-      margin-left: 0.7rem;
-    }
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     & a {
       font-size: 80%;
     }

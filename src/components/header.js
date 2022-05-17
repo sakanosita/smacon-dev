@@ -55,6 +55,9 @@ const HeaderWrapper = styled(Container)`
   display: flex;
   justify-content: space-between;
 
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+
   @media screen and (max-width: 700px) {
     padding-left: 0.4rem;
     padding-right: 0.4rem;

@@ -63,7 +63,6 @@ const StyledPostList = styled.ul`
   padding: 0;
   list-style: none;
   display: grid;
-  justify-items: center;
   grid-gap: var(--size-400);
   grid-template-columns: repeat(auto-fit, minmax(35ch, 1fr));
 

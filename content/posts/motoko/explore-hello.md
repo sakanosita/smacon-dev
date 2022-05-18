@@ -1,5 +1,5 @@
 ---
-title: "DFINITY プロジェクトの始め方"
+title: "DFINITY 入門: Motoko プロジェクトの始め方"
 date: 2021-12-29 19:38
 permalink: /motoko-explore-hello
 level: beginner

@@ -168,7 +168,7 @@ export const pageQuery = graphql`
     }
 
     relatedPosts: allMarkdownRemark(
-      limit: 4
+      limit: 5
       sort: { fields: [frontmatter___date], order: DESC }
 
       filter: {

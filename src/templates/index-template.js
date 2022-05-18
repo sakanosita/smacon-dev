@@ -62,7 +62,7 @@ export default HomePage;
 const Board = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   & h3 {
     font-size: var(--size-600);

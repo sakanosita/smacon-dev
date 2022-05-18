@@ -59,7 +59,7 @@ const Board = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   & h3 {
     font-size: var(--size-600);
     padding-left: 1rem;

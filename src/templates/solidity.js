@@ -56,14 +56,19 @@ const Solidity = ({ pageContext, data }) => {
 export default Solidity;
 
 const BreadcrumbStyled = styled.div`
-
   margin-top: 0.6rem;
   margin-left: 1.2rem;
-
-  .breadcrumb__separator {
+  .breadcrumb__link {
+    color: gray;
+  }
+  .breadcrumb__link__active {
+    color: gray;
+  }
+  .breadcrumb__list__item {
     font-size: var(--size-300);
   }
-  nav .breadcrumb__list__item {
+  .breadcrumb__separator {
+    color: gray;
     font-size: var(--size-300);
   }
 `

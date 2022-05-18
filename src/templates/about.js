@@ -24,7 +24,6 @@ const AboutTemplate = ({ pageContext, data }) => {
       </BreadcrumbStyled>
       <AboutWrapper>
         <AboutImageWrapper image={profileImage} alt="" />
-
         <AboutCopy dangerouslySetInnerHTML={{ __html: html }} />
       </AboutWrapper>
     </Layout>
@@ -43,7 +42,8 @@ const AboutWrapper = styled.div`
   align-items: center;
   justify-content: space-around;
   height: 100%;
-  margin-top: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   @media screen and (max-width: 1000px) {
     & {

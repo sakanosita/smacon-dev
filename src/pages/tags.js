@@ -63,7 +63,7 @@ const Title = styled.h1`
 // `;
 
 const TagsList = styled.div`
-  padding-top: var(--size-900);
+  padding-top: 1rem;
   padding-bottom: var(--size-900);
   margin-right: auto;
   margin-top: auto;

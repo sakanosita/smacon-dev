@@ -65,13 +65,12 @@ const BreadcrumbStyled = styled.div`
 `
 
 const TagsTemplateWrapper = styled.div`
-  padding-top: var(--size-900);
-  margin-top: var(--size-600);
-  margin-bottom: var(--size-600);
+  margin-top: 3rem;
 `;
 
 const Title = styled.h1`
   font-size: var(--size-700);
+  margin-left: 1rem;
 `;
 
 export const pageQuery = graphql`

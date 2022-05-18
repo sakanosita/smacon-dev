@@ -77,6 +77,7 @@ const TagItem = styled.span`
   margin-bottom: 0.6rem;
   font-size: var(--size-400);
   white-space: nowrap;
+  font-weight: 700;
 
   & a {
     position: relative;

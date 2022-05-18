@@ -3,11 +3,25 @@ import Layout from '../components/layout';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 
-const Tags = ({ data }) => {
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
+
+const Tags = ({ pageContext, data }) => {
   const tags = data.allMarkdownRemark.group;
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
 
   return (
+
     <Layout title="キーワード一覧 | smacon.dev">
+      <BreadcrumbStyled>
+        <Breadcrumb
+          crumbs={crumbs}
+          crumbLabel='キーワード一覧'
+          crumbSeparator=' > '
+        />
+      </BreadcrumbStyled>
       <TagsTemplateWrapper>
         <Title>キーワード一覧</Title>
 
@@ -27,12 +41,24 @@ const Tags = ({ data }) => {
 
 export default Tags;
 
+const BreadcrumbStyled = styled.div`
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+  .breadcrumb__separator {
+    font-size: var(--size-300);
+  }
+  nav .breadcrumb__list__item {
+    font-size: var(--size-300);
+  }
+`
+
 const TagsTemplateWrapper = styled.div`
-  padding-top: var(--size-900);
+  margin-top: 3rem;
 `;
 
 const Title = styled.h1`
   font-size: var(--size-700);
+  margin-left: 1rem;
 `;
 
 // const TagItem = styled.div`

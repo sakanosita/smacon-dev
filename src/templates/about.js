@@ -3,13 +3,25 @@ import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
-const AboutTemplate = ({ data }) => {
+const AboutTemplate = ({ pageContext, data }) => {
   const { html, frontmatter } = data.markdownRemark;
   const profileImage = getImage(frontmatter.profile_image);
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
 
   return (
     <Layout title={frontmatter.title}>
+      <BreadcrumbStyled>
+        <Breadcrumb
+          crumbs={crumbs}
+          crumbLabel='About Me'
+          crumbSeparator=' > '
+        />
+      </BreadcrumbStyled>
       <AboutWrapper>
         <AboutImageWrapper image={profileImage} alt="" />
 
@@ -21,11 +33,23 @@ const AboutTemplate = ({ data }) => {
 
 export default AboutTemplate;
 
+const BreadcrumbStyled = styled.div`
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+  .breadcrumb__separator {
+    font-size: var(--size-300);
+  }
+  nav .breadcrumb__list__item {
+    font-size: var(--size-300);
+  }
+`
+
 const AboutWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  margin-top: 10rem;
 
   @media screen and (max-width: 1000px) {
     & {

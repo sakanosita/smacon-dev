@@ -1,6 +1,6 @@
 ---
 title: "DFINITY 入門: Motoko プログラミングの始め方"
-date: 2021-12-29 19:38
+date: 2022-05-18 19:38
 permalink: /motoko-explore-hello
 level: beginner
 tags:

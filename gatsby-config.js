@@ -254,6 +254,14 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        useAutoGen: true,
+        trailingSlashes: true,
+        autoGenHomeLabel: "Home"
+      }
+    },
     `gatsby-plugin-react-helmet`,
     'gatsby-redirect-from',
     'gatsby-plugin-meta-redirect' // make sure this is always the last one

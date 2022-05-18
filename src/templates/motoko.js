@@ -51,9 +51,8 @@ const Motoko = ({ pageContext, data }) => {
 export default Motoko;
 
 const BreadcrumbStyled = styled.div`
-  margin-top: 0.3rem;
-  margin-left: 0.8rem;
-
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
   .breadcrumb__separator {
     font-size: var(--size-300);
   }

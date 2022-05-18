@@ -44,19 +44,6 @@ export default Tags;
 const BreadcrumbStyled = styled.div`
   margin-top: 0.6rem;
   margin-left: 1.2rem;
-  .breadcrumb__link {
-    color: gray;
-  }
-  .breadcrumb__link__active {
-    color: gray;
-  }
-  .breadcrumb__list__item {
-    font-size: var(--size-300);
-  }
-  .breadcrumb__separator {
-    color: gray;
-    font-size: var(--size-300);
-  }
 `
 
 const TagsTemplateWrapper = styled.div`

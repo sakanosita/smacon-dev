@@ -152,6 +152,19 @@ p, li {
     margin-left: 0 !important;
 }
 
+.breadcrumb__link {
+  color: gray;
+}
+.breadcrumb__link__active {
+  color: gray;
+}
+.breadcrumb__list__item {
+  font-size: var(--size-300);
+}
+.breadcrumb__separator {
+  color: gray;
+  font-size: var(--size-300);
+}
 
 `;
 

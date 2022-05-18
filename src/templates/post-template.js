@@ -44,8 +44,8 @@ const PostTemplate = ({ data }) => {
 export default PostTemplate;
 
 const PostWrapper = styled.div`
-  padding-top: var(--size-900);
-  padding-bottom: var(--size-900);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 70ch;
@@ -56,8 +56,8 @@ const PostTitle = styled.h1`
 
   font-size: var(--size-800);
 
-  margin-top: var(--size-600);
-  margin-bottom: var(--size-900);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   
   @media screen and (max-width: 700px) {
     font-size: var(--size-700);

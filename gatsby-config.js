@@ -259,7 +259,7 @@ module.exports = {
       options: {
         useAutoGen: true,
         trailingSlashes: true,
-        autoGenHomeLabel: "Home"
+        autoGenHomeLabel: "トップ"
       }
     },
     `gatsby-plugin-react-helmet`,

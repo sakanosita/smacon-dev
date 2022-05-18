@@ -8,7 +8,7 @@ tags:
 description: |-
   DFINITY を使ったキャニスター開発の最初の一歩,
   Motoko チュートリアル 'Explore the default project' を日本語で解説,
-  初心者向けの Motoko プログラミングの学習。
+  初心者向けの ICP プログラミングの学習。
 ---
 
 このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。

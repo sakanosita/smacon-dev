@@ -5,6 +5,8 @@ import PostList from '../components/post-list';
 import ViewAllTags from '../components/view-all-tags';
 import styled from 'styled-components';
 import ShareButtonList from '../components/sharing-button-list';
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
 const TagsTemplate = ({ path, pageContext, data }) => {
   const site = data.site;
@@ -13,9 +15,32 @@ const TagsTemplate = ({ path, pageContext, data }) => {
   const posts = data.allMarkdownRemark.nodes;
   const title = `はじめてのスマートコントラクト開発 – '${tag}' の検索結果`;
 
+  const crumbs = [
+    {
+      pathname: '/',
+      crumbLabel: 'Home'
+    },
+    {
+      pathname: '/tags/',
+      crumbLabel: 'キーワード'
+    },
+    {
+      pathname: path,
+      crumbLabel: tag
+    }
+  ]
+
+  console.log(crumbs);
+
   return (
     <Layout title={title}>
-
+      <BreadcrumbStyled>
+        <Breadcrumb
+          crumbs={crumbs}
+          crumbLabel={tag}
+          crumbSeparator=' > '
+        />
+      </BreadcrumbStyled>
       <TagsTemplateWrapper>
         <Title>
           '{tag}' の検索結果
@@ -33,6 +58,11 @@ const TagsTemplate = ({ path, pageContext, data }) => {
 };
 
 export default TagsTemplate;
+
+const BreadcrumbStyled = styled.div`
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+`
 
 const TagsTemplateWrapper = styled.div`
   padding-top: var(--size-900);

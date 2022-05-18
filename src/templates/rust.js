@@ -4,8 +4,10 @@ import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
-const Rust = ({ data }) => {
+const Rust = ({ pageContext, data }) => {
   const site = data.site;
   const popularPosts = data.popularPosts.nodes;
   const updatePosts = data.updatePosts.nodes;
@@ -14,27 +16,51 @@ const Rust = ({ data }) => {
   const description = data.markdownRemark.frontmatter.description;
   const socialImage = data.markdownRemark.frontmatter.social_image ? `/og/${data.markdownRemark.frontmatter.social_image.relativePath}` : ''
   
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
+
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
 
-        <Board>
-          <h3>人気の記事</h3>
-          <PostList posts={popularPosts} />
-        </Board>
-        <Board>
-          <h3>最新の記事</h3>
-          <PostList posts={updatePosts} />
-        </Board>
-
-        <ShareButtonList
-          title={title}
-          url={`${site.siteMetadata.siteUrl}/rust/`}
+      <BreadcrumbStyled>
+        <Breadcrumb
+          crumbs={crumbs}
+          crumbLabel='Rust'
+          crumbSeparator=' > '
         />
+      </BreadcrumbStyled>
+
+      <Board>
+        <h3>人気の記事</h3>
+        <PostList posts={popularPosts} />
+      </Board>
+      <Board>
+        <h3>最新の記事</h3>
+        <PostList posts={updatePosts} />
+      </Board>
+
+      <ShareButtonList
+        title={title}
+        url={`${site.siteMetadata.siteUrl}/rust/`}
+      />
     </Layout>
   );
 };
 
 export default Rust;
+
+const BreadcrumbStyled = styled.div`
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+
+  .breadcrumb__separator {
+    font-size: var(--size-300);
+  }
+  nav .breadcrumb__list__item {
+    font-size: var(--size-300);
+  }
+`
 
 const Board = styled.div`
   display: flex;

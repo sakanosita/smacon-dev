@@ -4,8 +4,10 @@ import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
-const Motoko = ({ data }) => {
+const Motoko = ({ pageContext, data }) => {
   const site = data.site;
   const motokoPosts = data.motokoPosts.nodes;
   const dfinityPosts = data.dfinityPosts.nodes;
@@ -14,27 +16,50 @@ const Motoko = ({ data }) => {
   const description = data.markdownRemark.frontmatter.description;
   const socialImage = data.markdownRemark.frontmatter.social_image ? `/og/${data.markdownRemark.frontmatter.social_image.relativePath}` : ''
   
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
+
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
 
-        <Board>
-          <h3>Motoko プログラミング学習</h3>
-          <PostList posts={motokoPosts} />
-        </Board>
-        <Board>
-          <h3>Internet Computer 入門</h3>
-          <PostList posts={dfinityPosts} />
-        </Board>
-
-        <ShareButtonList
-          title={title}
-          url={`${site.siteMetadata.siteUrl}/motoko/`}
+      <BreadcrumbStyled>
+        <Breadcrumb
+          crumbs={crumbs}
+          crumbLabel='Motoko'
+          crumbSeparator=' > '
         />
+      </BreadcrumbStyled>
+
+      <Board>
+        <h3>Motoko プログラミング学習</h3>
+        <PostList posts={motokoPosts} />
+      </Board>
+      <Board>
+        <h3>Internet Computer 入門</h3>
+        <PostList posts={dfinityPosts} />
+      </Board>
+
+      <ShareButtonList
+        title={title}
+        url={`${site.siteMetadata.siteUrl}/motoko/`}
+      />
     </Layout>
   );
 };
 
 export default Motoko;
+
+const BreadcrumbStyled = styled.div`
+  margin-top: 0.6rem;
+  margin-left: 1.2rem;
+  .breadcrumb__separator {
+    font-size: var(--size-300);
+  }
+  nav .breadcrumb__list__item {
+    font-size: var(--size-300);
+  }
+`
 
 const Board = styled.div`
   display: flex;

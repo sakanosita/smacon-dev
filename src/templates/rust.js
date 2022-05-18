@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
-import ViewAllTags from '../components/view-all-tags';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 
@@ -17,11 +16,6 @@ const Rust = ({ data }) => {
   
   return (
     <Layout title={title} description={description} socialImage={socialImage}>
-        
-        {/* <Intro>
-            <h1>Rust and Building Decendtalized WASM</h1>
-            <p>WASM のブロックチェーンを使ったスマートコントラクト開発</p>
-        </Intro> */}
 
         <Board>
           <h3>人気の記事</h3>
@@ -41,32 +35,6 @@ const Rust = ({ data }) => {
 };
 
 export default Rust;
-
-const Intro = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 60ch;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 7rem;
-  margin-bottom: 5rem;
-  text-align: center;
-
-  & h1 {
-    font-size: var(--size-900);
-  }
-
-  & p {
-    font-size: var(--size-400);
-  }
-
-  @media screen and (max-width: 700px) {
-    & h1 {
-      font-size: var(--size-800);
-    }
-  }
-`;
 
 const Board = styled.div`
   display: flex;

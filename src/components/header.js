@@ -9,7 +9,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <Link to="/">
-          <img src="/media/logo.svg" height="45"></img>
+          <img src="/media/logo.svg" height="45" alt="smacon.dev logo"></img>
         </Link>
         <Link to="/tags/">
           <SearchIcon src="/media/search.png"></SearchIcon>

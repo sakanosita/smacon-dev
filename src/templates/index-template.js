@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import PostList from '../components/post-list';
 import styled from 'styled-components';
-import ViewAllTags from '../components/view-all-tags';
 import ShareButtonList from '../components/sharing-button-list';
 
 const HomePage = ({ data }) => {
@@ -13,7 +12,6 @@ const HomePage = ({ data }) => {
   const solidityPosts = data.solidityPosts.nodes;
   const rustPosts = data.rustPosts.nodes;
   const motokoPosts = data.motokoPosts.nodes;
-  const intro = data.markdownRemark.html;
   const title = data.markdownRemark.frontmatter.title;
   const description = data.markdownRemark.frontmatter.description;
 
@@ -21,11 +19,6 @@ const HomePage = ({ data }) => {
     <Layout
       title={title}
       description={description}>
-      {/* <Intro
-        dangerouslySetInnerHTML={{
-          __html: intro,
-        }}
-      /> */}
 
       <Board>
         <h3>人気の記事</h3>
@@ -65,32 +58,6 @@ const HomePage = ({ data }) => {
 };
 
 export default HomePage;
-
-const Intro = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 60ch;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-  text-align: center;
-
-  & h1 {
-    font-size: var(--size-900);
-  }
-
-  & p {
-    font-size: var(--size-400);
-  }
-
-  @media screen and (max-width: 700px) {
-    & h1 {
-      font-size: var(--size-800);
-    }
-  }
-`;
 
 const Board = styled.div`
   display: flex;

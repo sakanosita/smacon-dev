@@ -18,7 +18,7 @@ const Tags = ({ pageContext, data }) => {
       <BreadcrumbStyled>
         <Breadcrumb
           crumbs={crumbs}
-          crumbLabel='キーワード一覧'
+          crumbLabel='キーワード'
           crumbSeparator=' > '
         />
       </BreadcrumbStyled>

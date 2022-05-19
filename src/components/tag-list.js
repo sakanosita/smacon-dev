@@ -9,7 +9,9 @@ const TagList = ({ tags }) => {
         tags.map((tag) => {
           return (
             <TagItem key={tag}>
-              <Link to={`/tags/${tag}/`}>{tag}</Link>
+              <Link to={`/tags/${tag}/`}>
+                <StyledText>{tag}</StyledText>
+              </Link>
             </TagItem>
           );
         })}
@@ -23,8 +25,13 @@ const StyledTagList = styled.div`
   margin-top: 2rem;
 `
 
+const StyledText = styled.span`
+  opacity: 0.5;
+`;
+
 const TagItem = styled.span`
   display: inline-block;
+  font-weight: 600;
   margin-right: 0.6rem;
   margin-bottom: 0.6rem;
   // text-transform: uppercase;

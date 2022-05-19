@@ -12,9 +12,8 @@ tags:
   - EVM
   - Ethereum
 description: |-
-  Solidity のサンプルコード集 'Solidity by Example' の中で
-  簡単なスマートコントラクトの実装とデプロイを紹介、
-  初心者向けの Web3 プログラミング学習
+  初心者向けの Solidity プログラミング学習,
+  Solidity のサンプルコード集 'Solidity by Example' の中で簡単なスマートコントラクトの実装とデプロイを紹介
 ---
 
 このページはこんな人におすすめ

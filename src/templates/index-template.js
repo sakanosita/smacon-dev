@@ -27,19 +27,19 @@ const HomePage = ({ data }) => {
 
       <Board>
         <h3>
-          <Link to="/solidity/">Solidity プログラミング入門</Link>
+          <Link to="/solidity/">Solidity ではじめるスマートコントラクト入門<</Link>
         </h3>
         <PostList posts={solidityPosts} />
       </Board>
       <Board>
         <h3>
-          <Link to="/rust/">Rust プログラミング入門</Link>
+          <Link to="/rust/">Rust ではじめるスマートコントラクト入門</Link>
         </h3>
         <PostList posts={rustPosts} />
       </Board>
       <Board>
         <h3>
-          <Link to="/motoko/">Motoko プログラミング入門</Link>
+          <Link to="/motoko/">Motoko ではじめるキャニスター開発</Link>
         </h3>
         <PostList posts={motokoPosts} />
       </Board>

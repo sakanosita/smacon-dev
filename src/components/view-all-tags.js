@@ -18,8 +18,8 @@ const ViewAllTags = () => {
         `}
         to="/tags/"
     >
-      キーワード
       <SearchIcon src="/media/search.png"></SearchIcon>
+      キーワード
     </StyledLink>
   );
 };
@@ -27,6 +27,6 @@ const ViewAllTags = () => {
 export default ViewAllTags;
 
 const SearchIcon = styled.img`
-  margin-left: 0.6rem;
+  margin-right: 0.6rem;
   height: 1.4rem;
 `;

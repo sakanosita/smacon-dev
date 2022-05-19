@@ -12,7 +12,7 @@ const TagAll = ({ tags }) => {
       {tags && tags.map((tag) => (
       <TagItem key={tag.fieldValue}>
         <Link to={`/tags/${tag.fieldValue}/`}>
-          {tag.fieldValue}
+          <StyledText>{tag.fieldValue}</StyledText>
         </Link>
       </TagItem>
     ))}
@@ -67,6 +67,7 @@ const StyledTagAll = styled.div`
   max-width: 80ch;
   word-wrap: break-word;
 `
+
 const TagItem = styled.span`
   display: inline-block;
   margin-top: 0.6rem;
@@ -90,6 +91,10 @@ const TagItem = styled.span`
   & a:hover {
     background-color: rgba(255, 255, 255, 0.9);
   }
+`;
+
+const StyledText = styled.span`
+  opacity: 0.7;
 `;
 
 export const pageQuery = graphql`

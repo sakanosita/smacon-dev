@@ -7,7 +7,7 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
 const Tags = ({ pageContext, data }) => {
-  const tags = data.allMarkdownRemark.group;
+  const taggroup = data.allMarkdownRemark.group;
   const {
     breadcrumb: { crumbs },
   } = pageContext;
@@ -24,15 +24,15 @@ const Tags = ({ pageContext, data }) => {
 
       <TagsTemplateWrapper>
         <Title>キーワード一覧</Title>
-        <TagsList>
-          {tags && tags.map((tag) => (
+        <StyledTags>
+          {taggroup && taggroup.map((tag) => (
             <TagItem key={tag}>
               <Link to={`/tags/${tag.fieldValue}/`}>
                 {tag.fieldValue}
               </Link>
             </TagItem>
           ))}
-        </TagsList>
+        </StyledTags>
       </TagsTemplateWrapper>
     </Layout>
   );
@@ -54,14 +54,7 @@ const Title = styled.h1`
   margin-left: 1rem;
 `;
 
-// const TagItem = styled.div`
-//   & a {
-//     color: inherit;
-//     text-decoration: none;
-//   }
-// `;
-
-const TagsList = styled.div`
+const StyledTags = styled.div`
   padding-top: 1rem;
   padding-bottom: var(--size-900);
   margin-right: auto;

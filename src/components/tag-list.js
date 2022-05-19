@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
-const Tags = ({ tags }) => {
+const TagList = ({ tags }) => {
   return (
-    <TagsList>
+    <StyledTagList>
       {tags &&
         tags.map((tag) => {
           return (
@@ -13,13 +13,13 @@ const Tags = ({ tags }) => {
             </TagItem>
           );
         })}
-    </TagsList>
+    </StyledTagList>
   );
 };
 
-export default Tags;
+export default TagList;
 
-const TagsList = styled.div`
+const StyledTagList = styled.div`
   margin-top: 2rem;
 `
 

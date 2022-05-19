@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import RelatedList from '../components/related-list';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
-import Tags from '../components/tags';
+import TagList from '../components/tag-list';
 
 const PostTemplate = ({ data }) => {
   const site = data.site;
@@ -29,7 +29,7 @@ const PostTemplate = ({ data }) => {
         <ShareButtonList
           title={frontmatter.title}
           url={`${site.siteMetadata.siteUrl}${slug}`} />
-        <Tags tags={frontmatter.tags} />
+        <TagList tags={frontmatter.tags} />
 
         <Related>
           <h4>こちらもおすすめ</h4>

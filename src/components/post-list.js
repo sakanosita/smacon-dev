@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import Tags from './tags';
+import TagList from './tag-list';
 
 const PostList = ({ posts }) => {
   const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
@@ -54,7 +54,7 @@ const PostListItem = ({
         }}
       />
 
-      <Tags tags={tags} />
+      <TagList tags={tags} />
     </StyledPostListItem>
   );
 };

@@ -9,7 +9,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <Link to="/">
-          <img src="/media/logo.svg" height="48" alt="smacon.dev logo"></img>
+          <img src="/media/logo.svg" height="50" alt="smacon.dev logo"></img>
         </Link>
         <Link to="/tags/">
           <SearchIcon src="/media/search.png"></SearchIcon>
@@ -57,8 +57,8 @@ const HeaderWrapper = styled(Container)`
   display: flex;
   justify-content: space-between;
 
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 
   @media screen and (max-width: 700px) {
     padding-left: 0.4rem;
@@ -67,7 +67,7 @@ const HeaderWrapper = styled(Container)`
 `;
 const SearchIcon = styled.img`
   opacity: 0.5;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   margin-right: 1rem;
   height: 1.4rem;
 `;

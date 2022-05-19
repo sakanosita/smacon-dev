@@ -2,7 +2,8 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const StyledLink = styled(Link)`
-  padding: 0.8rem;
+  padding: 0.5rem;
+  padding-right: 1.2rem;
   color: inherit;
   background-color: rgba(255, 255, 255, 0.4);
   text-decoration: none;

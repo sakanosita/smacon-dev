@@ -49,7 +49,6 @@ const HeaderNavListItem = ({ children }) => {
 };
 
 const StyledHeader = styled.header`
-  margin-top: 0.2rem;
   background-color:  rgba(255, 255, 255, 0.8);
 
 `;
@@ -67,7 +66,7 @@ const HeaderWrapper = styled(Container)`
   }
 `;
 const SearchIcon = styled.img`
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
   margin-right: 1rem;
   height: 1.6rem;
 `;

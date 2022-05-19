@@ -21,3 +21,7 @@ https://starkware.co/starknet/
 ## Zero-Knowledge University (zku.ONE)
 
 https://zku.one/
+
+## ブロックチェーン的発想で社会を救う【オードリー・タン氏】
+
+https://www.coindeskjapan.com/148317/

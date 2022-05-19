@@ -9,7 +9,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <Link to="/">
-          <img src="/media/logo.svg" height="45" alt="smacon.dev logo"></img>
+          <img src="/media/logo.svg" height="48" alt="smacon.dev logo"></img>
         </Link>
         <Link to="/tags/">
           <SearchIcon src="/media/search.png"></SearchIcon>
@@ -49,7 +49,7 @@ const HeaderNavListItem = ({ children }) => {
 };
 
 const StyledHeader = styled.header`
-  padding-top: 0.3rem;
+  margin-top: 0.2rem;
   background-color:  rgba(255, 255, 255, 0.8);
 
 `;
@@ -69,7 +69,7 @@ const HeaderWrapper = styled(Container)`
 const SearchIcon = styled.img`
   margin-top: 0.4rem;
   margin-right: 1rem;
-  height: 2rem;
+  height: 1.6rem;
 `;
 
 const HeaderNavWrapper = styled(Container)`

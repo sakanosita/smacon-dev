@@ -14,12 +14,12 @@ const ViewAllTags = () => {
         display: flex;
         font-weight: bold;
         width: fit-content;
-        opacity: 0.6;
+        opacity: 0.5;
         `}
         to="/tags/"
     >
-      <SearchIcon src="/media/search.png"></SearchIcon>
       キーワード
+      <SearchIcon src="/media/search.png"></SearchIcon>
     </StyledLink>
   );
 };
@@ -27,6 +27,6 @@ const ViewAllTags = () => {
 export default ViewAllTags;
 
 const SearchIcon = styled.img`
-  margin-right: 0.4rem;
+  margin-left: 0.6rem;
   height: 1.4rem;
 `;

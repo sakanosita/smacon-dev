@@ -6,6 +6,19 @@ import styled from 'styled-components';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
+const TagAll = ({ tags }) => {
+  return (
+    <StyledTagAll>
+      {tags && tags.map((tag) => (
+      <TagItem key={tag.fieldValue}>
+        <Link to={`/tags/${tag.fieldValue}/`}>
+          {tag.fieldValue}
+        </Link>
+      </TagItem>
+    ))}
+    </StyledTagAll>
+  )
+}
 const Tags = ({ pageContext, data }) => {
   const tags = data.allMarkdownRemark.group;
   const {
@@ -24,15 +37,7 @@ const Tags = ({ pageContext, data }) => {
 
       <TagsTemplateWrapper>
         <Title>キーワード一覧</Title>
-        <StyledTags>
-          {tags && tags.map((tag) => (
-            <TagItem key={tag.fieldValue}>
-              <Link to={`/tags/${tag.fieldValue}/`}>
-                {tag.fieldValue}
-              </Link>
-            </TagItem>
-          ))}
-        </StyledTags>
+        <TagAll tags={tags} />
       </TagsTemplateWrapper>
     </Layout>
   );
@@ -54,7 +59,7 @@ const Title = styled.h1`
   margin-left: 1rem;
 `;
 
-const StyledTags = styled.div`
+const StyledTagAll = styled.div`
   padding-top: 1rem;
   padding-bottom: var(--size-900);
   margin-right: auto;

@@ -26,7 +26,7 @@ const Tags = ({ pageContext, data }) => {
         <Title>キーワード一覧</Title>
         <StyledTags>
           {tags && tags.map((tag) => (
-            <TagItem key={tag}>
+            <TagItem key={tag.fieldValue}>
               <Link to={`/tags/${tag.fieldValue}/`}>
                 {tag.fieldValue}
               </Link>

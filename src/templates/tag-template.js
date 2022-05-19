@@ -46,11 +46,12 @@ const TagsTemplate = ({ path, pageContext, data }) => {
         <PostList posts={posts} />
       </TagsTemplateWrapper>
 
-      <ViewAllTags/>
       <ShareButtonList
           title={title}
           url={`${site.siteMetadata.siteUrl}${path}`}
         />
+
+      <ViewAllTags/>
     </Layout>
   );
 };

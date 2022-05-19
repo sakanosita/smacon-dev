@@ -164,6 +164,8 @@ p, li {
 .breadcrumb__separator {
   color: gray;
   font-size: var(--size-300);
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
 }
 
 `;

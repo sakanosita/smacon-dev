@@ -7,7 +7,7 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
 const Tags = ({ pageContext, data }) => {
-  const taggroup = data.allMarkdownRemark.group;
+  const tags = data.allMarkdownRemark.group;
   const {
     breadcrumb: { crumbs },
   } = pageContext;
@@ -25,7 +25,7 @@ const Tags = ({ pageContext, data }) => {
       <TagsTemplateWrapper>
         <Title>キーワード一覧</Title>
         <StyledTags>
-          {taggroup && taggroup.map((tag) => (
+          {tags && tags.map((tag) => (
             <TagItem key={tag}>
               <Link to={`/tags/${tag.fieldValue}/`}>
                 {tag.fieldValue}

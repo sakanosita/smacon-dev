@@ -67,8 +67,9 @@ const HeaderWrapper = styled(Container)`
 `;
 const SearchIcon = styled.img`
   opacity: 0.5;
-  margin-top: 0.7rem;
-  margin-right: 1rem;
+  margin-top: 0.6rem;
+  margin-left: 0.5rem;
+  margin-right: 0.8rem;
   height: 1.4rem;
 `;
 

@@ -27,7 +27,7 @@ const HomePage = ({ data }) => {
 
       <Board>
         <h3>
-          <Link to="/solidity/">Solidity ではじめるスマートコントラクト入門<</Link>
+          <Link to="/solidity/">Solidity ではじめるスマートコントラクト入門</Link>
         </h3>
         <PostList posts={solidityPosts} />
       </Board>

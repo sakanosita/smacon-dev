@@ -67,8 +67,8 @@ const HeaderWrapper = styled(Container)`
   }
 `;
 const SearchIcon = styled.img`
-  padding-top: 0.4rem;
-  padding-right: 1rem;
+  margin-top: 0.4rem;
+  margin-right: 1rem;
   height: 2rem;
 `;
 

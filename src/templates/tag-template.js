@@ -30,8 +30,6 @@ const TagsTemplate = ({ path, pageContext, data }) => {
     }
   ]
 
-  console.log(crumbs);
-
   return (
     <Layout title={title}>
       <BreadcrumbStyled>

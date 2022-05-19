@@ -10,10 +10,9 @@ const Tags = ({ pageContext, data }) => {
   const tags = data.allMarkdownRemark.group;
   const {
     breadcrumb: { crumbs },
-  } = pageContext
+  } = pageContext;
 
   return (
-
     <Layout title="キーワード一覧 | smacon.dev">
       <BreadcrumbStyled>
         <Breadcrumb
@@ -22,12 +21,12 @@ const Tags = ({ pageContext, data }) => {
           crumbSeparator=' > '
         />
       </BreadcrumbStyled>
+
       <TagsTemplateWrapper>
         <Title>キーワード一覧</Title>
-
         <TagsList>
-          {tags.map((tag) => (
-            <TagItem>
+          {tags && tags.map((tag) => (
+            <TagItem key={tag}>
               <Link to={`/tags/${tag.fieldValue}/`}>
                 {tag.fieldValue}
               </Link>

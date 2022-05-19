@@ -1,6 +1,6 @@
 ---
 template: "solidity"
-title: "Solidity スマートコントラクト入門 | Web3 プログラミング学習"
+title: "Solidity ではじめるスマートコントラクト入門 | Web3 プログラミング学習"
 date: 2022-05-17 20:38
 social_image: /og/solidity-3.png
 description: |-

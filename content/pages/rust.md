@@ -1,6 +1,6 @@
 ---
 template: "rust"
-title: "Rust スマートコントラクト入門 | Web3 プログラミング学習"
+title: "Rust ではじめるスマートコントラクト入門 | Web3 プログラミング学習"
 date: 2022-05-17 10:38
 social_image: /og/rust-2.png
 description: |-

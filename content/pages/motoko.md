@@ -1,6 +1,6 @@
 ---
 template: "motoko"
-title: "Motoko キャニスター開発入門 | ICP プログラミング学習"
+title: "Motoko ではじめるキャニスター開発入門 | ICP プログラミング学習"
 date: 2022-05-17 10:38
 social_image: /og/internet-computer-2.png
 description: |-

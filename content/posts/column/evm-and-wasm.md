@@ -5,6 +5,7 @@ permalink: /evm-and-wasm
 tags:
   - EVM
   - WASM
+  - コラム
 description: |-
   ブロックチェーンにおける EVM (Ethereum Virtual Machine) と WASM の特徴を学んで違いを理解しよう
 ---

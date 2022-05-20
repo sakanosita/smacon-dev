@@ -6669,6 +6669,13 @@
     "prop-types" "15.8.1"
     "wildcard-match" "5.1.2"
 
+"gatsby-plugin-canonical-urls@^4.14.0":
+  "integrity" "sha512-ab/x5t9G5jtpfRuxJqc3h6FlVqjvq/1m4vCrU/Vw4zbQLJU9WZDumRVE6s/k8dBlaFuhSNkCZAimy8noPs/LEQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-canonical-urls/-/gatsby-plugin-canonical-urls-4.14.0.tgz"
+  "version" "4.14.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
 "gatsby-plugin-feed@^4.14.0":
   "integrity" "sha512-1s9R4usqdqHQzDkQyo2cYwT23AB3KhugefpqnL1A2biDUvy0Dmu2tHnUXMYb62BqcRF3YTSbpUTxkdw8bxcamg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-feed/-/gatsby-plugin-feed-4.14.0.tgz"

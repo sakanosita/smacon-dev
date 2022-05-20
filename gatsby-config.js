@@ -262,6 +262,12 @@ module.exports = {
         autoGenHomeLabel: "Home"
       }
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://smacon.dev`,
+      }
+    },
     `gatsby-plugin-react-helmet`,
     'gatsby-redirect-from',
     'gatsby-plugin-meta-redirect' // make sure this is always the last one

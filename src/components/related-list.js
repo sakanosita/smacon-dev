@@ -78,7 +78,8 @@ const StyledPostListItem = styled.li`
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 1rem;
+  min-height: 5rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);

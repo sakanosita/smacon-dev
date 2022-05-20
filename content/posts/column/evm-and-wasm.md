@@ -27,10 +27,10 @@ iPhone と Android に喩えるとわかりやすいかもしれません。
 
 **EVM**
 
-- Ethereum
-- Avalanche
-- Polygon
-- BNB Chain
+- [Ethereum](https://ethereum.org/)
+- [Avalanche](https://www.avax.network/)
+- [Polygon](https://polygon.technology/)
+- [BNB Chain (旧 BSC)](https://www.bnbchain.world/)
 
 **WASM**
 

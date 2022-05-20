@@ -7,11 +7,11 @@ redirect_from:
 social_image: /media/merkle-tree/4.png
 pinned: 1
 tags:
+  - コラム
   - Solidity
   - Ethereum
   - EVM
   - Merkle Tree
-  - コラム
 description: |-
   ブロックチェーンのスマートコントラクトで使うマークルツリーとは？
   Keccak256 のサンプルコードを使ってツリー構造データのハッシュを計算してみよう

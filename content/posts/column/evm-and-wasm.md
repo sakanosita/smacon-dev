@@ -3,9 +3,9 @@ title: "EVM と WASM の違い | Web3 プログラミング, スマートコン�
 date: 2022-05-20 12:00:00
 permalink: /evm-and-wasm
 tags:
+  - コラム
   - EVM
   - WASM
-  - コラム
 description: |-
   ブロックチェーンにおける EVM (Ethereum Virtual Machine) と WASM の特徴を学んで違いを理解しよう
 ---

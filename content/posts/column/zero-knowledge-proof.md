@@ -55,9 +55,9 @@ ZK Rollup の ZK はゼロ知識証明の Zero Knowledge です。
 
 ZK Rollup で使うゼロ知識証明には SNARK と STARK の 2 つのタイプがあります。
 
-[Zero-Knowledge Proofs: STARKs vs SNARKs](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)
+**[Zero-Knowledge Proofs: STARKs vs SNARKs](https://consensys.net/blog/blockchain-explained/zero-knowledge-proofs-starks-vs-snarks/)**
 
-[zk-SNARKs and zk-STARKs Explained](https://academy.binance.com/en/articles/zk-snarks-and-zk-starks-explained)
+**[zk-SNARKs and zk-STARKs Explained](https://academy.binance.com/en/articles/zk-snarks-and-zk-starks-explained)**
 
 SNARK と STARK にはそれぞれメリットがありますが、STARK のほうが SNARK よりあとに考案されており、SNARK のいくつかの弱点を補っています。
 

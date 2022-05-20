@@ -106,8 +106,8 @@ body {
   // font-family:  var(--font-base);
   color: #37292C;
   background-attachment: fixed;
-  background-color: #d9e4f5;
-  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  background-color: #c9d4e5;
+  background-image: linear-gradient(315deg, #c9d4e5 0%, #d5d3d6 74%);
 
 }
 

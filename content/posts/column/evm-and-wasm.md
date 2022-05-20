@@ -35,7 +35,7 @@ iPhone と Android に喩えるとわかりやすいかもしれません。
 **WASM**
 
 - Solana
-- NEAR
+- NEAR Protocol
 - Internet Computer
 
 ## 開発言語

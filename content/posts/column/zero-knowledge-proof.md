@@ -16,11 +16,11 @@ description: |-
 
 開発するためには数学やプログラミング、あるいはブロックチェーンの知識が必要ですが、ゼロ知識証明の概念を理解したり実際に使うことは誰にでもできます。
 
+### YouTube
+
 YouTube のこの動画では、子供でもわかるようにゼロ知識証明を説明しています。
 
 日本語字幕はまだありませんが、YouTube の自動翻訳を使えば理解の助けになると思います。
-
-### YouTube
 
 **[Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED](https://www.youtube.com/watch?v=fOGdb1CTu5c)**
 

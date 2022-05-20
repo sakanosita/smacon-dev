@@ -11,3 +11,5 @@ description: |-
 ---
 
 [Wormhole](https://solana.com/ja/wormhole)
+
+[Blockchain Bridges: Building Networks of Cryptonetworks](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8)

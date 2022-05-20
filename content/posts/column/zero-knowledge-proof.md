@@ -34,7 +34,7 @@ YouTube のこの動画では、子供でもわかるようにゼロ知識証明
 
 **[ブロックチェーン的発想で社会を救う【オードリー・タン氏】](https://www.coindeskjapan.com/148317/)**
 
-## Zero-Knowledge University (zku.ONE)
+# Zero-Knowledge University (zku.ONE)
 
 ZKU (Zero-Knowledge University) ではオンラインでゼロ知識証明を体系的に学ぶことができるようです。
 

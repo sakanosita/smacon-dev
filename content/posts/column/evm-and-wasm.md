@@ -3,7 +3,6 @@ title: "EVM と WASM の違い | Web3 プログラミング, スマートコン�
 date: 2022-05-20 12:00:00
 permalink: /evm-and-wasm
 tags:
-  - コラム
   - EVM
   - WASM
 description: |-

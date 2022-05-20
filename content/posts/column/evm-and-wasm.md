@@ -31,6 +31,9 @@ iPhone と Android に喩えるとわかりやすいかもしれません。
 - [Avalanche](https://www.avax.network/)
 - [Polygon](https://polygon.technology/)
 - [BNB Chain (旧 BSC)](https://www.bnbchain.world/)
+- [Astar Network](https://astar.network/)
+- [Aurora](https://aurora.dev/)
+- [Celo](https://celo.org/)
 
 **WASM**
 

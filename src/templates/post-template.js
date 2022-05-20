@@ -168,6 +168,7 @@ export const pageQuery = graphql`
     }
     relatedPosts: allMarkdownRemark(
       limit: 5
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: {
           unlisted: { ne: true }

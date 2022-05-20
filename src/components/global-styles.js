@@ -104,6 +104,7 @@ body {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
     helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   // font-family:  var(--font-base);
+  // font-family: "m plus 1p",sans-serif;
   color: #27191C;
   background-attachment: fixed;
   background-color: #d4e0f0;

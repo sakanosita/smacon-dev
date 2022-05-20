@@ -4,6 +4,9 @@ date: 2022-05-20 12:00:00
 permalink: /zero-knowledge-proof
 tags:
   - ゼロ知識証明
+  - STARK
+  - SNARK
+  - Layer2
 description: |-
   ZKP (Zero Knowledge Proof) について YouTube や事例をもとに理解しよう。
   ZKU (Zero Knowledge University) で学んだり、Starkware ブロックチェーンで体験しよう。

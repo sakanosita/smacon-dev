@@ -10,7 +10,7 @@ const PostTemplate = ({ data }) => {
   const site = data.site;
   const { frontmatter, excerpt, html } = data.markdownRemark;
   const slug = data.markdownRemark.fields.slug;
-  const relatedPosts = data.relatedPosts.nodes;
+  var relatedPosts = data.relatedPosts.nodes.length ? data.relatedPosts.nodes : data.latestPosts.nodes;
 
   return (
     <Layout
@@ -166,7 +166,6 @@ export const pageQuery = graphql`
         }
       }
     }
-
     relatedPosts: allMarkdownRemark(
       limit: 5
       sort: { fields: [frontmatter___date], order: DESC }
@@ -175,6 +174,29 @@ export const pageQuery = graphql`
         frontmatter: {
           unlisted: { ne: true }
           tags: { in: $blogTags }
+        }
+        fields: {
+          slug: { ne: $slug }
+          contentType: { eq: "posts" }
+        }
+      }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+        }
+      }
+    }
+    latestPosts: allMarkdownRemark(
+      limit: 5
+      sort: { fields: [frontmatter___date], order: DESC }
+
+      filter: {
+        frontmatter: {
+          unlisted: { ne: true }
         }
         fields: {
           slug: { ne: $slug }

@@ -65,6 +65,8 @@ ZK Rollup で使うゼロ知識証明には SNARK と STARK の 2 つのタイ�
 
 **[zk-SNARKs and zk-STARKs Explained](https://academy.binance.com/en/articles/zk-snarks-and-zk-starks-explained)**
 
+**[zkSNARKs vs zkSTARKs: a primer](https://pseudotheos.mirror.xyz/_LAi4cCFz2gaC-3WgNmri1eTvckA32L7v31A8saJvqg)**
+
 SNARK と STARK にはそれぞれメリットがありますが、STARK のほうが SNARK よりあとに考案されており、SNARK のいくつかの弱点を補っています。
 
 |                      | SNARK | STARK |

@@ -8,5 +8,7 @@ tags:
   - IBC
   - 相互運用性
 description: |-
-  ブロックチェーンにおける EVM (Ethereum Virtual Machine) と WASM の特徴を学んで違いを理解しよう
+  ブロックチェーンの相互運用性を理解しよう。
+  Polkadot の XCM と Cosmos のIBC の違い
+  クロスチェーンブリッジとの違い
 ---

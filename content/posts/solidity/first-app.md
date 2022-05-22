@@ -24,7 +24,7 @@ description: |-
 
 Solidity by Example のサンプルコードを使ってスマートコントラクトを作る方法を解説します。
 
-[First Application (Solidity by Examples)](https://solidity-by-example.org/first-app/)
+[First Application (Solidity by Example)](https://solidity-by-example.org/first-app/)
 
 Hardhat を使ったことがない方はこちらからどうぞ
 

@@ -27,7 +27,7 @@ description: |-
 
 Solidity by Example のサンプルコードを使ってスマートコントラクトを作る方法を解説します。
 
-[Merkle Tree (Solidity by Examples)](https://solidity-by-example.org/app/merkle-tree/)
+[Merkle Tree (Solidity by Example)](https://solidity-by-example.org/app/merkle-tree/)
 
 Hardhat を使ったことがない方はこちらからどうぞ
 

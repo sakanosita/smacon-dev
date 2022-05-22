@@ -19,7 +19,7 @@ description: |-
 この記事で紹介するサイトやツールの一覧
 
 - CryptoZombies (クリプトゾンビ)
-- Solidity by Examples
+- Solidity by Example
   - Remix
   - Hardhat
 - イーサリアム navi
@@ -80,7 +80,13 @@ https://solidity-by-example.org/
 Solidty をある程度学んだら、次にやるべきことは自分でコンパイルして動かしてみることです。
 
 サンプルコードをコンパイルして、テストネットにデプロイしたり実行してみましょう。
-テストネットなら誰でも無料でトークンをもらえるので、それを使うことでデプロイできます。
+Solidity by Example のうち、いつくかのサンプルコードを当サイトでも解説しています。
+
+- [はじめてのイーサリアム Dapps 開発](/posts/first-app)
+- [NFT プログラミング (ERC721)](/posts/erc721)
+- [オラクルの基本的な使い方（Chainlink Data Feeds)](/posts/price-oracle)
+- [Merkle Proof（マークルツリーと Keccak256）](/posts/merkle-tree))
+- [定義したイベントを発行してブロックチェーンに記録](/posts/events
 
 実際にビルドしたり、デプロイすればいろんなエラーに必ずぶつかります。
 しかし、プログラマにとって大事なことは言語の文法を知っていることではなく問題を解決する力です。

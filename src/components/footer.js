@@ -9,7 +9,7 @@ const Footer = () => {
     <StyledFooter>
       <FooterWrapper>
         <SocialLinks />
-        <Link to="/about">© 2021 Moto Sakanosita</Link>
+        <Link to="/about">© 2021 Sakanosita ICP Labs</Link>
       </FooterWrapper>
     </StyledFooter>
   );

@@ -86,7 +86,7 @@ Solidity by Example のうち、いつくかのサンプルコードを当サイ
 - [NFT プログラミング (ERC721)](/posts/erc721)
 - [オラクルの基本的な使い方（Chainlink Data Feeds)](/posts/price-oracle)
 - [Merkle Proof（マークルツリーと Keccak256）](/posts/merkle-tree))
-- [定義したイベントを発行してブロックチェーンに記録](/posts/events
+- [定義したイベントを発行してブロックチェーンに記録](/posts/solidity-events)
 
 実際にビルドしたり、デプロイすればいろんなエラーに必ずぶつかります。
 しかし、プログラマにとって大事なことは言語の文法を知っていることではなく問題を解決する力です。

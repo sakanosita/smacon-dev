@@ -23,9 +23,17 @@ description: |-
 
 Solidity by Example の[サンプルコード](https://solidity-by-example.org/events/)を使ってスマートコントラクトを作る方法を解説します。
 
-Hardhat を使ったことがない方は[こちら](/posts/hardhat)からどうぞ
+以下のページでほかのサンプルコードも解説しています。
 
-このページで[実際に使ったソースコード](https://github.com/smacon-dev/solidity-example/tree/main/events)を GitHub からダウンロードできます。
+- [はじめてのイーサリアム Dapps 開発](/posts/first-app)
+- [NFT プログラミング (ERC721)](/posts/erc721)
+- [オラクルの基本的な使い方（Chainlink Data Feeds)](/posts/price-oracle)
+- [Merkle Proof（マークルツリーと Keccak256）](/posts/merkle-tree))
+- [定義したイベントを発行してブロックチェーンに記録](/posts/solidity-events)
+
+Hardhat を使ったことがない方は以下の記事も合わせてご覧ください。
+
+- [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)
 
 # 新しいプロジェクトを作る
 
@@ -204,3 +212,5 @@ test()を実行したらトランザクションが完了するまで待ちま�
 トランザクションが Success になったら Events タブを開くと、イベントのログを見ることができます。
 
 ![Etherscan](/media/events/2.png)
+
+このページで[実際に使ったソースコード](https://github.com/smacon-dev/solidity-example/tree/main/events)を GitHub からダウンロードできます。

@@ -22,15 +22,15 @@ description: |-
 - 簡単なスマートコントラクトの作り方を知りたい
 - Hardhat を使った Solidity のテスト方法を知りたい
 
+このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/first-app)からダウンロードできます。
+
 Solidity by Example のサンプルコードを使ってスマートコントラクトを作る方法を解説します。
 
 [First Application (Solidity by Example)](https://solidity-by-example.org/first-app/)
 
-Hardhat を使ったことがない方はこちらからどうぞ
+Hardhat を使ったことがない方は先にこちらもご覧ください。
 
 [Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
-
-このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/first-app)からダウンロードできます。
 
 # 新しい Hardhat プロジェクトを作る
 

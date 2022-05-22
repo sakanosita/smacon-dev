@@ -52,7 +52,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const tags = result.data.tagsGroup.group;
   const allMarkdownNodes = result.data.allMarkdownRemark.nodes;
 
-  const blogMarkdownNodes = allMarkdownNodes.filter(
+  const postMarkdownNodes = allMarkdownNodes.filter(
     (node) => node.fields.contentType === `posts`
   );
 
@@ -60,20 +60,20 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     (node) => node.fields.contentType === `pages`
   );
 
-  if (blogMarkdownNodes.length > 0) {
-    blogMarkdownNodes.forEach((node, index) => {
+  if (postMarkdownNodes.length > 0) {
+    postMarkdownNodes.forEach((node, index) => {
       let prevSlug = null;
       let nextSlug = null;
       let blogTags = [];
 
-      blogTags = blogMarkdownNodes[index].frontmatter.tags;
+      blogTags = postMarkdownNodes[index].frontmatter.tags;
 
       if (index > 0) {
-        prevSlug = blogMarkdownNodes[index - 1].fields.slug;
+        prevSlug = postMarkdownNodes[index - 1].fields.slug;
       }
 
-      if (index < blogMarkdownNodes.length - 1) {
-        nextSlug = blogMarkdownNodes[index + 1].fields.slug;
+      if (index < postMarkdownNodes.length - 1) {
+        nextSlug = postMarkdownNodes[index + 1].fields.slug;
       }
 
       createPage({

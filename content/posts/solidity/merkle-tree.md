@@ -29,11 +29,17 @@ Solidity by Example のサンプルコードを使ってスマートコントラ
 
 [Merkle Tree (Solidity by Example)](https://solidity-by-example.org/app/merkle-tree/)
 
-Hardhat を使ったことがない方はこちらからどうぞ
+以下のページでほかのサンプルコードも解説しています。
 
-[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+- [はじめてのイーサリアム Dapps 開発](/posts/first-app)
+- [NFT プログラミング (ERC721)](/posts/erc721)
+- [オラクルの基本的な使い方（Chainlink Data Feeds)](/posts/price-oracle)
+- [Merkle Proof（マークルツリーと Keccak256）](/posts/merkle-tree))
+- [定義したイベントを発行してブロックチェーンに記録](/posts/solidity-events)
 
-このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/merkle-tree)からダウンロードできます。
+Hardhat を使ったことがない方は以下の記事も合わせてご覧ください。
+
+- [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)
 
 # 新しいプロジェクトを作る
 
@@ -332,3 +338,5 @@ node5 と node6 から計算した"074b..."が root のハッシュ値です。
 
 Solidity の keccak256() と[Keccak256 Online](https://emn178.github.io/online-tools/keccak_256.html)
 で計算したハッシュ値が一致していることを確認できました。
+
+このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/solidity-example/tree/main/merkle-tree)からダウンロードできます。

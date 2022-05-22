@@ -18,7 +18,7 @@ const AboutTemplate = ({ pageContext, data }) => {
       <BreadcrumbStyled>
         <Breadcrumb
           crumbs={crumbs}
-          crumbLabel='About Me'
+          crumbLabel='About Us'
           crumbSeparator=' > '
         />
       </BreadcrumbStyled>

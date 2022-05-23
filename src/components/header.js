@@ -9,7 +9,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <Link to="/">
-          <img src="/media/logo.svg" height="50" alt="smacon.dev logo"></img>
+          <img src="/media/logo.svg" height="55" alt="smacon.dev logo"></img>
         </Link>
         <Link to="/tags/">
           <SearchIcon src="/media/search.png"></SearchIcon>
@@ -107,12 +107,15 @@ const StyledNavList = styled.ul`
 `;
 
 const StyledNavListItem = styled.li`
-
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",
+    "Segoe UI","Hiragino Kaku Gothic ProN","Hiragino Sans",
+    Arial,Meiryo,sans-serif;
+  
   & a {
     color: inherit;
+    font-size: var(--size-300);
     font-weight: bold;
     text-transform: uppercase;
-    font-size: var(--size-300);
     text-decoration: none;
     letter-spacing: 0.1rem;
   }

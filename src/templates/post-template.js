@@ -60,7 +60,7 @@ const PostTitle = styled.h1`
   margin-bottom: 4rem;
   
   @media screen and (max-width: 700px) {
-    font-size: var(--size-700);
+    font-size: var(--size-500);
   }
 `;
 

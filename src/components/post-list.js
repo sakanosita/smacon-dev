@@ -79,7 +79,7 @@ const StyledPostListItem = styled.li`
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1.2rem;
   padding-bottom: 0.6rem;
   margin-bottom: 0.6rem;
   max-width: 500px;
@@ -91,7 +91,9 @@ const StyledPostListItem = styled.li`
   &:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
-
+  @media screen and (max-width: 500px) {
+    padding: 0.8rem;
+  }
 `;
 
 const PostListTitle = styled.h2`

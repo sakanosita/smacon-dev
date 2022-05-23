@@ -27,6 +27,9 @@ const StyledTagList = styled.div`
 
 const StyledText = styled.span`
   opacity: 0.5;
+  @media screen and (max-width: 700px) {
+    opacity: 0.9;
+  }
 `;
 
 const TagItem = styled.span`
@@ -51,5 +54,10 @@ const TagItem = styled.span`
 
   & a:hover {
     background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: 85%;
+    font-weight: 100;
   }
 `;

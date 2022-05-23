@@ -81,7 +81,7 @@ const StyledPostListItem = styled.li`
   flex-direction: column;
   padding: 1.2rem;
   padding-bottom: 0.6rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
   max-width: 500px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.4);
@@ -92,7 +92,7 @@ const StyledPostListItem = styled.li`
     background-color: rgba(255, 255, 255, 0.5);
   }
   @media screen and (max-width: 500px) {
-    padding: 0.8rem;
+    padding: 1rem;
   }
 `;
 

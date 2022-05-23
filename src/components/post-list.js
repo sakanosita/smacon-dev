@@ -112,6 +112,10 @@ const PostListTitle = styled.h2`
     left: 0;
     right: 0;
   }
+
+  @media screen and (max-width: 700px) {
+    font-size: var(--size-500);
+  }
 `;
 
 const PostListExcerpt = styled.p`

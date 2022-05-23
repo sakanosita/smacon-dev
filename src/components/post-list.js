@@ -91,9 +91,6 @@ const StyledPostListItem = styled.li`
   &:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  @media screen and (max-width: 500px) {
-    padding: 1rem;
-  }
 `;
 
 const PostListTitle = styled.h2`

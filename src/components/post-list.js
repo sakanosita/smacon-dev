@@ -61,6 +61,8 @@ const PostListItem = ({
 
 const StyledPostList = styled.ul`
   padding: 0;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
   list-style: none;
   display: grid;
   grid-gap: var(--size-400);

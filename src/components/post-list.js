@@ -114,7 +114,7 @@ const PostListTitle = styled.h2`
   }
 
   @media screen and (max-width: 700px) {
-    font-size: var(--size-500);
+    font-size: var(--size-400);
   }
 `;
 

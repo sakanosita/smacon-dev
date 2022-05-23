@@ -28,7 +28,7 @@ const StyledTagList = styled.div`
 const StyledText = styled.span`
   opacity: 0.5;
   @media screen and (max-width: 700px) {
-    opacity: 0.9;
+    opacity: 0.5;
   }
 `;
 
@@ -58,6 +58,6 @@ const TagItem = styled.span`
 
   @media screen and (max-width: 700px) {
     font-size: 85%;
-    font-weight: 400;
+    font-weight: 600;
   }
 `;

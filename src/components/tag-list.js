@@ -57,7 +57,7 @@ const TagItem = styled.span`
   }
 
   @media screen and (max-width: 700px) {
-    font-size: 75%;
+    font-size: 85%;
     font-weight: 100;
   }
 `;

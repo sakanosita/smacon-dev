@@ -30,7 +30,9 @@ description: |-
 
 [Deploy a "Hello World" Dapp in 10 Minutes](https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins)
 
-Internet Computer は 2021 年 5 月にローンチしたサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれる、革新的な技術を使っています。インターネットそのものを TCP/IP のレイヤーから見直して再設計しており、裏側ではブロックチェーンの技術を使っています。
+Internet Computer は 2021 年 5 月にローンチしたサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれる、革新的な技術を使っています。
+
+インターネットそのものを TCP/IP のレイヤーから見直して再設計しており、裏側ではブロックチェーンの技術を使っています。
 
 誰でもパソコンさえあれば、無料で簡単に始めることができるので、まずは実際にやってみましょう。
 

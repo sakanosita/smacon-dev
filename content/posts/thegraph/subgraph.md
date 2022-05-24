@@ -12,9 +12,9 @@ tags:
   - Ethereum
   - EVM
 description: |-
-  GraphQL を使ってブロックチェーンのオンチェーンデータを分析することができるサブグラフ、
-  自動生成を使ってコードを書かずにサブグラフを作ろう、
-  初心者の Web3 プログラミング学習
+  初心者の Solidity プログラミング学習,
+  GraphQL を使ってブロックチェーンのオンチェーンデータを分析,
+  自動生成を使ってThe Graphのサブグラフを作ろう
 ---
 
 このページで作成したサブグラフの[ソースコード](https://github.com/smacon-dev/subgraphs/tree/main/event001)は GitHub からダウンロードできます。

@@ -32,7 +32,7 @@ Internet Computer は 2021 年 5 月にローンチしたサービスで、こ�
 
 当記事で紹介する５つのステップは、DFINITY の公式ページに簡潔にまとまっています。
 
-https://smartcontracts.org/
+https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins
 
 ## 必要なスキル、前提知識
 

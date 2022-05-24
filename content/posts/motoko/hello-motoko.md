@@ -24,15 +24,15 @@ description: |-
 - ブロックチェーンや Dapps 開発に興味がある
 - 将来 Web エンジニアになりたい
 
-Internet Computer は 2021 年 5 月にローンチしたサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれる、革新的な技術を使っています。インターネットそのものを TCP/IP のレイヤーから見直して再設計しており、裏側ではブロックチェーンの技術を使っています。
-
-誰でもパソコンさえあれば、無料で簡単に始めることができるので、まずは実際にやってみましょう。
-
 # はじめに
 
 当記事で紹介する５つのステップは、DFINITY の公式ページに簡潔にまとまっています。
 
-https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins
+[Deploy a "Hello World" Dapp in 10 Minutes](https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins)
+
+Internet Computer は 2021 年 5 月にローンチしたサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれる、革新的な技術を使っています。インターネットそのものを TCP/IP のレイヤーから見直して再設計しており、裏側ではブロックチェーンの技術を使っています。
+
+誰でもパソコンさえあれば、無料で簡単に始めることができるので、まずは実際にやってみましょう。
 
 ## 必要なスキル、前提知識
 

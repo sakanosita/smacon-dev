@@ -9,7 +9,7 @@ const Footer = () => {
     <StyledFooter>
       <FooterWrapper>
         <SocialLinks />
-        <Link to="/about">© 2021 Sakanosita Web3 Labs</Link>
+        <Link to="/about">© 2021 Sakanosita IC Labs</Link>
       </FooterWrapper>
     </StyledFooter>
   );

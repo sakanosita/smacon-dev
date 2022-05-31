@@ -2,6 +2,8 @@
 title: "Motoko プログラミング入門: 簡単な数値計算をやってみよう"
 date: 2021-12-29 22:38
 permalink: /motoko-calc
+redirect_from:
+  - /motoko-calc/
 tags:
   - Motoko
 description: |-

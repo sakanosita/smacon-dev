@@ -9,7 +9,7 @@ tags:
   - Solidity
   - ERC20
   - EVM
-  - Hardhat
+  - Remix
 description: |-
   EVM (Ethereum Virtual Machine) における ERC20 仕様の暗号通貨トークンの実装方法
   Solidity のスマートコントラクトの開発を学ぼう！

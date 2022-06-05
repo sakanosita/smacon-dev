@@ -85,7 +85,9 @@ export const pageQuery = graphql`
             pinned: { ne: null }
             tags: { in: [
                 "Rust",
-                "Solana"
+                "Solana",
+                "NEAR",
+                "WASM"
             ] } 
         }
         fields: { contentType: { eq: "posts" } }

@@ -4,6 +4,7 @@ date: 2022-04-20 21:00
 permalink: /first-smart-contract
 redirect_from:
   - /smart-contracts/
+  - /posts/smart-contracts/
 level: beginner
 pinned: 12
 tags:

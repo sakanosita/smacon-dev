@@ -1,7 +1,7 @@
 ---
 title: "NEAR Protocol: はじめてのスマートコントラクト in Rust"
 date: 2022-04-18 19:38
-permalink: /near-smart-contract
+permalink: /near-first-contract
 redirect_from:
   - /first-smart-contract-near/
   - /posts/first-smart-contract-near/

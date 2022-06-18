@@ -33,6 +33,12 @@ description: |-
 
 - [Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/2022/REC-vc-data-model-20220303/)
 
-## DIF (Decentralized Identity Foundation)
+# Organizations
 
-https://identity.foundation/
+- [DIF (Decentralized Identity Foundation)](https://identity.foundation/)
+- [The Sovrin Foundation](https://github.com/sovrin-foundation/)
+- [Jolocom](https://github.com/jolocom/jolocom-did-driver/blob/master/jolocom-did-method-specification.md)
+- [Spruce](https://github.com/spruceid)
+- [Ceramic Network](https://ceramic.network/)
+- [Hedera Hashgraph](https://github.com/hashgraph/did-method)
+- [Hyperledger Foundation](https://www.hyperledger.org/participate)

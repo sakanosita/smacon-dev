@@ -11,9 +11,9 @@ description: |-
   DID(Decentralized Identity)/Web Authentication調査
 ---
 
-## W3C (All Security Standards and Drafts)
+## W3C (World Wide Web Consortium)
 
-https://www.w3.org/TR/?tag=security
+- [All Security Standards and Drafts](https://www.w3.org/TR/?tag=security)
 
 ## DID
 

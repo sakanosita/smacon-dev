@@ -30,8 +30,6 @@ https://www.w3.org/TR/?tag=security
 
 - [Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/2022/REC-vc-data-model-20220303/)
 
-### Proposed Recommendation
-
-# DIF (Decentralized Identity Foundation)
+## DIF (Decentralized Identity Foundation)
 
 https://identity.foundation/

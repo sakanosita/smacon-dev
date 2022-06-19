@@ -13,7 +13,7 @@ tags:
   - EVM
 description: |-
   Hardhat の使い方、イーサリアムでスマートコントラクト開発
-  初心者の Ethereum プログラミング学習,
+  初心者の Ethereum プログラミング学習
 ---
 
 このページはこんな人におすすめ

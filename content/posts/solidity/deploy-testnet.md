@@ -1,5 +1,5 @@
 ---
-title: "Hardhat 入門: テストネットにスマートコントラクトをデプロイしよう！"
+title: "Hardhat の使い方: Ethereumのテストネットにデプロイしよう！"
 date: 2022-06-19 11:00
 permalink: /deploy-testnet
 level: beginner

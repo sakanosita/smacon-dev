@@ -174,4 +174,4 @@ hello()関数を実行して、受け取った文字列`Hello World!`をログ�
 自分にあったやり方を見つけてください。
 
 - [Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
-- [Remix の使い方](/posts/remix-tutorial)
+- [Remix の使い方: Metamask でスマートコントラクトをデプロイ](/posts/remix-tutorial)

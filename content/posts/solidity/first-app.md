@@ -225,4 +225,4 @@ Ethereum には複数のテストネットがあり、誰でもトークンを�
 スマートコントラクトをテストネットやメインネットにデプロイする方法を 2 つ紹介します。
 
 - [Hardhat の使い方: Ethereum のテストネットにデプロイしよう！](/posts/deploy-testnet)
-- [Remix の使い方](/posts/remix-tutorial)
+- [Remix の使い方: Metamask でスマートコントラクトをデプロイ](/posts/remix-tutorial)

@@ -38,7 +38,7 @@ Metamask が使えるチェーン
 
 エンジニアの方にはこちらの記事がオススメです。
 
-[Solidity 入門: Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+[Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
 
 それではさっそく始めましょう！
 

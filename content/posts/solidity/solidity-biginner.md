@@ -112,7 +112,7 @@ Remix はブラウザでコードを編集したり、Metamask ウォレット�
 
 Remix の使い方はこちらのページにまとめてあります。（画像多め）
 
-[Solidity 入門: Remix の使い方](/posts/remix-tutorial)
+[Remix の使い方: Metamask でスマートコントラクトをデプロイ](/posts/remix-tutorial)
 
 ## Hardhat
 
@@ -123,7 +123,8 @@ Hardhat はローカル PC に仮想のスマートコントラクト実行環�
 
 Hardhat を使ったデプロイ方法はこちら
 
-[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+[Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
+[Hardhat の使い方: Ethereum のテストネットにデプロイしよう！](/posts/deploy-testnet)
 
 自分の気になるサンプルコードを選んだり、エラーにぶつかったり、その解決方法を検索したりして進めてください。
 そうした小さな成功体験の積み重ねこそがかならずエンジニアとして成長に繋がります。

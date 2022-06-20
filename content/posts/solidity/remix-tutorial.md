@@ -1,5 +1,5 @@
 ---
-title: Remix を使って Solidity のスマートコントラクトを簡単デプロイ
+title: "Remix の使い方: Metamask でスマートコントラクトをデプロイ"
 date: 2021-11-01 10:38
 permalink: /remix-tutorial
 redirect_from:
@@ -11,8 +11,9 @@ tags:
   - Ethereum
   - Ropsten
 description: |-
-  Metamask を使ってイーサリアム互換のブロックチェーン (EVM) にスマートコントラクトをデプロイ、
-  初心者の Ethereum プログラミング学習
+  Remix のチュートリアル
+  初心者向けの Solidity プログラミング学習の手引き
+  Metamask を使ってイーサリアム互換のブロックチェーン (EVM) にスマートコントラクトをデプロイ
 ---
 
 この記事はこんな人におすすめ

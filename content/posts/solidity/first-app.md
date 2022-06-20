@@ -30,7 +30,7 @@ Solidity by Example のサンプルコードを使ってスマートコントラ
 
 Hardhat を使ったことがない方は先にこちらもご覧ください。
 
-[Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+[Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
 
 # 新しい Hardhat プロジェクトを作る
 
@@ -224,5 +224,5 @@ Ethereum には複数のテストネットがあり、誰でもトークンを�
 
 スマートコントラクトをテストネットやメインネットにデプロイする方法を 2 つ紹介します。
 
-- [Hardhat でテストネットにスマートコントラクトをデプロイしよう！](/posts/deploy-testnet)
+- [Hardhat の使い方: Ethereum のテストネットにデプロイしよう！](/posts/deploy-testnet)
 - [Remix の使い方](/posts/remix-tutorial)

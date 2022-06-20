@@ -238,7 +238,7 @@ npx hardhat test
 
 Ethereum のテストネットにデプロイする方法はこちらをどうぞ
 
-[Hatdhat でテストネットにスマートコントラクトをデプロイしよう](/posts/deploy-testnet)
+[Hardhat の使い方: Ethereum のテストネットにデプロイしよう！](/posts/deploy-testnet)
 
 ### scripts/deploy.js
 

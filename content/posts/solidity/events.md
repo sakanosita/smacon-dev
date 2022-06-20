@@ -33,7 +33,7 @@ Solidity by Example の[サンプルコード](https://solidity-by-example.org/e
 
 Hardhat を使ったことがない方は以下の記事も合わせてご覧ください。
 
-- [Hardhat で Solidity のスマートコントラクトを開発しよう！](/posts/hardhat)
+- [Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
 
 # 新しいプロジェクトを作る
 

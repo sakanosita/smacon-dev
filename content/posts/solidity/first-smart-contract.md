@@ -173,5 +173,5 @@ hello()関数を実行して、受け取った文字列`Hello World!`をログ�
 スマートコントラクトをテストネットやメインネットにデプロイする方法を 2 つ紹介します。
 自分にあったやり方を見つけてください。
 
-- [Hardhat でスマートコントラクトを作ろう！](/posts/hardhat)
+- [Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
 - [Remix の使い方](/posts/remix-tutorial)

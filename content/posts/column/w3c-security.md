@@ -16,7 +16,7 @@ description: |-
 
 ## DID
 
-- [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/2021/PR-did-core-20210803/)
+- [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/2022/REC-did-core-20220719/)
 - [DID Method Rubric v1.0](https://www.w3.org/TR/2021/NOTE-did-rubric-20211119/)
 - [DID Specification Registries](https://www.w3.org/TR/2021/NOTE-did-spec-registries-20211102/)
 - [DID Implementation Guide v1.0](https://www.w3.org/TR/2021/NOTE-did-imp-guide-20211012/)

@@ -2,7 +2,6 @@
 title: W3C Security Standards and Drafts
 date: 2022-06-18 15:00:00
 permalink: /w3c-security
-unlisted: true
 tags:
   - DID
   - Web Authn
@@ -26,7 +25,6 @@ description: |-
 
 - [Web Authentication: An API for accessing Public Key Credentials Level 1](https://www.w3.org/TR/2019/REC-webauthn-1-20190304/)
 - [Web Authentication: An API for accessing Public Key Credentials Level 2](https://www.w3.org/TR/2021/REC-webauthn-2-20210408/)
-
 - [Web Authentication: An API for accessing Public Key Credentials Level 3](https://www.w3.org/TR/2021/WD-webauthn-3-20210427/)
 
 ## Verifiable Credentials

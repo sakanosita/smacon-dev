@@ -1,7 +1,7 @@
 ---
 title: "Solidity 開発入門: Foundryを使って開発しよう！"
 date: 2022-07-20 11:00
-permalink: /wip-foundry
+permalink: /wip
 unlisted: true
 level: beginner
 tags:

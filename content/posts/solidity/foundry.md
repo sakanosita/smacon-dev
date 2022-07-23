@@ -20,4 +20,16 @@ description: |-
 - Foundry の使い方を知りたい
 - Hardhat と Foundry を比べたい
 
-https://github.com/foundry-rs/foundry
+## Foundry Book
+
+https://book.getfoundry.sh/
+
+> Foundry is a smart contract development toolchain.
+
+### エラー
+
+```
+% forge init foundry_playground
+Error:
+There are changes in your working/staging area. Commit them first or add the `--no-commit` option.
+```

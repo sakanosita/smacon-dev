@@ -6,10 +6,10 @@ tags:
   - Motoko
 description: |-
   あるキャニスターから別のキャニスターを呼び出して実行する方法を紹介
-  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。
+このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
 [Make inter-canister calls](https://smartcontracts.org/docs/developers-guide/tutorials/intercanister-calls.html)
 

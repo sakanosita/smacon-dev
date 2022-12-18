@@ -7,11 +7,11 @@ redirect_from:
 tags:
   - Motoko
 description: |-
-  Motokoを使って四則演算をやってみよう！
-  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
+  Motoko language を使って四則演算をやってみよう！
+  DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。
+このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
 [Use integers in calculator functions](https://smartcontracts.org/docs/developers-guide/tutorials/calculator.html)
 

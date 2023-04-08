@@ -11,7 +11,7 @@ description: |-
   初心者向けの ICP プログラミングの学習。
 ---
 
-このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。
+このページは、DFINITY(Internet Computer) の Motoko Language チュートリアルを日本語で解説しています。
 
 [Explore the default project](https://smartcontracts.org/docs/developers-guide/tutorials/explore-templates.html)
 

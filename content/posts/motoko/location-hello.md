@@ -6,10 +6,10 @@ tags:
   - Motoko
 description: |-
   キャニスターを実行するときにパラメータを渡して処理を変える方法を紹介
-  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-このページは、DFINITY の Motoko のチュートリアルを日本語で解説しています。
+このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
 [Pass text arguments](https://smartcontracts.org/docs/developers-guide/tutorials/hello-location.html)
 

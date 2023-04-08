@@ -32,7 +32,7 @@ const Motoko = ({ pageContext, data }) => {
       </BreadcrumbStyled>
 
       <Board>
-        <h3>Motoko プログラミング学習</h3>
+        <h3>Motoko Language プログラミング学習</h3>
         <PostList posts={motokoPosts} />
       </Board>
       <Board>

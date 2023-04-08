@@ -8,10 +8,10 @@ tags:
 social_image: /og/internet-computer-2.png
 description: |-
   プログラミングにおけるアクターを理解しよう
-  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-このページは、DFINITY(Internet Computer) の Motoko チュートリアルを日本語で解説しています。
+このページは、DFINITY(Internet Computer) の Motoko Language チュートリアルを日本語で解説しています。
 
 [Query using an actor](https://smartcontracts.org/docs/developers-guide/tutorials/define-an-actor.html)
 

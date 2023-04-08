@@ -6,10 +6,10 @@ tags:
   - Motoko
 description: |-
   キャニスターを実行してデータをインサートしたり検索してみよう
-  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-このページでは DFINITY の Motoko のチュートリアルを日本語で解説しています。
+このページでは DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
 [Import library modules](https://smartcontracts.org/docs/developers-guide/tutorials/phonebook.html)
 

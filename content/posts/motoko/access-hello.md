@@ -10,10 +10,10 @@ tags:
 social_image: /og/internet-computer-2.png
 description: |-
   キャニスター側からユーザーIDを識別して処理を変えてみよう！
-  DFINITY の Internet Computer (ICP) を使った初心者向けの Motoko プログラミング学習
+  DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-このページでは DFINITY(Internet Computer)の Motoko のチュートリアルを日本語で解説しています。
+このページでは DFINITY(Internet Computer)の Motoko Language のチュートリアルを日本語で解説しています。
 
 [Add access control with identities](https://smartcontracts.org/docs/developers-guide/tutorials/access-control.html)
 

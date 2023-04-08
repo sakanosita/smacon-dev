@@ -110,3 +110,4 @@ Once you are in your Netlify CMS, you can navigate to Posts and Pages. Here you 
 - Gatsby for Static Site Generation
 - Netlify CMS for content management
 - Styled Component for styling
+

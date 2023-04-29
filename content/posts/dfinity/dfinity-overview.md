@@ -23,11 +23,11 @@ https://internetcomputer.org/
 
 https://medium.com/dfinity
 
+# Enter the ICP Ecosystem
+
+https://internetcomputer.org/ecosystem
+
 # A Technical Overview of the Internet Computer
-
-## INTERNET COMPUTER BLOCKCHAIN OVERVIEW
-
-https://dfinity.org/howitworks/overview-of-the-internet-computer
 
 ## Medium
 

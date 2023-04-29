@@ -19,6 +19,7 @@ https://smartcontracts.org/
 
 https://internetcomputer.org/docs/current/motoko/main/about-this-guide
 
+- [Motoko Base Library Reference](https://internetcomputer.org/docs/current/motoko/main/base/)
 - [Motoko Playground](https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/)
 - [Overview of Motoko, the Native Language of the IC](https://www.youtube.com/watch?v=4OfarwFrPIg)
 - [Overview of Building a Dapp in Motoko](https://www.youtube.com/watch?v=fFaNLKAgoUU)

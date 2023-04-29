@@ -140,6 +140,18 @@ npm を使って JavaScript のライブラリをインストールしていま�
 dfx deploy
 ```
 
+このコマンドの最後に出力されるログをメモしておきましょう。
+具体的には以下のように表示された URL にあとえブラウザからアクセスします。
+
+```
+Deployed canisters.
+URLs:
+  Frontend canister via browser
+    hello_frontend: http://127.0.0.1:4943/?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai
+  Backend canister via Candid interface:
+    hello_backend: http://127.0.0.1:4943/?canisterId=be2us-64aaa-aaaaa-qaabq-cai&id=bkyz2-fmaaa-aaaaa-qaaaq-cai
+```
+
 このコマンドでは、以下の 3 つのことをまとめてやってくれます。
 
 - ローカル実行環境にキャニスターを作る（ID を取得する）
@@ -178,6 +190,7 @@ npm start
 ```
 
 以下の URL にブラウザでアクセスして、起動したフロントエンド用のページにアクセスします。
+先ほどメモしておいた、`dfx deploy` の出力に含まれる URL にアクセスしてください。
 
 <http://127.0.0.1:4943/?canisterId=(キャニスターID)>
 

@@ -5,7 +5,6 @@ permalink: /merkle-tree
 redirect_from:
   - /merkle-tree/
 social_image: /media/merkle-tree/4.png
-pinned: 2
 tags:
   - Solidity
   - Ethereum

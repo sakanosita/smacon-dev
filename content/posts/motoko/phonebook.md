@@ -11,7 +11,7 @@ description: |-
 
 このページでは DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Import library modules](https://smartcontracts.org/docs/developers-guide/tutorials/phonebook.html)
+[Import library modules](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/phonebook)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/phonebook)からダウンロードできます。
 

@@ -13,7 +13,7 @@ description: |-
 
 このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Use integers in calculator functions](https://smartcontracts.org/docs/developers-guide/tutorials/calculator.html)
+[Use integers in calculator functions](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/calculator)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/calc)からダウンロードできます。
 

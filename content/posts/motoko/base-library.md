@@ -11,6 +11,20 @@ description: |-
   Motoko Base Library
 ---
 
+## Motoko Language Tour
+
+https://internetcomputer.org/docs/current/motoko/main/motoko
+
+## Motoko Programming Language Guide
+
+https://internetcomputer.org/docs/current/motoko/main/about-this-guide
+
+## Sample Code
+
+https://internetcomputer.org/samples
+
+## Motoko Base Library Reference
+
 - [Array](https://internetcomputer.org/docs/current/motoko/main/base/Array)
 - [AssocList](https://internetcomputer.org/docs/current/motoko/main/base/AssocList)
 - [Blob](https://internetcomputer.org/docs/current/motoko/main/base/Blob)

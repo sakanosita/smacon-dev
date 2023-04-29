@@ -28,7 +28,7 @@ description: |-
 
 当記事で紹介する５つのステップは、DFINITY の公式ページに簡潔にまとまっています。
 
-[Deploy a "Hello World" Dapp in 10 Minutes](https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins)
+[Deploy a "Hello World" Dapp in 10 Minutes](https://internetcomputer.org/docs/current/tutorials/deploy_sample_app)
 
 Internet Computer は 2021 年 5 月にローンチしたサービスで、これまでの一般的な Web 開発をもっとシンプルに変えてくれます。
 

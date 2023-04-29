@@ -15,7 +15,7 @@ description: |-
 
 このページでは DFINITY(Internet Computer)の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Add access control with identities](https://smartcontracts.org/docs/developers-guide/tutorials/access-control.html)
+[Add access control with identities](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/access-control)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/access_hello)からダウンロードできます。
 

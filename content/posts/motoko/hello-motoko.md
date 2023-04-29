@@ -179,7 +179,7 @@ npm start
 
 以下の URL にブラウザでアクセスして、起動したフロントエンド用のページにアクセスします。
 
-<http://localhost:8080>
+<http://127.0.0.1:4943/?canisterId=(キャニスターID)>
 
 ![icp](/media/hello-motoko/1.png)
 

@@ -2,7 +2,7 @@
 title: ゼロ知識証明を学ぼう | Web3 プログラミング, スマートコントラクト入門
 date: 2022-05-20 12:00:00
 permalink: /zero-knowledge-proof
-pinned: 1
+pinned: 3
 tags:
   - ゼロ知識証明
   - STARK

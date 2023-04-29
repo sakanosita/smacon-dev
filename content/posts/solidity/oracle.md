@@ -5,7 +5,7 @@ permalink: /oracle
 redirect_from:
   - /oracle/
   - /chainlink/
-pinned: 3
+pinned: 2
 tags:
   - Ethereum
   - Chainlink

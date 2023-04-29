@@ -15,6 +15,10 @@ description: |-
 
 https://smartcontracts.org/
 
+## Sample Code
+
+https://internetcomputer.org/samples
+
 ## Motoko SDK
 
 https://internetcomputer.org/docs/current/motoko/main/about-this-guide

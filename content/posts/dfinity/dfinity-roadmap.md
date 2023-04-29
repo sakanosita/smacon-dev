@@ -12,7 +12,7 @@ description: |-
   The DFINITY Foundation’s contributions to the Internet Computer roadmap are subject to community discussion and voting.
 ---
 
-# [Internet Computer Roadmap](https://dfinity.org/roadmap/)
+# [Internet Computer Roadmap](https://internetcomputer.org/roadmap)
 
 ### [IC Roadmap Milestones for 2022 (Sneak Preview)](https://forum.dfinity.org/t/ic-roadmap-milestones-for-2022-sneak-preview/10527)
 

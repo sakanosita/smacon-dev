@@ -34,6 +34,12 @@ https://internetcomputer.org/docs/current/developer-docs/backend/rust/
 
 https://forum.dfinity.org/
 
+# NFID
+
+https://nfid.one/
+
+- [NFID Docs](https://docs.nfid.one/)
+
 ## Community Consideration
 
 - [Non Fungible Token (NFT) Standard](https://forum.dfinity.org/t/non-fungible-token-nft-standard-community-consideration/6157)

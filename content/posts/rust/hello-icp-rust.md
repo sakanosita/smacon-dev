@@ -19,7 +19,7 @@ description: |-
 
 このページは、以下の DFINITY(Internet Computer) の Rust のチュートリアルを日本語で解説しています。
 
-[Hello, World! Rust CDK Quick Start](https://smartcontracts.org/docs/rust-guide/rust-quickstart.html)
+[Hello, World! Rust CDK Quick Start](https://internetcomputer.org/docs/current/developer-docs/backend/rust/rust-quickstart)
 
 このページで実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/rust-tutorial/tree/main/rust_hello)からダウンロードできます。
 
@@ -37,7 +37,7 @@ description: |-
 
 dfx コマンドは DFINITY のキャニスターをビルドしたりデプロイしたりするためのツールです。
 
-[dfx のインストールガイド](https://smartcontracts.org/docs/developers-guide/install-upgrade-remove.html)
+[dfx のインストールガイド](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
 
 以下のコマンドで dfx をインストールします。
 

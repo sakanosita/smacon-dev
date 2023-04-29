@@ -24,7 +24,12 @@ const HomePage = ({ data }) => {
         <h3>人気の記事</h3>
         <PostList posts={popularPosts} />
       </Board>
-
+      <Board>
+        <h3>
+          <Link to="/motoko/">Motoko ではじめるキャニスター開発</Link>
+        </h3>
+        <PostList posts={motokoPosts} />
+      </Board>
       <Board>
         <h3>
           <Link to="/solidity/">Solidity ではじめるスマートコントラクト入門</Link>
@@ -36,12 +41,6 @@ const HomePage = ({ data }) => {
           <Link to="/rust/">Rust ではじめるスマートコントラクト入門</Link>
         </h3>
         <PostList posts={rustPosts} />
-      </Board>
-      <Board>
-        <h3>
-          <Link to="/motoko/">Motoko ではじめるキャニスター開発</Link>
-        </h3>
-        <PostList posts={motokoPosts} />
       </Board>
 
       <Board>

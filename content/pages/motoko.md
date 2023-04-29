@@ -1,8 +1,10 @@
 ---
 template: "motoko"
-title: "Motoko ではじめるキャニスター開発 | ICP プログラミング学習"
+title: "Motoko ではじめるキャニスター開発 | Internet Computer (ICP) プログラミング入門"
 date: 2022-05-19 20:38
 social_image: /og/internet-computer-2.png
 description: |-
-  DFINITY Internet Computer (ICP) を使ってキャニスター開発。初心者向け Motoko プログラミング学習。dfx や Candid UI の使い方。
+  初心者向け Motoko プログラミング学習
+  dfx や Candid UI の使い方
+  Internet Computer (DFINITY ICP) を使ってキャニスター開発
 ---

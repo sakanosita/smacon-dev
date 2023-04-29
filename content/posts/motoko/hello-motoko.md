@@ -1,5 +1,5 @@
 ---
-title: 5ステップではじめる Motoko プログラミング ICP 入門 | DFINITY
+title: 5ステップではじめる Motoko プログラミング | Internet Computer (DFINITY ICP) 入門
 date: 2023-04-29 20:30
 permalink: /hello-motoko
 redirect_from:
@@ -13,7 +13,7 @@ tags:
   - DFINITY
 social_image: /og/internet-computer-2.png
 description: |-
-  DFINITY の Internet Computer を使ったキャニスター開発をはじめよう！
+  DFINITY の Internet Computer (ICP) を使ったキャニスター開発をはじめよう！
   初心者向け Motoko 言語のプログラミングの学習, DFINITY 公式チュートリアルを日本語で解説。
 ---
 

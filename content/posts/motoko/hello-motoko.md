@@ -152,7 +152,7 @@ URLs:
     hello_backend: http://127.0.0.1:4943/?canisterId=be2us-64aaa-aaaaa-qaabq-cai&id=bkyz2-fmaaa-aaaaa-qaaaq-cai
 ```
 
-このコマンドでは、以下の 3 つのことをまとめてやってくれます。
+この `dfx deploy` コマンドでは、以下の 3 つのことをまとめてやってくれます。
 
 - ローカル実行環境にキャニスターを作る（ID を取得する）
 - Motoko で書いたソースコードをコンパイルして、WASM 実行プログラムを作る

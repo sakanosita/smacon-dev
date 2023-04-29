@@ -2,6 +2,7 @@
 title: Motoko Base Library
 date: 2021-12-30 10:38
 permalink: /motoko-base-library
+unlisted: true
 tags:
   - Motoko
   - DFINITY

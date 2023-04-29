@@ -17,7 +17,7 @@ https://smartcontracts.org/
 
 ## Motoko SDK
 
-https://smartcontracts.org/docs/language-guide/motoko.html
+https://internetcomputer.org/docs/current/motoko/main/about-this-guide
 
 - [Motoko Playground](https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/)
 - [Overview of Motoko, the Native Language of the IC](https://www.youtube.com/watch?v=4OfarwFrPIg)
@@ -25,7 +25,7 @@ https://smartcontracts.org/docs/language-guide/motoko.html
 
 ## Rust SDK
 
-https://smartcontracts.org/docs/rust-guide/rust-intro.html
+https://internetcomputer.org/docs/current/developer-docs/backend/rust/
 
 - [Best Practices for Canisters in Rust](https://www.youtube.com/watch?v=36L33S_DYHY)
 

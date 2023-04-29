@@ -11,9 +11,9 @@ description: |-
   The Quick start provided a simplified introduction to the basic work flow for creating and deploying a new project without exploring the contents of the project directory or sample code.
 ---
 
-# Developer Center
+# INTERNET COMPUTER Developer Docs
 
-https://smartcontracts.org/
+https://internetcomputer.org/docs/current/home
 
 ## Sample Code
 

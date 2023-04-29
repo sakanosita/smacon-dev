@@ -1,6 +1,6 @@
 ---
 title: 5ステップではじめる Motoko プログラミング ICP 入門 | DFINITY
-date: 2022-05-24 20:30
+date: 2023-04-29 20:30
 permalink: /hello-motoko
 redirect_from:
   - /hello-motoko/
@@ -53,11 +53,10 @@ npm がわからなくてもステップ 4 までは進めらるので、スマ�
 
 本記事では以下の Mac 環境を使った開発を紹介しています。
 
-- Mac OS 11.4 Big Sur
-- テキストエディタ：Visual Studio Code 1.59
-- ターミナルソフト：iTerm2 3.4.8
-- dfx：0.8.0
-- npm：7.19.1
+- macOS: 12.5.1 Monterey
+- dfx: 0.14.0
+- node: v16.9.1
+- npm: 7.21.1
 
 # ステップ 1: dfx(SDK)をインストールする
 
@@ -72,7 +71,7 @@ dfx コマンドを実行できるようになります。
 
 ```bash
 $ dfx --version
-dfx 0.8.0
+dfx 0.14.0
 ```
 
 # ステップ 2: Hello World プロジェクトを作る

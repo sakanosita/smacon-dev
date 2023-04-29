@@ -11,7 +11,7 @@ description: |-
 
 このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Make inter-canister calls](https://smartcontracts.org/docs/developers-guide/tutorials/intercanister-calls.html)
+[Make inter-canister calls](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/intercanister-calls)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/linkedup)からダウンロードできます。
 

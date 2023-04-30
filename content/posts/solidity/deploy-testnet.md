@@ -1,5 +1,5 @@
 ---
-title: "Hardhat の使い方: Ethereumのテストネットにデプロイしよう！"
+title: "Solidity / Hardhat の使い方: イーサリアムのテストネットにデプロイしよう！"
 date: 2022-06-19 11:00
 permalink: /deploy-testnet
 level: beginner
@@ -10,7 +10,7 @@ tags:
   - Ropsten
   - Rinkeby
 description: |-
-  Hardhat を使って Solidity のスマートコントラクトをイーサリアムのテストネット Ropsten や Rinkeby にデプロイ、
+  Hardhat を使って Solidity のスマートコントラクトをイーサリアムのテストネットにデプロイ
   初心者向けの Web3 プログラミング学習
 ---
 
@@ -22,7 +22,7 @@ description: |-
 
 Hardhat 自体を使ったことがない場合は先に以下の記事をご覧ください。
 
-[Hardhat の使い方: 初心者向けのスマートコントラクト開発](/posts/hardhat)
+[Hardhat の使い方: 初心者向けの Solidity 開発入門](/posts/hardhat)
 
 # Ethereum のテストネットについて
 

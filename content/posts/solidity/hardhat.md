@@ -1,5 +1,5 @@
 ---
-title: "Hardhat の使い方: 初心者向けのスマートコントラクト開発"
+title: "Hardhat の使い方: 初心者向けの Solidity 開発入門"
 date: 2022-06-19 22:00
 permalink: /hardhat
 redirect_from:
@@ -12,8 +12,8 @@ tags:
   - Ropsten
   - EVM
 description: |-
-  Hardhat の使い方、イーサリアムでスマートコントラクト開発
-  初心者の Ethereum プログラミング学習
+  初心者向けのの Ethereum スマートコントラクト開発
+  Hardhat の使い方 / イーサリアムでプログラミング学習
 ---
 
 このページはこんな人におすすめ

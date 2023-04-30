@@ -2,13 +2,13 @@ import React from 'react';
 import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 
 const AboutTemplate = ({ pageContext, data }) => {
   const { html, frontmatter } = data.markdownRemark;
-  const profileImage = getImage(frontmatter.profile_image);
+  // const profileImage = getImage(frontmatter.profile_image);
   const {
     breadcrumb: { crumbs },
   } = pageContext
@@ -23,7 +23,7 @@ const AboutTemplate = ({ pageContext, data }) => {
         />
       </BreadcrumbStyled>
       <AboutWrapper>
-        <AboutImageWrapper image={profileImage} alt="" />
+        {/* <AboutImageWrapper image={profileImage} alt="" /> */}
         <AboutCopy dangerouslySetInnerHTML={{ __html: html }} />
       </AboutWrapper>
     </Layout>
@@ -58,12 +58,12 @@ const AboutWrapper = styled.div`
   }
 `;
 
-const AboutImageWrapper = styled(GatsbyImage)`
-  display: block;
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-`;
+// const AboutImageWrapper = styled(GatsbyImage)`
+//   display: block;
+//   border-radius: 50%;
+//   height: 200px;
+//   width: 200px;
+// `;
 
 const AboutCopy = styled.div`
   max-width: 60ch;
@@ -81,15 +81,15 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        profile_image {
-          childImageSharp {
-            gatsbyImageData(
-              height: 400
-              placeholder: BLURRED
-              formats: [PNG]
-            )
-          }
-        }
+        # profile_image {
+        #   childImageSharp {
+        #     gatsbyImageData(
+        #       height: 400
+        #       placeholder: BLURRED
+        #       formats: [PNG]
+        #     )
+        #   }
+        # }
       }
     }
   }

@@ -100,7 +100,7 @@ const StyledText = styled.span`
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: {frontmatter: {tags: SELECT}}) {
         fieldValue
         totalCount
       }

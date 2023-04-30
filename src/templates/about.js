@@ -71,6 +71,8 @@ const AboutCopy = styled.div`
     font-size: var(--size-800);
   }
   & p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-size: var(--size-400);
   }
 `;

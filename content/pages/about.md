@@ -7,7 +7,7 @@ description: Hi, I'm Moto, Web3 programmer and working at Edtech. Also I enjoy m
 
 # Welcome to Sakanosita IC Labs! 🎉
 
-Hey there! We're **Sakanosita IC Labs**, founded in 2021 by our fearless leader, Moto Sakanosita. We're a bunch of tech enthusiasts who love working on innovative projects and sharing our knowledge with the world. You can find our work at [https://github.com/sakanosita-ic-labs](https://github.com/sakanosita-ic-labs).
+Hey there! We're **Sakanosita IC Labs**, founded in 2021 by our fearless leader, Moto Sakanosita. We're a bunch of tech enthusiasts who love working on innovative projects and sharing our knowledge with the world. You can find our work at [GitHub](https://github.com/smacon-dev).
 
 ## What we do 🚀
 

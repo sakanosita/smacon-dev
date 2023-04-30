@@ -7,8 +7,8 @@ tags:
   - DFINITY
   - Internet Computer
 description: |-
-  DFINITY (Internet Computer)
-  Motoko Base Library
+  Motoko Base Library Reference / Programming Language Guild
+  / Sample Code / Examples
 ---
 
 ## Motoko Language Tour
@@ -22,6 +22,8 @@ https://internetcomputer.org/docs/current/motoko/main/about-this-guide
 ## Sample Code
 
 https://internetcomputer.org/samples
+
+https://github.com/dfinity/examples/tree/master/motoko
 
 ## Motoko Base Library Reference
 

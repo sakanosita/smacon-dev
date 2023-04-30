@@ -79,7 +79,7 @@ export const homePageQuery = graphql`
         }
         fields: { contentType: { eq: "posts" } }
       }
-      sort: { order: DESC, fields: frontmatter___date }
+      sort: { frontmatter: { date: DESC } }
     ) {
       nodes {
         fields {

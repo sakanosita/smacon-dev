@@ -54,7 +54,7 @@ export const homePageQuery = graphql`
                 unlisted: { eq: true }
             }
         }
-      sort: { order: DESC, fields: frontmatter___date }
+      sort: { frontmatter: { date: DESC } }
     ) {
       nodes {
         fields {

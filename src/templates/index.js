@@ -85,7 +85,7 @@ export const pageQuery = graphql`
         frontmatter: { pinned: { ne: null }},
         fields: { contentType: { eq: "posts" } } 
       }
-      sort: { order: ASC, fields: frontmatter___pinned }
+      sort: { frontmatter: { pinned: ASC } }
       limit: 3
     ) {
       nodes {
@@ -107,7 +107,7 @@ export const pageQuery = graphql`
         frontmatter: { unlisted: { ne: true }},
         fields: { contentType: { eq: "posts" } }
       }
-      sort: { order: DESC, fields: frontmatter___date }
+      sort: { frontmatter: { date: DESC } }
       limit: 3
     ) {
       nodes {
@@ -126,7 +126,7 @@ export const pageQuery = graphql`
     }
     solidityPosts: allMarkdownRemark(
       limit: 3
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
             unlisted: { ne: true }
@@ -156,7 +156,7 @@ export const pageQuery = graphql`
     }
     rustPosts: allMarkdownRemark(
       limit: 3
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
             unlisted: { ne: true }
@@ -183,7 +183,7 @@ export const pageQuery = graphql`
     }
     motokoPosts: allMarkdownRemark(
       limit: 3
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
             unlisted: { ne: true }

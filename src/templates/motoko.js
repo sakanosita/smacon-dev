@@ -79,7 +79,7 @@ export const pageQuery = graphql`
     }
     motokoPosts: allMarkdownRemark(
       limit: 100
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
             unlisted: { ne: true }
@@ -110,7 +110,7 @@ export const pageQuery = graphql`
     }
     dfinityPosts: allMarkdownRemark(
       limit: 100
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
             unlisted: { ne: true }

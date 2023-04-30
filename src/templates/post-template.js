@@ -168,7 +168,7 @@ export const pageQuery = graphql`
     }
     relatedPosts: allMarkdownRemark(
       limit: 5
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
           unlisted: { ne: true }
@@ -191,7 +191,7 @@ export const pageQuery = graphql`
     }
     latestPosts: allMarkdownRemark(
       limit: 5
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
           unlisted: { ne: true }

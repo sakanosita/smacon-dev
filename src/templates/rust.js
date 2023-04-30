@@ -79,7 +79,7 @@ export const pageQuery = graphql`
     }
     popularPosts: allMarkdownRemark(
       limit: 3
-      sort: { order: ASC, fields: frontmatter___pinned }
+      sort: { frontmatter: { pinned: ASC } }
       filter: {
         frontmatter: {
             pinned: { ne: null }
@@ -110,7 +110,7 @@ export const pageQuery = graphql`
     }
     updatePosts: allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
             unlisted: { ne: true }

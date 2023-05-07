@@ -5,6 +5,7 @@ permalink: /solidity-beginner
 redirect_from:
   - /solidity-beginner/
 level: beginner
+pinned: 2
 tags:
   - Solidity
   - Ethereum

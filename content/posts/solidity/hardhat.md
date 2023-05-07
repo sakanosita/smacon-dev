@@ -4,7 +4,7 @@ date: 2022-06-19 22:00
 permalink: /hardhat
 redirect_from:
   - /hardhat/
-pinned: 2
+pinned: 1
 level: beginner
 tags:
   - Solidity

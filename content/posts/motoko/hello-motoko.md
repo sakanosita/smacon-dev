@@ -5,7 +5,7 @@ permalink: /hello-motoko
 redirect_from:
   - /hello-motoko/
   - /blog/hello-motoko/
-pinned: 1
+pinned: 3
 level: beginner
 tags:
   - Motoko

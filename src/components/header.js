@@ -18,10 +18,10 @@ const Header = () => {
       <HeaderNavWrapper>
         <HeaderNavList>
           <HeaderNavListItem>
-            <Link to="/motoko/">Motoko</Link>
+            <Link to="/solidity/">Solidity</Link>
           </HeaderNavListItem>
           <HeaderNavListItem>
-            <Link to="/solidity/">Solidity</Link>
+            <Link to="/motoko/">Motoko</Link>
           </HeaderNavListItem>
           <HeaderNavListItem>
             <Link to="/rust/">Rust</Link>

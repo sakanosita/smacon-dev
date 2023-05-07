@@ -2,8 +2,6 @@
 title: "The Graph 入門: はじめてのサブグラフ – Subgraph の自動生成"
 date: 2022-05-24 22:00
 permalink: /subgraph
-redirect_from:
-  - /subgraph/
 pinned: 4
 tags:
   - The Graph

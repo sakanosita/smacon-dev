@@ -11,7 +11,7 @@ description: |-
 
 このページは、DFINITY(Internet Computer) の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Increment a natural number](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/counter-tutorial)
+[Increment a natural number](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/counter-tutorial)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/my_counter)からダウンロードできます。
 

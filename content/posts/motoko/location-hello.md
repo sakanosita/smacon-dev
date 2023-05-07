@@ -11,7 +11,7 @@ description: |-
 
 このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Pass text arguments](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/hello-location)
+[Pass text arguments](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/hello-location)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/location_hello)からダウンロードできます。
 

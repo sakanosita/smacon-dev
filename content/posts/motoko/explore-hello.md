@@ -13,7 +13,7 @@ description: |-
 
 このページは、DFINITY(Internet Computer) の Motoko Language チュートリアルを日本語で解説しています。
 
-[Explore the default project](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/explore-templates)
+[Explore the default project](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/explore-templates/)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/explore_hello)からダウンロードできます。
 

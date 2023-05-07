@@ -11,7 +11,7 @@ description: |-
 
 このページは、DFINITY の Motoko Language のチュートリアルを日本語で解説しています。
 
-[Use multiple actors](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/multiple-actors)
+[Use multiple actors](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/multiple-actors)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/multiple_actors)からダウンロードできます。
 

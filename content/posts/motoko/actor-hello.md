@@ -13,7 +13,7 @@ description: |-
 
 このページは、DFINITY(Internet Computer) の Motoko Language チュートリアルを日本語で解説しています。
 
-[Query using an actor](https://internetcomputer.org/docs/current/developer-docs/backend/backend-tutorials/define-an-actor)
+[Query using an actor](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/define-an-actor/)
 
 実際に使ったソースコードは[GitHub](https://github.com/smacon-dev/motoko-tutorial/tree/main/actor_hello)からダウンロードできます。
 

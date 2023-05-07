@@ -2,8 +2,6 @@
 title: "Web3 プログラミング入門: 初心者向け Solidity 学習4選"
 date: 2022-05-22 10:00
 permalink: /solidity-beginner
-redirect_from:
-  - /solidity-beginner/
 level: beginner
 pinned: 2
 tags:

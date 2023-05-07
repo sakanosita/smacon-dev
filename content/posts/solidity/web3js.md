@@ -2,8 +2,6 @@
 title: web3.js を使ってスマートコントラクトを実行する3つの方法【Solidity 入門】
 date: 2022-01-22 10:38
 permalink: /web3js
-redirect_from:
-  - /web3js/
 tags:
   - Solidity
   - JavaScript

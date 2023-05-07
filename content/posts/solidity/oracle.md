@@ -2,9 +2,6 @@
 title: "イーサリアム入門: オラクルのしくみ（Chainlink Data Feeds）"
 date: 2022-08-27 19:00
 permalink: /oracle
-redirect_from:
-  - /oracle/
-  - /chainlink/
 tags:
   - Ethereum
   - Chainlink

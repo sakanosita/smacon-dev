@@ -2,9 +2,6 @@
 title: "Remix の使い方: Metamask でスマートコントラクトをデプロイ"
 date: 2021-11-01 10:38
 permalink: /remix-tutorial
-redirect_from:
-  - /remix-tutorial/
-  - /build-smart-contracts/
 tags:
   - Solidity
   - Remix

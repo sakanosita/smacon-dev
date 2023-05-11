@@ -68,14 +68,15 @@ ICP トークンと交換することで入手できます。
 
 # Cycle Wallet
 
-Cycle Wallet はキャニスターです。最初に作る時に少量の ICP が必要です。
 dfx identity ごとにウォレットを作成したり削除したりできます。
-１つのウォレットを複数の Principal で管理することができます。
+ウォレットごとに複数の Principal を contorller として追加でき、Controller となった Principal はそのウォレットの Cycle を利用したり、ウォレットを削除したりできます。
 
 - aramaki の Cycle Wallet は a で 3T Cycle 保有
 - batou の Cycle Wallet は b で 2T Cycle 保有
 - Cycle Wallet b の controller は aramaki と batou
   - aramaki は Cycle Wallet b を利用することもできる
+
+Cycle Wallet 自体もはキャニスターであり、最初に作る時に少量の ICP が必要です。
 
 ## 上の図には書いていない説明
 

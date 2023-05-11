@@ -32,7 +32,7 @@ dfx identity は, 1 組の Principal ID と秘密鍵に紐づきます。
 - aramaki
 - batou
 
-### dfx identity の秘密鍵
+**dfx identity の秘密鍵**
 
 以下のコマンドで表示されます。
 

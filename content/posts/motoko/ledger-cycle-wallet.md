@@ -6,7 +6,7 @@ tags:
   - Motoko
   - Internet Computer
   - DFINITY
-social_image: /og/internet-computer-2.png
+social_image: /media/ledger-cycle-wallet/1.png
 description: |-
   Internet Computerの開発入門、本番のメインネットにキャニスターをデプロイするために
   Identity と Principal と Ledger と Wallet の関係を整理したい

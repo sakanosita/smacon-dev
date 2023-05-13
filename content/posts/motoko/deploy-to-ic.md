@@ -5,7 +5,7 @@ permalink: /deploy-to-ic
 tags:
   - Motoko
   - Internet Computer
-social_image: /og/internet-computer-2.png
+social_image: /media/ledger-cycle-wallet/1.png
 description: |-
   公式チュートリアルの日本語解説：Motoko のキャニスターをメインネットにデプロイしてみよう！
   Cycle を使ったキャニスターのデプロイと管理

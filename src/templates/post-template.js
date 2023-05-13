@@ -16,7 +16,7 @@ const PostTemplate = ({ data }) => {
     <Layout
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
-      socialImage={frontmatter.social_image ? `/media/${frontmatter.social_image.relativePath}` : ''}
+      socialImage={frontmatter.social_image ? `/og/${frontmatter.social_image.relativePath}` : ''}
     >
       <PostWrapper>
         <article>

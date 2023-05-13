@@ -480,4 +480,5 @@ hello % dfx wallet balance --network ic
 6.2 - 5.948 or 8.139 - 7.88
 
 おわり！
+
 よかったらシェアしてください

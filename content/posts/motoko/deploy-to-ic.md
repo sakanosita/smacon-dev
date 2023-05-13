@@ -175,8 +175,9 @@ WARN: The default identity is not stored securely. Do not use it to control a lo
 もし、dfx identity を使い分けられる人はその方がより安全に運用できるのでそうしてください。
 
 当記事ではなるべく公式手順どおりに進めたいので今後この WARN は無視します。
+（これ以降、実行結果に表示されるこの WARN を省略します）
 
-先ほどのコマンドを実行します。（実行結果の WARN を無視）
+先ほどのコマンドを実行します。
 
 ```
 hello % dfx ledger --network ic balance

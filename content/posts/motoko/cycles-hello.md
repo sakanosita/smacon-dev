@@ -13,9 +13,9 @@ description: |-
 **2023-05-14 追記**
 
 当記事の情報は古くなっています。
+記事の趣旨は少し変わりますが、新しいキャニスターの記事がこちらにあります。
 
-- Cycle Wallet キャニスターの仕様が変わっている
-- dfx コマンドオプションの仕様が変わっている
+[Cycle Wallet キャニスター図解](http://localhost:3080/posts/ledger-cycle-wallet/)
 
 ---
 

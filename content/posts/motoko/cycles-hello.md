@@ -10,6 +10,15 @@ description: |-
   DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
+**2023-05-14 追記**
+
+当記事の情報は古くなっています。
+
+- Cycle Wallet キャニスターの仕様が変わっている
+- dfx コマンドオプションの仕様が変わっている
+
+---
+
 このページは、DFINITY のチュートリアルを日本語で解説しています。
 
 [Accept cycles from a wallet](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/simple-cycles)

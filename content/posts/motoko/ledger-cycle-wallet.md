@@ -1,6 +1,6 @@
 ---
 title: "Cycle Wallet キャニスター図解: dfx identity (Principal ID), Ledger (Account ID)との関係"
-date: 2023-05-11 20:00
+date: 2023-05-14 10:00
 permalink: /ledger-cycle-wallet
 tags:
   - Motoko

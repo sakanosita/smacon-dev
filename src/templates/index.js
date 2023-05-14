@@ -25,25 +25,6 @@ const HomePage = ({ data }) => {
         <PostList posts={popularPosts} />
       </Board>
       <Board>
-        <h3>
-          <Link to="/solidity/">Solidity ではじめるスマートコントラクト入門</Link>
-        </h3>
-        <PostList posts={solidityPosts} />
-      </Board>
-      <Board>
-        <h3>
-          <Link to="/motoko/">Motoko ではじめるキャニスター開発</Link>
-        </h3>
-        <PostList posts={motokoPosts} />
-      </Board>
-      <Board>
-        <h3>
-          <Link to="/rust/">Rust ではじめるスマートコントラクト入門</Link>
-        </h3>
-        <PostList posts={rustPosts} />
-      </Board>
-
-      <Board>
         <h3>最新の記事</h3>
         <PostList posts={updatePosts} />
       </Board>
@@ -86,7 +67,7 @@ export const pageQuery = graphql`
         fields: { contentType: { eq: "posts" } } 
       }
       sort: { frontmatter: { pinned: ASC } }
-      limit: 3
+      limit: 6
     ) {
       nodes {
         fields {
@@ -108,7 +89,7 @@ export const pageQuery = graphql`
         fields: { contentType: { eq: "posts" } }
       }
       sort: { frontmatter: { date: DESC } }
-      limit: 3
+      limit: 6
     ) {
       nodes {
         fields {

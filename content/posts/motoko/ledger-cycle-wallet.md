@@ -78,6 +78,10 @@ ICP トークンと交換することで入手できます。
 - キャニスターを作る時
 - キャニスターを走らせる時
 
+[**Cycles Faucet**](https://anv4y-qiaaa-aaaal-qaqxq-cai.ic0.app/)
+
+Faucet を利用すれば開発用の Cycles をもらうことができます。
+
 ## 上の図には書いていない説明
 
 - Principal ID は複数の Leger Account を保有できます、図は dfx identity に限定しているので 1 つの Ledger Account だけを持っています。

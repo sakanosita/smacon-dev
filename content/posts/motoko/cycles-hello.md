@@ -10,15 +10,6 @@ description: |-
   DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習
 ---
 
-**2023-05-14 追記**
-
-当記事の情報は古くなっています。
-記事の趣旨は少し変わりますが、新しいキャニスターの記事がこちらにあります。
-
-[Cycle Wallet キャニスター図解](http://localhost:3080/posts/ledger-cycle-wallet/)
-
----
-
 このページは、DFINITY のチュートリアルを日本語で解説しています。
 
 [Accept cycles from a wallet](https://internetcomputer.org/docs/current/developer-docs/backend/motoko/simple-cycles)
@@ -219,3 +210,12 @@ dfx.json があるディレクトリで以下のコマンドを実行して、�
 ```
 dfx stop
 ```
+
+---
+
+## 2023-05-14 追記
+
+当記事の内容は古くなっている可能性があります。
+記事の趣旨は少し変わりますが、新しいキャニスターの記事がこちらにあります。
+
+[Cycle Wallet キャニスター図解](http://localhost:3080/posts/ledger-cycle-wallet/)

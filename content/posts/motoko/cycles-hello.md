@@ -4,6 +4,7 @@ date: 2022-01-03 20:38
 permalink: /cycles-hello
 tags:
   - Motoko
+  - Cycle
 description: |-
   キャニスターを動かす際に必要になるCYCLEをチャージ
   DFINITY の Internet Computer (ICP) を使った初心者向け Motoko 言語のプログラミング学習

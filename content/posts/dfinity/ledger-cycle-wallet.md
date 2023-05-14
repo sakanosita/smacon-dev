@@ -3,9 +3,9 @@ title: "Cycle Wallet キャニスター図解: dfx identity (Principal ID), Ledg
 date: 2023-05-14 10:00
 permalink: /ledger-cycle-wallet
 tags:
-  - Motoko
   - Internet Computer
   - DFINITY
+  - Cycle
 social_image: /og/ledger-cycle-wallet.png
 description: |-
   DFINITY Internet Computer用コマンドライン開発ツール(dfx)の概念を図解、

@@ -1,5 +1,5 @@
 ---
-title: "Internet Computer 入門: dfx identity と ICP トークンと Cycle ウォレット"
+title: "Cycle Wallet キャニスター図解: dfx identity (Principal ID), Ledger (Account ID)との関係"
 date: 2023-05-11 20:00
 permalink: /ledger-cycle-wallet
 tags:
@@ -8,8 +8,8 @@ tags:
   - DFINITY
 social_image: /og/ledger-cycle-wallet.png
 description: |-
-  Internet Computerの開発入門、本番のメインネットにキャニスターをデプロイするために
-  Identity と Principal と Ledger と Wallet の関係を整理したい
+  DFINITY Internet Computer用コマンドライン開発ツール(dfx)の概念を図解、
+  Identity と Principal と Ledger と Cycle Wallet の関係を整理しよう
 ---
 
 当記事では Internet Computer の dfx という開発ツールにおける秘密鍵やウォレットの取り扱いについて説明します。

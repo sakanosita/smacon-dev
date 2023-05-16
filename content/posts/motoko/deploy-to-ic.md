@@ -461,24 +461,26 @@ dfx canister delete hello_frontend --network ic
 dfx canister delete hello_backend --network ic
 ```
 
-**Cycle ウォレットの残高確認**
+# おまけ: Cycle ウォレットの残高確認
 
 ```
 hello % dfx wallet balance --network ic
 7.887 TC (trillion cycles).
 ```
 
-デプロイ前後で消費した分: 6.2 TC
+**全体で消費した量: 0.252 TC**
+
+- デプロイ前: 8.139 TC
+- デプロイ後: 1.939 TC
+- 削除後: 7.887 TC
+
+**デプロイ前後で消費した分: 6.2 TC**
 
 8.139（デプロイ前）- 1.939 (デプロイ後)
 
-削除前後でウォレットに戻った分: 5.948 TC
+**削除前後でウォレットに戻った分: 5.948 TC**
 
-1.939 (削除前) - 7.887（削除後
-
-全体で消費した量: 0.252 TC
-
-6.2 - 5.948 or 8.139 - 7.88
+1.939 (削除前) - 7.887（削除後）
 
 おわり！
 

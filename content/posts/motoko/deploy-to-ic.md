@@ -461,7 +461,7 @@ dfx canister delete hello_frontend --network ic
 dfx canister delete hello_backend --network ic
 ```
 
-# おまけ: Cycle ウォレットの残高確認
+**Cycle ウォレットの残高確認**
 
 ```
 hello % dfx wallet balance --network ic

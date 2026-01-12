@@ -46,6 +46,10 @@
   "devDependencies": {
     "prettier": "^2.6.2"
   },
+  "overrides": {
+    "msgpackr": "^1.10.1",
+    "lmdb": "2.8.5"
+  },
   "homepage": "https://github.com/yinkakun/gatsby-starter-glass#readme",
   "keywords": [
     "gatsby",

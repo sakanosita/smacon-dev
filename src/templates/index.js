@@ -21,12 +21,12 @@ const HomePage = ({ data }) => {
       description={description}>
 
       <Board>
-        <h3>人気の記事</h3>
-        <PostList posts={popularPosts} />
-      </Board>
-      <Board>
         <h3>最新の記事</h3>
         <PostList posts={updatePosts} />
+      </Board>
+      <Board>
+        <h3>人気の記事</h3>
+        <PostList posts={popularPosts} />
       </Board>
 
       <ShareButtonList

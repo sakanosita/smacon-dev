@@ -26,6 +26,9 @@ const Header = () => {
           <HeaderNavListItem>
             <Link to="/rust/">Rust</Link>
           </HeaderNavListItem>
+          <HeaderNavListItem>
+            <Link to="/bitcoin/">Bitcoin</Link>
+          </HeaderNavListItem>
         </HeaderNavList>
       </HeaderNavWrapper>
     </StyledHeader>

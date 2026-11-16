@@ -21,6 +21,17 @@ smacon.dev（Web3 プログラミング / スマートコントラクト入門�
 - 下書き: `content/drafts/`（Gatsby は読み込まないので公開されない）
 - 画像: `static/media/<slug>/` に置き、本文では `/media/<slug>/1.png` で参照
 
+## 英語版
+
+- 英語版は `content/posts-en/<カテゴリ>/<slug>.md` に置く（日本語版と同じパス構成）
+- frontmatter の `permalink` は日本語版と**同じ値**にする。これで日英がペアとして紐づく
+- URL は `/en/posts<permalink>` になる
+- 日英の記事に切り替えリンクと hreflang が自動で付く
+- 英語版はトップ・一覧・Bitcoin タブ・タグページ・RSS には出ない（記事ページ・関連記事・サイトマップにだけ出る）
+- タイトルの末尾は ` | Web3 Programming & Smart Contracts`
+- 投資・金融系は「Note: This article is not investment advice.」の注記を入れる
+- 日本語版を更新したら、英語版も同じ PR で更新する
+
 ## frontmatter
 
 ```yaml

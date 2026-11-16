@@ -1,38 +1,77 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import RelatedList from '../components/related-list';
 import ShareButtonList from '../components/sharing-button-list';
 import styled from 'styled-components';
 import TagList from '../components/tag-list';
 
-const PostTemplate = ({ data }) => {
+const UI_TEXT = {
+  ja: { related: `こちらもおすすめ`, switchLang: `English version` },
+  en: { related: `Related posts`, switchLang: `日本語版はこちら` },
+};
+
+const withTrailingSlash = (path) => (path.endsWith(`/`) ? path : `${path}/`);
+
+const PostTemplate = ({ data, pageContext }) => {
   const site = data.site;
   const { frontmatter, excerpt, html } = data.markdownRemark;
   const slug = data.markdownRemark.fields.slug;
+  const lang = pageContext.lang || `ja`;
+  const text = UI_TEXT[lang];
+  const translation = data.translation;
   var relatedPosts = data.relatedPosts.nodes.length ? data.relatedPosts.nodes : data.latestPosts.nodes;
+
+  const siteUrl = site.siteMetadata.siteUrl;
+  const alternates = translation
+    ? [
+        { hreflang: lang, href: `${siteUrl}${withTrailingSlash(slug)}` },
+        {
+          hreflang: lang === `ja` ? `en` : `ja`,
+          href: `${siteUrl}${withTrailingSlash(translation.fields.slug)}`,
+        },
+        {
+          hreflang: `x-default`,
+          href: `${siteUrl}${withTrailingSlash(lang === `ja` ? slug : translation.fields.slug)}`,
+        },
+      ]
+    : [];
 
   return (
     <Layout
       title={frontmatter.title}
       description={frontmatter.description || excerpt}
       socialImage={frontmatter.social_image ? `/og/${frontmatter.social_image.relativePath}` : ''}
+      lang={lang}
+      alternates={alternates}
     >
       <PostWrapper>
         <article>
           <PostTitle>{frontmatter.title}</PostTitle>
-          <PostDate>{frontmatter.date}</PostDate>
+          <PostMeta>
+            {translation ? (
+              <LangSwitch
+                to={translation.fields.slug}
+                hrefLang={lang === `ja` ? `en` : `ja`}
+              >
+                {text.switchLang}
+              </LangSwitch>
+            ) : (
+              <span />
+            )}
+            <PostDate>{frontmatter.date}</PostDate>
+          </PostMeta>
 
           <PostContent dangerouslySetInnerHTML={{ __html: html }} />
         </article>
 
         <ShareButtonList
           title={frontmatter.title}
-          url={`${site.siteMetadata.siteUrl}${slug}`} />
-        <TagList tags={frontmatter.tags} />
+          url={`${siteUrl}${slug}`} />
+        {lang === `ja` && <TagList tags={frontmatter.tags} />}
 
         <Related>
-          <h4>こちらもおすすめ</h4>
+          <h4>{text.related}</h4>
           <RelatedList posts={relatedPosts} />
         </Related>
       </PostWrapper>
@@ -64,13 +103,24 @@ const PostTitle = styled.h1`
   }
 `;
 
-const PostDate = styled.span`
-  font-size: var(--size-400);
+const PostMeta = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--size-400);
 
   margin-top: var(--size-600);
+`;
 
-  display: flex;
-  justify-content: flex-end;
+const LangSwitch = styled(Link)`
+  font-size: var(--size-400);
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.125rem;
+`;
+
+const PostDate = styled.span`
+  font-size: var(--size-400);
 
   text-transform: uppercase;
 `;
@@ -143,7 +193,13 @@ const Related = styled.div`
 `;
 
 export const pageQuery = graphql`
-  query PostBySlug($slug: String!, $blogTags: [String]) {
+  query PostBySlug(
+    $slug: String!
+    $blogTags: [String]
+    $permalink: String
+    $contentType: String = "posts"
+    $translationContentType: String = "posts-en"
+  ) {
     site {
       siteMetadata {
         siteUrl
@@ -166,6 +222,14 @@ export const pageQuery = graphql`
         }
       }
     }
+    translation: markdownRemark(
+      frontmatter: { permalink: { eq: $permalink } }
+      fields: { contentType: { eq: $translationContentType } }
+    ) {
+      fields {
+        slug
+      }
+    }
     relatedPosts: allMarkdownRemark(
       limit: 5
       sort: { frontmatter: { date: DESC } }
@@ -176,7 +240,7 @@ export const pageQuery = graphql`
         }
         fields: {
           slug: { ne: $slug }
-          contentType: { eq: "posts" }
+          contentType: { eq: $contentType }
         }
       }
     ) {
@@ -198,7 +262,7 @@ export const pageQuery = graphql`
         }
         fields: {
           slug: { ne: $slug }
-          contentType: { eq: "posts" }
+          contentType: { eq: $contentType }
         }
       }
     ) {

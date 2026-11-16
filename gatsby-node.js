@@ -23,6 +23,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             frontmatter {
               template
               tags
+              permalink
             }
           }
         }
@@ -53,6 +54,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     (node) => node.fields.contentType === `posts`
   );
 
+  const enPostMarkdownNodes = allMarkdownNodes.filter(
+    (node) => node.fields.contentType === `posts-en`
+  );
+
   const pageMarkdownNodes = allMarkdownNodes.filter(
     (node) => node.fields.contentType === `pages`
   );
@@ -81,10 +86,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           prevSlug: prevSlug,
           nextSlug: nextSlug,
           blogTags: blogTags,
+          lang: `ja`,
+          permalink: node.frontmatter.permalink,
+          contentType: `posts`,
+          translationContentType: `posts-en`,
         },
       });
     });
   }
+
+  // English translations live in content/posts-en and share the
+  // permalink of their Japanese original.
+  enPostMarkdownNodes.forEach((node) => {
+    createPage({
+      path: `${node.fields.slug}`,
+      component: path.resolve(`./src/templates/post-template.js`),
+      context: {
+        slug: `${node.fields.slug}`,
+        blogTags: node.frontmatter.tags,
+        lang: `en`,
+        permalink: node.frontmatter.permalink,
+        contentType: `posts-en`,
+        translationContentType: `posts`,
+      },
+    });
+  });
 
   if (pageMarkdownNodes.length > 0) {
     pageMarkdownNodes.forEach((node) => {
@@ -139,6 +165,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       });
     }
 
+    if (fileNode.sourceInstanceName === 'posts-en') {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `/en/posts${node.frontmatter.permalink}`,
+      });
+    }
+
     if (fileNode.sourceInstanceName === 'pages') {
       createNodeField({
         name: `slug`,
@@ -185,6 +219,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       tags: [String!]
       slug: String
       redirect_from: [String]
+      permalink: String
     }
 
     type Fields {

@@ -99,7 +99,10 @@ const StyledText = styled.span`
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(limit: 2000) {
+    allMarkdownRemark(
+      limit: 2000
+      filter: { fields: { contentType: { ne: "posts-en" } } }
+    ) {
       group(field: {frontmatter: {tags: SELECT}}) {
         fieldValue
         totalCount

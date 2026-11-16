@@ -183,6 +183,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       level: String
       unlisted: Boolean
       tags: [String!]
+      slug: String
+      redirect_from: [String]
     }
 
     type Fields {

@@ -15,7 +15,7 @@ module.exports = {
     },
     siteUrl: `https://smacon.dev`,
     social: {
-      twitter: `smacondev`,
+      twitter: `sakanosita_lab`,
     },
     socialLinks: [
       {
@@ -23,8 +23,8 @@ module.exports = {
         url: 'https://github.com/smacon-dev/',
       },
       {
-        name: 'Twitter',
-        url: 'https://twitter.com/smacondev',
+        name: 'X',
+        url: 'https://x.com/sakanosita_lab',
       },
     ],
   },

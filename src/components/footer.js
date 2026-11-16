@@ -2,14 +2,13 @@ import React from 'react';
 import Container from './container';
 import styled from 'styled-components';
 import SocialLinks from './social-links';
-import { Link } from 'gatsby';
 
 const Footer = () => {
   return (
     <StyledFooter>
       <FooterWrapper>
         <SocialLinks />
-        <Link to="/about">© 2021 Sakanosita IC Labs</Link>
+        <a href="https://sakanosita.org/">© 2021 Sakanosita Lab</a>
       </FooterWrapper>
     </StyledFooter>
   );

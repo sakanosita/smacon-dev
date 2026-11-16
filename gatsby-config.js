@@ -62,6 +62,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts-en',
+        path: `${__dirname}/content/posts-en`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -139,6 +146,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { fields: { contentType: { ne: "posts-en" } } },
                 ) {
                   nodes {
                     excerpt

@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-const SEO = ({ title, description, lang, meta, socialImage }) => {
+const OG_LOCALE = { ja: `ja_JP`, en: `en_US` };
+
+const SEO = ({ title, description, lang, meta, socialImage, alternates }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -34,6 +36,11 @@ const SEO = ({ title, description, lang, meta, socialImage }) => {
       htmlAttributes={{
         lang,
       }}
+      link={(alternates || []).map(({ hreflang, href }) => ({
+        rel: `alternate`,
+        hreflang,
+        href,
+      }))}
       title={title}
       titleTemplate={`%s`}
       defaultTitle={defaultTitle}
@@ -57,6 +64,10 @@ const SEO = ({ title, description, lang, meta, socialImage }) => {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:locale`,
+          content: OG_LOCALE[lang] || OG_LOCALE.ja,
         },
         {
           name: `twitter:card`,
@@ -87,6 +98,7 @@ SEO.defaultProps = {
   lang: `ja`,
   meta: [],
   description: ``,
+  alternates: [],
 };
 
 SEO.propTypes = {

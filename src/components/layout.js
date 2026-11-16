@@ -6,11 +6,17 @@ import Container from './container';
 import GlobalStyle from './global-styles';
 import styled from 'styled-components';
 
-const Layout = ({ children, title, description, socialImage }) => {
+const Layout = ({ children, title, description, socialImage, lang, alternates }) => {
   return (
     <Fragment>
       <GlobalStyle />
-      <Seo title={title} description={description} socialImage={socialImage} />
+      <Seo
+        title={title}
+        description={description}
+        socialImage={socialImage}
+        lang={lang}
+        alternates={alternates}
+      />
       <LayoutWrapper>
         <Header />
         <main>
